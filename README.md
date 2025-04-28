@@ -5,6 +5,6 @@
 
   # snu-bi's Website
 
-  Visit **[website url](#)** 🚀
+  Visit **[snu-bi.github.io/web](https://snu-bi.github.io/web)** 🚀
 
   _Built with [Lab Website Template](https://greene-lab.gitbook.io/lab-website-template-docs)_
