@@ -1,19 +1,21 @@
 # site properties and page defaults
-title: snu-bi
+title: SNU Biointelligence Lab
 subtitle: 
-description: An engaging 1-3 sentence description of your lab.
-header: images/background.jpg
-footer: images/background.jpg
+description: 
+# header: images/background.jpg
+# footer: images/background.jpg
 proofer: false
+# header-dark: false
+# footer-dark: false
 
 # site social media and other links
 links:
-  email: contact@snu-bi.com
-  orcid: 0000-0001-8713-9213
-  google-scholar: ETJoidYAAAAJ
-  github: snu-bi
-  twitter: snu-bi
-  youtube: snu-bi
+  email: juniormoo@snu.ac.kr
+  # orcid: 
+  google-scholar: sYTUOu8AAAAJ
+  # github: 
+  # twitter: 
+  # youtube: 
 
 ### jekyll settings
 
