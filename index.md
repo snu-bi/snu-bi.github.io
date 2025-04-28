@@ -6,13 +6,13 @@ Welcome! **Biointelligence Lab**, led by Professor **Byoung-Tak Zhang**, is part
 
 Our research focuses on
 - **Embodied AI**
-We build intelligent robotic agents capable of sensorimotor learning, grounded reasoning, and lifelong adaptation in dynamic environments.
+  - We build intelligent robotic agents capable of sensorimotor learning, grounded reasoning, and lifelong adaptation in dynamic environments.
 
 - **Fundamental AI Research**
-We explore self-motivated AI systems that autonomously identify problems, generate hypotheses, gather information, and solve tasks through active and sequential learning.
+  - We explore self-motivated AI systems that autonomously identify problems, generate hypotheses, gather information, and solve tasks through active and sequential learning.
 
 - **Multimodal AI**
-We develop models that integrate vision, language, and action, enabling robots to perceive, understand, and interact with complex, multimodal environments.
+  - We develop models that integrate vision, language, and action, enabling robots to perceive, understand, and interact with complex, multimodal environments.
 
 {% include section.html %}
 
