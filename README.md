@@ -5,4 +5,4 @@
 
   # snu-bi's Website
 
-  Visit **[snu-bi.github.io/web](https://snu-bi.github.io/web)** 🚀
+  Visit **[snu-bi.github.io](https://snu-bi.github.io)** 🚀
