@@ -1,1 +1,1 @@
-Sitemap: https://snu-bi.github.io/web/sitemap.xml
+Sitemap: https://snu-bi.github.io/sitemap.xml
