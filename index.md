@@ -20,7 +20,7 @@ Our research focuses on
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+We study AI across vision, language, and action to build systems that learn and interact with the world.
 
 {%
   include button.html
@@ -35,15 +35,15 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/clip-rt.png"
   link="research"
-  title="Our Research"
+  title="Research"
   text=text
 %}
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+We pursue projects that integrate perception, cognition, and action to enable intelligent agents to learn autonomously and interact effectively with the physical world.
 
 {%
   include button.html
@@ -58,7 +58,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/pica.png"
   link="projects"
   title="Our Projects"
   flip=true
@@ -68,7 +68,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+A multidisciplinary research team focused on advancing AI, robotics, and cognitive systems.
 
 {%
   include button.html
@@ -83,7 +83,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/team.png"
   link="team"
   title="Our Team"
   text=text
