@@ -21,7 +21,7 @@ Our current efforts center around the deep, recurrent, and sparse hypernetwork a
 ## 📞 Contact
 
 **Office**  
-Room 302-323 (New Engineering Building)  
+Room 303-453 (해동첨단공학관)  
 School of Computer Science and Engineering, Seoul National University  
 Seoul 151-744, Korea
 
