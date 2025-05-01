@@ -6,17 +6,45 @@ principal-investigator:
   icon: fa-solid fa-microscope
   description: Principal Investigator
 
+research-professor:
+  icon: fa-solid fa-microscope
+  description: Research Professor
+
 postdoc:
   icon: fa-solid fa-glasses
   description: Postdoctoral Researcher
 
 phd:
   icon: fa-solid fa-graduation-cap
+  description: PhD
+
+phd-student:
+  icon: fa-solid fa-graduation-cap
   description: PhD Student
+  
+administrative-assistant:
+  icon: fa-solid fa-glasses
+  description: Administrative Assistant
+
+combined:
+  icon: fa-solid fa-graduation-cap
+  description: Combined MS/PhD
 
 undergrad:
   icon: fa-solid fa-user-graduate
   description: Undergraduate Student
+
+phd-candidate:
+  icon: fa-solid fa-graduation-cap
+  description: PhD Candidate
+
+master:
+  icon: fa-solid fa-graduation-cap
+  description: Master
+
+master-student:
+  icon: fa-solid fa-graduation-cap
+  description: Master Student
 
 programmer:
   icon: fa-solid fa-code
