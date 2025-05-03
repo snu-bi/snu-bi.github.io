@@ -3,7 +3,7 @@ aliases:
 - 이민수
 - Minsu Lee
 - mslee
-description: ''
+description: 'Assistant professor'
 image: images/minsu-lee.jpg
 links:
   email: mslee@bi.snu.ac.kr

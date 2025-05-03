@@ -18,6 +18,25 @@ We build robotic surrogates by "cloning" the embodied and situated mind using we
 Our current efforts center around the deep, recurrent, and sparse hypernetwork architectures and learning algorithms that self-organize their structures instantly, incrementally, and continuously in a self-supervised way by perception-action cycle. The ultimate goal is to discover a large-scale, neurocognitive computational model of the brain that autonomously develops or evolves into human-level machine intelligence in lifelong interactions with the environment.
 
 
+
+
+---
+
+## 🎓 Education
+
+- **1992**: Ph.D. in Computer Science (Informatik), University of Bonn, Germany  
+- **1988**: M.S. in Computer Science & Engineering, Seoul National University  
+- **1986**: B.S. in Computer Science & Engineering, Seoul National University  
+
+
+## 🧑‍🏫 Current Position
+
+- **POSCO Chair Professor** of Computer Science  
+- **Director**, SNU AI Institute (AIIS)  
+- **Professor**, Computer Science and Engineering, SNU (since 1997)  
+- **Director**, Video Intelligence Center (VIC) (2017–Present)
+
+
 ## 📞 Contact
 
 **Office**  
@@ -34,20 +53,3 @@ Seoul 151-744, Korea
 
 **Email**  
 [btzhang@bi.snu.ac.kr](mailto:btzhang@bi.snu.ac.kr)
-
----
-
-## 🎓 Education
-
-- **1992**: Ph.D. in Computer Science (Informatik), University of Bonn, Germany  
-- **1988**: M.S. in Computer Science & Engineering, Seoul National University  
-- **1986**: B.S. in Computer Science & Engineering, Seoul National University  
-
----
-
-## 🧑‍🏫 Current Position
-
-- **POSCO Chair Professor** of Computer Science  
-- **Director**, SNU AI Institute (AIIS)  
-- **Professor**, Computer Science and Engineering, SNU (since 1997)  
-- **Director**, Video Intelligence Center (VIC) (2017–Present)
