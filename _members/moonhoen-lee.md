@@ -4,9 +4,10 @@ aliases:
 - Moonhoen Lee
 - mhlee
 description: ''
-image: images/photo.jpg
+image: images/moonhoen-lee.jpg
 links:
   email: mhlee@bi.snu.ac.kr
 name: Moonhoen Lee
-role: phd-student
+role: phd-candidate
+affiliation: S2W
 ---
