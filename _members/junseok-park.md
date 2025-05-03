@@ -8,5 +8,6 @@ image: images/photo.jpg
 links:
   email: jspark@bi.snu.ac.kr
 name: Junseok Park
-role: phd-candidate
+role: phd
+affiliation: LG AI Research
 ---
