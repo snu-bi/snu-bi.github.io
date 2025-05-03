@@ -13,7 +13,7 @@ Our research focuses on “biointelligence” i.e. the study of artificial intel
 
 ## Highlighted
 
-{% include citation.html lookup="Open collaborative writing with Manubot" style="rich" %}
+{% include citation.html lookup="CLIP-RT: Learning Language-Conditioned Robotic Policies from Natural Language Supervision" style="rich" %}
 
 {% include section.html %}
 
