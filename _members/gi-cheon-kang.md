@@ -4,7 +4,7 @@ aliases:
 - Gi-Cheon Kang
 - gckang
 description: ''
-image: images/photo.jpg
+image: images/gicheon-kang.jpg
 links:
   email: gckang@bi.snu.ac.kr
 name: Gi-Cheon Kang

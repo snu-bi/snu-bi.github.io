@@ -4,7 +4,7 @@ aliases:
 - Minsu Lee
 - mslee
 description: ''
-image: images/photo.jpg
+image: images/minsu-lee.jpg
 links:
   email: mslee@bi.snu.ac.kr
 name: Minsu Lee
