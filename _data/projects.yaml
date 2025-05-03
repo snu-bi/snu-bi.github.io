@@ -1,32 +1,29 @@
-- title: Cool Dataset
-  subtitle: a subtitle
+- title: PICA
+  subtitle: (Perception, Imagination, Cognition, Action)
   group: featured
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
+  image: images/pica.png
+  # link: https://github.com/
+  description: 새로운 문제를 새로운 상황에 대해 <br>❶ 스스로 문제를 인지하고, 이를 해결하기 위한 <br>❷ 탐색 기반 가설 생성 및 평가와 <br>❸ 필요한 데이터의 자동 탐색, 분석을 통하여 <br>❹ 순차적 추론을 통한 문제 해결을 위해 <br>스스로 학습하는 ‘자기주도 인공지능’
   tags:
     - resource
 
-- title: Cool Package
-  subtitle: a subtitle
+- title: LBA
+  subtitle: (Learning By Asking)
   group: featured
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
+  image: images/lba.png
+  # link: https://github.com/
+  description: 불확실한 환경 이해를 위한 능동적 질의 생성 기술 <br>❶ 불확실성 최소화를 위한 질의 및 샘플 생성 기반의 환경 이해 <br>❷ 능동적인 질의응답을 통해 에이전트의 불확실한 초기 지식을 성장시키는 기술 개발
   tags:
     - resource
 
-- title: Cool Tutorial
-  subtitle: a subtitle
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
+- title: Embodied AI
+  subtitle: (Robotics Foundation Models)
+  group: featured
+  image: images/embodied.png
+  # link: https://github.com/
+  description: Multimodal Perception of Mobile Robots <br>❶Object detection, Multi-Agent Map Merging, Visual Grounding and Manipulation 등 로봇 AI 기술 개발 <br>❷다중 주행로봇의 2D Map 병합 기술 개발 <br><br> Arm Robot 조작 관련 체화된 AI 행동 기술<br>❶ROS 기반 실세계 로봇 제어 시스템 개발 <br>❷자연어 기반 로봇 평생 학습 기술 개발<br>❸필요 물체 관측 가능 여부를 인지 및 물체 위치 추적 기술
   tags:
     - resource
-    - publication
 
 - title: Cool Web App
   subtitle: a subtitle

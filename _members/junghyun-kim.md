@@ -3,7 +3,7 @@ aliases:
 - 김정현
 - Junghyun Kim
 - junghyunkim
-description: ''
+description: 'PhD Candidate <br> Lab Manager'
 image: images/junghyun-kim.jpg
 links:
   email: junghyunkim@bi.snu.ac.kr
