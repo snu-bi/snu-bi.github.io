@@ -50,9 +50,9 @@ programmer:
   icon: fa-solid fa-code
   description: Programmer
 
-mascot:
-  icon: fa-solid fa-dog
-  description: Mascot
+lab-manager:
+  icon: fa-solid fa-user-tie
+  description: Lab Manager
 
 # general
 

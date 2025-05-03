@@ -22,11 +22,17 @@ Located in the School of Computer Science and Engineering at Seoul National Univ
 {% include section.html %}
 # {% include icon.html icon="fa-solid fa-user-graduate" %}Student
 ## PHD Students
+{% include list.html data="members" component="portrait" filter="role == 'lab-manager'" %}
 {% include list.html data="members" component="portrait" filter="role == 'phd-candidate'" %}
 {% include list.html data="members" component="portrait" filter="role == 'phd-student'" %}
 
 ## Master Students
 {% include list.html data="members" component="portrait" filter="role == 'master-student'" %}
+
+## Alumni
+{% include list.html data="members" component="portrait" filter="role == 'phd'" %}
+{% include list.html data="members" component="portrait" filter="role == 'master'" %}
+
 
 <!-- ## Undergraduate Students
 {% include list.html data="members" component="portrait" filter="role == 'undergrad'" %} -->

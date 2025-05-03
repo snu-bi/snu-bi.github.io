@@ -8,5 +8,5 @@ image: images/photo.jpg
 links:
   email: dshan@bi.snu.ac.kr
 name: Dong-Sig Han
-role: phd-candidate
+role: phd
 ---

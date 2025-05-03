@@ -8,5 +8,5 @@ image: images/gicheon-kang.jpg
 links:
   email: gckang@bi.snu.ac.kr
 name: Gi-Cheon Kang
-role: phd-candidate
+role: phd
 ---

@@ -4,9 +4,10 @@ aliases:
 - Junghyun Kim
 - junghyunkim
 description: ''
-image: images/photo.jpg
+image: images/junghyun-kim.jpg
 links:
   email: junghyunkim@bi.snu.ac.kr
+  home-page: https://jhkim-snu.github.io/
 name: Junghyun Kim
-role: master-student
+role: lab-manager
 ---
