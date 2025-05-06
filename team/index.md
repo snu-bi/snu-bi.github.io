@@ -17,10 +17,11 @@ Located in the School of Computer Science and Engineering at Seoul National Univ
 
 # {% include icon.html icon="fa-solid fa-flask" %}Professor
 {% include list.html data="members" component="portrait" filter="role == 'principal-investigator'" %}
-{% include list.html data="members" component="portrait" filter="role == 'research-professor'" %}
 
 {% include section.html %}
-# {% include icon.html icon="fa-solid fa-user-graduate" %}Student
+## {% include icon.html icon="fa-solid fa-user-tie" %}Research Professor
+{% include list.html data="members" component="portrait" filter="role == 'research-professor'" %}
+
 ## PHD Students
 {% include list.html data="members" component="portrait" filter="role == 'lab-manager'" %}
 {% include list.html data="members" component="portrait" filter="role == 'phd-candidate'" %}
