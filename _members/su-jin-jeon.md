@@ -8,5 +8,5 @@ image: images/sujin-jeon.jpg
 links:
   email: sjjeon@bi.snu.ac.kr
 name: Su-Jin Jeon
-role: master-student
+role: phd-candidate
 ---
