@@ -4,7 +4,7 @@ aliases:
 - Su-Jin Jeon
 - sjjeon
 description: ''
-image: images/photo.jpg
+image: images/sujin-jeon.jpg
 links:
   email: sjjeon@bi.snu.ac.kr
 name: Su-Jin Jeon
