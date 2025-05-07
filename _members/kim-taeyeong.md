@@ -4,7 +4,7 @@ aliases:
 - Kim Taeyeong
 - tykim
 - Theo Taeyeong Kim
-description: 'Master Student <br> Physical AGI 2030 <br> Alpha Male'
+description: 'Master Student <br> Physical AGI 2030'
 image: images/taeyeong-kim.jpeg
 links:
   email: tykim@bi.snu.ac.kr
