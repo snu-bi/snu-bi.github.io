@@ -4,7 +4,7 @@ aliases:
 - Jesoon Kang
 - jskang
 description: ''
-image: images/photo.jpg
+image: images/jesoon-kang.jpeg
 links:
   email: jskang@bi.snu.ac.kr
 name: Jesoon Kang
