@@ -5,7 +5,7 @@ aliases:
 - tykim
 - Theo Taeyeong Kim
 description: ''
-image: images/theo-taeyeong-kim.png
+image: images/taeyeong-kim.png
 links:
   email: tykim@bi.snu.ac.kr
 name: Kim Taeyeong
