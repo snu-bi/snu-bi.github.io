@@ -4,9 +4,9 @@ aliases:
 - Juno Kim
 - jokim
 description: ''
-image: images/photo.jpg
+image: images/juno-kim.jpg
 links:
   email: jokim@bi.snu.ac.kr
 name: Juno Kim
-role: master-student
+role: phd-candidate
 ---

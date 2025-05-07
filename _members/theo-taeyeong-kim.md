@@ -1,6 +1,7 @@
 ---
 aliases:
 - 김태영
+- Taeyeong Kim
 - Kim Taeyeong
 - tykim
 - Theo Taeyeong Kim
@@ -9,7 +10,7 @@ image: images/taeyeong-kim.jpeg
 links:
   email: tykim@bi.snu.ac.kr
   linkedin: ttkim
-name: Kim Taeyeong
+name: Theo Taeyeong Kim
 role: master-student
 ---
 
