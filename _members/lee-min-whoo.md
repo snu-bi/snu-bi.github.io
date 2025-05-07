@@ -8,5 +8,5 @@ image: images/photo.jpg
 links:
   email: mwlee@bi.snu.ac.kr
 name: LEE MIN WHOO
-role: master-student
+role: phd-student
 ---

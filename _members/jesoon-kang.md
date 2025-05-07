@@ -8,5 +8,5 @@ image: images/photo.jpg
 links:
   email: jskang@bi.snu.ac.kr
 name: Jesoon Kang
-role: master-student
+role: phd-candidate
 ---

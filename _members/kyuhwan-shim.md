@@ -4,9 +4,11 @@ aliases:
 - Kyuhwan Shim
 - khshim
 description: ''
-image: images/photo.jpg
+image: images/kyuhwan-shim.jpg
 links:
   email: khshim@bi.snu.ac.kr
+  home-page: https://underthelights.github.io/
+  linkedin: kyuhwan-shim
 name: Kyuhwan Shim
 role: master-student
 ---

@@ -4,7 +4,7 @@ aliases:
 - Kisung Shin
 - ksshin
 description: ''
-image: images/photo.jpg
+image: images/kisung-shin.png
 links:
   email: ksshin@bi.snu.ac.kr
 name: Kisung Shin
