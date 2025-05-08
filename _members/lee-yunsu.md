@@ -4,7 +4,7 @@ aliases:
 - Lee Yunsu
 - yslee
 description: ''
-image: images/photo.jpg
+image: images/yunsu-lee.jpeg
 links:
   email: yslee@bi.snu.ac.kr
 name: Lee Yunsu

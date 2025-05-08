@@ -9,4 +9,5 @@ links:
   email: gckang@bi.snu.ac.kr
 name: Gi-Cheon Kang
 role: phd
+affiliation: SNU AIIS
 ---
