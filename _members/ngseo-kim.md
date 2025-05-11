@@ -6,7 +6,7 @@ aliases:
 - Eungseo Kim
 - Kim Eungseo
 description: ''
-image: images/photo.jpg
+image: images/ngseo.png
 links:
   email: juniormoo@snu.ac.kr
 name: Ngseo Kim
