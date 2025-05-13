@@ -5,7 +5,7 @@ aliases:
 - schoi
 - Suhyung Choi
 description: ''
-image: images/photo.jpg
+image: images/suhyung-choi.jpeg
 links:
   email: schoi@bi.snu.ac.kr
 name: Suhyung Choi
