@@ -54,6 +54,10 @@ lab-manager:
   icon: fa-solid fa-user-tie
   description: Lab Manager
 
+deputy-lab-manager:
+  icon: fa-solid fa-user-tie
+  description: Deputy Lab Manager
+
 # general
 
 link:
