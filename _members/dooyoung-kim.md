@@ -9,4 +9,5 @@ links:
   email: dykim@bi.snu.ac.kr
 name: Dooyoung Kim
 role: master-student
+status: 휴학
 ---

@@ -7,6 +7,6 @@ description: ''
 image: images/photo.jpg
 links:
   email: emaase@bi.snu.ac.kr
-name: EMAASE PATRICK MOKODIR
+name: Emaase Patrick Mokodir
 role: phd-candidate
 ---

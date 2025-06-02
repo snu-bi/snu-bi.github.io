@@ -1,12 +1,12 @@
 ---
 aliases:
 - 이윤수
-- Lee Yunsu
+- Yunsu Lee
 - yslee
 description: 'PhD student <br> Deputy Lab Manager'
 image: images/yunsu-lee.jpeg
 links:
   email: yslee@bi.snu.ac.kr
-name: Lee Yunsu
+name: Yunsu Lee
 role: deputy-lab-manager
 ---

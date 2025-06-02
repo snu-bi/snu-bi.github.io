@@ -6,6 +6,6 @@ aliases:
 description: ''
 image: images/photo.jpg
 links:
-name: 'Kim Minji'
+name: Minji Kim
 role: phd-candidate
 ---

@@ -7,6 +7,6 @@ description: ''
 image: images/photo.jpg
 links:
   email: nwsung@bi.snu.ac.kr
-name: NAKWON SUNG
+name: Nakwon Sung
 role: phd-student
 ---

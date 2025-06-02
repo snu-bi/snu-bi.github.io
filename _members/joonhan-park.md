@@ -7,6 +7,6 @@ description: ''
 image: images/photo.jpg
 links:
   email: jhpark@bi.snu.ac.kr
-name: joonhan park
+name: Joonhan Park
 role: master-student
 ---

@@ -9,4 +9,5 @@ links:
   email: hskong@bi.snu.ac.kr
 name: Hyunseung Kong
 role: phd-student
+status: 휴학
 ---

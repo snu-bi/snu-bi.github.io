@@ -9,4 +9,5 @@ links:
   email: bjlee@bi.snu.ac.kr
 name: Beom-Jin Lee
 role: phd-candidate
+status: 휴학
 ---

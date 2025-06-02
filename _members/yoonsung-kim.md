@@ -7,6 +7,6 @@ description: ''
 image: images/photo.jpg
 links:
   email: yskim@bi.snu.ac.kr
-name: Kim Yoonsung
+name: Yoonsung Kim
 role: master-student
 ---

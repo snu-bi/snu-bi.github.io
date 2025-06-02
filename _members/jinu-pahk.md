@@ -8,5 +8,5 @@ image: images/photo.jpg
 links:
   email: jnpahk@bi.snu.ac.kr
 name: Jinu Pahk
-role: master-student
+role: phd-student
 ---

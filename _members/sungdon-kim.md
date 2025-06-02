@@ -8,5 +8,5 @@ image: images/photo.jpg
 links:
   email: sdkim@bi.snu.ac.kr
 name: Sungdon Kim
-role: master-student
+role: phd-student
 ---

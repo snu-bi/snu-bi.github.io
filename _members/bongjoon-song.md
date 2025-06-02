@@ -10,6 +10,6 @@ links:
   linkedin: 
   home-page: 
 name: Bongjoon Song
-role: master-student
+role: master
 status: 졸업
 ---

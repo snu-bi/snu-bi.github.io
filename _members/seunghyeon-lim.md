@@ -6,7 +6,7 @@ aliases:
 description: ''
 image: images/photo.jpg
 links:
-  email: shlim@bi.snu.kr@bi.snu.ac.kr
+  email: shlim@bi.snu.kr
 name: Seung-Hyeon Lim
-role: master-student
+role: master
 ---

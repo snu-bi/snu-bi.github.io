@@ -2,11 +2,11 @@
 aliases:
 - 송연지
 - YeonJi Song
-- yjsong(희망)
+- yjsong
 description: ''
 image: images/photo.jpg
 links:
-  email: yjsong(희망)@bi.snu.ac.kr
-name: YeonJi Song
-role: master-student
+  email: yjsong@bi.snu.ac.kr
+name: Yeonji Song
+role: phd-candidate
 ---

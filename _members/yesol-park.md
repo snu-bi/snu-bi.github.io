@@ -8,5 +8,5 @@ image: images/photo.jpg
 links:
   email: yspark@bi.snu.ac.kr
 name: Yesol Park
-role: master-student
+role: phd-student
 ---

@@ -1,12 +1,12 @@
 ---
 aliases:
 - 장유원
-- Jang You Won
+- Youwon Jang
 - ywjang
 description: ''
 image: images/photo.jpg
 links:
   email: ywjang@bi.snu.ac.kr
-name: Jang You Won
+name: Youwon Jang
 role: phd-candidate
 ---

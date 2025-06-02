@@ -7,6 +7,6 @@ description: ''
 image: images/photo.jpg
 links:
   email: jykim@bi.snu.ac.kr
-name: Kim Jaein
-role: master-student
+name: Jaein Kim
+role: phd-candidate
 ---

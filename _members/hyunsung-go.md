@@ -8,5 +8,5 @@ image: images/photo.jpg
 links:
   email: hsgo@bi.snu.ac.kr
 name: Hyunsung Go
-role: master-student
+role: master
 ---

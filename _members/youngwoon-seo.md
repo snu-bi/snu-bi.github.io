@@ -8,5 +8,5 @@ image: images/photo.jpg
 links:
   email: ywseo@bi.snu.ac.kr
 name: Youngwoon Seo
-role: master-student
+role: phd-student
 ---

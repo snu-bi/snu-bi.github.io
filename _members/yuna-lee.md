@@ -9,4 +9,5 @@ links:
   email: ynlee@bi.snu.ac.kr
 name: Yuna Lee
 role: master-student
+status: 휴학
 ---
