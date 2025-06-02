@@ -1,15 +1,15 @@
 ---
 aliases:
-- Delilah Hollweg
-- Delilah-Hollweg
+- Jaein Shin
+- Jaein-Shin
 description: 
 image: images/photo.jpg
 links:
-  email: dhollweg@bi.snu.ac.kr
+  email: 
   github: 
   linkedin: 
   home-page: 
-name: Delilah Hollweg
+name: Jaein Shin
 role: master-student
-status: 휴학
+status: 재학
 ---

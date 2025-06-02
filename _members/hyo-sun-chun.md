@@ -1,15 +1,15 @@
 ---
 aliases:
-- Delilah Hollweg
-- Delilah-Hollweg
+- Hyo-Sun Chun
+- Hyo-Sun-Chun
 description: 
 image: images/photo.jpg
 links:
-  email: dhollweg@bi.snu.ac.kr
+  email: hschun@bi.snu.ac.kr
   github: 
   linkedin: 
   home-page: 
-name: Delilah Hollweg
-role: master-student
+name: Hyo-Sun Chun
+role: phd-candidate
 status: 휴학
 ---

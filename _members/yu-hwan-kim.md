@@ -1,15 +1,15 @@
 ---
 aliases:
-- Delilah Hollweg
-- Delilah-Hollweg
+- Yu-Hwan Kim
+- Yu-Hwan-Kim
 description: 
 image: images/photo.jpg
 links:
-  email: dhollweg@bi.snu.ac.kr
+  email: yhkim@scai.snu.ac.kr
   github: 
   linkedin: 
   home-page: 
-name: Delilah Hollweg
+name: Yu-Hwan Kim
 role: master-student
-status: 휴학
+status: 졸업
 ---

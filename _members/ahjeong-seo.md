@@ -7,6 +7,6 @@ description: ''
 image: images/photo.jpg
 links:
   email: ajseo@bi.snu.ac.kr
-name: ahjeong seo
+name: ' ahjeong seo'
 role: unknown
 ---

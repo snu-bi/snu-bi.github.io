@@ -1,15 +1,15 @@
 ---
 aliases:
-- Delilah Hollweg
-- Delilah-Hollweg
+- Bongjoon Song
+- Bongjoon-Song
 description: 
 image: images/photo.jpg
 links:
-  email: dhollweg@bi.snu.ac.kr
+  email: 
   github: 
   linkedin: 
   home-page: 
-name: Delilah Hollweg
+name: Bongjoon Song
 role: master-student
-status: 휴학
+status: 졸업
 ---

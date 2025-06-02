@@ -1,15 +1,12 @@
 ---
 aliases:
+- 델라일라
 - Delilah Hollweg
-- Delilah-Hollweg
-description: 
+- dhollweg
+description: ''
 image: images/photo.jpg
 links:
   email: dhollweg@bi.snu.ac.kr
-  github: 
-  linkedin: 
-  home-page: 
 name: Delilah Hollweg
 role: master-student
-status: 휴학
 ---
