@@ -29,13 +29,16 @@ Located in the School of Computer Science and Engineering at Seoul National Univ
 {% include list.html data="members" component="portrait" filter="role == 'phd-student' and status != '휴학' and status != '졸업'" %}
 
 ## Master Students
-{% include list.html data="members" component="portrait" filter="role == 'master-student' and name != 'Byungju Kim' and status != '휴학'" %}
-{% include list.html data="members" component="portrait" filter="role == 'master-student' and name == 'Byungju Kim' and status != '휴학'" %}
+{% include list.html data="members" component="portrait" filter="role == 'master-student' and status != '휴학'" %}
 
 ## Interns
-{% include list.html data="members" component="portrait" filter="role == 'intern'" %}
+{% include list.html data="members" component="portrait" filter="role == 'intern' and status != '졸업'" %}
 
-## Alumni
+{% include section.html %}
+
+# {% include icon.html icon="fa-solid fa-graduation-cap" %}Alumni
+
+
 {% include alumni-list.html %}
 
 

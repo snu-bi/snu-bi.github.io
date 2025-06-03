@@ -2,7 +2,7 @@
 aliases:
 - Younjin Kang
 - 강연진
-description: Undergraduate Intern | Undergraduate @ SNU NAOE & CSE
+description: Undergraduate Intern | Undergraduate @ Seoul National University
 image: images/photo.jpg
 links:
   email: kyjstar42@snu.ac.kr

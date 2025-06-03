@@ -26,7 +26,7 @@ Our current efforts center around the deep, recurrent, and sparse hypernetwork a
 
 - **1992**: PhD in Computer Science (Informatik), University of Bonn, Germany  
 - **1988**: MS in Computer Science & Engineering, Seoul National University  
-- **1986**: B.S. in Computer Science & Engineering, Seoul National University  
+- **1986**: BS in Computer Science & Engineering, Seoul National University  
 
 
 ## 🧑‍🏫 Current Position

@@ -2,7 +2,7 @@
 aliases:
 - 박관영
 - Kwanyoung Park
-description: Undergraduate Intern | PhD @ University of California, Berkeley
+description: Undergraduate Intern | Undergraduate @ SNU CSE → PhD @ University of California, Berkeley
 image: images/kwanyoung-park.jpg
 links:
   home-page: https://kwanyoungpark.github.io/
