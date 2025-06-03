@@ -73,4 +73,147 @@
   display: none;
 }
 
+.alumni-list {
+  margin: 1rem 0;
+}
+
+.alumni-year-group {
+  margin-bottom: 0.5rem;
+}
+
+.alumni-year {
+  font-size: 1.2rem;
+  font-weight: var(--bold);
+  color: var(--primary);
+  margin-bottom: 0.2rem;
+  padding-bottom: 0.1rem;
+  border-bottom: none;
+  display: flex;
+  align-items: center;
+}
+.alumni-year::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: linear-gradient(to right, var(--primary) 0%, transparent 100%);
+  margin-left: 0.8rem;
+}
+
+.alumni-names {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  padding-left: 0.5rem;
+}
+
+.alumni-item {
+  padding: 0.05rem 0;
+  border-bottom: none;
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  transition: var(--transition);
+}
+.alumni-item:hover {
+  background-color: var(--background-alt);
+  border-radius: var(--rounded);
+  padding-left: 0.3rem;
+  padding-right: 0.3rem;
+}
+.alumni-item:last-child {
+  border-bottom: none;
+}
+
+.alumni-name {
+  font-weight: var(--semi-bold);
+  color: var(--text);
+  flex-shrink: 0;
+}
+
+.alumni-links {
+  display: flex;
+  gap: 0.2rem;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.alumni-link {
+  text-decoration: none;
+  font-size: 0.9rem;
+  opacity: 0.7;
+  transition: var(--transition);
+  display: inline-flex;
+  align-items: center;
+  color: var(--primary);
+}
+.alumni-link:hover {
+  opacity: 1;
+  transform: scale(1.1);
+  color: var(--text);
+}
+.alumni-link .icon {
+  font-size: 0.9rem;
+  line-height: 1;
+}
+
+.alumni-description {
+  color: var(--gray);
+  font-size: 0.85rem;
+  font-style: italic;
+  margin-left: 0.3rem;
+  flex: 1;
+}
+
+.alumni-name {
+  font-weight: var(--semi-bold);
+  color: var(--text);
+}
+
+.alumni-description {
+  color: var(--text-light);
+  font-size: 0.9rem;
+  font-style: italic;
+}
+
+.alumni-name-link {
+  color: var(--link-color, #0066cc);
+  text-decoration: none;
+  font-weight: 500;
+}
+.alumni-name-link:hover {
+  text-decoration: underline;
+  color: var(--link-hover-color, #0052a3);
+}
+.alumni-name-link:visited {
+  color: var(--link-visited-color, #551a8b);
+}
+
+.alumni-name {
+  font-weight: 500;
+}
+
+@media (max-width: 768px) {
+  .alumni-year {
+    font-size: 1.1rem;
+  }
+  .alumni-year::after {
+    margin-left: 0.5rem;
+  }
+  .alumni-item {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.2rem;
+  }
+  .alumni-item:hover {
+    padding-left: 0.2rem;
+  }
+  .alumni-links {
+    margin-left: 0.5rem;
+  }
+  .alumni-description {
+    margin-left: 0.5rem;
+    margin-top: 0.1rem;
+  }
+}
+
 /*# sourceMappingURL=portrait.css.map */
