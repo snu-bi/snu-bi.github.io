@@ -7,6 +7,6 @@ description: ''
 image: images/photo.jpg
 links:
   email: bjkang@bi.snu.ac.kr
-name: Kang Byungjun
+name: Byungjun Kang
 role: master-student
 ---

@@ -1,14 +1,16 @@
 ---
 aliases:
-- 황인우
 - Inwoo Hwang
-- iwhwang
-description: ''
-image: images/inwoo-hwang.jpeg
+- 황인우
+description: PhD in Computer Science | Postdoc @ Columbia University
+image: images/photo.jpg
 links:
   email: iwhwang@bi.snu.ac.kr
-  home-page: https://iwhwang.github.io
+  github: iwhwang
+  linkedin: inwoo-hwang-815643223
+  home-page: https://iwhwang.github.io/
 name: Inwoo Hwang
 role: phd
-affiliation: Columbia University
+status: 졸업
+graduation_year: 2025
 ---

@@ -28,13 +28,13 @@ My research focuses are in reinforcement learning especially in its explainabili
 
 ## 🎓 Education
 
-- **2022**: Ph.D. in Computer Science, Brown University, Providence, RI, USA  
+- **2022**: PhD in Computer Science, Brown University, Providence, RI, USA  
   &nbsp;&nbsp;&nbsp;&nbsp;Advised by Prof. Michael L. Littman  
   &nbsp;&nbsp;&nbsp;&nbsp;*Dissertation: Explaining Reinforcement Learning Agents by Policy Comparison*
 
-- **2015**: M.S. in Computer Science, Brown University, Providence, RI, USA  
+- **2015**: MS in Computer Science, Brown University, Providence, RI, USA  
 
-- **2009**: M.S. in Media Arts and Sciences, MIT, Cambridge, MA, USA  
+- **2009**: MS in Media Arts and Sciences, MIT, Cambridge, MA, USA  
   &nbsp;&nbsp;&nbsp;&nbsp;Advised by Prof. Cynthia Breazeal  
   &nbsp;&nbsp;&nbsp;&nbsp;*Thesis: Affordable Avatar Control System for Personal Robots*
 

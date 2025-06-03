@@ -1,0 +1,115 @@
+{% comment %}
+Simple alumni l                  {% if member.links.home                                {% if member.links.home-page and member.links.home-page != "" %}
+                  <a href="{{ member.links.home-page }}" target="_blank" title="Homepage" class="alumni-link">{% include icon.html icon="fa-solid fa-house-user" %}</a>
+                {% endif %}
+                {% if member.links.linkedin and member.links.linkedin != "" %}
+                  {% if member.links.linkedin contains "linkedin.com" or member.links.linkedin contains "facebook.com" %}
+                    <a href="{{ member.links.linkedin }}" target="_blank" title="LinkedIn/Social" class="alumni-link">{% include icon.html icon="fa-brands fa-linkedin" %}</a>
+                  {% else %}
+                    <a href="https://www.linkedin.com/in/{{ member.links.linkedin }}" target="_blank" title="LinkedIn" class="alumni-link">{% include icon.html icon="fa-brands fa-linkedin" %}</a>
+                  {% endif %}
+                {% endif %}
+                {% if member.links.github and member.links.github != "" %}
+                  {% if member.links.github contains "github.com" %}
+                    <a href="{{ member.links.github }}" target="_blank" title="GitHub" class="alumni-link">{% include icon.html icon="fa-brands fa-github" %}</a>
+                  {% else %}
+                    <a href="https://github.com/{{ member.links.github }}" target="_blank" title="GitHub" class="alumni-link">{% include icon.html icon="fa-brands fa-github" %}</a>
+                  {% endif %}
+                {% endif %}ember.links.home-page and member.links.home-page != "" %}
+                    <a href="{{ member.links.home-page }}" target="_blank" title="Homepage" class="alumni-link">{% include icon.html icon="fa-solid fa-house-user" %}</a>
+                  {% endif %}
+                  {% if member.links.linkedin and member.links.linkedin != "" %}
+                    {% if member.links.linkedin contains "linkedin.com" or member.links.linkedin contains "facebook.com" %}
+                      <a href="{{ member.links.linkedin }}" target="_blank" title="LinkedIn/Social" class="alumni-link">{% include icon.html icon="fa-brands fa-linkedin" %}</a>
+                    {% else %}
+                      <a href="https://www.linkedin.com/in/{{ member.links.linkedin }}" target="_blank" title="LinkedIn" class="alumni-link">{% include icon.html icon="fa-brands fa-linkedin" %}</a>
+                    {% endif %}
+                  {% endif %}
+                  {% if member.links.github and member.links.github != "" %}
+                    {% if member.links.github contains "github.com" %}
+                      <a href="{{ member.links.github }}" target="_blank" title="GitHub" class="alumni-link">{% include icon.html icon="fa-brands fa-github" %}</a>
+                    {% else %}
+                      <a href="https://github.com/{{ member.links.github }}" target="_blank" title="GitHub" class="alumni-link">{% include icon.html icon="fa-brands fa-github" %}</a>
+                    {% endif %}
+                  {% endif %}member.links.home-page != "" %}
+                    <a href="{{ member.links.home-page }}" target="_blank" title="Homepage" class="alumni-link">{% include icon.html icon="fa-solid fa-house-user" %}</a>
+                  {% endif %}
+                  {% if member.links.linkedin and member.links.linkedin != "" %}
+                    <a href="https://www.linkedin.com/in/{{ member.links.linkedin }}" target="_blank" title="LinkedIn" class="alumni-link">{% include icon.html icon="fa-brands fa-linkedin" %}</a>
+                  {% endif %}
+                  {% if member.links.github and member.links.github != "" %}
+                    <a href="https://github.com/{{ member.links.github }}" target="_blank" title="GitHub" class="alumni-link">{% include icon.html icon="fa-brands fa-github" %}</a>
+                  {% endif %}nent without photos
+Displays names with graduation years in a clean list format, sorted by year descending
+{% endcomment %}
+
+{% comment %} Get all graduated members (PhD and Master) {% endcomment %}
+<!-- {% assign phd_alumni = site.members | where: "role", "phd" | where: "status", "졸업" %}
+{% assign master_alumni = site.members | where: "role", "master" | where: "status", "졸업" %}
+{% assign intern_alumni = site.members | where: "role", "intern" | where: "status", "졸업" %}
+{% assign visiting_alumni = site.members | where: "role", "visiting" | where: "status", "졸업" %}
+{% assign all_alumni = phd_alumni | concat: master_alumni | concat: intern_alumni | concat: visiting_alumni %} -->
+{% assign all_alumni = site.members | where: "status", "졸업" %}
+
+{% comment %} Group by graduation year {% endcomment %}
+{% assign alumni_by_year = all_alumni | group_by: "graduation_year" %}
+
+{% comment %} Sort years in descending order (2025, 2024, 2023...) {% endcomment %}
+{% assign sorted_years = alumni_by_year | sort: "name" | reverse %}
+
+<div class="alumni-list">
+  {% comment %} First show years with graduation_year {% endcomment %}
+  {% for year_group in sorted_years %}
+    {% if year_group.name != "" and year_group.name != nil %}
+      <div class="alumni-year-group">
+        <h4 class="alumni-year">{{ year_group.name }}</h4>
+        <ul class="alumni-names">
+          {% assign sorted_members = year_group.items | sort: "name" %}
+          {% for member in sorted_members %}
+            <li class="alumni-item">
+              {% if member.links.home-page and member.links.home-page != "" %}
+                <a href="{{ member.links.home-page }}" target="_blank" class="alumni-name-link">{{ member.name }}</a>
+              {% elsif member.links.linkedin and member.links.linkedin != "" %}
+                <a href="https://linkedin.com/in/{{ member.links.linkedin }}" target="_blank" class="alumni-name-link">{{ member.name }}</a>
+              {% elsif member.links.github and member.links.github != "" %}
+                <a href="https://github.com/{{ member.links.github }}" target="_blank" class="alumni-name-link">{{ member.name }}</a>
+              {% else %}
+                <span class="alumni-name">{{ member.name }}</span>
+              {% endif %}
+              {% if member.description %}
+                <span class="alumni-description"> - {{ member.description }}</span>
+              {% endif %}
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+    {% endif %}
+  {% endfor %}
+  
+  {% comment %} Show members without graduation year {% endcomment %}
+  {% assign no_year_alumni = all_alumni | where: "graduation_year", nil %}
+  {% if no_year_alumni.size > 0 %}
+    <div class="alumni-year-group">
+      <h4 class="alumni-year">기타</h4>
+      <ul class="alumni-names">
+        {% assign sorted_no_year = no_year_alumni | sort: "name" %}
+        {% for member in sorted_no_year %}
+          <li class="alumni-item">
+            {% if member.links.home-page and member.links.home-page != "" %}
+              <a href="{{ member.links.home-page }}" target="_blank" class="alumni-name-link">{{ member.name }}</a>
+            {% elsif member.links.linkedin and member.links.linkedin != "" %}
+              <a href="https://linkedin.com/in/{{ member.links.linkedin }}" target="_blank" class="alumni-name-link">{{ member.name }}</a>
+            {% elsif member.links.github and member.links.github != "" %}
+              <a href="https://github.com/{{ member.links.github }}" target="_blank" class="alumni-name-link">{{ member.name }}</a>
+            {% else %}
+              <span class="alumni-name">{{ member.name }}</span>
+            {% endif %}
+            {% if member.description %}
+              <span class="alumni-description"> - {{ member.description }}</span>
+            {% endif %}
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+  {% endif %}
+</div>

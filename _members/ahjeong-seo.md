@@ -1,12 +1,15 @@
 ---
 aliases:
 - 서아정
-- ' ahjeong seo'
+- Ahjeong Seo
 - ajseo
-description: ''
-image: images/photo.jpg
+description: MS in Neuroscience
+image: images/ahjeong-seo.jpg
 links:
-  email: ajseo@bi.snu.ac.kr
-name: ' ahjeong seo'
-role: unknown
----
+  email: rubyrang2@naver.com
+name: Ahjeong Seo
+role: master
+affiliation: KAIST
+graduation_year: 2021
+status: 졸업
+--- 

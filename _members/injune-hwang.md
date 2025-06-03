@@ -3,10 +3,13 @@ aliases:
 - 황인준
 - Injune Hwang
 - ijhwang
-description: ''
-image: images/photo.jpg
+description: MS in Computer Science | PhD Student @ KAIST AI
+image: images/injune-hwang.jpg
 links:
-  email: ijhwang@bi.snu.ac.kr
+  email: injunehwang93@gmail.com
 name: Injune Hwang
 role: master
----
+affiliation: KAIST AI
+graduation_year: 2021
+status: 졸업
+--- 

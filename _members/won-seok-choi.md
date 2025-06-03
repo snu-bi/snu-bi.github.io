@@ -22,7 +22,7 @@ To achieve this, an agent should deal with critical problems such as lack of add
 ---
 ### Biography
 
-**[2019.09 – Current]** Ph.D. student at Seoul National University  
+**[2019.09 – Current]** PhD student at Seoul National University  
 (Advisor: [Byoung-Tak Zhang](https://bi.snu.ac.kr/~btzhang))  
 
 **[2015.03 – 2019.08]** B.S. in Computer Science and Engineering, Seoul National University  

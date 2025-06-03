@@ -3,10 +3,13 @@ aliases:
 - 온경운
 - Kyoung-Woon On
 - kwon
-description: ''
+description: PhD in Computer Science | Leader @ Kakao, Language Model Alignment Team
 image: images/photo.jpg
 links:
-  email: kwon@bi.snu.ac.kr
+  email: okw0311@gmail.com
+  linkedin: kyoung-woon-on-065228285
 name: Kyoung-Woon On
-role: unknown
----
+role: phd
+status: 졸업
+graduation_year: 2020
+--- 

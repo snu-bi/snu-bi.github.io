@@ -1,12 +1,16 @@
 ---
 aliases:
-- 크리스
 - Chris Hickey
 - chickey
-description: ''
+description: MS in Cognitive Science | Team Lead @ Surromind
 image: images/photo.jpg
 links:
-  email: chickey@bi.snu.ac.kr
+  email: chris1.hickey1@gmail.com
+  github: chrishickey
+  linkedin: chris-hickey-54b05a89
+  home-page: https://chrishickey.github.io/
 name: Chris Hickey
-role: unknown
----
+role: master
+status: 졸업
+graduation_year: 2020
+--- 

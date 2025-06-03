@@ -1,0 +1,56 @@
+// Alumni list styling
+.alumni-list {
+  margin: 2rem 0;
+}
+
+.alumni-year-group {
+  margin-bottom: 2rem;
+}
+
+.alumni-year {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: var(--text);
+  margin-bottom: 0.5rem;
+  padding-bottom: 0.25rem;
+  border-bottom: 2px solid var(--primary);
+}
+
+.alumni-names {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.alumni-item {
+  padding: 0.25rem 0;
+  border-bottom: 1px solid var(--gray-light);
+  
+  &:last-child {
+    border-bottom: none;
+  }
+}
+
+.alumni-name {
+  font-weight: 600;
+  color: var(--text);
+}
+
+.alumni-description {
+  color: var(--text-light);
+  font-size: 0.9rem;
+  font-style: italic;
+}
+
+// Responsive adjustments
+@media (max-width: 768px) {
+  .alumni-year {
+    font-size: 1.1rem;
+  }
+  
+  .alumni-description {
+    display: block;
+    margin-top: 0.25rem;
+    padding-left: 1rem;
+  }
+}

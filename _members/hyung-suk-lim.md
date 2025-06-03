@@ -3,10 +3,13 @@ aliases:
 - 임형석
 - Hyung Suk Lim
 - hslim
-description: ''
-image: images/photo.jpg
+description: MS in Neuroscience | AI Researcher @ DISQUEST
+image: images/hyung-suk-lim.jpg
 links:
-  email: hslim@bi.snu.ac.kr
+  email: gghknb@gmail.com
 name: Hyung Suk Lim
-role: unknown
----
+role: master
+affiliation: DISQUEST
+graduation_year: 2021
+status: 졸업
+--- 
