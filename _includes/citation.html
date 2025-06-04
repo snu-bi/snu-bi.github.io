@@ -65,7 +65,16 @@
         </span>
         &nbsp;·&nbsp;
         <span class="citation-date">
-          {{- citation.date | default: "[no date info]" | date: "%d %b %Y" -}}
+          {% if citation.date %}
+            {% assign date_string = citation.date | strip %}
+            {% if date_string.size == 4 %}
+              {{- date_string -}}
+            {% else %}
+              {{- citation.date | date: "%d %b %Y" -}}
+            {% endif %}
+          {% else %}
+            [no date info]
+          {% endif %}
         </span>
         &nbsp;·&nbsp;
         <span class="citation-id">

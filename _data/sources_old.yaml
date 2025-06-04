@@ -1,5 +1,13 @@
 - id: arXiv:2411.00508
   publisher: RSS 2025
+  image: images/clip-rt.png
+  buttons:
+  - type: source
+    text: Github
+    link: https://github.com/gicheonkang/clip-rt
+  - type: website
+    text: Paper
+    link: https://clip-rt.github.io/
 - id: arXiv:2403.12449
   publisher: Proceedings of the IEEE International Conference on Robotics and Automation
     (ICRA 2024)
@@ -70,7 +78,7 @@
 - id: scholar:2018/bilinear-attention-networks
   publisher: Advances in neural information processing systems
 - id: scholar:2016/hadamard-product-for-lowrank-bilinear-pooling
-  publisher: International Conference on Learning Representations (ICLR 2017)
+  publisher: arXiv preprint arXiv:1610.04325
 - id: scholar:2017/overcoming-catastrophic-forgetting-by-incremental
   publisher: Advances in neural information processing systems
 - id: scholar:2016/multimodal-residual-learning-for-visual-qa
@@ -84,7 +92,7 @@
 - id: scholar:2006/mitarget-microrna-target-gene-prediction
   publisher: BMC bioinformatics
 - id: scholar:2017/deepstory-video-story-qa-by
-  publisher: International Joint Conference on Artificial Intelligence (IJCAI 2017)
+  publisher: arXiv preprint arXiv:1707.00836
 - id: scholar:2008/hypernetworks-a-molecular-evolutionary-architecture
   publisher: IEEE computational intelligence magazine
 - id: scholar:1993/evolving-optimal-neural-networks-using
@@ -98,22 +106,21 @@
 - id: scholar:2009/effective-mixing-in-a-microfluidic
   publisher: Lab on a Chip
 - id: scholar:2000/learning-users-preferences-by-analyzing
-  publisher: Proceedings of the 9th International Conference on Intelligent User Interfaces
+  publisher: ''
 - id: scholar:2000/a-reinforcement-learning-agent-for
-  publisher: Proceedings of the 5th International Conference on Intelligent User Interfaces
+  publisher: ''
 - id: scholar:1997/evolutionary-induction-of-sparse-neural-trees
   publisher: Evolutionary computation
 - id: scholar:2001/personalized-webdocument-filtering-using-reinforcement
   publisher: Applied Artificial Intelligence
 - id: scholar:2000/text-filtering-by-boosting-naive-bayes-classifiers
-  publisher: Proceedings of the 23rd Annual International ACM SIGIR Conference
+  publisher: ''
 - id: scholar:2010/ensemble-learning-with-active-example
   publisher: IEEE/ACM transactions on computational biology and bioinformatics
 - id: scholar:2006/identification-of-biochemical-networks-by
   publisher: Bioinformatics
 - id: scholar:2020/hypergraph-attention-networks-for-multimodal
-  publisher: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern
-    Recognition (CVPR 2020)
+  publisher: ''
 - id: scholar:2018/deep-ecgnet-an-optimal-deep
   publisher: TELEMEDICINE and e-HEALTH
 - id: scholar:2010/generative-local-metric-learning-for
@@ -127,113 +134,103 @@
 - id: scholar:2006/adaptive-stock-trading-with-dynamic
   publisher: Information Sciences
 - id: scholar:2018/multimodal-dual-attention-memory-for
-  publisher: Proceedings of the European Conference on Computer Vision (ECCV 2018)
+  publisher: ''
 - id: scholar:2019/dual-attention-networks-for-visual
-  publisher: Proceedings of the 57th Annual Meeting of the Association for Computational
-    Linguistics (ACL 2019)
+  publisher: arXiv preprint arXiv:1902.09368
 - id: scholar:2002/applying-machine-learning-techniques-to
   publisher: 'Methods of Microarray Data Analysis: Papers from CAMDA’00'
 - id: scholar:2008/pie-an-online-prediction-system
   publisher: Nucleic acids research
 - id: scholar:2017/codraw-collaborative-drawing-as-a
-  publisher: Proceedings of the 55th Annual Meeting of the Association for Computational
-    Linguistics (ACL 2017)
+  publisher: arXiv preprint arXiv:1712.05558
 - id: scholar:2000/comparison-of-selection-methods-for
   publisher: Evolutionary optimization
 - id: scholar:2013/integrated-analysis-of-genomewide-dna
   publisher: Nucleic acids research
 - id: scholar:1993/genetic-programming-of-minimal-neural
-  publisher: Proc. of 5th International Joint Conference on Genetic Algorithms
+  publisher: ''
 - id: scholar:1999/solving-traveling-salesman-problems-using
-  publisher: Proceedings of the 1999 Congress on Evolutionary Computation
+  publisher: ''
 - id: scholar:2002/evolutionary-sequence-generation-for-reliable
-  publisher: IEEE Congress on Evolutionary Computation
+  publisher: ''
 - id: scholar:1999/a-bayesian-framework-for-evolutionary-computation
-  publisher: Proceedings of the 1999 Congress on Evolutionary Computation
+  publisher: ''
 - id: scholar:2018/glac-net-glocal-attention-cascading
-  publisher: Storytelling Workshop at NAACL 2018
+  publisher: arXiv preprint arXiv:1805.10973
 - id: scholar:2003/genetic-mining-of-html-structures
   publisher: Applied Intelligence
 - id: scholar:2021/attend-what-you-need-motionappearance
-  publisher: Proceedings of the 59th Annual Meeting of the Association for Computational
-    Linguistics (ACL-IJCNLP 2021)
+  publisher: arXiv preprint arXiv:2106.10446
 - id: scholar:2021/dramaqa-charactercentered-video-story-understanding
   publisher: Proceedings of the aaai conference on artificial intelligence
 - id: scholar:2011/online-learning-of-a-full
-  publisher: Proceedings of the IEEE-RAS International Conference on Humanoid Robots
+  publisher: ''
 - id: scholar:1998/molecular-algorithms-for-e-cient
   publisher: Genetic Programming
 - id: scholar:1994/an-incremental-learning-algorithm-that
-  publisher: Proceedings of 1994 IEEE International Conference on Neural Networks
+  publisher: ''
 - id: scholar:2006/dna-hypernetworks-for-information-storage
-  publisher: International Conference on Computational Intelligence (ICCI 2006)
+  publisher: ''
 - id: scholar:1991/neural-networks-that-teach-themselves
-  publisher: Proceedings of the International Joint Conference on Neural Networks
+  publisher: ''
 - id: scholar:2017/multifocus-attention-network-for-efficient
-  publisher: AAAI Workshop on Deep Learning for Artificial General Intelligence
+  publisher: ''
 - id: scholar:2007/evolving-hypernetworks-for-pattern-classification
-  publisher: IEEE Congress on Evolutionary Computation
+  publisher: ''
 - id: scholar:2003/text-chunking-by-combining-handcrafted
-  publisher: Proceedings of the 41st Annual Meeting of the Association for Computational
-    Linguistics
+  publisher: ''
 - id: scholar:2016/dualmemory-deep-learning-architectures-for
-  publisher: Proceedings of the Twenty-Fifth International Joint Conference on Artificial
-    Intelligence (IJCAI-16)
+  publisher: ''
 - id: scholar:2016/generating-images-part-by-part
-  publisher: International Conference on Learning Representations (ICLR 2017)
+  publisher: arXiv preprint arXiv:1607.05387
 - id: scholar:2002/temperature-gradientbased-dna-computing-for
-  publisher: International Workshop on DNA-Based Computers
+  publisher: ''
 - id: scholar:2015/team-thors-entry-in-the
   publisher: Journal of Field Robotics
 - id: scholar:2004/a-bayesian-algorithm-for-in
-  publisher: International Conference on Computational Intelligence (ICCI 2004)
+  publisher: ''
 - id: scholar:2018/robust-human-following-by-deep
-  publisher: IEEE International Conference on Robotics and Automation (ICRA 2018)
+  publisher: ''
 - id: scholar:2008/characterization-of-biological-effect-of
   publisher: International Journal of Radiation Biology
 - id: scholar:2022/smoothswap-a-simple-enhancement-for
-  publisher: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern
-    Recognition (CVPR 2022)
+  publisher: ''
 - id: scholar:2008/molecular-responses-of-jurkat-tcells
   publisher: International Journal of Radiation Biology
 - id: scholar:2007/evolutionary-hypernetwork-models-for-aptamerbased
-  publisher: Proceedings of the 2007 GECCO conference companion on Genetic and evolutionary
-    computation
+  publisher: ''
 - id: scholar:1994/synthesis-of-sigmapi-neural-networks
-  publisher: Proceedings of 1994 IEEE International Conference on Neural Networks
+  publisher: ''
 - id: scholar:2022/hypergraph-transformer-weaklysupervised-multihop-reasoning
-  publisher: Proceedings of the 60th Annual Meeting of the Association for Computational
-    Linguistics (ACL 2022)
+  publisher: arXiv preprint arXiv:2204.10448
 - id: scholar:2015/automated-construction-of-visuallinguistic-knowledge
   publisher: Proceedings of the AAAI Conference on Artificial Intelligence
 - id: scholar:2011/learning-full-body-push-recovery
-  publisher: Proceedings of the IEEE International Conference on Robotics and Automation
-    (ICRA 2011)
+  publisher: ''
 - id: scholar:1998/genetic-programming-with-active-data-selection
-  publisher: European Conference on Genetic Programming (EuroGP 1998)
+  publisher: ''
 - id: scholar:2016/human-body-orientation-estimation-using
-  publisher: Pacific Rim International Conference on Artificial Intelligence (PRICAI
-    2016)
+  publisher: arXiv preprint arXiv:1609.01984
 - id: scholar:2018/answerer-in-questioners-mind-information
   publisher: Advances in neural information processing systems
 - id: scholar:2006/construction-of-phylogenetic-trees-by
   publisher: BMC bioinformatics
 - id: scholar:2011/practical-bipedal-walking-control-on
-  publisher: IEEE/RSJ International Conference on Intelligent Robots and Systems
+  publisher: ''
 - id: scholar:2012/sparse-population-code-models-of
   publisher: Proceedings of the Annual Meeting of the Cognitive Science Society
 - id: scholar:2004/efficient-initial-pool-generation-for
-  publisher: International Conference on Computational Intelligence (ICCI 2004)
+  publisher: ''
 - id: scholar:2004/pubminer-machine-learningbased-text-mining
   publisher: Genomics & Informatics
 - id: scholar:2004/cotrained-support-vector-machines-for
   publisher: Information processing & management
 - id: scholar:2000/webdocument-retrieval-by-genetic-learning
-  publisher: Proceedings of the Ninth International World Wide Web Conference
+  publisher: ''
 - id: scholar:2001/learningbased-intrasentence-segmentation-for-efficient
   publisher: Machine Translation
 - id: scholar:2013/enhancing-human-action-recognition-through
-  publisher: IEEE-RAS International Conference on Humanoid Robots
+  publisher: ''
 - id: scholar:2002/stock-trading-system-using-reinforcement
   publisher: MACHINE LEARNING-INTERNATIONAL WORKSHOP THEN CONFERENCE-
 - id: scholar:2006/identification-of-regulatory-modules-by
@@ -241,41 +238,35 @@
 - id: scholar:2005/bayesian-model-averaging-of-bayesian
   publisher: IEEE Transactions on Systems, Man, and Cybernetics, Part B (Cybernetics)
 - id: scholar:1997/an-evolutionary-method-for-active
-  publisher: Proceedings of 1997 IEEE International Conference on Evolutionary Computation
+  publisher: ''
 - id: scholar:2005/molecular-programming-evolving-genetic-programs
-  publisher: Proceedings of the 2005 GECCO conference
+  publisher: ''
 - id: scholar:2001/continuous-estimation-of-distribution-algorithms
-  publisher: Proceedings of the 2001 Congress on Evolutionary Computation
+  publisher: ''
 - id: scholar:2016/wholebody-balancing-walk-controller-for
   publisher: International Journal of Humanoid Robotics
 - id: scholar:2004/pubminer-machine-learningbased-text-mining
-  publisher: Advances in Knowledge Discovery and Data Mining, PAKDD 2004
+  publisher: ''
 - id: scholar:2010/online-learning-of-uneven-terrain
   publisher: Proceedings of the AAAI Conference on Artificial Intelligence
 - id: scholar:2007/evolving-hypernetwork-classifiers-for-microrna
-  publisher: Proceedings of the 2007 IEEE Symposium on Computational Intelligence
-    in Bioinformatics and Computational Biology
+  publisher: ''
 - id: scholar:2007/random-hypergraph-models-of-learning
-  publisher: Proceedings of the International Joint Conference on Neural Networks
-    (IJCNN 2007)
+  publisher: ''
 - id: scholar:2004/evolutionary-continuous-optimization-by-distribution
   publisher: ''
 - id: scholar:2013/online-learning-of-low-dimensional
-  publisher: Proceedings of the IEEE International Conference on Robotics and Automation
-    (ICRA 2013)
+  publisher: ''
 - id: scholar:2009/aesnb-active-example-selection-with
-  publisher: Proceedings of the 2009 9th IEEE International Conference on Bioinformatics
-    and Bioengineering
+  publisher: ''
 - id: scholar:2006/text-classifiers-evolved-on-a
-  publisher: Proceedings of the 2006 IEEE Congress on Evolutionary Computation
+  publisher: ''
 - id: scholar:2016/survey-of-computational-haplotype-determination
-  publisher: Genes & Genomics
+  publisher: ''
 - id: scholar:2002/nacstseq-a-sequence-design-system
-  publisher: Proceedings of the 2nd European Conference on Evolutionary Computation
-    in Combinatorial Optimization
+  publisher: ''
 - id: scholar:2002/construction-of-largescale-bayesian-networks
-  publisher: Proceedings of the 6th Pacific-Asia Conference on Knowledge Discovery
-    and Data Mining
+  publisher: ''
 - id: scholar:2022/selecmix-debiased-learning-by-contradictingpair
   publisher: Advances in Neural Information Processing Systems
 - id: scholar:2018/temporal-attention-mechanism-with-conditional
@@ -291,9 +282,9 @@
 - id: scholar:2022/improving-robustness-to-texture-bias
   publisher: ''
 - id: scholar:2016/ways-of-conditioning-generative-adversarial
-  publisher: NIPS Workshop on Adversarial Training
+  publisher: arXiv preprint arXiv:1611.01455
 - id: scholar:2015/social-network-analysis-of-tv
-  publisher: Proceedings of the 24th ACM International Conference on Multimedia
+  publisher: ''
 - id: scholar:2009/ensembled-support-vector-machines-for
   publisher: Computers in Biology and Medicine
 - id: scholar:2004/stock-trading-by-modelling-price
@@ -307,9 +298,9 @@
 - id: scholar:1996/adaptive-fitness-functions-for-dynamic
   publisher: ''
 - id: scholar:2017/codraw-visual-dialog-for-collaborative-drawing
-  publisher: Proceedings of the IEEE International Conference on Computer Vision Workshops
+  publisher: arXiv preprint arXiv:1712.05558
 - id: scholar:2015/pororobot-a-deep-learning-robot
-  publisher: AAAI 2016 Workshop on AI for Human-Robot Interaction
+  publisher: ''
 - id: scholar:2004/genetic-mining-of-dna-sequence
   publisher: ''
 - id: scholar:2003/mining-the-risk-types-of
@@ -436,8 +427,7 @@
 - id: scholar:2000/reducing-parsing-complexity-by-intrasentence
   publisher: ''
 - id: scholar:2000/genetic-programming-of-process-decomposition
-  publisher: 'Proceedings: The Second NASA/DoD Workshop on Evolvable Hardware: Palo
-    Alto, California, USA, July 13-15, 2000'
+  publisher: ''
 - id: scholar:2000/evolving-neural-trees-for-time
   publisher: ''
 - id: scholar:2000/building-optimal-committees-of-genetic-programs
@@ -468,7 +458,7 @@
 - id: scholar:2022/from-scratch-to-sketch-deep
   publisher: ''
 - id: scholar:2020/reasoning-visual-dialog-with-sparse
-  publisher: Findings of EMNLP 2020
+  publisher: arXiv preprint arXiv:2004.06698
 - id: scholar:2018/perceptionactionlearning-system-for-mobile-socialservice
   publisher: Proceedings of the AAAI conference on artificial intelligence
 - id: scholar:2006/prediction-of-protein-interaction-with
@@ -540,8 +530,7 @@
 - id: scholar:2000/word-sense-disambiguation-by-learning
   publisher: ''
 - id: scholar:2022/modalspecific-pseudo-query-generation-for
-  publisher: Proceedings of the 2022 Conference on Empirical Methods in Natural Language
-    Processing (EMNLP 2022)
+  publisher: arXiv preprint arXiv:2210.12617
 - id: scholar:2021/leveraging-node-neighborhoods-and-egograph
   publisher: Social Network Analysis and Mining
 - id: scholar:2021/coattentional-transformers-for-storybased-video
@@ -606,14 +595,13 @@
 - id: scholar:2019/enzymatic-weight-update-algorithm-for
   publisher: Molecules
 - id: scholar:2019/constructing-hierarchical-qa-datasets-for
-  publisher: AAAI Spring Symposium on Story-Enabled Intelligence 2019
+  publisher: arXiv preprint arXiv:1904.00623
 - id: scholar:2017/cnnbased-classification-methods-for-filtering
   publisher: J. Comput. Sci. Eng
 - id: scholar:2017/largescale-text-classification-with-deep
   publisher: 정보과학회 컴퓨팅의 실제 논문지
 - id: scholar:2015/dual-memory-architectures-for-fast
-  publisher: Proceedings of the 32nd International Conference on Machine Learning
-    (ICML 2015)
+  publisher: arXiv preprint arXiv:1506.04477
 - id: scholar:2015/deep-learning-for-the-web
   publisher: ''
 - id: scholar:2014/apparatus-and-method-for-generating
@@ -677,8 +665,7 @@
 - id: scholar:2002/behavior-evolution-of-autonomous-mobile
   publisher: International Journal of Fuzzy Logic and Intelligent Systems
 - id: scholar:2019/which-ads-to-show-advertisement
-  publisher: Proceedings of the IEEE/CVF International Conference on Computer Vision
-    (ICCV 2019)
+  publisher: arXiv preprint arXiv:1910.02358
 - id: scholar:2018/continual-learning-with-generative-replay
   publisher: NeurIPS workshop on continual learning
 - id: scholar:2016/largescale-text-classification-with-recurrent
@@ -756,20 +743,17 @@
 - id: scholar:2021/attentive-memory-method-and-system
   publisher: ''
 - id: scholar:2021/mounting-video-metadata-on-transformerbased
-  publisher: Proceedings of the IEEE/CVF International Conference on Computer Vision
-    (ICCV 2021)
+  publisher: arXiv preprint arXiv:2108.05158
 - id: scholar:2021/m2fn-multistep-modality-fusion-for
   publisher: Applied Soft Computing
 - id: scholar:2021/bayesian-networks
   publisher: ''
 - id: scholar:2020/humanlike-active-learning-machines-simulating
-  publisher: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern
-    Recognition (CVPR 2021)
+  publisher: arXiv preprint arXiv:2011.03733
 - id: scholar:2019/withdorm-dormitory-solution-for-linking-roommates
   publisher: ''
 - id: scholar:2019/simulating-problem-difficulty-in-arithmetic
-  publisher: Proceedings of the 36th International Conference on Machine Learning
-    (ICML 2019)
+  publisher: arXiv preprint arXiv:1905.03617
 - id: scholar:2017/criteria-for-humancompatible-ai-in
   publisher: ''
 - id: scholar:2012/evolutionary-particle-filtering-for-sequential
@@ -826,7 +810,7 @@
 - id: scholar:2022/selecmix-debiased-learning-by-mixing
   publisher: ''
 - id: scholar:2021/toward-a-humanlevel-video-understanding
-  publisher: Advances in Neural Information Processing Systems 34 (NeurIPS 2021)
+  publisher: arXiv preprint arXiv:2110.04203
 - id: scholar:2021/wearable-sensorbased-automatic-scheduling-device
   publisher: ''
 - id: scholar:2021/cogme-a-novel-evaluation-metric
@@ -840,7 +824,7 @@
 - id: scholar:2019/bayesian-evolutionary-hypernetworks-for-interpretable
   publisher: Applied Soft Computing
 - id: scholar:2019/data-interpolations-in-deep-generative
-  publisher: AAAI-19 Workshop on Network Interpretability for Deep Learning
+  publisher: arXiv preprint arXiv:1901.08553
 - id: scholar:2019/problem-difficulty-in-arithmetic-cognition
   publisher: Proceedings of the Annual Meeting of the Cognitive Science Society
 - id: scholar:2018/understanding-local-minima-in-neural
@@ -848,15 +832,13 @@
 - id: scholar:2018/bilinear-attention-networks-for-vizwiz-challenge
   publisher: Proceedings of the ECCV Workshop on VizWiz Grand challenge
 - id: scholar:2017/visual-explanations-from-hadamard-product
-  publisher: Proceedings of the International Conference on Learning Representations
-    (ICLR 2018)
+  publisher: arXiv preprint arXiv:1712.06228
 - id: scholar:2017/extremely-sparse-deep-learning-using
   publisher: ''
 - id: scholar:2017/ising-model-based-molecular-associative
   publisher: 한국정보과학회 학술발표논문집
 - id: scholar:2017/microobjective-learning-accelerating-deep-reinforcement
-  publisher: Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition
-    (CVPR 2017)
+  publisher: arXiv preprint arXiv:1703.03933
 - id: scholar:2016/even-though-the-term-robot
   publisher: Artificial Intelligence
 - id: scholar:2016/pororobot-child-tutoring-robot-for
@@ -896,7 +878,7 @@
 - id: scholar:2006/mining-protein-interaction-from-biomedical
   publisher: ''
 - id: scholar:2005/prediction-of-yeast-proteinprotein-interactions
-  publisher: Proceedings of the Korean Information Science Society Conference
+  publisher: ''
 - id: scholar:2005/an-introduction-to-bayesian-networks
   publisher: ''
 - id: scholar:2002/空气阻尼对微谐振器品质因子及其传输函数的影响
@@ -916,8 +898,7 @@
 - id: scholar:2020/discriminative-variational-autoencoder-for-continual
   publisher: ''
 - id: scholar:2019/encoderpowered-generative-adversarial-networks
-  publisher: Proceedings of the 36th International Conference on Machine Learning
-    (ICML 2019)
+  publisher: arXiv preprint arXiv:1906.00541
 - id: scholar:2019/spatial-perception-by-objectaware-visual
   publisher: ''
 - id: scholar:2019/modeling-delay-discounting-using-gaussian
@@ -1527,7 +1508,7 @@
 - id: scholar:1996/evolutionary-learning-of-sigmapi-neural
   publisher: 한국지능시스템학회 논문지
 - id: scholar:1994/synthesis-of-sigmapi-neural-networks
-  publisher: Proceedings of 1994 IEEE International Conference on Neural Networks
+  publisher: ''
 - id: scholar:1994/active-learning-algorithm-for-neural-networks
   publisher: 'ICONIP: International Conference On Neural Information Processing'
 - id: scholar:1993/gesellschaft-for-mathematik-und-datenve

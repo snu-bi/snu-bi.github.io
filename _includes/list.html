@@ -6,7 +6,7 @@
 %}
 
 {% assign years = data
-  | group_by_exp: "d", "d.date | date: '%Y'"
+  | group_by_exp: "d", "d.date | strip | slice: 0, 4"
   | sort: "name"
   | reverse
 %}
