@@ -1,3 +1,92 @@
+# preprints
+
+- id: 2024-sjjeong-cvln
+  title: 'Continual Vision-and-Language Navigation'
+  authors:
+  - Seongjun Jeong
+  - Gi-Cheon Kang
+  - Seongho Choi
+  - Junghyun Kim
+  - Byoung-Tak Zhang
+  publisher: preprint
+  year: 2024
+  link: https://arxiv.org/abs/2403.15049
+  image: images/continual-vln.png
+  buttons:
+  - type: paper
+    text: Paper
+    link: https://arxiv.org/abs/2403.15049
+
+- id: 2024-hskim-active3d
+  title: 'Active Neural 3D Reconstruction with Colorized Surface Voxel-Based View Selection'
+  authors:
+  - Hyunseo Kim
+  - Hyeonseo Yang
+  - Taekyung Kim
+  - Yoonsung Kim
+  - Jin-Hwa Kim
+  - Byoung-Tak Zhang
+  publisher: preprint
+  year: 2024
+  link: https://arxiv.org/abs/2405.02568
+  image: images/active3d-recon.png
+  buttons:
+  - type: paper
+    text: Paper
+    link: https://arxiv.org/abs/2405.02568
+
+- id: 2025-jkim-ordinalbias
+  title: 'Exploring Ordinal Bias in Action Recognition for Instructional Videos'
+  authors:
+  - Joochan Kim
+  - Minjoon Jung
+  - Byoung-Tak Zhang
+  publisher: preprint
+  year: 2025
+  link: https://arxiv.org/abs/2504.06580
+  image: images/ordinal-bias-action-rec.png
+  buttons:
+  - type: paper
+    text: Paper
+    link: https://arxiv.org/abs/2504.06580
+
+- id: 2025-dshan-vomd
+  title: 'Variational Online Mirror Descent for Robust Learning in Schrödinger Bridge'
+  authors:
+  - Dong-Sig Han
+  - Jaein Kim
+  - Hee Bin Yoo
+  - Byoung-Tak Zhang
+  publisher: preprint
+  year: 2025
+  link: https://arxiv.org/abs/2504.02618
+  image: images/vomd-sb.png
+  buttons:
+  - type: paper
+    text: Paper
+    link: https://arxiv.org/abs/2504.02618
+
+- id: 2025-jspark-s2d
+  title: 'From Sparse to Dense: Toddler-Inspired Reward Transition in Goal-Oriented Reinforcement Learning'
+  authors:
+  - Junseok Park
+  - Hyeonseo Yang
+  - Min Whoo Lee
+  - Won-Seok Choi
+  - Minsu Lee
+  - Byoung-Tak Zhang
+  publisher: preprint
+  year: 2025
+  link: https://arxiv.org/abs/2501.17842
+  image: images/s2d-toddler-rl.png
+  buttons:
+  - type: paper
+    text: Paper
+    link: https://arxiv.org/abs/2501.17842
+
+
+# selected publications
+
 - id: 2025-gckang
   title: 'CLIP-RT: Learning Language-Conditioned Robotic Policies from Natural Language
     Supervision'
@@ -72,6 +161,22 @@
     text: Paper
     link: https://arxiv.org/abs/2404.15190
 
+- id: 2025-glee-tgpdcc
+  title: 'Truncated Gaussian Policy for Debiased Continuous Control'
+  authors:
+  - Ganghun Lee
+  - Minji Kim
+  - Minsu Lee
+  - Byoung-Tak Zhang
+  publisher: AAAI 2025
+  year: 2025
+  link: https://ojs.aaai.org/index.php/AAAI/article/view/33988
+  image: images/truncated-gaussian-policy.png
+  buttons:
+  - type: paper
+    text: Paper
+    link: https://ojs.aaai.org/index.php/AAAI/article/view/33988
+
 - id: 2025-mjjung-a
   title: Background-aware moment detection for video moment retrieval
   authors:
@@ -91,6 +196,20 @@
   - type: source
     text: Code
     link: https://github.com/minjoong507/BM-DETR
+
+- id: 2025-sshin-relaxedhlp
+  title: 'Relaxed HLP: A Metric for Flexible High-Level Plan Evaluation in Embodied Environments'
+  authors:
+  - Suyeon Shin
+  - Byoung-Tak Zhang
+  publisher: BigComp 2025
+  year: 2025
+  link: https://www.computer.org/csdl/proceedings-article/bigcomp/2025/290200a295/25x4hVp6EVi
+  image: images/relaxed-hlp.png
+  buttons:
+  - type: paper
+    text: Paper
+    link: https://www.computer.org/csdl/proceedings-article/bigcomp/2025/290200a295/25x4hVp6EVi
 
 - id: 2024-jikim
   title: 'Continuous SO(3) Equivariant Convolution for 3D Point Cloud Analysis'
@@ -635,3 +754,484 @@
   - type: website
     text: Page
     link: https://sites.google.com/unisi.it/workshop-manipulation
+
+
+- id: 2022-twkang
+  title: 'Team Tidyboy at the WRS 2020: A Modular Software Framework for Home-Service Robots'
+  authors:
+  - Tae-Woong Kang
+  - Dong-Woon Song
+  - Jae-Bong Lee
+  - Jun-Young Kim
+  - Choong-Yeon Lee
+  - Youngjae Yoo
+  - Minji Kim
+  - Hyeon-Jun Cho
+  - Byoung-Tak Zhang
+  - Jae-Bok Song
+  - Seung-Jun Lee
+  publisher: 'Advanced Robotics 36 (16)'
+  year: 2022
+  link: https://doi.org/10.1080/01691864.2022.2111229
+  image: images/tidyboy.png
+  buttons:
+  - type: paper
+    text: Paper
+    link: https://doi.org/10.1080/01691864.2022.2111229
+
+- id: 2022-glee-sketch
+  title: 'From Scratch to Sketch: Deep Decoupled Hierarchical Reinforcement Learning for Robotic Sketching Agent'
+  authors:
+  - Ganghun Lee
+  - Minji Kim
+  - Minsu Lee
+  - Byoung-Tak Zhang
+  publisher: ICRA 2022
+  year: 2022
+  link: https://arxiv.org/abs/2208.04833
+  image: images/scratch-sketch.png
+  buttons:
+  - type: paper
+    text: Paper
+    link: https://arxiv.org/abs/2208.04833
+
+- id: 2022-yjheo-hypergraph
+  title: 'Hypergraph Transformer: Weakly-Supervised Multi-hop Reasoning for Knowledge-Based Visual Question Answering'
+  authors:
+  - Yu-Jung Heo
+  - Eunsol Kim
+  - Wooseok Choi
+  - Byoung-Tak Zhang
+  publisher: ACL 2022
+  year: 2022
+  link: https://aclanthology.org/2022.acl-long.29/
+  image: images/hypergraph-transformer.png
+  buttons:
+  - type: paper
+    text: Paper
+    link: https://aclanthology.org/2022.acl-long.29/
+
+- id: 2022-mjjung-mpqn
+  title: 'Modal-Specific Pseudo Query Generation for Video Corpus Moment Retrieval'
+  authors:
+  - Minjoon Jung
+  - Seongho Choi
+  - Joochan Kim
+  - Jin-Hwa Kim
+  - Byoung-Tak Zhang
+  publisher: EMNLP 2022
+  year: 2022
+  link: https://arxiv.org/abs/2210.12617
+  image: images/modal-pseudo-query.png
+  buttons:
+  - type: paper
+    text: Paper
+    link: https://arxiv.org/abs/2210.12617
+  - type: paper
+    text: PDF
+    link: https://aclanthology.org/2022.emnlp-main.530.pdf
+
+- id: 2022-cylee-placenet
+  title: 'PlaceNet: Neural Spatial Representation Learning with Multimodal Attention'
+  authors:
+  - Choong-Yeon Lee
+  - Youngjae Yoo
+  - Byoung-Tak Zhang
+  publisher: IJCAI 2022
+  year: 2022
+  link: https://www.ijcai.org/proceedings/2022/144
+  image: images/placenet.png
+  buttons:
+  - type: paper
+    text: Paper
+    link: https://www.ijcai.org/proceedings/2022/144
+
+- id: 2022-dshan-robustirl
+  title: 'Robust Imitation via Mirror-Descent Inverse Reinforcement Learning'
+  authors:
+  - Dong-Sig Han
+  - Hyunseo Kim
+  - Hyundo Lee
+  - Je-Hwan Ryu
+  - Byoung-Tak Zhang
+  publisher: NeurIPS 2022
+  year: 2022
+  link: https://arxiv.org/abs/2210.11201
+  image: images/mirror-descent-irl.png
+  buttons:
+  - type: paper
+    text: Paper
+    link: https://arxiv.org/abs/2210.11201
+
+- id: 2022-ihwang-selecmix
+  title: 'SelecMix: Debiased Learning by Contradicting-Pair Sampling'
+  authors:
+  - Inwoo Hwang
+  - Sangjun Lee
+  - Yunhyeok Kwak
+  - Seong Joon Oh
+  - Damien Teney
+  - Jin-Hwa Kim
+  - Byoung-Tak Zhang
+  publisher: NeurIPS 2022
+  year: 2022
+  link: https://arxiv.org/abs/2211.02291
+  image: images/selecmix.png
+  buttons:
+  - type: paper
+    text: Paper
+    link: https://arxiv.org/abs/2211.02291
+
+- id: 2022-jskim-smoothswap
+  title: 'Smooth-Swap: A Simple Enhancement for Face-Swapping with Smoothness'
+  authors:
+  - Ji-Seob Kim
+  - Ji-Hoon Lee
+  - Byoung-Tak Zhang
+  publisher: CVPR 2022
+  year: 2022
+  link: https://openaccess.thecvf.com/content/CVPR2022/papers/Kim_Smooth-Swap_A_Simple_Enhancement_for_Face-Swapping_With_Smoothness_CVPR_2022_paper.pdf
+  image: images/smooth-swap.png
+  buttons:
+  - type: paper
+    text: Paper
+    link: https://openaccess.thecvf.com/content/CVPR2022/papers/Kim_Smooth-Swap_A_Simple_Enhancement_for_Face-Swapping_With_Smoothness_CVPR_2022_paper.pdf
+
+- id: 2022-wschoi-duel
+  title: 'DUEL: Adaptive Duplicate Elimination on Working Memory for Self-Supervised Learning'
+  authors:
+  - Won-Seok Choi
+  - Dong-Sig Han
+  - Hyundo Lee
+  - Junseok Park
+  - Byoung-Tak Zhang
+  publisher: 'NeurIPS 2022 Workshop on Self-Supervised Learning: Theory and Practice'
+  year: 2022
+  link: https://arxiv.org/abs/2210.17052
+  image: images/duel-adaptive.png
+  buttons:
+  - type: paper
+    text: Paper
+    link: https://arxiv.org/abs/2210.17052
+  - type: paper
+    text: Workshop PDF
+    link: https://sslneurips22.github.io/paper_pdfs/paper_26.pdf
+
+- id: 2022-gckang-gst
+  title: 'Generative Self-Training Improves Pre-training for Visual Dialog'
+  authors:
+  - Gi-Cheon Kang
+  - Sungdong Kim
+  - Jin-Hwa Kim
+  - Donghyun Kwak
+  - Byoung-Tak Zhang
+  publisher: 'ICML 2022 Workshop on Pre-training'
+  year: 2022
+  link: https://openreview.net/forum?id=bwGy1ZeqvCX
+  image: images/gst-visual-dialog.png
+  buttons:
+  - type: paper
+    text: Paper
+    link: https://openreview.net/forum?id=bwGy1ZeqvCX
+
+- id: 2022-sjlee-shapeaug
+  title: 'Improving Robustness to Texture Bias via Shape-Focused Augmentation'
+  authors:
+  - Sangjun Lee
+  - Inwoo Hwang
+  - Gi-Cheon Kang
+  - Byoung-Tak Zhang
+  publisher: 'CVPR 2022 Human-Centered Intelligent Services Workshop'
+  year: 2022
+  link: https://openaccess.thecvf.com/content/CVPR2022W/HCIS/papers/Lee_Improving_Robustness_to_Texture_Bias_via_Shape-Focused_Augmentation_CVPRW_2022_paper.pdf
+  image: images/shape-focused-aug.png
+  buttons:
+  - type: paper
+    text: Paper
+    link: https://openaccess.thecvf.com/content/CVPR2022W/HCIS/papers/Lee_Improving_Robustness_to_Texture_Bias_via_Shape-Focused_Augmentation_CVPRW_2022_paper.pdf
+
+- id: 2022-sjjung-langtxt2img
+  title: 'Language-Agnostic Semantic-Consistent Text-to-Image Generation'
+  authors:
+  - Seongjun Jung
+  - Wooseok Choi
+  - Seongho Choi
+  - Byoung-Tak Zhang
+  publisher: 'ACL 2022 Workshop on Multilingual Multimodal Learning'
+  year: 2022
+  link: https://aclanthology.org/2022.mml-1.1/
+  image: images/lang-agnostic-t2i.png
+  buttons:
+  - type: paper
+    text: Paper
+    link: https://aclanthology.org/2022.mml-1.1.pdf
+
+- id: 2022-jspark-critical
+  title: 'On the Importance of Critical Period in Multi-Stage Reinforcement Learning'
+  authors:
+  - Junseok Park
+  - Inwoo Hwang
+  - Min Whoo Lee
+  - Hyunseok Oh
+  - Minsu Lee
+  - Youngki Lee
+  - Byoung-Tak Zhang
+  publisher: 'ICML 2022 Workshop on Complex Feedback in Online Learning'
+  year: 2022
+  link: https://arxiv.org/abs/2208.04832
+  image: images/critical-period-rl.png
+  buttons:
+  - type: paper
+    text: Paper
+    link: https://arxiv.org/abs/2208.04832
+
+- id: 2022-wchoi-sgp-amr
+  title: 'Scene Graph Parsing via Abstract Meaning Representation in Pre-trained Language Models'
+  authors:
+  - Wooseok Choi
+  - Yu-Jung Heo
+  - Dharani Perumal
+  - Byoung-Tak Zhang
+  publisher: 'NAACL 2022 DLG4NLP Workshop'
+  year: 2022
+  link: https://aclanthology.org/2022.dlg4nlp-1.4/
+  image: images/sgp-amr.png
+  buttons:
+  - type: paper
+    text: Paper
+    link: https://aclanthology.org/2022.dlg4nlp-1.4/
+
+- id: 2022-ihwang-selecmix-b
+  title: 'SelecMix: Debiased Learning by Mixing-Up Contradicting Pairs'
+  authors:
+  - Inwoo Hwang
+  - Sangjun Lee
+  - Yunhyeok Kwak
+  - Seong Joon Oh
+  - Damien Teney
+  - Jin-Hwa Kim
+  - Byoung-Tak Zhang
+  publisher: 'ICML 2022 Workshop on Spurious Correlations, Invariance and Stability'
+  year: 2022
+  link: https://openreview.net/pdf/de00d08540430654378b06fd1a43dcf279b1e336.pdf
+  image: images/selecmix-mixup.png
+  buttons:
+  - type: paper
+    text: Paper
+    link: https://openreview.net/pdf/de00d08540430654378b06fd1a43dcf279b1e336.pdf
+
+
+- id: 2021-khpark-m2fn
+  title: 'M2FN: Multi-Step Modality Fusion for Advertisement Image Assessment'
+  authors:
+  - Kyunghwa Park
+  - Jeongwoo Ha
+  - Jeonghun Lee
+  - Sunyoung Kwon
+  - Kyungmin Kim
+  - Byoung-Tak Zhang
+  publisher: Applied Soft Computing 105
+  year: 2021
+  link: https://arxiv.org/abs/2102.00441
+  image: images/m2fn.png
+  buttons:
+  - type: paper
+    text: arXiv
+    link: https://arxiv.org/abs/2102.00441
+  - type: paper
+    text: Journal
+    link: https://www.sciencedirect.com/science/article/pii/S1568494621000399
+
+- id: 2021-shchoi-dramaqa
+  title: 'DramaQA: Character-Centered Video Story Understanding with Hierarchical QA'
+  authors:
+  - Seongho Choi
+  - Kyungwoon On
+  - Yu-Jung Heo
+  - Ahjeong Seo
+  - Yuwon Jang
+  - Minsu Lee
+  - Byoung-Tak Zhang
+  publisher: AAAI 2021
+  year: 2021
+  link: https://arxiv.org/abs/2005.03356
+  image: images/dramaqa.png
+  buttons:
+  - type: paper
+    text: arXiv
+    link: https://arxiv.org/abs/2005.03356
+  - type: paper
+    text: AAAI PDF
+    link: https://ojs.aaai.org/index.php/AAAI/article/view/16203/16010
+
+- id: 2021-ajseo-masn
+  title: 'Attend What You Need: Motion-Appearance Synergistic Networks for Video Question Answering'
+  authors:
+  - Ahjeong Seo
+  - Gi-Cheon Kang
+  - Joonhan Park
+  - Byoung-Tak Zhang
+  publisher: ACL 2021
+  year: 2021
+  link: https://aclanthology.org/2021.acl-long.481/
+  image: images/attend-what-you-need.png
+  buttons:
+  - type: paper
+    text: ACL PDF
+    link: https://aclanthology.org/2021.acl-long.481.pdf
+  - type: paper
+    text: arXiv
+    link: https://arxiv.org/abs/2106.10446
+
+- id: 2021-bbebensee-coatt
+  title: 'Co-Attentional Transformers for Story-Based Video Understanding'
+  authors:
+  - Björn Bebensee
+  - Byoung-Tak Zhang
+  publisher: ICASSP 2021
+  year: 2021
+  link: https://arxiv.org/abs/2010.14104
+  image: images/coatt-video.png
+  buttons:
+  - type: paper
+    text: arXiv
+    link: https://arxiv.org/abs/2010.14104
+
+- id: 2021-hyjo-devadv
+  title: "Devil's Advocate: Novel Boosting Ensemble Method from Psychological Findings for Text Classification"
+  authors:
+  - Huiyeol Jo
+  - Jaeseo Lim
+  - Byoung-Tak Zhang
+  publisher: EMNLP 2021
+  year: 2021
+  link: https://aclanthology.org/2021.findings-emnlp.187/
+  image: images/devils-advocate.png
+  buttons:
+  - type: paper
+    text: ACL PDF
+    link: https://aclanthology.org/2021.findings-emnlp.187.pdf
+
+- id: 2021-kbkim-gace
+  title: 'Goal-Aware Cross-Entropy for Multi-Target Reinforcement Learning'
+  authors:
+  - Kibeom Kim
+  - Min Whoo Lee
+  - Yoonsung Kim
+  - Je-Hwan Ryu
+  - Minsu Lee
+  - Byoung-Tak Zhang
+  publisher: NeurIPS 2021
+  year: 2021
+  link: https://arxiv.org/abs/2110.12985
+  image: images/gace.png
+  buttons:
+  - type: paper
+    text: arXiv
+    link: https://arxiv.org/abs/2110.12985
+
+- id: 2021-thkim-mpart
+  title: 'Message Passing Adaptive Resonance Theory for Online Active Semi-Supervised Learning'
+  authors:
+  - Tae-Hyung Kim
+  - Injun Hwang
+  - Hyundo Lee
+  - Hyunseo Kim
+  - Won-Seok Choi
+  - Joseph J. Lim
+  - Byoung-Tak Zhang
+  publisher: ICML 2021
+  year: 2021
+  link: https://proceedings.mlr.press/v139/kim21e.html
+  image: images/mpart.png
+  buttons:
+  - type: paper
+    text: PMLR PDF
+    link: https://proceedings.mlr.press/v139/kim21e/kim21e.pdf
+
+- id: 2021-yjyoo-mad
+  title: 'Multimodal Anomaly Detection based on Deep Auto-Encoder for Object Slip Perception of Mobile Manipulation Robots'
+  authors:
+  - Youngjae Yoo
+  - Choong-Yeon Lee
+  - Byoung-Tak Zhang
+  publisher: ICRA 2021
+  year: 2021
+  link: https://doi.org/10.1109/ICRA48506.2021.9561586
+  image: images/mad-slip.png
+  buttons:
+  - type: paper
+    text: DOI
+    link: https://doi.org/10.1109/ICRA48506.2021.9561586
+
+- id: 2021-jlim-active
+  title: 'Passive Versus Active: Frameworks of Active Learning for Linking Humans to Machines'
+  authors:
+  - Jaeseo Lim
+  - Huiyeol Jo
+  - Byoung-Tak Zhang
+  - Jooyong Park
+  publisher: CogSci 2021
+  year: 2021
+  link: https://escholarship.org/content/qt28q879nz/qt28q879nz_noSplash_6bd2ded63ecf45ece45d6e00b3a000ac.pdf
+  image: images/active-learning-frameworks.png
+  buttons:
+  - type: paper
+    text: PDF
+    link: https://escholarship.org/content/qt28q879nz/qt28q879nz_noSplash_6bd2ded63ecf45ece45d6e00b3a000ac.pdf
+
+- id: 2021-gckang-rvdsparse
+  title: 'Reasoning Visual Dialog with Sparse Graph Learning and Knowledge Transfer'
+  authors:
+  - Gi-Cheon Kang
+  - Junseok Park
+  - Hwaran Lee
+  - Byoung-Tak Zhang
+  - Jin-Hwa Kim
+  publisher: EMNLP 2021
+  year: 2021
+  link: https://aclanthology.org/2021.findings-emnlp.31/
+  image: images/rvd-sparse.png
+  buttons:
+  - type: paper
+    text: ACL PDF
+    link: https://aclanthology.org/2021.findings-emnlp.31.pdf
+
+- id: 2021-jspark-toddler
+  title: 'Toddler-Guidance Learning: Impacts of Critical Period on Multimodal AI Agents'
+  authors:
+  - Junseok Park
+  - Kwanyoung Park
+  - Hyunseok Oh
+  - Ganghun Lee
+  - Minsu Lee
+  - Youngki Lee
+  - Byoung-Tak Zhang
+  publisher: ICMI 2021
+  year: 2021
+  link: https://arxiv.org/abs/2201.04990
+  image: images/toddler-guidance.png
+  buttons:
+  - type: paper
+    text: arXiv
+    link: https://arxiv.org/abs/2201.04990
+
+- id: 2021-yjheo-vui
+  title: 'Toward a Human-Level Video Understanding Intelligence'
+  authors:
+  - Yu-Jung Heo
+  - Minsu Lee
+  - Seongho Choi
+  - Woo Suk Choi
+  - Minjung Shin
+  - Minjoon Jung
+  - Jeh-Kwang Ryu
+  - Byoung-Tak Zhang
+  publisher: 'AAAI FSS 2021'
+  year: 2021
+  link: https://arxiv.org/abs/2110.04203
+  image: images/human-level-vui.png
+  buttons:
+  - type: paper
+    text: arXiv
+    link: https://arxiv.org/abs/2110.04203
