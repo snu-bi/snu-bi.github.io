@@ -9,18 +9,21 @@ nav:
 
 Our research focuses on “biointelligence” i.e. the study of artificial intelligence on the basis of biological and bio-inspired information technologies, and its application to real world problems.
 
-{% include section.html %}
-
-## Highlighted
-
-{% include citation.html lookup="CLIP-RT: Learning Language-Conditioned Robotic Policies from Natural Language Supervision" style="rich" %}
-
-{% include section.html %}
-
-## All
-
 {% include search-box.html %}
 
 {% include search-info.html %}
 
-{% include list.html data="citations" component="citation" style="rich" %}
+<!-- Group publications by year -->
+{% assign publications_by_year = site.data.publications | group_by: "year" | sort: "name" | reverse %}
+
+{% for year_group in publications_by_year %}
+  {% assign year = year_group.name %}
+  {% assign publications = year_group.items %}
+  
+  <h3 class="year-heading">{{ year }}</h3>
+  
+  {% for publication in publications %}
+    {% include citation.html lookup=publication.id style="rich" %}
+  {% endfor %}
+  
+{% endfor %}

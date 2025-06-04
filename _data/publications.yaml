@@ -1,0 +1,331 @@
+- id: 2025-gckang
+  title: 'CLIP-RT: Learning Language-Conditioned Robotic Policies from Natural Language
+    Supervision'
+  authors:
+  - Gi-Cheon Kang
+  - Junghyun Kim
+  - Kyuhwan Shim
+  - Jun Ki Lee
+  - Byoung-Tak Zhang
+  publisher: RSS 2025
+  year: 2025
+  link: https://clip-rt.github.io/
+  image: images/clip-rt.png
+  buttons:
+  - type: website
+    text: Home
+    link: https://clip-rt.github.io/
+  - type: paper
+    text: Paper
+    link: https://arxiv.org/abs/2411.00508
+  - type: source
+    text: Code
+    link: https://github.com/gicheonkang/clip-rt
+
+- id: 2025-mjjung-b
+  title: On the Consistency of Video Large Language Models in Temporal Comprehension
+  authors:
+  - Minjoon Jung
+  - Junbin Xiao
+  - Byoung-Tak Zhang
+  - Angela Yao
+  publisher: 'CVPR 2025'
+  year: 2025
+  link: https://arxiv.org/abs/2411.12951
+  buttons:
+  - type: paper
+    text: Paper
+    link: https://arxiv.org/abs/2411.12951
+  - type: source
+    text: Code
+    link: https://github.com/minjoong507/consistency-of-video-llm
+
+- id: 2025-syshin
+  title: "Socratic planner: Inquiry-based zero-shot planning for embodied instruction following"
+  authors:
+  - Suyeon Shin
+  - Sujin Jeon
+  - Jyunghyun Kim
+  - Gi-Cheon Kang
+  - Byoung-Tak Zhang
+  publisher: 'ICRA 2025'
+  year: 2025
+  link: https://arxiv.org/abs/2404.15190
+  buttons:
+  - type: paper
+    text: Paper
+    link: https://arxiv.org/abs/2404.15190
+
+- id: 2025-mjjung-a
+  title: Background-aware moment detection for video moment retrieval
+  authors:
+  - Minjoon Jung
+  - Youwon Jang
+  - Seongho Choi
+  - Joochan Kim
+  - Jin-Hwa Kim
+  - Byoung-Tak Zhang
+  publisher: 'WACV 2025'
+  year: 2025
+  link: https://ieeexplore.ieee.org/abstract/document/10943446/
+  buttons:
+  - type: paper
+    text: Paper
+    link: https://arxiv.org/abs/2306.02728
+  - type: source
+    text: Code
+    link: https://github.com/minjoong507/BM-DETR
+
+- id: 2024-jikim
+  title: 'Continuous SO(3) Equivariant Convolution for 3D Point Cloud Analysis'
+  authors:
+  - Jaein Kim
+  - Hee Bin Yoo
+  - Dong-Sig Han
+  - Yeon-Ji Song
+  - Byoung-Tak Zhang
+  publisher: ECCV 2024
+  year: 2024
+  link: https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/06843.pdf
+  image: images/cseconv.png
+  buttons:
+  - type: paper
+    text: Paper
+    link: https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/06843.pdf
+  - type: source
+    text: Code
+    link: https://github.com/qpwodlsqp/CSEConv
+- id: 2024-wschoi
+  title: 'DUEL: Duplicate Elimination on Active Memory for Self-Supervised Class-Imbalanced Learning'
+  authors:
+  - Won-Seok Choi
+  - Hyundo Lee
+  - Dong-Sig Han
+  - Junseok Park
+  - Heeyeon Koo
+  - Byoung-Tak Zhang
+  publisher: AAAI 2024
+  year: 2024
+  link: https://arxiv.org/abs/2402.08963
+  image: images/duel.png
+  buttons:
+  - type: paper
+    text: Paper
+    link: https://arxiv.org/abs/2402.08963
+- id: 2024-yhkwak
+  title: 'Efficient Monte Carlo Tree Search via On-the-Fly State-Conditioned Action Abstraction'
+  authors:
+  - Yunhyeok Kwak
+  - Inwoo Hwang
+  - Dooyoung Kim
+  - Sanghack Lee
+  - Byoung-Tak Zhang
+  publisher: UAI 2024
+  year: 2024
+  link: https://arxiv.org/abs/2406.00614
+  image: images/efficient-mcts.png
+  buttons:
+  - type: paper
+    text: Paper
+    link: https://arxiv.org/abs/2406.00614
+  - type: source
+    text: Code
+    link: https://github.com/yun-kwak/efficient-mcts
+- id: 2024-iwhwang
+  title: 'Fine-Grained Causal Dynamics Learning with Quantization for Improving Robustness in Reinforcement Learning'
+  authors:
+  - Inwoo Hwang
+  - Yunhyeok Kwak
+  - Suhyung Choi
+  - Byoung-Tak Zhang
+  - Sanghack Lee
+  publisher: ICML 2024
+  year: 2024
+  link: https://arxiv.org/abs/2406.03234
+  image: images/fine-grained-causal-rl.png
+  buttons:
+  - type: paper
+    text: Paper
+    link: https://arxiv.org/abs/2406.03234
+  - type: source
+    text: Code
+    link: https://github.com/iwhwang/Fine-Grained-Causal-RL
+- id: 2024-sjjeon
+  title: 'HAPFI: History-Aware Planning based on Fused Information'
+  authors:
+  - Sujin Jeon
+  - Suyeon Shin
+  - Byoung-Tak Zhang
+  publisher: ICRA 2024
+  year: 2024
+  link: https://arxiv.org/abs/2407.16533
+  image: images/hapfi.png
+  buttons:
+  - type: paper
+    text: Paper
+    link: https://arxiv.org/abs/2407.16533
+- id: 2024-shlim
+  title: 'Multi-Object RANSAC: Efficient Plane Clustering Method in a Clutter'
+  authors:
+  - Seunghyeon Lim
+  - Youngjae Yoo
+  - Jun Ki Lee
+  - Byoung-Tak Zhang
+  publisher: ICRA 2024
+  year: 2024
+  link: https://arxiv.org/abs/2403.12449
+  image: images/multi-object-ransac.png
+  buttons:
+  - type: paper
+    text: Paper
+    link: https://arxiv.org/abs/2403.12449
+- id: 2024-hjyoon-a
+  title: 'OV-MAP : Open-Vocabulary Zero-Shot 3D Instance Segmentation Map for Robots'
+  authors:
+  - Hye-Jung Yoon
+  - Juno Kim
+  - Yesol Park
+  - Byoung-Tak Zhang
+  publisher: IROS 2024
+  year: 2024
+  link: https://dblp.org/rec/conf/iros/YoonKPLZ24
+  image: images/ov-map.png
+  buttons:
+  - type: paper
+    text: Paper
+    link: https://dblp.org/rec/conf/iros/YoonKPLZ24
+- id: 2024-jhkim
+  title: 'PGA: Personalizing Grasping Agents with Single Human-Robot Interaction'
+  authors:
+  - Junghyun Kim
+  - Gi-Cheon Kang
+  - Jaein Kim
+  - Seoyun Yang
+  - Minjoon Jung
+  - Byoung-Tak Zhang
+  publisher: IROS 2024
+  year: 2024
+  link: https://arxiv.org/abs/2310.12547
+  image: images/pga.png
+  buttons:
+  - type: paper
+    text: Paper
+    link: https://arxiv.org/abs/2310.12547
+  - type: source
+    text: Code
+    link: https://github.com/JHKim-snu/PGA
+- id: 2024-gckang
+  title: 'PROGrasp: Pragmatic Human-Robot Communication for Object Grasping'
+  authors:
+  - Gi-Cheon Kang
+  - Junghyun Kim
+  - Jaein Kim
+  - Byoung-Tak Zhang
+  publisher: ICRA 2024
+  year: 2024
+  link: https://arxiv.org/abs/2309.07759
+  image: images/prograsp.png
+  buttons:
+  - type: paper
+    text: Paper
+    link: https://arxiv.org/abs/2309.07759
+  - type: source
+    text: Code
+    link: https://github.com/gicheonkang/prograsp
+- id: 2024-hjyoon-b
+  title: 'Seg2Grasp: A Robust Modular Suction Grasping in Bin Picking'
+  authors:
+  - Hye-Jung Yoon
+  - Juno Kim
+  - Yesol Park
+  - Jun-Ki Lee
+  - Byoung-Tak Zhang
+  publisher: IROS 2024
+  year: 2024
+  link: https://dblp.org/rec/conf/iros/YoonKPLZ24
+  image: images/seg2grasp.png
+  buttons:
+  - type: paper
+    text: Paper
+    link: https://dblp.org/rec/conf/iros/YoonKPLZ24
+- id: 2024-jspark
+  title: 'Unveiling the Significance of Toddler-Inspired Reward Transition in Goal-Oriented Reinforcement Learning'
+  authors:
+  - Junseok Park
+  - Yoonsung Kim
+  - Hee Bin Yoo
+  - Min Whoo Lee
+  - Kibeom Kim
+  - Won-Seok Choi
+  - Minsu Lee
+  - Byoung-Tak Zhang
+  publisher: AAAI 2024
+  year: 2024
+  link: https://arxiv.org/abs/2403.06880
+  image: images/toddler-rl.png
+  buttons:
+  - type: paper
+    text: Paper
+    link: https://arxiv.org/abs/2403.06880
+- id: 2024-mwlee
+  title: 'Communicating Unexpectedness for Out-of-Distribution Multi-Agent Reinforcement Learning'
+  authors:
+  - Minwhoo Lee
+  - Kibeom Kim
+  - Soo Wung Shin
+  - Minsu Lee
+  - Byoung-Tak Zhang
+  publisher: AAAI 2024 Workshop
+  year: 2024
+  link: https://arxiv.org/abs/2501.01140
+  image: images/unexpectedness.png
+  buttons:
+  - type: paper
+    text: Paper
+    link: https://arxiv.org/abs/2501.01140
+- id: 2024-shlim-b
+  title: 'Decomposing the Configuration of an Articulated Object via Graph Neural Network'
+  authors:
+  - Seunghyeon Lim
+  - Kisung Shin
+  - Nakul Gopalan
+  - Jun Ki Lee
+  - Byoung-Tak Zhang
+  publisher: 'CoRL 2024 LFDM Workshop'
+  year: 2024
+  link: https://openreview.net/pdf/4504858d4b430056f3b4ae599bf778a546195bcc.pdf
+  image: images/decompose-gnn.png
+  buttons:
+  - type: paper
+    text: Paper
+    link: https://openreview.net/pdf/4504858d4b430056f3b4ae599bf778a546195bcc.pdf
+- id: 2024-sjjeong
+  title: 'Zero-Shot Vision-and-Language Navigation with Collision Mitigation in Continuous Environment'
+  authors:
+  - Seongjun Jeong
+  - Gi-Cheon Kang
+  - Joochan Kim
+  - Byoung-Tak Zhang
+  publisher: 'CVPR 2024 Embodied AI Workshop'
+  year: 2024
+  link: https://arxiv.org/abs/2410.17267
+  image: images/vln-cm.png
+  buttons:
+  - type: paper
+    text: Paper
+    link: https://arxiv.org/abs/2410.17267
+- id: 2024-mjjung
+  title: 'Can Video Large Language Models Comprehend Language in Videos?'
+  authors:
+  - Minjoon Jung
+  - Junbin Xiao
+  - Byoung-Tak Zhang
+  - Angela Yao
+  publisher: 'NeurIPS 2024 Video-Language Models Workshop'
+  year: 2024
+  link: https://openreview.net/pdf/3631a49355d2485ee6a622838e9d1244170cc773.pdf
+  image: images/video-llm-comprehend.png
+  buttons:
+  - type: paper
+    text: Paper
+    link: https://openreview.net/pdf/3631a49355d2485ee6a622838e9d1244170cc773.pdf
