@@ -5,7 +5,7 @@ aliases:
 - Hyeonji So
 - hjso
 description: 'PhD student <br> Deputy Lab Manager'
-image: images/photo.jpg
+image: images/hyeonji-so.jpg
 links:
   email: hjso@bi.snu.ac.kr
 name: Hyeonji So

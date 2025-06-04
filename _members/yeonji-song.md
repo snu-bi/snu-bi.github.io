@@ -4,7 +4,7 @@ aliases:
 - YeonJi Song
 - yjsong
 description: ''
-image: images/photo.jpg
+image: images/yeonji-song.jpeg
 links:
   email: yjsong@bi.snu.ac.kr
 name: Yeonji Song
