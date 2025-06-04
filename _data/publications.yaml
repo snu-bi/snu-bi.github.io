@@ -22,6 +22,22 @@
     text: Code
     link: https://github.com/gicheonkang/clip-rt
 
+- id: 2025-sychoi
+  title: 'Mixture of Action Expert Embeddings: Multi-Task ACT'
+  authors:
+  - Suhyung Choi
+  - Youngseok Joo
+  - Jun Ki Lee
+  - Byoung-Tak Zhang
+  publisher: 'AAAI 2025 GenPlan Workshop'
+  year: 2025
+  link: https://aair-lab.github.io/genplan25/papers/43.pdf
+  image: images/mae-act.png
+  buttons:
+  - type: paper
+    text: Paper
+    link: https://aair-lab.github.io/genplan25/papers/43.pdf
+
 - id: 2025-mjjung-b
   title: On the Consistency of Video Large Language Models in Temporal Comprehension
   authors:
@@ -329,3 +345,293 @@
   - type: paper
     text: Paper
     link: https://openreview.net/pdf/3631a49355d2485ee6a622838e9d1244170cc773.pdf
+- id: 2024-kbkim
+  title: 'Visual Hindsight Self-Imitation Learning for Interactive Navigation'
+  authors:
+  - Kibeom Kim
+  - Moonheun Lee
+  - Min Whoo Lee
+  - Kisung Shin
+  - Minsu Lee
+  - Byoung-Tak Zhang
+  publisher: IEEE Access
+  year: 2024
+  link: https://arxiv.org/abs/2312.03446
+  image: images/vhsil.png
+  buttons:
+  - type: paper
+    text: Paper
+    link: https://arxiv.org/abs/2312.03446
+
+- id: 2023-tkim
+  title: 'Domain Adapted Broiler Density Map Estimation Using Negative-Patch Data Augmentation'
+  authors:
+  - Taehyung Kim
+  - Daehyun Lee
+  - Wansoo Kim
+  - Byoung-Tak Zhang
+  publisher: 'Biosystems Engineering 231'
+  year: 2023
+  link: https://doi.org/10.1016/j.biosystemseng.2023.06.006
+  image: images/broiler-density.png
+  buttons:
+  - type: paper
+    text: Paper
+    link: https://doi.org/10.1016/j.biosystemseng.2023.06.006
+
+- id: 2023-mlee
+  title: 'Video Turing Test: A First Step Towards Human-Level AI'
+  authors:
+  - Minsu Lee
+  - Yu-Jung Heo
+  - Seongho Choi
+  - Wooseok Choi
+  - Byoung-Tak Zhang
+  publisher: 'AI Magazine 44 (4)'
+  year: 2023
+  link: https://doi.org/10.1002/aaai.12128
+  image: images/video-turing-test.png
+  buttons:
+  - type: paper
+    text: Paper
+    link: https://doi.org/10.1002/aaai.12128
+
+- id: 2023-hskim
+  title: 'EXOT: Exit-Aware Object Tracker for Safe Robotic Manipulation of Moving Object'
+  authors:
+  - Hyunseo Kim
+  - Hye-Jung Yoon
+  - Minji Kim
+  - Dong-Sig Han
+  - Byoung-Tak Zhang
+  publisher: ICRA 2023
+  year: 2023
+  link: https://arxiv.org/abs/2306.05262
+  image: images/exot.png
+  buttons:
+  - type: paper
+    text: Paper
+    link: https://arxiv.org/abs/2306.05262
+  - type: source
+    text: Code
+    link: https://github.com/hskAlena/EXOT
+
+- id: 2023-jhkim-gvcci
+  title: 'GVCCI: Lifelong Learning of Visual Grounding for Language-Guided Robotic Manipulation'
+  authors:
+  - Junghyun Kim
+  - Gi-Cheon Kang
+  - Jaein Kim
+  - Suyeon Shin
+  - Byoung-Tak Zhang
+  publisher: IROS 2023
+  year: 2023
+  link: https://arxiv.org/abs/2307.05963
+  image: images/gvcci.png
+  buttons:
+  - type: paper
+    text: Paper
+    link: https://arxiv.org/abs/2307.05963
+  - type: source
+    text: Code
+    link: https://github.com/JHKim-snu/GVCCI
+
+- id: 2023-hlee-lbs
+  title: 'Learning Geometry-Aware Representations by Sketching'
+  authors:
+  - Hyundo Lee
+  - Inwoo Hwang
+  - Hyunsung Go
+  - Won-Seok Choi
+  - Kibeom Kim
+  - Byoung-Tak Zhang
+  publisher: CVPR 2023
+  year: 2023
+  link: https://arxiv.org/abs/2304.08204
+  image: images/lbs.png
+  buttons:
+  - type: paper
+    text: Paper
+    link: https://arxiv.org/abs/2304.08204
+  - type: source
+    text: Code
+    link: https://github.com/illhyhl1111/LearningBySketching
+
+- id: 2023-glee-nct
+  title: 'Neural Collage Transfer: Artistic Reconstruction via Material Manipulation'
+  authors:
+  - Ganghun Lee
+  - Minji Kim
+  - Yunsu Lee
+  - Minsu Lee
+  - Byoung-Tak Zhang
+  publisher: ICCV 2023
+  year: 2023
+  link: https://openaccess.thecvf.com/content/ICCV2023/papers/Lee_Neural_Collage_Transfer_Artistic_Reconstruction_via_Material_Manipulation_ICCV_2023_paper.pdf
+  image: images/neural-collage-transfer.png
+  buttons:
+  - type: paper
+    text: Paper
+    link: https://openaccess.thecvf.com/content/ICCV2023/papers/Lee_Neural_Collage_Transfer_Artistic_Reconstruction_via_Material_Manipulation_ICCV_2023_paper.pdf
+  - type: source
+    text: Code
+    link: https://github.com/northadventure/CollageRL
+
+- id: 2023-ihwang-locindep
+  title: 'On Discovery of Local Independence over Continuous Variables via Neural Contextual Decomposition'
+  authors:
+  - Inwoo Hwang
+  - Yunhyeok Kwak
+  - Yeon-Ji Song
+  - Byoung-Tak Zhang
+  - Sanghack Lee
+  publisher: CLeaR 2023
+  year: 2023
+  link: https://arxiv.org/abs/2405.07220
+  image: images/local-independence.png
+  buttons:
+  - type: paper
+    text: Paper
+    link: https://arxiv.org/abs/2405.07220
+  - type: source
+    text: Code
+    link: https://github.com/iwhwang/NCD
+
+- id: 2023-jkim-rmf
+  title: 'Robust Map Fusion with Visual Attention Utilizing Multi-Agent Rendezvous'
+  authors:
+  - Jaein Kim
+  - Dong-Sig Han
+  - Byoung-Tak Zhang
+  publisher: ICRA 2023
+  year: 2023
+  link: https://doi.org/10.1109/ICRA48891.2023.10161072
+  image: images/robust-map-fusion.png
+  buttons:
+  - type: paper
+    text: Paper
+    link: https://doi.org/10.1109/ICRA48891.2023.10161072
+  - type: source
+    text: Code
+    link: https://github.com/qpwodlsqp/Map-Merger
+
+- id: 2023-gckang-dialog
+  title: 'The Dialog Must Go On: Improving Visual Dialog via Generative Self-Training'
+  authors:
+  - Gi-Cheon Kang
+  - Sungdong Kim
+  - Jin-Hwa Kim
+  - Donghyun Kwak
+  - Byoung-Tak Zhang
+  publisher: CVPR 2023
+  year: 2023
+  link: https://arxiv.org/abs/2205.12502
+  image: images/dialog-gst.png
+  buttons:
+  - type: paper
+    text: Paper
+    link: https://arxiv.org/abs/2205.12502
+  - type: source
+    text: Code
+    link: https://github.com/gicheonkang/gst-visdial
+
+- id: 2023-ihwang-cdl
+  title: 'Causal Dynamics Learning with Quantized Local Independence Discovery'
+  authors:
+  - Inwoo Hwang
+  - Yunhyeok Kwak
+  - Suhyung Choi
+  - Byoung-Tak Zhang
+  - Sanghack Lee
+  publisher: 'ICML 2023 Workshop on Spurious Correlations, Invariance, and Stability'
+  year: 2023
+  link: https://openreview.net/pdf/8a5bf589c4d5a5cb56b5cb86a9eb46efffc3fefe.pdf
+  image: images/causal-dynamics-qlid.png
+  buttons:
+  - type: paper
+    text: Paper
+    link: https://openreview.net/pdf/8a5bf589c4d5a5cb56b5cb86a9eb46efffc3fefe.pdf
+
+- id: 2023-mkim-h2rl
+  title: 'H2RL: Transferring Heuristic Knowledge to a Reinforcement Learning Agent for Solving the Online 3D Bin Packing Problem'
+  authors:
+  - Minji Kim
+  - Ganghun Lee
+  - Minsu Lee
+  - Byoung-Tak Zhang
+  publisher: 'ICRA 2023 Workshop on Transferability in Robotics'
+  year: 2023
+  link: https://transferabilityinrobotics.github.io/icra2023/spotlight/TRW08_abstract.pdf
+  image: images/h2rl.png
+  buttons:
+  - type: paper
+    text: Paper
+    link: https://transferabilityinrobotics.github.io/icra2023/spotlight/TRW08_abstract.pdf
+
+- id: 2023-ywjang-isq
+  title: 'Instruction-Tuned Self-Questioning Framework for Multimodal Reasoning'
+  authors:
+  - Youwon Jang
+  - Yu-Jung Heo
+  - Jaeseok Kim
+  - Minsu Lee
+  - Du-Seong Chang
+  - Byoung-Tak Zhang
+  publisher: 'ICCV 2023 CLVL Workshop'
+  year: 2023
+  link: https://iccv-clvl.github.io/2023/
+  image: images/isq-mm-reasoning.png
+  buttons:
+  - type: website
+    text: Page
+    link: https://iccv-clvl.github.io/2023/
+
+- id: 2023-yjsong-lomad
+  title: 'Learning Object Motion and Appearance Dynamics with Object-Centric Representations'
+  authors:
+  - Yeon-Ji Song
+  - Hyunseo Kim
+  - Suhyung Choi
+  - Jin-Hwa Kim
+  - Byoung-Tak Zhang
+  publisher: 'NeurIPS 2023 Workshop on Causal Representation Learning'
+  year: 2023
+  link: https://openreview.net/forum?id=yzKb3uFiir
+  image: images/object-motion-dynamics.png
+  buttons:
+  - type: paper
+    text: Paper
+    link: https://openreview.net/forum?id=yzKb3uFiir
+
+- id: 2023-ihwang-qclid
+  title: 'Quantized Local Independence Discovery for Fine-Grained Causal Dynamics Learning in Reinforcement Learning'
+  authors:
+  - Inwoo Hwang
+  - Yunhyeok Kwak
+  - Suhyung Choi
+  - Byoung-Tak Zhang
+  - Sanghack Lee
+  publisher: 'NeurIPS 2023 GenPlan Workshop'
+  year: 2023
+  link: https://openreview.net/forum?id=9UGAUQjibp
+  image: images/quantized-local-independence.png
+  buttons:
+  - type: paper
+    text: Paper
+    link: https://openreview.net/forum?id=9UGAUQjibp
+
+- id: 2023-hjyoon-vpamm
+  title: 'Visual Perception-Based Assistive Mobile Robot System for Manipulation Tasks'
+  authors:
+  - Hye-Jung Yoon
+  - Juno Kim
+  - Yesol Park
+  - Byoung-Tak Zhang
+  publisher: 'ICRA 2023 Workshop on Assistive Manipulation'
+  year: 2023
+  link: https://sites.google.com/unisi.it/workshop-manipulation
+  image: images/assistive-mobile-manipulation.png
+  buttons:
+  - type: website
+    text: Page
+    link: https://sites.google.com/unisi.it/workshop-manipulation
