@@ -2,7 +2,7 @@
 ---
 # **SNU Biointelligence Lab**
 
-Welcome! **Biointelligence Lab**, led by Professor **Byoung-Tak Zhang**, is part of the School of Computer Science and Engineering, Seoul National University (SNU).
+Welcome! **Biointelligence Lab** (바이오지능 연구실), led by Professor **Byoung-Tak Zhang**, is part of the School of Computer Science and Engineering, Seoul National University (SNU).
 
 Our research focuses on
 - **Embodied AI**
