@@ -4,7 +4,7 @@ aliases:
 - Hyunseo Kim
 - hskim
 description: ''
-image: images/photo.jpg
+image: images/hyunseo-kim.jpeg
 links:
   email: hskim@bi.snu.ac.kr
 name: Hyunseo Kim
