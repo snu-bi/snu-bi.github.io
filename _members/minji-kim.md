@@ -4,7 +4,7 @@ aliases:
 - 'Kim Minji'
 - 'Minji Kim'
 description: ''
-image: images/photo.jpg
+image: images/minji-kim.jpeg
 links:
 name: Minji Kim
 role: phd-candidate
