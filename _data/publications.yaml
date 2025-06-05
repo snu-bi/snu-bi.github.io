@@ -913,9 +913,6 @@
   - type: paper
     text: Paper
     link: https://arxiv.org/abs/2210.17052
-  - type: paper
-    text: Workshop PDF
-    link: https://sslneurips22.github.io/paper_pdfs/paper_26.pdf
 
 - id: 2022-gckang-gst
   title: 'Generative Self-Training Improves Pre-training for Visual Dialog'
@@ -1036,11 +1033,8 @@
   image: images/m2fn.png
   buttons:
   - type: paper
-    text: arXiv
+    text: Paper
     link: https://arxiv.org/abs/2102.00441
-  - type: paper
-    text: Journal
-    link: https://www.sciencedirect.com/science/article/pii/S1568494621000399
 
 - id: 2021-shchoi-dramaqa
   title: 'DramaQA: Character-Centered Video Story Understanding with Hierarchical QA'
@@ -1058,11 +1052,8 @@
   image: images/dramaqa.png
   buttons:
   - type: paper
-    text: arXiv
+    text: Paper
     link: https://arxiv.org/abs/2005.03356
-  - type: paper
-    text: AAAI PDF
-    link: https://ojs.aaai.org/index.php/AAAI/article/view/16203/16010
 
 - id: 2021-ajseo-masn
   title: 'Attend What You Need: Motion-Appearance Synergistic Networks for Video Question Answering'
@@ -1077,10 +1068,7 @@
   image: images/attend-what-you-need.png
   buttons:
   - type: paper
-    text: ACL PDF
-    link: https://aclanthology.org/2021.acl-long.481.pdf
-  - type: paper
-    text: arXiv
+    text: Paper
     link: https://arxiv.org/abs/2106.10446
 
 - id: 2021-bbebensee-coatt
@@ -1094,7 +1082,7 @@
   image: images/coatt-video.png
   buttons:
   - type: paper
-    text: arXiv
+    text: Paper
     link: https://arxiv.org/abs/2010.14104
 
 - id: 2021-hyjo-devadv
@@ -1109,7 +1097,7 @@
   image: images/devils-advocate.png
   buttons:
   - type: paper
-    text: ACL PDF
+    text: Paper
     link: https://aclanthology.org/2021.findings-emnlp.187.pdf
 
 - id: 2021-kbkim-gace
@@ -1127,7 +1115,7 @@
   image: images/gace.png
   buttons:
   - type: paper
-    text: arXiv
+    text: Paper
     link: https://arxiv.org/abs/2110.12985
 
 - id: 2021-thkim-mpart
@@ -1146,7 +1134,7 @@
   image: images/mpart.png
   buttons:
   - type: paper
-    text: PMLR PDF
+    text: Paper
     link: https://proceedings.mlr.press/v139/kim21e/kim21e.pdf
 
 - id: 2021-yjyoo-mad
@@ -1161,7 +1149,7 @@
   image: images/mad-slip.png
   buttons:
   - type: paper
-    text: DOI
+    text: Paper
     link: https://doi.org/10.1109/ICRA48506.2021.9561586
 
 - id: 2021-jlim-active
@@ -1177,7 +1165,7 @@
   image: images/active-learning-frameworks.png
   buttons:
   - type: paper
-    text: PDF
+    text: Paper
     link: https://escholarship.org/content/qt28q879nz/qt28q879nz_noSplash_6bd2ded63ecf45ece45d6e00b3a000ac.pdf
 
 - id: 2021-gckang-rvdsparse
@@ -1194,7 +1182,7 @@
   image: images/rvd-sparse.png
   buttons:
   - type: paper
-    text: ACL PDF
+    text: Paper
     link: https://aclanthology.org/2021.findings-emnlp.31.pdf
 
 - id: 2021-jspark-toddler
@@ -1213,7 +1201,7 @@
   image: images/toddler-guidance.png
   buttons:
   - type: paper
-    text: arXiv
+    text: Paper
     link: https://arxiv.org/abs/2201.04990
 
 - id: 2021-yjheo-vui
@@ -1233,5 +1221,5 @@
   image: images/human-level-vui.png
   buttons:
   - type: paper
-    text: arXiv
+    text: Paper
     link: https://arxiv.org/abs/2110.04203
