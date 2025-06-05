@@ -2,7 +2,7 @@
 aliases:
 - 이정우
 - Chungwoo Lee
-description: UG @ SNU CSE
+description: UG @ SNU FS & IMAI
 image: images/photo.jpg
 links:
   email: kiyoungkwon@snu.ac.kr
