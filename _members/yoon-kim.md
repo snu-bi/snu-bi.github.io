@@ -1,7 +1,7 @@
 ---
 aliases:
 - Yoon Kim
-description: Undergraduate Intern | Undergraduate @ University of Washington → 4lynx, Inc.
+description: Undergraduate Intern | BS @ University of Washington → 4lynx, Inc.
 image: images/photo.jpg
 links:
   email: 

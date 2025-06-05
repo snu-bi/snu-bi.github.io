@@ -1,7 +1,7 @@
 ---
 aliases:
 - Young Suh Hong
-description: Undergraduate Intern | Undergraduate @ SNU CSE → MS @ University of Michigan
+description: Undergraduate Intern | UG @ SNU CSE → MS @ University of Michigan
 image: images/photo.jpg
 links:
   email: 

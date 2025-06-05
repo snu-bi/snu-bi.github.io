@@ -1,16 +1,14 @@
 ---
 aliases:
-- Sunejae Lee
-- 이선재
+- 이우열
+- Wooyeol Lee
 description: Undergraduate Intern | UG @ SNU CSE
 image: images/photo.jpg
 links:
   email: 
-  github: 
-  linkedin: sunjae-sunny-lee
-  home-page: 
-name: Sunjae Lee
+  home-page: https://wooyeollee.notion.site/
+name: Wooyeol Lee
 role: intern
 status: 졸업
-graduation_year: 2022
----
+graduation_year: 2023
+--- 
