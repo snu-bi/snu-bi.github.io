@@ -1,7 +1,7 @@
 ---
 aliases:
 - Jaeah Lee
-description: Undergraduate Intern | UG @ SNU ChemEdu & CSE → MS student @ SNU IPAI
+description: Undergraduate Intern | BS @ SNU ChemEdu & CSE → MS student @ SNU IPAI
 image: images/photo.jpg
 links:
   email: 
