@@ -2,7 +2,7 @@
 aliases:
 - 문지환
 - Jihwan Moon
-description: Undergraduate Intern | UG @ SNU CLS
+description: Undergraduate Intern | UG @ SNU College of Liberal Studies
 image: images/photo.jpg
 links:
   email: 
