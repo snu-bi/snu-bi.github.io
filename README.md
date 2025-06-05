@@ -11,6 +11,10 @@
   To run the site locally for development:
 
   ```bash
+  bundle exec jekyll build
+  ```
+
+  ```bash
   bundle exec jekyll serve --port 4001 --livereload
   ```
 
