@@ -2,7 +2,7 @@
 aliases:
 - 이정우
 - Chungwoo Lee
-description: Undergraduate Intern | UG @ SNU CSE
+description: UG @ SNU CSE
 image: images/photo.jpg
 links:
   email: kiyoungkwon@snu.ac.kr

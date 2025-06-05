@@ -1,7 +1,7 @@
 ---
 aliases:
 - Jaejun Kim
-description: Undergraduate Intern | UG @ SNU CSE
+description: UG @ SNU CSE
 image: images/photo.jpg
 links:
   email: jjkim030309@gmail.com	

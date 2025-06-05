@@ -2,7 +2,7 @@
 aliases:
 - 최원준
 - Wonjoon Choi
-description: Undergraduate Intern | UG @ CAU ME
+description: UG @ CAU ME
 image: images/photo.jpg
 links:
   email: wns4349@gmail.com
