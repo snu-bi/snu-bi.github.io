@@ -15,7 +15,7 @@
   ```
 
   ```bash
-  bundle exec jekyll serve --port 4001 --livereload
+  bundle exec jekyll serve --port 4000 --livereload
   ```
 
   The site will be available at `http://localhost:4001` with live reload enabled.
