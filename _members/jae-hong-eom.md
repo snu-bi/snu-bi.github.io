@@ -3,7 +3,7 @@ aliases:
 - 엄재홍
 - Jae-Hong Eom
 - jaehong.eom
-description: PhD in Computer Science | Managing Director(VP), Head of AI/DX @ DN Solutions Global
+description: PhD in Computer Science | Head of Applied AI @ Hyundai Autoever → Managing Director(VP), Head of AI/DX @ DN Solutions Global
 image: images/photo.jpg
 links:
   email: jaehong.eom@gmail.com
