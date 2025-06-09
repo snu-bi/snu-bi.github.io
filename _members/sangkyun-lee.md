@@ -1,9 +1,9 @@
 ---
 aliases:
 - 이상근
-- Sangkeun Lee
-- sangkeun.lee
-description: MS in Computer Science | Phd @ University of Wisconsin-Madison → Professor @ Korea University
+- Sangkyun Lee
+- sangkyun.lee
+description: MS in Computer Science | PhD @ University of Wisconsin-Madison → Professor @ Korea University
 image: images/photo.jpg
 links:
   email: 

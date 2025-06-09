@@ -3,7 +3,7 @@ aliases:
 - 김현우
 - Hyunwoo J. Kim
 - hyunwoo.kim
-description: MS in Computer Science | Professor @ KAIST AI & CS
+description: MS in Computer Science | PhD @ University of Wisconsin-Madison → Professor @ KAIST AI
 image: images/photo.jpg
 links:
   email: hyunwoojkim@korea.ac.kr
