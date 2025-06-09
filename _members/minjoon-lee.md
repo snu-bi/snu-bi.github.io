@@ -2,7 +2,7 @@
 aliases:
 - 이민준
 - Minjoon Lee
-description: Undergraduate Intern | UG @ SNU ECE
+description: Undergraduate Intern | BS @ SNU ECE
 image: images/photo.jpg
 links:
   email: 

@@ -3,7 +3,7 @@ aliases:
 - 고영길
 - Young-Kil Ko
 - youngkil.ko
-description: MS in Computer Science | Director of SWE @ MarqVision (YC S21)
+description: MS in Computer Science | Director of Software Engineer @ MarqVision (YC S21)
 image: images/photo.jpg
 links:
   email: 

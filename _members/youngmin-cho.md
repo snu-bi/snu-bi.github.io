@@ -3,7 +3,7 @@ aliases:
 - 조영민
 - Youngmin Cho
 - youngmin.cho
-description: Undergraduate Intern | PhD @ University of California, San Diego → SWE @ Google
+description: Undergraduate Intern | PhD @ University of California, San Diego → Software Engineer @ Google
 image: images/photo.jpg
 links:
   email: 

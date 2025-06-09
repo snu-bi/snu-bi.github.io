@@ -2,7 +2,7 @@
 aliases:
 - 권기영
 - Kiyoung Kwon
-description: UG @ SNU IMAI
+description: BS @ SNU IMAI
 image: images/kiyoung-kwon.jpg
 links:
   email: kiyoungkwon@snu.ac.kr

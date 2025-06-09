@@ -3,7 +3,7 @@ aliases:
 - 곽하녹
 - Hanock Kwak
 - hanock.kwak
-description: PhD Candidate in Computer Science | MLE @ NAVER Corp
+description: PhD Candidate in Computer Science | Machine Learning Engineer @ NAVER Corp
 image: images/photo.jpg
 links:
   email: handymail@naver.com

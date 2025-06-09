@@ -1,7 +1,7 @@
 ---
 aliases:
 - Doyeon Kim
-description: UG @ SNU CSE
+description: BS @ SNU CSE
 image: images/photo.jpg
 links:
   email: pega501@snu.ac.kr

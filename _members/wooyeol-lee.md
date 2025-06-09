@@ -2,7 +2,7 @@
 aliases:
 - 이우열
 - Wooyeol Lee
-description: Undergraduate Intern | UG @ SNU CSE
+description: Undergraduate Intern | BS @ SNU CSE
 image: images/photo.jpg
 links:
   email: 

@@ -3,7 +3,7 @@ aliases:
 - 최진영
 - Jin Young Choi
 - jychoi
-description: MS in Cognitive Science | SWE @ NAVER LABS Corp.
+description: MS in Cognitive Science | Software Engineer @ NAVER LABS Corp.
 image: images/photo.jpg
 links:
   email: jy-choi@naverlabs.com

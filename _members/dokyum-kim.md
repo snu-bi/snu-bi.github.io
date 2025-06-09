@@ -3,7 +3,7 @@ aliases:
 - 김도겸
 - Do-Kyum Kim
 - dokyum.kim
-description: Undergraduate Intern | PhD @ University of California, San Diego → SWE @ Google, Applied ML in Search Quality
+description: Undergraduate Intern | PhD @ University of California, San Diego → Software Engineer @ Google
 image: images/photo.jpg
 links:
   email: 

@@ -3,7 +3,7 @@ aliases:
 - 박상준
 - Sang-Jun Park
 - sangjun.park
-description: MS in Computer Science | SWE @ Samsung SDS
+description: MS in Computer Science | Software Engineer @ Samsung SDS
 image: images/photo.jpg
 links:
   email: checkpt@naver.com

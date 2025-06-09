@@ -3,7 +3,7 @@ aliases:
 - 강명구
 - Myunggu Kang
 - myunggu.kang
-description: MS in Computer Science | SWE @ NAVER
+description: MS in Computer Science | Software Engineer @ NAVER
 image: images/photo.jpg
 links:
   email: gaseooo@gmail.com

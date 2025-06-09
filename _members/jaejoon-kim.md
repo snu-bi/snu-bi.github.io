@@ -1,7 +1,7 @@
 ---
 aliases:
 - Jaejoon Kim
-description: UG @ SNU CSE
+description: BS @ SNU CSE
 image: images/photo.jpg
 links:
   email: jjkim030309@gmail.com

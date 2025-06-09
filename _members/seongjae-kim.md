@@ -1,7 +1,7 @@
 ---
 aliases:
 - Seongjae Kim
-description: UG @ SNU Aerospace
+description: BS @ SNU Aerospace
 image: images/photo.jpg
 links:
   home-page: 

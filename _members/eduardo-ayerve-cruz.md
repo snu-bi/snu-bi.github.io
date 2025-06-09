@@ -2,7 +2,7 @@
 aliases:
 - Eduardo Ayerve Cruz 
 - Eduardo Jesús Ayerve Cruz
-description: UG @ SNU CSE
+description: BS @ SNU CSE
 image: images/photo.jpg
 links:
   email: eduardo.ayerve@gmail.com

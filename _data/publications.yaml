@@ -796,7 +796,7 @@
     link: https://arxiv.org/abs/2208.04833
 
 - id: 2022-yjheo-hypergraph
-  title: 'Hypergraph Transformer: Weakly-Supervised Multi-hop Reasoning for Knowledge-Based Visual Question Answering'
+  title: 'Hypergraph Transformer: Weakly-Supervised Multi-hop Reasoning for Knowledge-Based Visual Question AnSoftware Engineerring'
   authors:
   - Yu-Jung Heo
   - Eunsol Kim
@@ -1056,7 +1056,7 @@
     link: https://arxiv.org/abs/2005.03356
 
 - id: 2021-ajseo-masn
-  title: 'Attend What You Need: Motion-Appearance Synergistic Networks for Video Question Answering'
+  title: 'Attend What You Need: Motion-Appearance Synergistic Networks for Video Question AnSoftware Engineerring'
   authors:
   - Ahjeong Seo
   - Gi-Cheon Kang
