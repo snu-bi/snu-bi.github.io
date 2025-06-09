@@ -4,7 +4,7 @@ aliases:
 - Suyeon Shin
 - syshin
 description: ''
-image: images/photo.jpg
+image: images/suyeon-shin.png
 links:
   email: syshin@bi.snu.ac.kr
 name: Suyeon Shin
