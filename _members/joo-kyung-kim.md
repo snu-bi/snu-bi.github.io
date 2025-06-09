@@ -2,8 +2,7 @@
 aliases:
 - 김주경
 - Joo-Kyung Kim
-- jookyung.kim
-description: MS in Computer Science | Senior Applied Scientist @ Amazon AGI
+description: MS in Computer Science | PhD @ The Ohio State University → Senior Applied Scientist @ Amazon AGI
 image: images/photo.jpg
 links:
   email: supakjk@gmail.com

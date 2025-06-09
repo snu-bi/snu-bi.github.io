@@ -3,7 +3,7 @@ aliases:
 - 김진영
 - Jinyoung Kim
 - jinyoung.kim
-description: Undergraduate Intern | Microsoft → Director @ NAVER Corp, US R&D
+description: Undergraduate Intern | PhD @ University of Massachusetts at Amherst → Microsoft Research → Director @ NAVER Corp, US R&D
 image: images/photo.jpg
 links:
   email: lifidea@gmail.com

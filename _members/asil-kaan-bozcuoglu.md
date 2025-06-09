@@ -1,7 +1,7 @@
 ---
 aliases:
 - Asil Kaan Bozcuoglu
-description: Visiting Researcher | Senior Research Engineer - Cloud Robotics @ Huawei
+description: Visiting Researcher | Senior Research Engineer @ Huawei Cloud Robotics
 image: images/photo.jpg
 links:
   email: 
