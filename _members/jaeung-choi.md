@@ -2,7 +2,7 @@
 aliases:
 - Jaeung Choi
 description: BS @ SNU CSE
-image: images/photo.jpg
+image: images/jaeung-choi.jpg
 links:
   email: chlwodnd0718@snu.ac.kr
   home-page: 

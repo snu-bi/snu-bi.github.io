@@ -2,7 +2,7 @@
 aliases:
 - Jimin Ryu
 description: BS @ SNU CSE
-image: images/photo.jpg
+image: images/jimin-ryu.jpg
 links:
   email: nick11967@snu.ac.kr
   home-page: 

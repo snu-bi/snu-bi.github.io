@@ -4,7 +4,7 @@ aliases:
 - Sungdon Kim
 - sdkim
 description: ''
-image: images/photo.jpg
+image: images/sungdon-kim.jpg
 links:
   email: sdkim@bi.snu.ac.kr
 name: Sungdon Kim

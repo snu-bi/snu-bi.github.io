@@ -2,7 +2,7 @@
 aliases:
 - Dohyun Yu
 description: BS @ SNU CSE
-image: images/photo.jpg
+image: images/dohyun-yu.jpg
 links:
   home-page: 
   linkedin:
