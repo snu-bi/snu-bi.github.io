@@ -3,7 +3,7 @@ aliases:
 - 손정우
 - Jeong-Woo Sohn
 - jeongwoo.sohn
-description: MS in Cognitive Science | Full Professor @ Catholic Kwandong University, International Saint Mary Hospital
+description: MS in Cognitive Science | PhD @ University of Rochester → Professor @ Catholic Kwandong University, International Saint Mary Hospital
 image: images/photo.jpg
 links:
   email: thinkmusik@gmail.com
