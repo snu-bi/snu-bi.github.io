@@ -1,7 +1,7 @@
 ---
 aliases:
-- Jaein Shin
-- Jaein-Shin
+- Jane Shin
+- 신재인
 description: 
 image: images/photo.jpg
 links:
@@ -9,7 +9,7 @@ links:
   github: 
   linkedin: 
   home-page: 
-name: Jaein Shin
+name: Jane Shin
 role: master-student
 status: 재학
 ---
