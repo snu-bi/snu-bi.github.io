@@ -3,7 +3,7 @@ aliases:
 - 김승연
 - Seungyeon Kim
 - seungyeon.kim
-description: Undergraduate Intern | Research Scientist @ Meta, GenAI Team
+description: Undergraduate Intern | PhD @ Georgia Institute of Technology → Google Deepmind L7 → Research Scientist L7 @ Meta
 image: images/photo.jpg
 links:
   email: 
