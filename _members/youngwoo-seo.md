@@ -3,7 +3,7 @@ aliases:
 - 서영우
 - Youngwoo Seo
 - youngwoo.seo
-description: MS in Computer Science | PhD @ Carnegie Mellon University → Apple → Executive Vice President @ Hanhwa Aerospace
+description: MS in Computer Science | PhD @ Carnegie Mellon University → Apple → Executive VP @ Hanhwa Aerospace
 links:
   email: youngwoo.seo@hanwha.com
   github: 

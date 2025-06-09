@@ -2,7 +2,7 @@
 aliases:
 - 이홍락
 - Honglak Lee
-description: Undergraduate Intern | PhD @ Stanford CS → Professor @ University of Michigan
+description: Undergraduate Intern | PhD @ Stanford CS → Professor @ University of Michigan & Executive VP @ LG AI Research
 image: 
 links:
   email: honglak@eecs.umich.edu

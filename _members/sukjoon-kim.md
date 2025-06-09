@@ -3,7 +3,7 @@ aliases:
 - 김석준
 - Suk-Joon Kim
 - sukjoon.kim
-description: MS in Computer Science | Vice President, Blue Ocean Technologies, LLC
+description: MS in Computer Science | VP, Blue Ocean Technologies, LLC
 image: images/photo.jpg
 links:
   email: sukjoonkim70@gmail.com
