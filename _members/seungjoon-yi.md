@@ -3,7 +3,7 @@ aliases:
 - 이승준
 - Seung-Joon Yi
 - sjyi
-description: PhD in Computer Science | Professor @ Pusan National University
+description: PhD in Computer Science | PostDoc @ University of Pennsylvania → Professor @ Pusan National University
 image: images/photo.jpg
 links:
   email: seungjoon.yi@gmail.com
