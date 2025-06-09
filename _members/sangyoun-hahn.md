@@ -3,7 +3,7 @@ aliases:
 - 한상윤
 - Sang-Youn Hahn
 - sangyoun.hahn
-description: MS in Computer Science | PhD @ University of Washington → Google & Amazon & Facebook → Seekr Technologies
+description: MS in Computer Science | PhD @ University of Washington → Google → Amazon → Facebook → Seekr
 image: images/photo.jpg
 links:
   email: 

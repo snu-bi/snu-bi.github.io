@@ -3,7 +3,7 @@ aliases:
 - 강우영
 - Wooyoung Kang
 - wykang
-description: MS in Computer Science | Research Scientist @ KAKAO
+description: MS in Computer Science | Research Scientist @ Kakao
 image: images/photo.jpg
 links:
   email: rkddndud50@gmail.com

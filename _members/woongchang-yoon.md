@@ -3,7 +3,7 @@ aliases:
 - 윤웅창
 - Woongchang Yoon
 - woongchang.yoon
-description: MS in Computer Science | Assistant Professor @ Gyoungsang National University
+description: MS in Computer Science | Professor @ Gyoungsang National University
 image: images/photo.jpg
 links:
   email: neobits@snu.ac.kr

@@ -3,7 +3,7 @@ aliases:
 - 박상돈
 - Sang-Don Park
 - sangdon.park
-description: Undergraduate Intern | Assistant Professor @ POSTECH
+description: Undergraduate Intern | Professor @ POSTECH
 image: images/photo.jpg
 links:
   email: 

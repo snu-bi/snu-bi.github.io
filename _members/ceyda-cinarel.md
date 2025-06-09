@@ -3,7 +3,7 @@ aliases:
 - Ceyda Çınarel
 - cceyda
 - cyeda
-description: MS in Computer Science | AI Search, Recommender System @ KAKAO Style
+description: MS in Computer Science | AI Search, Recommender System @ Kakao Style
 image: images/photo.jpg
 links:
   email: snu.ceyda@gmail.com

@@ -3,7 +3,7 @@ aliases:
 - 석호식
 - Ho-Sik Seok
 - hosik.seok
-description: PhD in Computer Science | Assistant Professor @ Korea Military Academy, Dept. of AI Data science
+description: PhD in Computer Science | Professor @ Korea Military Academy, Dept. of AI Data science
 image: images/photo.jpg
 links:
   email: hosik.seok@gmail.com

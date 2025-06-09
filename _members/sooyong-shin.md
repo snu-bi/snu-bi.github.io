@@ -3,7 +3,7 @@ aliases:
 - 신수용
 - Soo-Yong Shin
 - sooyong.shin
-description: PhD in Computer Science | Professor @ Sungkyunkwan University → Head of Research & CPO @ KAKAO Healthcare
+description: PhD in Computer Science | Professor @ Sungkyunkwan University → Head of Research & CPO @ Kakao Healthcare
 image: images/photo.jpg
 links:
   email: sooyong.shin@gmail.com

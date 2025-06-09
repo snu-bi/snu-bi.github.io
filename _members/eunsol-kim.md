@@ -3,7 +3,7 @@ aliases:
 - 김은솔
 - Eun-Sol Kim
 - eskim
-description: PhD in Computer Science | Assistant Professor @ Hanyang University
+description: PhD in Computer Science | Professor @ Hanyang University
 image: images/photo.jpg
 links:
   email: kimeunsol.001@gmail.com

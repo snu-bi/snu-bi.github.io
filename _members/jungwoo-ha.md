@@ -3,7 +3,7 @@ aliases:
 - 하정우
 - Jung-Woo Ha
 - jwha
-description: PhD in Computer Science | Head of Future AI Center @ NAVER, Adjunct Associate Professor @ HKUST
+description: PhD in Computer Science | Head of Future AI Center @ NAVER, Adjunct Professor @ HKUST
 image: images/photo.jpg
 links:
   email: jungwoo.ha@navercorp.com

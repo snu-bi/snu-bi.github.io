@@ -3,7 +3,7 @@ aliases:
 - 이제근
 - Je-Keun Rhee
 - jekeun.rhee
-description: PhD in Bioinformatics | Associate Professor @ Soongsil University
+description: PhD in Bioinformatics | Professor @ Soongsil University
 image: images/photo.jpg
 links:
   email: rhee.jekeun@gmail.com

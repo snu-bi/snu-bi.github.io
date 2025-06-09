@@ -1,16 +1,13 @@
 ---
 aliases:
 - 김인영
-- In-Young Kim
-- inyoung.kim
-description: MS in Computer Science | SWE @ Samsung Electronics
+- Inyoung Kim
+description: PhD in Computer Science | Professor @ Korea National Defense University
 image: images/photo.jpg
 links:
-  email: inyoung.kim@snu.ac.kr
-  github: 
-  home-page: 
-name: In-Young Kim
-role: master
+  linkedin: inyoung-kim-1a7992253
+name: Inyoung Kim
+role: phd
 status: 졸업
-graduation_year: 2001
+graduation_year: 2020
 --- 
