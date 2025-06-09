@@ -3,7 +3,7 @@ aliases:
 - 손성호
 - Seongho Son
 - shson
-description: MS in Computer Science | PhD Student @ University College London
+description: MS in Computer Science | PhD @ University College London
 image: images/photo.jpg
 links:
   email: geronest@gmail.com

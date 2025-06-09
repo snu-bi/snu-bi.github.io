@@ -3,7 +3,7 @@ aliases:
 - 조성재
 - Sungjae Cho
 - sjcho
-description: MS in Computer Science | PhD Student @ Université de Montréal (Mila | CHU Sainte-Justine)
+description: MS in Computer Science | PhD @ Université de Montréal (Mila | CHU Sainte-Justine)
 image: images/photo.jpg
 links:
   email: sungjae.cho@umontreal.ca

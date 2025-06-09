@@ -3,7 +3,7 @@ aliases:
 - 황인준
 - Injune Hwang
 - ijhwang
-description: MS in Computer Science | PhD Student @ KAIST AI
+description: MS in Computer Science | PhD @ KAIST AI
 image: images/injune-hwang.jpg
 links:
   email: injunehwang93@gmail.com

@@ -1,7 +1,7 @@
 ---
 aliases:
 - Jaedong Hwang
-description: Undergraduate Intern | PhD Student @ MIT EECS
+description: Undergraduate Intern | PhD @ MIT EECS
 image: images/photo.jpg
 links:
   email: 
