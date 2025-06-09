@@ -2,7 +2,7 @@
 aliases:
 - Jiyeon Park
 description: Undergraduate Intern | BS @ SNU CSE
-image: images/photo.jpg
+image: images/jiyeon-park.jpg
 links:
   email: q0o0p@snu.ac.kr
   home-page: 
