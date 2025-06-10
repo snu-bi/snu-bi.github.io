@@ -4,7 +4,7 @@ aliases:
 - Youngwoon Seo
 - ywseo
 description: ''
-image: images/photo.jpg
+image: images/youngwoon-seo.png
 links:
   email: ywseo@bi.snu.ac.kr
 name: Youngwoon Seo
