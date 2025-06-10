@@ -6,7 +6,7 @@ aliases:
 - Seongjun Jeong
 - Jeong Seongjun
 description: ''
-image: images/photo.jpg
+image: images/seongjun-jeong.png
 links:
   email: sjjung@bi.snu.ac.kr
 name: Seongjun Jeong
