@@ -13,6 +13,9 @@ links:
 name: Jaemoon Park
 role: master
 status: 졸업
+graduation_year: 2025
 ---
-Master’s Course Student in Department of Computer Science and Engineering, Seoul National University
+Master in Department of Computer Science and Engineering, Seoul National University
 Researching VLA(Vision-Language-Action) Models for Robot Agents
+
+Robotics Engineer | Samsung Electronics Future Robot Initiative
