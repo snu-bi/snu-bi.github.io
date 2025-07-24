@@ -5,13 +5,14 @@ aliases:
 - jmpark
 - Jae Moon Park
 - Jaemoon Park
-description: ''
+description: 'MS in Computer Science | Engineer | Samsung Electronics Future Robot Initiative'
 image: images/jae-moon-park.png
 links:
   email: jmpark@bi.snu.ac.kr
   linkedin: jaemoon-park-64aa33322
 name: Jaemoon Park
-role: master-student
+role: master
+status: 졸업
 ---
 Master’s Course Student in Department of Computer Science and Engineering, Seoul National University
 Researching VLA(Vision-Language-Action) Models for Robot Agents
