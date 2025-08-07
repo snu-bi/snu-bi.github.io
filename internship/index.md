@@ -9,7 +9,9 @@ nav:
 
 ## 🤖 Join Our Research Team!
 
-We are recruiting highly motivated undergraduate interns who are passionate about **Physical AI** and **robotics**!
+We are recruiting highly motivated **undergraduate** interns who are passionate about **Physical AI** and **robotics**!
+※ We do not accept internship applications for the purpose of PhD admission.
+
 
 ## 📧 How to Apply
 
