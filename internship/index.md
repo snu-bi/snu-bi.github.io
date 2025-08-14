@@ -9,17 +9,19 @@ nav:
 
 ## 🤖 Join Our Research Team!
 
-We are recruiting highly motivated **undergraduate** interns who are passionate about **Physical AI** and **robotics**!
+We are recruiting highly motivated **undergraduate** interns who are passionate about **Physical AI** and **robotics**!    
+
+
 ※ We do not accept internship applications for the purpose of PhD admission.
 
 
 ## 📧 How to Apply
 
-Please send your CV or inquiry to: **CreativeAI2030 (at) snu.ac.kr**
+Please send your CV or inquiry to: **justink7272 (at) snu.ac.kr**
 
 {%
   include button.html
-  link="mailto:CreativeAI2030@snu.ac.kr"
+  link="mailto:justink7272@snu.ac.kr"
   text="Send Email"
   icon="fa-solid fa-envelope"
   flip=false
