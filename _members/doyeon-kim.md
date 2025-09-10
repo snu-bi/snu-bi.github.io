@@ -9,5 +9,5 @@ links:
   linkedin: 
   github: 
 name: Doyeon Kim
-role: intern
+role: intern-former
 --- 

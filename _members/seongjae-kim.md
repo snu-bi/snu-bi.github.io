@@ -9,5 +9,5 @@ links:
   github: 
   email: bigblue1122@snu.ac.kr
 name: Seongjae Kim
-role: intern
+role: intern-former
 --- 

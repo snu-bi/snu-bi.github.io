@@ -9,5 +9,5 @@ links:
   linkedin:
   github: 
 name: Jaeung Choi
-role: intern
+role: intern-former
 --- 

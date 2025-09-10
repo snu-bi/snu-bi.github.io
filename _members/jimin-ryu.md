@@ -9,5 +9,5 @@ links:
   linkedin: 
   github: nick11967
 name: Jimin Ryu
-role: intern
+role: intern-former
 --- 

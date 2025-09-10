@@ -10,5 +10,5 @@ links:
   linkedin: eduardo-jesús-ayerve-cruz-8a5b1a211
   github: eduardoayervecruz
 name: Eduardo Ayerve Cruz
-role: intern
+role: intern-former
 --- 
