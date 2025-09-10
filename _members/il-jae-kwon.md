@@ -3,7 +3,7 @@ aliases:
 - 권일재
 - Il-Jae Kwon
 - ijkwon
-description: MS in Neuroscience | CEO @ Team Heimdallr
+description: MS in Neuroscience | AI Research @ Monad Foundation
 image: images/il-jae-kwon.jpg
 links:
   linkedin: il-jae-kwon-4ba727199

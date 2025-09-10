@@ -3,7 +3,7 @@ aliases:
 - 온경운
 - Kyoung-Woon On
 - kwon
-description: PhD in Computer Science | Leader @ Kakao, Language Model Alignment Team
+description: PhD in Computer Science | Team Leader @ LBOX
 image: images/photo.jpg
 links:
   email: okw0311@gmail.com

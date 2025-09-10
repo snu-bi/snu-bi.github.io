@@ -3,7 +3,7 @@ aliases:
 - 이상우
 - Sang-Woo Lee
 - slee
-description: PhD in Computer Science | Executive Director @ NAVER Cloud
+description: PhD in Computer Science | Reseach Scientist @ NeuroFusion
 image: images/photo.jpg
 links:
   email: sangwoolee.cs@gmail.com
