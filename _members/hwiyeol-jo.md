@@ -3,7 +3,7 @@ aliases:
 - 조휘열
 - Hwiyeol Jo
 - hyjo
-description: MS in Computer Science | AI Research & Engineer @ NAVER Search US
+description: MS in Computer Science | AI Research & Engineer @ NAVER Search US → Research Scientist @ NAVER Cloud, Adjunct Professor @ Konkuk University
 image: images/photo.jpg
 links:
   email: hwiyeolj@gmail.com

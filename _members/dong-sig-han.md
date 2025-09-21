@@ -2,7 +2,7 @@
 aliases:
 - Dong-Sig Han
 - 한동식
-description: PhD in Computer Science
+description: PhD in Computer Science → Postdoc @ Imperial College London, Circle Group
 image: images/photo.jpg
 links:
   email: dshan@bi.snu.ac.kr

@@ -1,7 +1,7 @@
 ---
 aliases:
 - Seungwon Lee
-description: Undergraduate Intern | MS @ University of Michigan → PhD @ University of Pennsylvania
+description: Undergraduate Intern | MS @ University of Michigan → PhD @ University of Pennsylvania → PostDoc @ Boston Children’s Hospital
 image: images/photo.jpg
 links:
   email: 

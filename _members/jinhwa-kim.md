@@ -3,7 +3,7 @@ aliases:
 - 김진화
 - Jin-Hwa Kim
 - jhkim
-description: PhD in Cognitive Science | Leader of Generation Research @ NAVER AI Lab, Adjunct Professor @ Seoul National University
+description: PhD in Cognitive Science | Leader of Generation Research @ NAVER AI Lab, Adjunct Professor → Associate Professor @ Seoul National University
 image: images/photo.jpg
 links:
   email: jnhwkim@gmail.com

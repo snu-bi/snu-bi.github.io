@@ -3,7 +3,7 @@ aliases:
 - 하정우
 - Jung-Woo Ha
 - jwha
-description: PhD in Computer Science | Senior Secretary for Future AI Planning @ Office of the President of Korea
+description: PhD in Computer Science | Head of Future AI Center @ NAVER, Adjunct Professor @ HKUST → Senior Secretary for Future AI Planning @ Office of the President of Korea
 image: images/photo.jpg
 links:
   email: jungwoo.ha@navercorp.com

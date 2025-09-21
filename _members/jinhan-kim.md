@@ -3,7 +3,7 @@ aliases:
 - 김진한
 - Jinhan Kim
 - jinhan.kim
-description: MS in Computer Science | CEO & Co-Founder @ Stadigm
+description: MS in Computer Science | CEO & Co-Founder @ Stadigm → Vice President @ Samsung Biologics
 image: images/photo.jpg
 links:
   email: jinhan.kim@standigm.com

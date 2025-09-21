@@ -4,7 +4,7 @@ aliases:
 - Seonil Son
 - Simon
 - sison
-description: MS in Computer Science | Research Engineer @ RLWRLD
+description: MS in Computer Science | Research Engineer @ NC AI → Research Engineer @ RLWRLD
 image: images/photo.jpg
 links:
   email: seonil.calendar@gmail.com
