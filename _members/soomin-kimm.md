@@ -2,10 +2,10 @@
 aliases:
 - 김수민
 - Soomin Kim
-description: intern @ Tommoro Robotics
+description: intern @ UIUC EE MS&BS -> Tommoro Robotics
 image: images/soomin-kim.jpeg
 links:
   home-page: ""	
-name: Soomin Kim
+name: Soomin Kimm
 role: intern
 --- 
