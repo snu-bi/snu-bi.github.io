@@ -8,5 +8,5 @@ image: images/photo.jpg
 links:
   email: ysjoo@bi.snu.ac.kr
 name: Youngseok Joo
-role: master-student
+role: phd-student
 ---

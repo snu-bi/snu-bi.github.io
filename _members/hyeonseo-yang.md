@@ -8,5 +8,7 @@ image: images/photo.jpg
 links:
   email: hsyang@bi.snu.ac.kr
 name: Hyeonseo Yang
-role: master-student
+role: master
+status: 졸업
+graduation_year: 2025
 ---
