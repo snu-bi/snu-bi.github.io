@@ -10,6 +10,7 @@ image: images/woosuk-choi.jpeg
 links:
   email: wschoi@bi.snu.ac.kr
   home-page: http://cws7777.github.io/
+  linkedin: woo-suk-paul-choi-36198494
 name: Woo Suk (Paul) Choi
 role: phd-candidate
 ---

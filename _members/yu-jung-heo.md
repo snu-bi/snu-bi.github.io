@@ -2,7 +2,7 @@
 aliases:
 - Yu-Jung Heo
 - 허유정
-description: PhD in Computer Science | Principal Research Engineer @ KT AI2XL Lab
+description: PhD in Computer Science | Principal Research Engineer @ KT Tech Innovation Group
 image: images/photo.jpg
 links:
   email: yjheo@bi.snu.ac.kr

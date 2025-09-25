@@ -7,7 +7,7 @@ aliases:
   - Byoung-Tak Zhang
   - BT Zhang
 links:
-  home-page: http://bi.snu.ac.kr/old/~btzhang/index.html
+  home-page: http://bi.snu.ac.kr/~btzhang/index.html
   # orcid: 0000-0001-8713-9213
 ---
 

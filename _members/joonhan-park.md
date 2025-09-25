@@ -9,4 +9,5 @@ links:
   email: jhpark@bi.snu.ac.kr
 name: Joonhan Park
 role: master-student
+status: 휴학
 ---

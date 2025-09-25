@@ -3,7 +3,7 @@ aliases:
 - 서아정
 - Ahjeong Seo
 - ajseo
-description: MS in Neuroscience
+description: MS in Neuroscience | Researcher @ KAIST
 image: images/ahjeong-seo.jpg
 links:
   email: rubyrang2@naver.com
