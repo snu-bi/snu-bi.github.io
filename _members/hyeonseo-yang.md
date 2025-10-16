@@ -3,13 +3,13 @@ aliases:
 - 양현서
 - Hyeonseo Yang
 - hsyang
-description: MS in Computer Science | 
+description: MS in Computer Science | Machine Learning Software Engineer @ HYPERCONNECT
 image: images/photo.jpg
 links:
   email: hsyang@bi.snu.ac.kr
   linkedin: yhs0602
   github: yhs0602
-  home-page: https://stackoverflow.com/users/8614565/hyeonseo-yang
+  home-page: https://www.linkedin.com/in/yhs0602/
 name: Hyeonseo Yang
 role: master
 status: 졸업

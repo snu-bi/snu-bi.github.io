@@ -9,6 +9,7 @@ links:
   email: sangwook@atinuminvest.co.kr
   github: 
   home-page: 
+  linkedin: sang-wook-park-88073829
 name: Sang-Wook Park
 role: master
 status: 졸업
