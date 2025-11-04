@@ -108,7 +108,16 @@ $wrap: 800px;
   }
 
   .citation-image {
-    width: unset;
-    height: $thumb-size;
+    width: 100%;
+    height: auto;
+    margin: 0;
+  }
+
+  .citation-image img {
+    position: static;
+    inset: auto;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
   }
 }
