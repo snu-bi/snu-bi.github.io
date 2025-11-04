@@ -1,21 +1,39 @@
 # preprints
 
-- id: 2024-sjjeong-cvln
-  title: 'Continual Vision-and-Language Navigation'
+- id: 2025-ywjang-cgrr
+  title: 'Confidence-guided Refinement Reasoning for Zero-shot Question Answering'
   authors:
-  - Seongjun Jeong
-  - Gi-Cheon Kang
-  - Seongho Choi
-  - Junghyun Kim
+  - Youwon Jang
+  - Woo Suk Choi
+  - Minjoon Jung
+  - Minsu Lee
   - Byoung-Tak Zhang
   publisher: preprint
-  year: 2024
-  link: https://arxiv.org/abs/2403.15049
-  image: images/continual-vln.png
+  year: 2025
+  link: https://arxiv.org/abs/2509.20750
+  image: images/2025-ywjang-cgrr.png
   buttons:
   - type: paper
     text: Paper
-    link: https://arxiv.org/abs/2403.15049
+    link: https://arxiv.org/abs/2509.20750
+
+- id: 2025-ywjang-sq-instruct-blip
+  title: 'Instruction-tuned Self-Questioning Framework for Multimodal Reasoning'
+  authors:
+  - Youwon Jang
+  - Yu-Jung Heo
+  - Jaeseok Kim
+  - Minsu Lee
+  - Du-Seong Chang
+  - Byoung-Tak Zhang
+  publisher: preprint
+  year: 2025
+  link: https://arxiv.org/abs/2509.21251
+  image: images/2025-ywjang-sq-instruct-blip.png
+  buttons:
+  - type: paper
+    text: Paper
+    link: https://arxiv.org/abs/2509.21251
 
 - id: 2024-hskim-active3d
   title: 'Active Neural 3D Reconstruction with Colorized Surface Voxel-Based View Selection'
@@ -87,6 +105,108 @@
 
 # selected publications
 
+- id: 2025-wyjung-nihr
+  title: 'Shaping Latent Geometry with Noise-Injected Hopfield Dynamics'
+  authors:
+  - Wooyul Jung
+  - Youngseok Joo
+  - Dohyun Yu
+  - Suhyung Choi
+  - Byoung-Tak Zhang
+  publisher: NeurIPS 2025 Workshop on Symmetry and Geometry in Neural Representations
+  year: 2025
+  link: https://openreview.net/attachment?id=1hBjpL8azd&name=pdf
+  image: images/2025-wyjung-nihr.png
+  buttons:
+  - type: paper
+    text: Paper
+    link: https://openreview.net/attachment?id=1hBjpL8azd&name=pdf
+
+- id: 2025-ywjang-agent
+  title: 'The Losing Winner: An LLM Agent that Predicts the Market but Loses Money'
+  authors:
+  - Youwon Jang
+  - Joochan Kim
+  - Byoung-Tak Zhang
+  publisher: NeurIPS 2025 Workshop on Generative AI in Finance
+  image: images/2025-ywjang-agent.png
+  year: 2025
+
+- id: 2025-hbyoo-asymptotic
+  title: 'How Classifier Features Transfer to Downstream: An Asymptotic Analysis in a Two-Layer Model'
+  authors:
+  - Hee Bin Yoo
+  - Sungyoon Lee
+  - Cheongjae Jang
+  - Dong-Sig Han
+  - Jaein Kim
+  - Seunghyeon Lim
+  - Byoung-Tak Zhang
+  publisher: NeurIPS 2025
+  year: 2025
+  link: https://neurips.cc/virtual/2025/loc/san-diego/poster/118131
+  image: images/2025-hbyoo-asymptotic.png
+  buttons:
+  - type: paper
+    text: Paper
+    link: https://openreview.net/pdf?id=vlRd3GeJEq
+
+- id: 2025-mjjung-egoexo
+  title: 'Exploring Ego-Exo View-Invariant Temporal Understanding in Video LLMs'
+  autors: 
+  - Minjoon Jung
+  - Junbin Xiao
+  - Junghyun Kim
+  - Byoung-Tak Zhang
+  - Angela Yao
+  publisher: NeurIPS 2025 Workshop on Multimodal Algorithmic Reasoning.
+  year: 2025
+  link: https://arxiv.org/abs/2510.26113
+  image: images/2025-mjjung-egoexo.png
+  buttons:
+  - type: paper
+    text: Paper
+    link: https://arxiv.org/abs/2510.26113
+  - type: source
+    text: Code
+    link: https://github.com/minjoong507/EgoExo-Con
+  - type: website
+    text: Home
+    link: https://minjoong507.github.io/projects/EgoExo-Con/
+
+- id: 2025-sjjeong-cvln
+  title: 'Continual Vision-and-Language Navigation'
+  authors:
+  - Seongjun Jeong
+  - Gi-Cheon Kang
+  - Seongho Choi
+  - Joochan Kim
+  - Byoung-Tak Zhang
+  publisher: 'BMVC 2025'
+  year: 2025
+  link: https://arxiv.org/abs/2403.15049
+  image: images/continual-vln.png
+  buttons:
+  - type: paper
+    text: Paper
+    link: https://arxiv.org/abs/2403.15049
+
+- id: 2025-wschoi-inquirer
+  title: 'INQUIRER: Harnessing internal knowledge graphs for video question generation'
+  authors:
+  - Woo Suk Choi
+  - Youwon Jang
+  - Minsu Lee
+  - Byoung-Tak Zhang
+  publisher: 'Knowledge-Based Systems 2025'
+  year: 2025
+  link: https://www.sciencedirect.com/science/article/pii/S0950705125010780
+  image: images/2025-wschoi-inquirer.png
+  buttons:
+  - type: paper
+    text: Paper
+    link: https://www.sciencedirect.com/science/article/pii/S0950705125010780
+
 - id: 2025-gckang
   title: 'CLIP-RT: Learning Language-Conditioned Robotic Policies from Natural Language
     Supervision'
@@ -96,7 +216,7 @@
   - Kyuhwan Shim
   - Jun Ki Lee
   - Byoung-Tak Zhang
-  publisher: RSS 2025
+  publisher: 'RSS 2025'
   year: 2025
   link: https://clip-rt.github.io/
   image: images/clip-rt.png
@@ -109,7 +229,7 @@
     link: https://arxiv.org/abs/2411.00508
   - type: source
     text: Code
-    link: https://github.com/gicheonkang/clip-rt
+    link: https://github.com/clip-rt/clip-rt
 
 - id: 2025-sychoi
   title: 'Mixture of Action Expert Embeddings: Multi-Task ACT'
@@ -464,6 +584,7 @@
   - type: paper
     text: Paper
     link: https://openreview.net/pdf/3631a49355d2485ee6a622838e9d1244170cc773.pdf
+
 - id: 2024-kbkim
   title: 'Visual Hindsight Self-Imitation Learning for Interactive Navigation'
   authors:
