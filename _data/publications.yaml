@@ -1,22 +1,5 @@
 # preprints
 
-- id: 2025-ywjang-cgrr
-  title: 'Confidence-guided Refinement Reasoning for Zero-shot Question Answering'
-  authors:
-  - Youwon Jang
-  - Woo Suk Choi
-  - Minjoon Jung
-  - Minsu Lee
-  - Byoung-Tak Zhang
-  publisher: preprint
-  year: 2025
-  link: https://arxiv.org/abs/2509.20750
-  image: images/2025-ywjang-cgrr.png
-  buttons:
-  - type: paper
-    text: Paper
-    link: https://arxiv.org/abs/2509.20750
-
 - id: 2025-ywjang-sq-instruct-blip
   title: 'Instruction-tuned Self-Questioning Framework for Multimodal Reasoning'
   authors:
@@ -34,6 +17,24 @@
   - type: paper
     text: Paper
     link: https://arxiv.org/abs/2509.21251
+
+
+- id: 2025-ywjang-sq-instruct-blip
+  title: 'OBSER: Object-Based Sub-Environment Recognition for Zero-Shot Environmental Inference'
+  authors:
+  - Won-Seok Choi
+  - Dong-Sig Han
+  - Suhyung Choi
+  - Hyeonseo Yang
+  - Byoung-Tak Zhang
+  publisher: preprint
+  year: 2025
+  link: https://arxiv.org/abs/2507.02929
+  image: 
+  buttons:
+  - type: paper
+    text: Paper
+    link: https://arxiv.org/abs/2507.02929
 
 - id: 2024-hskim-active3d
   title: 'Active Neural 3D Reconstruction with Colorized Surface Voxel-Based View Selection'
@@ -105,6 +106,58 @@
 
 # selected publications
 
+- id: 2025-hdlee-ildm
+  title: 'Towards Spatially Consistent Image Generation: On Incorporating Intrinsic Scene Properties into Diffusion Models'
+  authors:
+  - Hyundo Lee
+  - Suhyung Choi
+  - Inwoo Hwang
+  - Byoung-Tak Zhang
+  publisher: 'AAAI 2026'
+  year: 2026
+  link: https://arxiv.org/abs/2508.10382
+  image: 
+  buttons:
+  - type: paper
+    text: Paper
+    link: https://arxiv.org/abs/2508.10382
+
+
+- id: 2025-hbyoo
+  title: 'Neural Collapse-Informed Initialization with Perturbation Injection in Classification-based Metric Learning'
+  authors:
+  - Jinhee Park
+  - Hee Bin Yoo
+  - Minjun Kim
+  - Byoung-Tak Zhang
+  - Junseok Kwon
+  publisher: 'AAAI 2026'
+  year: 2026
+  link: 
+  image: 
+  buttons:
+  - type: paper
+    text: Paper
+    link: 
+
+- id: 2025-ywjang-cgrr
+  title: 'Confidence-guided Refinement Reasoning for Zero-shot Question Answering'
+  authors:
+  - Youwon Jang
+  - Woo Suk Choi
+  - Minjoon Jung
+  - Minsu Lee
+  - Byoung-Tak Zhang
+  publisher: 'EMNLP 2025'
+  year: 2025
+  link: https://arxiv.org/abs/2509.20750
+  image: images/2025-ywjang-cgrr.png
+  buttons:
+  - type: paper
+    text: Paper
+    link: https://arxiv.org/abs/2509.20750
+
+
 - id: 2025-wyjung-nihr
   title: 'Shaping Latent Geometry with Noise-Injected Hopfield Dynamics'
   authors:
@@ -151,9 +204,45 @@
     text: Paper
     link: https://openreview.net/pdf?id=vlRd3GeJEq
 
+- id: 2025-yjsong-ock
+  title: 'OCK: Unsupervised Dynamic Video Prediction with Object-Centric Kinematics'
+  authors:
+  - Yeon-Ji Song
+  - Jaein Kim
+  - Suhyung Choi
+  - Jin-Hwa Kim
+  - Byoung-Tak Zhang
+  publisher: ICCV 2025
+  year: 2025
+  link: https://arxiv.org/abs/2404.18423v3
+  image: 
+  buttons:
+  - type: paper
+    text: Paper
+    link: https://arxiv.org/abs/2404.18423v3
+  - type: source
+    text: Code
+    link: https://github.com/yeonjisong/ock
+
+- id: 2025-yjsong-dbmovigs
+  title: 'DBMovi-GS: Motion-aware Dynamic View Synthesis from Blurry Monocular Video via Sparse-Controlled Gaussian Splatting'
+  authors:
+  - Yeon-Ji Song
+  - Jaein Kim
+  - Byungju Kim
+  - Byoung-Tak Zhang
+  publisher: CVPR 2025 NFBCC Workshop
+  year: 2025
+  link: https://arxiv.org/abs/2506.20998
+  image: 
+  buttons:
+  - type: paper
+    text: Paper
+    link: https://arxiv.org/abs/2506.20998
+
 - id: 2025-mjjung-egoexo
   title: 'Exploring Ego-Exo View-Invariant Temporal Understanding in Video LLMs'
-  autors: 
+  authors: 
   - Minjoon Jung
   - Junbin Xiao
   - Junghyun Kim

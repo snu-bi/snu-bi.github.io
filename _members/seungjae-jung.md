@@ -3,7 +3,7 @@ aliases:
 - 정승재
 - Seungjae Jung
 - sjjung
-description: MS in Computer Science | LLM Post Training @ Kakao
+description: MS in Computer Science | ML Tech Leader @ NAVER → ML Researcher @ Kakao → Research Engineer @ NeuroFusion
 image: images/photo.jpg
 links:
   email: seanexplode@gmail.com

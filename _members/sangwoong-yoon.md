@@ -3,7 +3,7 @@ aliases:
 - 윤상웅
 - Sangwoong Yoon
 - sangwoong.yoon
-description: MS in Neuroscience | Postdoc @ University College London →Assistant Professor @ UNIST, GSAI
+description: MS in Neuroscience | Postdoc @ University College London → Assistant Professor @ UNIST, GSAI
 image: images/photo.jpg
 links:
   email: sangwoong24yoon@gmail.com
