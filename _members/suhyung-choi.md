@@ -12,3 +12,7 @@ links:
 name: Suhyung Choi
 role: phd-student
 ---
+
+![최수형](/images/choi-the-best.jpeg)
+
+> "로보틱스를 향한 제 열정은 멈추지 않습니다."
