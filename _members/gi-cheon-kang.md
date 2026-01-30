@@ -3,7 +3,7 @@ aliases:
 - 강기천
 - Gi-Cheon Kang
 - gckang
-description: PhD in Artificial Intelligence
+description: PhD in Artificial Intelligence | Assistant Professor @ Ajou University
 image: images/gicheon-kang.jpg
 links:
   home-page: https://gicheonkang.com

@@ -2,7 +2,7 @@
 aliases:
 - Jiseob Kim
 - 김지섭
-description: PhD in Computer Science | Team Leader @ NAVER Cloud
+description: PhD in Computer Science | Team Leader @ NAVER Cloud, HyperCLOVA X Diffusion Model Team
 image: images/photo.jpg
 links:
   email: jkim@bi.snu.ac.kr

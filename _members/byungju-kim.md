@@ -10,4 +10,5 @@ links:
   linkedin: byungju-kim-a16686295
 name: Byungju Kim
 role: master-student
+status: 재학
 ---

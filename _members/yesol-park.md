@@ -10,4 +10,5 @@ links:
   linkedin: yesol-park-98b487341
 name: Yesol Park
 role: phd-student
+status: 재학
 ---

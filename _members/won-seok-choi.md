@@ -9,6 +9,7 @@ links:
   home-page: https://mkroughdiamond.github.io/
 name: Won-Seok Choi
 role: phd-candidate
+status: 재학
 ---
 
 My current research goal is to design *a **cognitive agent** that can **understand the dynamic environment** through **active interactions***.  

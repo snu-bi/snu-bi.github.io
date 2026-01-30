@@ -13,4 +13,5 @@ links:
   linkedin: minjoonjung
 name: Minjoon Jung
 role: phd-candidate
+status: 재학
 ---

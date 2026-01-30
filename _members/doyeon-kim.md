@@ -10,4 +10,5 @@ links:
   github: 
 name: Doyeon Kim
 role: intern-former
+status: 졸업
 --- 

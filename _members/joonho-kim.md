@@ -9,4 +9,5 @@ links:
   email: joonhokim@bi.snu.ac.kr
 name: Joonho Kim
 role: phd-candidate
+status: 재학
 ---

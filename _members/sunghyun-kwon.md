@@ -10,4 +10,5 @@ links:
   home-page: https://github.com/shkwon98
 name: Sunghyun Kwon
 role: master-student
+status: 재학
 ---

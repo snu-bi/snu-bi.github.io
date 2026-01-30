@@ -11,4 +11,5 @@ links:
   email: sjjung@bi.snu.ac.kr
 name: Seongjun Jeong
 role: phd-candidate
+status: 재학
 ---

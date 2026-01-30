@@ -9,7 +9,7 @@ links:
   linkedin: young-suh-hong-839b5b263
   home-page: 
 name: Young Suh Hong
-role: intern
+role: intern-former
 status: 졸업
 graduation_year: 2021
 ---

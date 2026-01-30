@@ -10,4 +10,5 @@ links:
   linkedin: 영운-서-84468b1ba
 name: Youngwoon Seo
 role: phd-student
+status: 재학
 ---

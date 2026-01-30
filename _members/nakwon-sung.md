@@ -9,4 +9,5 @@ links:
   email: nwsung@bi.snu.ac.kr
 name: Nakwon Sung
 role: phd-student
+status: 재학
 ---

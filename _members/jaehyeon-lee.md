@@ -9,4 +9,5 @@ links:
   linkedin: jae-hyeon-lee-54a56a375
 name: Jaehyeon Lee
 role: phd-candidate
+status: 재학
 ---

@@ -9,4 +9,5 @@ links:
   email: jlee@bi.snu.ac.kr
 name: Junseok Lee
 role: phd-student
+status: 재학
 ---

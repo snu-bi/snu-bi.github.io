@@ -9,4 +9,5 @@ links:
   email: hwsul@bi.snu.ac.kr
 name: Hanwool Sul
 role: phd-student
+status: 재학
 ---

@@ -8,4 +8,5 @@ links:
   email: phyeonbin01@gmail.com
 name: Hyeonbin Park
 role: intern
+status: 재학
 --- 

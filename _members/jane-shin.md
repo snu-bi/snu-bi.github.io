@@ -7,7 +7,7 @@ image: images/photo.jpg
 links:
   email: 
   github: 
-  linkedin: 
+  linkedin: https://www.linkedin.com/in/jane-shin-987baa232/
   home-page: 
 name: Jane Shin
 role: master-student

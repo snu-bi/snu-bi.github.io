@@ -11,4 +11,5 @@ links:
   email: sjjeon@bi.snu.ac.kr
 name: Su-Jin Jeon
 role: phd-student
+status: 재학
 ---

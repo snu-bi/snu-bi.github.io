@@ -8,4 +8,5 @@ links:
   email: wns4349@gmail.com
 name: Wonjun Choi
 role: intern
+status: 재학
 --- 

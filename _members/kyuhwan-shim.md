@@ -11,4 +11,5 @@ links:
   linkedin: kyuhwan-shim
 name: Kyuhwan Shim
 role: master-student
+status: 재학
 ---

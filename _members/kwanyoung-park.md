@@ -8,7 +8,7 @@ links:
   home-page: https://kwanyoungpark.github.io/
   email: 
 name: Kwanyoung Park
-role: intern
+role: intern-former
 affiliation: UC Berkeley
 graduation_year: 2021
 status: 졸업

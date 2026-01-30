@@ -9,4 +9,5 @@ links:
   email: emaase@bi.snu.ac.kr
 name: Emaase Patrick Mokodir
 role: phd-candidate
+status: 재학
 ---

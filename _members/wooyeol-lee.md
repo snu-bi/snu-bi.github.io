@@ -8,7 +8,7 @@ links:
   email: 
   home-page: https://wooyeollee.notion.site/
 name: Wooyeol Lee
-role: intern
+role: intern-former
 status: 졸업
 graduation_year: 2023
 --- 

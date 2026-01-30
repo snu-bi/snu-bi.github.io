@@ -9,4 +9,5 @@ links:
   email: jokim@bi.snu.ac.kr
 name: Juno Kim
 role: phd-candidate
+status: 재학
 ---

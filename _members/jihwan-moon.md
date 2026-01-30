@@ -8,7 +8,7 @@ links:
   email: 
   linkedin: 
 name: Jihwan Moon
-role: intern
+role: intern-former
 status: 졸업
 graduation_year: 2023
 --- 

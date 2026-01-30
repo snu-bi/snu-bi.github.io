@@ -12,4 +12,5 @@ links:
 
 name: Hyundo Lee
 role: phd-candidate
+status: 재학
 ---

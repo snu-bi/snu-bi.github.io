@@ -9,4 +9,5 @@ links:
   email: khlee@bi.snu.ac.kr
 name: Ganghun Lee
 role: phd-candidate
+status: 재학
 ---

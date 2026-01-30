@@ -9,4 +9,5 @@ links:
   email: syshin@bi.snu.ac.kr
 name: Suyeon Shin
 role: phd-student
+status: 재학
 ---

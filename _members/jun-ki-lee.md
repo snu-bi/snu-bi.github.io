@@ -10,6 +10,7 @@ links:
   home-page: https://junkilee.github.io/
 name: Jun Ki Lee
 role: research-professor
+status: 재학
 affiliation: Seoul National University
 ---
 

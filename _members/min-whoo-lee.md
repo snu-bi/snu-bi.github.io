@@ -11,4 +11,5 @@ links:
   email: mwlee@bi.snu.ac.kr
 name: Min Whoo Lee
 role: phd-candidate
+status: 재학
 ---

@@ -8,4 +8,5 @@ links:
 
 name: Chanhaeng Lee
 role: intern
+status: 재학
 --- 

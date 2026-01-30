@@ -11,4 +11,5 @@ links:
   github: eduardoayervecruz
 name: Eduardo Ayerve Cruz
 role: intern-former
+status: 졸업
 --- 

@@ -10,4 +10,5 @@ links:
   home-page: https://hskalena.github.io/
 name: Hyunseo Kim
 role: phd-candidate
+status: 재학
 ---

@@ -11,4 +11,5 @@ links:
   github: lcwoo
 name: Chungwoo Lee
 role: master-student
+status: 재학
 --- 

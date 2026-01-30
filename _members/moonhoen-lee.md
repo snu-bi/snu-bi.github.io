@@ -9,5 +9,6 @@ links:
   email: mhlee@bi.snu.ac.kr
 name: Moonhoen Lee
 role: phd-candidate
+status: 재학
 
 ---

@@ -10,4 +10,5 @@ links:
   github: 
 name: Jaeung Choi
 role: intern-former
+status: 졸업
 --- 

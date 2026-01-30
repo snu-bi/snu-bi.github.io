@@ -5,7 +5,8 @@ aliases:
 description: ''
 image: images/hochan-bang.jpg
 links:
-  email: hochan0115@snu.ac.kr	
+  email: hochan0115@snu.ac.kr
 name: Hochan Bang
 role: master-student
+status: 재학
 --- 

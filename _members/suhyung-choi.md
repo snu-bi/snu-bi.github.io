@@ -11,6 +11,7 @@ links:
   home-page: https://scholar.google.com/citations?user=jPcpT2MAAAAJ&hl=ko
 name: Suhyung Choi
 role: phd-student
+status: 재학
 ---
 
 ![최수형](/images/choi-the-best.jpeg)

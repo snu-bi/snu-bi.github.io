@@ -9,7 +9,7 @@ links:
   linkedin: jaeah1ee
   home-page: 
 name: Jaeah Lee
-role: intern
+role: intern-former
 status: 졸업
 graduation_year: 2021
 ---

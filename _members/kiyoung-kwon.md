@@ -9,4 +9,5 @@ links:
   linkedin: kiyoung-kwon-2885b2298
 name: Kiyoung Kwon
 role: intern
+status: 재학
 --- 

@@ -10,7 +10,7 @@ links:
   linkedin: 
   home-page: 
 name: Younjin Kang
-role: intern
+role: intern-former
 status: 졸업
 graduation_year: 2024
 ---

@@ -13,4 +13,5 @@ links:
 
 name: Yoonsung Kim
 role: phd-candidate
+status: 재학
 ---

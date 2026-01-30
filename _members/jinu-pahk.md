@@ -9,4 +9,5 @@ links:
   email: jnpahk@bi.snu.ac.kr
 name: Jinu Pahk
 role: phd-student
+status: 재학
 ---

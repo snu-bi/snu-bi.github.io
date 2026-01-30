@@ -10,4 +10,5 @@ links:
   email: ydh0455@snu.ac.kr
 name: Dohyun Yu
 role: master-student
+status: 재학
 --- 

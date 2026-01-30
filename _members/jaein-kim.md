@@ -9,4 +9,5 @@ links:
   email: jykim@bi.snu.ac.kr
 name: Jaein Kim
 role: phd-candidate
+status: 재학
 ---

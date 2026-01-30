@@ -9,4 +9,5 @@ links:
   email: ywjang@bi.snu.ac.kr
 name: Youwon Jang
 role: phd-candidate
+status: 재학
 ---

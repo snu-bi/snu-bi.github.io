@@ -10,4 +10,5 @@ links:
   github: nick11967
 name: Jimin Ryu
 role: intern-former
+status: 졸업
 --- 

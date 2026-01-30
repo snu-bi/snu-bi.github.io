@@ -10,4 +10,5 @@ links:
   linkedin: wooyul-jung-768318220
 name: Wooyul Jung
 role: master-student
+status: 재학
 ---

@@ -11,4 +11,5 @@ links:
   email: juniormoo@snu.ac.kr
 name: Ngseo Kim
 role: master-student
+status: 재학
 ---

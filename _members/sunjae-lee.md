@@ -10,7 +10,7 @@ links:
   linkedin: sunjae-sunny-lee
   home-page: 
 name: Sunjae Lee
-role: intern
+role: intern-former
 status: 졸업
 graduation_year: 2022
 ---

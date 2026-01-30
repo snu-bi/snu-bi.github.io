@@ -9,7 +9,7 @@ links:
   linkedin: seungwon-lee-75154b112
   home-page: 
 name: Seungwon Lee
-role: intern
+role: intern-former
 status: 졸업
 graduation_year: 2015
 ---

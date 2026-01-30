@@ -9,4 +9,5 @@ links:
   email: chjeong@bi.snu.ac.kr
 name: Changhoon Jeong
 role: phd-candidate
+status: 재학
 ---

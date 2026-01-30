@@ -10,4 +10,5 @@ links:
   email: hjso@bi.snu.ac.kr
 name: Hyeonji So
 role: deputy-lab-manager
+status: 재학
 ---

@@ -9,7 +9,7 @@ links:
   linkedin: jaedong-hwang-730
   home-page: https://jd730.github.io/ 
 name: Jaedong Hwang
-role: intern
+role: intern-former
 status: 졸업
 graduation_year: 2015
 ---

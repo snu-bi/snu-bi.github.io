@@ -9,4 +9,5 @@ links:
   email: jskang@bi.snu.ac.kr
 name: Jesoon Kang
 role: phd-candidate
+status: 재학
 ---

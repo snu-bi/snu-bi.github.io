@@ -9,4 +9,5 @@ links:
   email: null
 name: Hye-Jung Yoon
 role: phd-candidate
+status: 재학
 ---

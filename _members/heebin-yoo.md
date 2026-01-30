@@ -9,4 +9,5 @@ links:
   email: hbyoo@bi.snu.ac.kr
 name: Heebin Yoo
 role: phd-student
+status: 재학
 ---

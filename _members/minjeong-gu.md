@@ -9,4 +9,5 @@ links:
   email: mjgu@bi.snu.ac.kr
 name: Min Jeong Gu
 role: phd-student
+status: 재학
 ---

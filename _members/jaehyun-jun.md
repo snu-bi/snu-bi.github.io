@@ -2,7 +2,7 @@
 aliases:
 - 전재현
 - Jaehyun Jun
-description: MS in Neuroscience | Research Engineer @ SKT, Vision AI Labs
+description: MS in Neuroscience | Research Engineer @ SKT, Vision AI Labs → AI/ML Engineer @ AWS Korea
 image: images/photo.jpg
 links:
   email: btjhjeon@gmail.com

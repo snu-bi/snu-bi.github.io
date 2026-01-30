@@ -13,6 +13,7 @@ links:
   github: creativeai2030
 name: Theo Taeyeong Kim
 role: master-student
+status: 재학
 ---
 
 In the short term, my focus is on the gradual replacement of human labor through robotics and AI-based systems in real-world logistics and manufacturing. I aim to build machines that operate quickly, reliably, and continuously, taking over repetitive, hazardous, and high-precision tasks.

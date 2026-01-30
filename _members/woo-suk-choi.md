@@ -13,4 +13,5 @@ links:
   linkedin: woo-suk-paul-choi-36198494
 name: Woo Suk (Paul) Choi
 role: phd-candidate
+status: 재학
 ---

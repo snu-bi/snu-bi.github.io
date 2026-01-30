@@ -8,4 +8,5 @@ image: images/minji-kim.jpeg
 links:
 name: Minji Kim
 role: phd-candidate
+status: 재학
 ---

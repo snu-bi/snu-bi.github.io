@@ -10,4 +10,5 @@ links:
   email: yjsong@bi.snu.ac.kr
 name: Yeon-Ji Song
 role: phd-candidate
+status: 재학
 ---

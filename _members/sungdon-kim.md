@@ -9,4 +9,5 @@ links:
   email: sdkim@bi.snu.ac.kr
 name: Sungdon Kim
 role: phd-student
+status: 재학
 ---

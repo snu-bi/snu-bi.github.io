@@ -8,7 +8,7 @@ links:
   email: honglak@eecs.umich.edu
   home-page: https://web.eecs.umich.edu/~honglak/
 name: Honglak Lee
-role: intern
+role: intern-former
 affiliation: University of Michigan
 graduation_year: 2002
 status: 졸업
