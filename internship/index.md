@@ -12,9 +12,7 @@ nav:
 We are recruiting highly motivated **undergraduate** interns who are passionate about **Physical AI** and **robotics**!    
 
 
-※ We do not accept internship applications for the purpose of PhD admission.
-
-> ⚠️ **Fall 2026 will be the last available admission term for the Master's program.** No new Master's students will be admitted after that.
+※ We do not accept internship applications for the purpose of admission.
 
 
 ## 📧 How to Apply
