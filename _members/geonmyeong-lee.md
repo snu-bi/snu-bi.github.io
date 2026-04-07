@@ -7,6 +7,6 @@ description: ''
 image: images/geonmyeong-lee.jpeg
 links:
 name: Geonmyeong Lee
-role: ms-student
+role: master-student
 status: 재학
 ---
