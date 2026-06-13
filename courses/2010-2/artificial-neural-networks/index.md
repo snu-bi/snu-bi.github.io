@@ -1,5 +1,5 @@
 ---
-title: Dynamic Learning: Architectures and Algorithms — Fall 2010
+title: Dynamic Learning - Fall 2010
 ---
 
 # {% include icon.html icon="fa-solid fa-brain" %}4541.676 Dynamic Learning: Architectures and Algorithms (Fall 2010)

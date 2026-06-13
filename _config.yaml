@@ -62,7 +62,6 @@ plugins:
   - jekyll-sitemap
   - jekyll-redirect-from
   - jekyll-feed
-  - jekyll-last-modified-at
 
 # code block syntax highlighting
 highlighter: rouge

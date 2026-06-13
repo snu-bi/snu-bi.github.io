@@ -1,5 +1,5 @@
 ---
-title: Machine Learning — Fall 2021
+title: Machine Learning - Fall 2021
 ---
 
 # {% include icon.html icon="fa-solid fa-microchip" %}4190.428 Machine Learning (Fall 2021)

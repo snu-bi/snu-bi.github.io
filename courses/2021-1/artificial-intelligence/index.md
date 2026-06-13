@@ -1,5 +1,5 @@
 ---
-title: Artificial Intelligence — Spring 2021
+title: Artificial Intelligence - Spring 2021
 ---
 
 # {% include icon.html icon="fa-solid fa-robot" %}4190.408 Artificial Intelligence (Spring 2021)

@@ -1,5 +1,5 @@
 ---
-title: Action-Perception-Learning Cycles — Fall 2012
+title: Action-Perception-Learning Cycles - Fall 2012
 ---
 
 # {% include icon.html icon="fa-solid fa-rotate" %}4541.676 Action-Perception-Learning Cycles (Fall 2012)

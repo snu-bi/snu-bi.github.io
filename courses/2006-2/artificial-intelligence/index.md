@@ -1,5 +1,5 @@
 ---
-title: Artificial Intelligence — Fall 2006
+title: Artificial Intelligence - Fall 2006
 ---
 
 # {% include icon.html icon="fa-solid fa-robot" %}4190.408 Artificial Intelligence: Biointelligence (Fall 2006)

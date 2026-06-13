@@ -1,5 +1,5 @@
 ---
-title: Bayesian Cognition — Fall 2010
+title: Bayesian Cognition - Fall 2010
 ---
 
 # {% include icon.html icon="fa-solid fa-graduation-cap" %}132.650 Bayesian Cognition (Fall 2010)

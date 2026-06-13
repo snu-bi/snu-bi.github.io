@@ -1,5 +1,5 @@
 ---
-title: Artificial Neural Networks — Fall 2020
+title: Artificial Neural Networks - Fall 2020
 ---
 
 # {% include icon.html icon="fa-solid fa-brain" %}4190.676 Artificial Neural Networks (Fall 2020)

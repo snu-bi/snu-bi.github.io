@@ -1,5 +1,5 @@
 ---
-title: Statistical Learning Theory — Spring 1999
+title: Statistical Learning Theory - Spring 1999
 ---
 
 # {% include icon.html icon="fa-solid fa-chart-line" %}Statistical Learning Theory: Data Mining Workshop (Spring 1999)

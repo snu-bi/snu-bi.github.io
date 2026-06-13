@@ -1,5 +1,5 @@
 ---
-title: Artificial Intelligence: Cognitive Robotics — Spring 2012
+title: Artificial Intelligence - Spring 2012
 ---
 
 # {% include icon.html icon="fa-solid fa-robot" %}4190.408 Artificial Intelligence: Cognitive Robotics (Spring 2012)

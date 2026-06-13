@@ -56,9 +56,7 @@ Seoul 151-744, Korea
 **Email**  
 [btzhang@bi.snu.ac.kr](mailto:btzhang@bi.snu.ac.kr)
 
-## Selected Legacy Talks and Tutorials
-
-Recovered talk lists from the former BI site document a long-running series of invited talks and tutorials on cognitive AI, human-level machine learning, robotics, hypernetworks, DNA computing, and bio-inspired computation.
+## Selected Talks and Tutorials
 
 ### International
 
@@ -86,8 +84,8 @@ Recovered talk lists from the former BI site document a long-running series of i
 - Deep Learning Theories of Cognitive Brain, Korean Cognitive Science Society BRIDGE school, October 14, 2017
 - Robots with Free Will, joint symposium of the Korean Cognitive Science Society and Philosophy Research Society, April 29, 2017
 
-## Recovered Talk Materials
+## Full Talk Archive
 
-- [Full recovered international talks list]({{ "/files/legacy/bi.snu.ac.kr/btzhang/Talks_and_Tutorials_Offered_inter.html" | relative_url }})
-- [Full recovered domestic talks list]({{ "/files/legacy/bi.snu.ac.kr/btzhang/Talks_and_Tutorials_Offered_dome.html" | relative_url }})
+- [International talks list]({{ "/files/legacy/bi.snu.ac.kr/btzhang/Talks_and_Tutorials_Offered_inter.html" | relative_url }})
+- [Domestic talks list]({{ "/files/legacy/bi.snu.ac.kr/btzhang/Talks_and_Tutorials_Offered_dome.html" | relative_url }})
 - [PACS 2015 PDF]({{ "/files/legacy/bi.snu.ac.kr/btzhang/PACS-2015.pdf" | relative_url }})

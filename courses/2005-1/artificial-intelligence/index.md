@@ -1,5 +1,5 @@
 ---
-title: Artificial Intelligence — Spring 2005
+title: Artificial Intelligence - Spring 2005
 ---
 
 # {% include icon.html icon="fa-solid fa-robot" %}4190.408 Artificial Intelligence: Biointelligence (Spring 2005)

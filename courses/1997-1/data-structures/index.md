@@ -1,5 +1,5 @@
 ---
-title: Data Structures — Spring 1997
+title: Data Structures - Spring 1997
 ---
 
 # {% include icon.html icon="fa-solid fa-sitemap" %}419.206 Data Structures (Spring 1997)

@@ -1,5 +1,5 @@
 ---
-title: Artificial Intelligence — 1998
+title: Artificial Intelligence - 1998
 ---
 
 # {% include icon.html icon="fa-solid fa-robot" %}4190.408 Artificial Intelligence (1998)

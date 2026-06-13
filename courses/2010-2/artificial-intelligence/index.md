@@ -1,5 +1,5 @@
 ---
-title: Artificial Intelligence: Biocognitive Intelligence — Fall 2010
+title: Artificial Intelligence - Fall 2010
 ---
 
 # {% include icon.html icon="fa-solid fa-robot" %}4190.408 Artificial Intelligence: Biocognitive Intelligence (Fall 2010)

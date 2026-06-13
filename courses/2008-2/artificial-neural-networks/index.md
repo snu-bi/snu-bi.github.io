@@ -1,5 +1,5 @@
 ---
-title: Cognitive Machine Learning — Fall 2008
+title: Cognitive Machine Learning - Fall 2008
 ---
 
 # 4541.676 Cognitive Machine Learning (Artificial Neural Networks) — Fall 2008

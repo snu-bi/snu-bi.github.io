@@ -1,5 +1,5 @@
 ---
-title: Machine Learning — Fall 2019
+title: Machine Learning - Fall 2019
 ---
 
 # {% include icon.html icon="fa-solid fa-microchip" %}4190.428 Machine Learning (Fall 2019)

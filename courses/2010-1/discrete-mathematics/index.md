@@ -1,5 +1,5 @@
 ---
-title: Discrete Mathematics — Spring 2010
+title: Discrete Mathematics - Spring 2010
 ---
 
 # {% include icon.html icon="fa-solid fa-calculator" %}4190.101 Discrete Mathematics (Spring 2010)

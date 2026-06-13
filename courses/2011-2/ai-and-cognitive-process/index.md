@@ -1,5 +1,5 @@
 ---
-title: Artificial Intelligence and Cognitive Process — Fall 2011
+title: Artificial Intelligence and Cognitive Process - Fall 2011
 ---
 
 # {% include icon.html icon="fa-solid fa-graduation-cap" %}132.650 Artificial Intelligence and Cognitive Process (Fall 2011)

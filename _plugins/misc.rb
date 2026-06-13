@@ -1,5 +1,9 @@
 require 'liquid'
-require 'html-proofer'
+begin
+  require 'html-proofer'
+rescue LoadError
+  # html-proofer not installed (skipped in local/Windows dev)
+end
 
 module Jekyll
   module MiscFilters
@@ -88,6 +92,7 @@ module Jekyll
 
   # based on https://github.com/episource/jekyll-html-proofer
   module HtmlProofer
+    if defined?(HTMLProofer)
     priority = Jekyll::Hooks::PRIORITY_MAP[:high] + 1000
 
     Jekyll::Hooks.register(:site, :post_write, priority: priority) do |site|
@@ -111,6 +116,7 @@ module Jekyll
         end
       end
     end
+    end # if defined?(HTMLProofer)
   end
 end
 

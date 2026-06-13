@@ -4,7 +4,10 @@ source "https://rubygems.org"
 gem "jekyll", "~> 4.3"
 gem "webrick", "~> 1.7"
 
-gem "html-proofer", "~> 5.0"
+# html-proofer: CI only (requires libcurl, not available locally on Windows)
+group :ci do
+  gem "html-proofer", "~> 5.0"
+end
 
 # plugins
 group :jekyll_plugins do
@@ -12,5 +15,5 @@ group :jekyll_plugins do
   gem "jekyll-sitemap"
   gem "jekyll-redirect-from"
   gem "jekyll-feed"
-  gem "jekyll-last-modified-at"
+  gem "jekyll-last-modified-at" unless Gem.win_platform?
 end

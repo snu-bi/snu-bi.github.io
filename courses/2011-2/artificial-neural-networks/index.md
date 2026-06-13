@@ -1,5 +1,5 @@
 ---
-title: Multisensory Predictive Learning — Fall 2011
+title: Multisensory Predictive Learning - Fall 2011
 ---
 
 # {% include icon.html icon="fa-solid fa-brain" %}4541.676 Multisensory Predictive Learning (Fall 2011)

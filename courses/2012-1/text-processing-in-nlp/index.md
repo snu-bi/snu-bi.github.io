@@ -1,5 +1,5 @@
 ---
-title: Text Processing in NLP and its Applications — Spring 2012
+title: Text Processing in NLP and its Applications - Spring 2012
 ---
 
 # {% include icon.html icon="fa-solid fa-language" %}4190.403 Text Processing in NLP and its Applications (Spring 2012)

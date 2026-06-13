@@ -1,5 +1,5 @@
 ---
-title: Artificial Neural Networks — Fall 2025
+title: Artificial Neural Networks - Fall 2025
 ---
 
 # {% include icon.html icon="fa-solid fa-brain" %}4190.676 인공신경망 (Fall 2025)

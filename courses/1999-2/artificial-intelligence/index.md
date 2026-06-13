@@ -1,5 +1,5 @@
 ---
-title: Artificial Intelligence — Fall 1999
+title: Artificial Intelligence - Fall 1999
 ---
 
 # {% include icon.html icon="fa-solid fa-robot" %}4190.408 Artificial Intelligence: Softbot Soccer (Fall 1999)

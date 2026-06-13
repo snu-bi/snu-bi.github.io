@@ -1,5 +1,5 @@
 ---
-title: Introduction to Artificial Intelligence — Spring 2019
+title: Introduction to Artificial Intelligence - Spring 2019
 ---
 
 # {% include icon.html icon="fa-solid fa-robot" %}4190.408 Artificial Intelligence (Spring 2019)

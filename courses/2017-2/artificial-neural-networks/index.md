@@ -1,5 +1,5 @@
 ---
-title: Self-learning Neural Algorithms — Fall 2017
+title: Self-learning Neural Algorithms - Fall 2017
 ---
 
 # {% include icon.html icon="fa-solid fa-brain" %}4190.676 Self-learning Neural Algorithms (Fall 2017)

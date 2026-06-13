@@ -1,5 +1,5 @@
 ---
-title: Introduction to Computers — 2000
+title: Introduction to Computers - 2000
 ---
 
 # {% include icon.html icon="fa-solid fa-computer" %}Introduction to Computers (2000)

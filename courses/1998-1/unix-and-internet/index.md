@@ -1,5 +1,5 @@
 ---
-title: Unix and Internet — 1998
+title: Unix and Internet - 1998
 ---
 
 # {% include icon.html icon="fa-solid fa-terminal" %}Unix and Internet (1998)

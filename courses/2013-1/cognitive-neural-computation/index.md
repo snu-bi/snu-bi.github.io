@@ -1,5 +1,5 @@
 ---
-title: Cognitive Neural Computation — Spring 2013
+title: Cognitive Neural Computation - Spring 2013
 ---
 
 # {% include icon.html icon="fa-solid fa-brain" %}132.650 Cognitive Neural Computation (Spring 2013)

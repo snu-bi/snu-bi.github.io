@@ -1,5 +1,5 @@
 ---
-title: Artificial Intelligence — Spring 2023
+title: Artificial Intelligence - Spring 2023
 ---
 
 # {% include icon.html icon="fa-solid fa-robot" %}4190.408 Artificial Intelligence (Spring 2023)

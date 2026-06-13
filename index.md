@@ -58,7 +58,7 @@ We pursue projects that integrate perception, cognition, and action to enable in
 
 {%
   include feature.html
-  image="images/pica.png"
+  image="images/pica.jpg"
   link="projects"
   title="Our Projects"
   flip=true
@@ -83,7 +83,7 @@ A multidisciplinary research team focused on advancing AI, robotics, and cogniti
 
 {%
   include feature.html
-  image="images/team.png"
+  image="images/team.jpg"
   link="team"
   title="Our Team"
   text=text

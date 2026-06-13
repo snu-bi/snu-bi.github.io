@@ -1,5 +1,5 @@
 ---
-title: Artificial Intelligence — Spring 2015
+title: Artificial Intelligence - Spring 2015
 ---
 
 # {% include icon.html icon="fa-solid fa-robot" %}4190.408 Artificial Intelligence: Cognitive Agents (Spring 2015)

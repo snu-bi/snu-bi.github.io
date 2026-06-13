@@ -8,6 +8,8 @@
 {% endif %}
 
 {% assign type = site.data.types[member.role] %}
+{% assign image = member.image | default: "images/photo.jpg" %}
+{% assign image = image | file_exists | default: "images/photo.jpg" %}
 
 <div class="portrait-wrapper">
   <a
@@ -23,10 +25,11 @@
     {% endif %}
 
     <img
-      src="{{ member.image | relative_url | uri_escape }}"
+      src="{{ image | relative_url | uri_escape }}"
       class="portrait-image"
       alt="member portrait"
       loading="lazy"
+      decoding="async"
       {% include fallback.html %}
     >
 

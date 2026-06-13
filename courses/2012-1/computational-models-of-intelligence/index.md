@@ -1,5 +1,5 @@
 ---
-title: Computational Models of Intelligence — Spring 2012
+title: Computational Models of Intelligence - Spring 2012
 ---
 
 # {% include icon.html icon="fa-solid fa-brain" %}132.551 Computational Models of Intelligence (Spring 2012)

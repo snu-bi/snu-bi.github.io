@@ -1,5 +1,5 @@
 ---
-title: Bioinformatics — 2002
+title: Bioinformatics - 2002
 ---
 
 # {% include icon.html icon="fa-solid fa-dna" %}Bioinformatics (2002)

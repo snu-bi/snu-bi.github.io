@@ -1,5 +1,5 @@
 ---
-title: Probabilistic Graphical Models — Fall 2009
+title: Probabilistic Graphical Models - Fall 2009
 ---
 
 # {% include icon.html icon="fa-solid fa-brain" %}4541.676 Probabilistic Graphical Models (Fall 2009)

@@ -1,5 +1,5 @@
 ---
-title: Artificial Intelligence — 2001
+title: Artificial Intelligence - 2001
 ---
 
 # {% include icon.html icon="fa-solid fa-robot" %}4190.408 Artificial Intelligence (2001)

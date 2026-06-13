@@ -1,5 +1,5 @@
 ---
-title: Brain, Computation, and Neural Learning — Fall 2011
+title: Brain, Computation, and Neural Learning - Fall 2011
 ---
 
 # {% include icon.html icon="fa-solid fa-robot" %}4190.408 Brain, Computation, and Neural Learning (Fall 2011)

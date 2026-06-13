@@ -1,5 +1,5 @@
 ---
-title: Brain and Computation — Spring 2009
+title: Brain and Computation - Spring 2009
 ---
 
 # {% include icon.html icon="fa-solid fa-brain" %}2071.402 Brain and Computation (Spring 2009)

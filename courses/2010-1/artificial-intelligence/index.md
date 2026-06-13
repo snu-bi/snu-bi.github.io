@@ -1,5 +1,5 @@
 ---
-title: Artificial Intelligence: Biointelligence — Spring 2010
+title: Artificial Intelligence - Spring 2010
 ---
 
 # {% include icon.html icon="fa-solid fa-robot" %}4190.408 Artificial Intelligence: Biointelligence (Spring 2010)

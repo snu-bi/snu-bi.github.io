@@ -1,5 +1,5 @@
 ---
-title: Mathematics of Lifelong Sequential Learning — Fall 2013
+title: Mathematics of Lifelong Sequential Learning - Fall 2013
 ---
 
 # {% include icon.html icon="fa-solid fa-brain" %}4190.676 Mathematics of Lifelong Sequential Learning (Fall 2013)

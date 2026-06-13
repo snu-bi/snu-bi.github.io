@@ -1,7 +1,7 @@
 - title: PICA
   subtitle: (Perception, Imagination, Cognition, Action)
   group: featured
-  image: images/pica.png
+  image: images/pica.jpg
   # link: https://github.com/
   description: 새로운 문제를 새로운 상황에 대해 <br>❶ 스스로 문제를 인지하고, 이를 해결하기 위한 <br>❷ 탐색 기반 가설 생성 및 평가와 <br>❸ 필요한 데이터의 자동 탐색, 분석을 통하여 <br>❹ 순차적 추론을 통한 문제 해결을 위해 <br>스스로 학습하는 ‘자기주도 인공지능’
   tags:

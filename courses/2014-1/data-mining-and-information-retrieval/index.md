@@ -1,5 +1,5 @@
 ---
-title: Data Mining and Information Retrieval — Spring 2014
+title: Data Mining and Information Retrieval - Spring 2014
 ---
 
 # {% include icon.html icon="fa-solid fa-database" %}4190.312C Data Mining and Information Retrieval (Spring 2014)

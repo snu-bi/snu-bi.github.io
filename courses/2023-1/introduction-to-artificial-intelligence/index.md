@@ -1,5 +1,5 @@
 ---
-title: Introduction to Artificial Intelligence — Spring 2023
+title: Introduction to Artificial Intelligence - Spring 2023
 ---
 
 # {% include icon.html icon="fa-solid fa-robot" %}L0444.000300 Introduction to Artificial Intelligence (Spring 2023)

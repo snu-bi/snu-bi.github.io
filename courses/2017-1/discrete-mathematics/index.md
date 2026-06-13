@@ -1,5 +1,5 @@
 ---
-title: Discrete Mathematics — Spring 2017
+title: Discrete Mathematics - Spring 2017
 ---
 
 # {% include icon.html icon="fa-solid fa-calculator" %}4190.101 Discrete Mathematics (Spring 2017)

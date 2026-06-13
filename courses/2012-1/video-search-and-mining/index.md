@@ -1,5 +1,5 @@
 ---
-title: Video Search & Mining — Spring 2012
+title: Video Search & Mining - Spring 2012
 ---
 
 # {% include icon.html icon="fa-solid fa-magnifying-glass" %}4190.312B Video Search & Mining (Spring 2012)

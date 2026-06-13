@@ -1,5 +1,5 @@
 ---
-title: Robots Learning from Humans — Fall 2015
+title: Robots Learning from Humans - Fall 2015
 ---
 
 # {% include icon.html icon="fa-solid fa-brain" %}4190.676 Robots Learning from Humans (Fall 2015)

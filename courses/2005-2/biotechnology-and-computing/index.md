@@ -1,5 +1,5 @@
 ---
-title: Biotechnology and Computing — Fall 2005
+title: Biotechnology and Computing - Fall 2005
 ---
 
 # {% include icon.html icon="fa-solid fa-flask" %}4190.419 Biotechnology and Computing (Fall 2005)

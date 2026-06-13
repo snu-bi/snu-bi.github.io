@@ -1,5 +1,5 @@
 ---
-title: Introduction to Computers — Spring 1997
+title: Introduction to Computers - Spring 1997
 ---
 
 # {% include icon.html icon="fa-solid fa-computer" %}419.017 Introduction to Computers (Spring 1997)
