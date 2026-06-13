@@ -1,7 +1,7 @@
 ---
 title: Awards
 nav:
-  order: 45
+  order: 4
   tooltip: Awards and achievements
 ---
 
