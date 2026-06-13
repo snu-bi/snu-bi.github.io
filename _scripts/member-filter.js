@@ -7,7 +7,7 @@
   const filterConfig = {
     all: {
       name: "All",
-      sectionIds: ["faculty", "research-professor", "phd", "master", "intern", "alumni"]
+      sectionIds: ["faculty", "research-professor", "phd", "master", "intern", "phd-alumni", "master-alumni", "intern-alumni"]
     },
     faculty: {
       name: "Faculty",
@@ -15,19 +15,19 @@
     },
     phd: {
       name: "PhD Students",
-      sectionIds: ["phd"]
+      sectionIds: ["phd", "phd-alumni"]
     },
     master: {
       name: "Master Students",
-      sectionIds: ["master"]
+      sectionIds: ["master", "master-alumni"]
     },
     intern: {
       name: "Interns",
-      sectionIds: ["intern"]
+      sectionIds: ["intern", "intern-alumni"]
     },
     alumni: {
       name: "Alumni",
-      sectionIds: ["alumni"]
+      sectionIds: ["phd-alumni", "master-alumni", "intern-alumni"]
     }
   };
 
@@ -54,6 +54,11 @@
   const getHeadingFilterId = (headingText) => {
     const text = headingText.toLowerCase().trim();
 
+    // Alumni sub-sections must be checked BEFORE generic phd/master/intern
+    if (text.includes("phd alumni")) return "phd-alumni";
+    if (text.includes("master alumni")) return "master-alumni";
+    if (text.includes("intern alumni")) return "intern-alumni";
+
     if (text.includes("professor") && !text.includes("research")) {
       return "faculty";
     }
@@ -69,9 +74,8 @@
     if (text.includes("intern")) {
       return "intern";
     }
-    if (text.includes("alumni")) {
-      return "alumni";
-    }
+    // "Alumni" h1 heading is intentionally skipped (returns null) so it stays
+    // always visible as a section divider regardless of the active filter.
     return null;
   };
 
