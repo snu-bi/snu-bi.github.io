@@ -123,6 +123,58 @@ nav > a:focus-visible {
   outline-offset: 4px;
 }
 
+.nav-dropdown {
+  position: relative;
+}
+.nav-dropdown:hover .nav-dropdown-menu, .nav-dropdown:focus-within .nav-dropdown-menu {
+  display: block;
+}
+
+.nav-dropdown-menu {
+  display: none;
+  position: absolute;
+  top: calc(100% + 6px);
+  left: 50%;
+  transform: translateX(-50%);
+  background: var(--background);
+  box-shadow: var(--shadow);
+  border: 1px solid var(--light-gray);
+  border-radius: 6px;
+  min-width: 200px;
+  z-index: 100;
+  padding: 4px 0;
+  white-space: nowrap;
+}
+.nav-dropdown-menu a {
+  display: block;
+  padding: 6px 16px;
+  font-size: var(--small);
+  text-transform: none;
+  color: var(--text);
+  text-decoration: none;
+  transition: background var(--transition), color var(--transition);
+}
+.nav-dropdown-menu a:hover {
+  background: var(--light-gray);
+  color: var(--primary);
+}
+
+.nav-dropdown-divider {
+  display: block;
+  padding: 6px 16px 2px;
+  font-size: 0.65rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--gray);
+  opacity: 0.7;
+  margin-top: 4px;
+  border-top: 1px solid var(--light-gray);
+}
+.nav-dropdown-divider:first-child {
+  border-top: none;
+  margin-top: 0;
+}
+
 @media (max-width: 700px) {
   header:not([data-big]) {
     justify-content: flex-end;
