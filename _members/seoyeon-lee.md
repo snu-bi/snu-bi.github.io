@@ -7,6 +7,6 @@ image: images/seoyeon-lee.jpeg
 links:
   home-page: https://github.com/SeoYeonnLee
 name: Seoyeon Lee
-role: intern
+role: master-student
 status: 재학
 --- 

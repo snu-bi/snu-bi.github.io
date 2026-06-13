@@ -10,5 +10,6 @@ links:
   openreview: https://openreview.net/profile?id=~Youwon_Jang1
 name: Youwon Jang
 role: phd-candidate
-status: 재학
+status: 졸업
+graduation_year: 2026
 ---
