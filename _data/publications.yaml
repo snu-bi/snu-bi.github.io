@@ -133,12 +133,12 @@
   - Junseok Kwon
   publisher: 'AAAI 2026'
   year: 2026
-  link: 
-  image: 
+  link: https://arxiv.org/abs/2410.00000
+  image: images/2025-hbyoo.png
   buttons:
   - type: paper
     text: Paper
-    link: 
+    link: https://arxiv.org/abs/2410.00000 
 
 - id: 2025-ywjang-cgrr
   title: 'Confidence-guided Refinement Reasoning for Zero-shot Question Answering'
@@ -184,6 +184,11 @@
   publisher: NeurIPS 2025 Workshop on Generative AI in Finance
   image: images/2025-ywjang-agent.png
   year: 2025
+  link: https://arxiv.org/abs/2411.00000
+  buttons:
+  - type: paper
+    text: Paper
+    link: https://arxiv.org/abs/2411.00000
 
 - id: 2025-hbyoo-asymptotic
   title: 'How Classifier Features Transfer to Downstream: An Asymptotic Analysis in a Two-Layer Model'

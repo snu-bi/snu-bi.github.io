@@ -1,0 +1,39 @@
+<div class="member-filter-wrapper">
+  <div class="member-filter" id="memberFilter">
+    <div class="filter-header">
+      <span class="filter-label">
+        {% include icon.html icon="fa-solid fa-filter" %}
+        Filter by role:
+      </span>
+    </div>
+
+    <div class="filter-buttons">
+      <button class="filter-btn active" data-filter="all" aria-label="Show all members">
+        <span class="label">All</span>
+        <span class="label-short">All</span>
+      </button>
+      <button class="filter-btn" data-filter="faculty" aria-label="Show faculty">
+        <span class="label">Faculty</span>
+        <span class="label-short">Prof</span>
+      </button>
+      <button class="filter-btn" data-filter="phd" aria-label="Show PhD students">
+        <span class="label">PhD</span>
+        <span class="label-short">PhD</span>
+      </button>
+      <button class="filter-btn" data-filter="master" aria-label="Show Master students">
+        <span class="label">Master</span>
+        <span class="label-short">Mst</span>
+      </button>
+      <button class="filter-btn" data-filter="intern" aria-label="Show interns">
+        <span class="label">Intern</span>
+        <span class="label-short">Int</span>
+      </button>
+      <button class="filter-btn" data-filter="alumni" aria-label="Show alumni">
+        <span class="label">Alumni</span>
+        <span class="label-short">Alm</span>
+      </button>
+    </div>
+  </div>
+
+  <div class="filter-divider"></div>
+</div>
