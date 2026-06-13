@@ -2,7 +2,7 @@
 title: Projects
 nav:
   order: 2
-  tooltip: Featured / Current / Completed
+  tooltip: "PICA · LBA · Embodied AI · Tank · KAI · Alchemist · GSAI · VTT · BabyMind · StarLab · RoboMotion · Molecular AI · ..."
 ---
 
 # {% include icon.html icon="fa-solid fa-wrench" %}Projects
