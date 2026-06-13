@@ -15,4 +15,5 @@ links:
 name: Woo Suk (Paul) Choi
 role: phd
 status: 졸업
+graduation_year: 2026
 ---
