@@ -422,10 +422,51 @@
   
 
   <section class="background" data-size="page">
-    <div class="float">
-  
+    <style>
+  .member-profile-page {
+    width: min(100%, 920px);
+    margin: 0 auto;
+  }
+
+  .member-profile-summary {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.75rem;
+    margin: 1.5rem auto 2rem;
+    text-align: center;
+  }
+
+  .member-profile-summary .portrait {
+    width: min(220px, 60vw);
+    margin: 0;
+  }
+
+  .member-profile-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.25rem 0.5rem;
+    max-width: min(100%, 720px);
+  }
+
+  .member-profile-links .button {
+    margin: 0;
+  }
+
+  .member-profile-content {
+    margin-top: 1.5rem;
+  }
+</style>
+
+<div class="member-profile-page">
+  <div class="member-profile-summary">
+    
+
+
+
 <div class="portrait-wrapper">
-  <a class="portrait" data-style="" aria-label="Suhyung Choi">
+  <a class="portrait" data-style="member-page" aria-label="Suhyung Choi">
     
       <i class="icon fa-solid fa-graduation-cap"></i>
     
@@ -448,11 +489,14 @@
   </a>
 </div>
 
-<div>
-  
+
     
-    
-    
+      <div class="member-profile-links" aria-label="Member links">
+        
+          
+          
+          
+            
 
 
 
@@ -465,11 +509,13 @@
     </a>
   </div>
 
-<br>
-  
-    
-    
-    
+
+          
+        
+          
+          
+          
+            
 
 
 
@@ -482,11 +528,13 @@
     </a>
   </div>
 
-<br>
-  
-    
-    
-    
+
+          
+        
+          
+          
+          
+            
 
 
 
@@ -497,15 +545,15 @@
     </a>
   </div>
 
-<br>
-  
-</div>
 
+          
+        
+      </div>
+    
+  </div>
 
-</div>
-
-
-<p><img src="/images/choi-the-best.jpeg" alt="최수형"></p>
+  <div class="member-profile-content">
+    <p><img src="/images/choi-the-best.jpeg" alt="최수형"></p>
 
 <h2 id="어록">어록</h2>
 
@@ -515,6 +563,8 @@
 
 <p><img src="/images/ai-gened-suhyung-choi.jpg" alt="최수형"></p>
 
+  </div>
+</div>
 
 
 

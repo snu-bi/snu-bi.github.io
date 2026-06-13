@@ -422,10 +422,51 @@
   
 
   <section class="background" data-size="page">
-    <div class="float">
-  
+    <style>
+  .member-profile-page {
+    width: min(100%, 920px);
+    margin: 0 auto;
+  }
+
+  .member-profile-summary {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.75rem;
+    margin: 1.5rem auto 2rem;
+    text-align: center;
+  }
+
+  .member-profile-summary .portrait {
+    width: min(220px, 60vw);
+    margin: 0;
+  }
+
+  .member-profile-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.25rem 0.5rem;
+    max-width: min(100%, 720px);
+  }
+
+  .member-profile-links .button {
+    margin: 0;
+  }
+
+  .member-profile-content {
+    margin-top: 1.5rem;
+  }
+</style>
+
+<div class="member-profile-page">
+  <div class="member-profile-summary">
+    
+
+
+
 <div class="portrait-wrapper">
-  <a class="portrait" data-style="" aria-label="Byoung-Tak Zhang">
+  <a class="portrait" data-style="member-page" aria-label="Byoung-Tak Zhang">
     
       <i class="icon fa-solid fa-microscope"></i>
     
@@ -452,11 +493,14 @@
   </a>
 </div>
 
-<div>
-  
+
     
-    
-    
+      <div class="member-profile-links" aria-label="Member links">
+        
+          
+          
+          
+            
 
 
 
@@ -469,11 +513,13 @@
     </a>
   </div>
 
-<br>
-  
-    
-    
-    
+
+          
+        
+          
+          
+          
+            
 
 
 
@@ -486,11 +532,13 @@
     </a>
   </div>
 
-<br>
-  
-    
-    
-    
+
+          
+        
+          
+          
+          
+            
 
 
 
@@ -501,15 +549,15 @@
     </a>
   </div>
 
-<br>
-  
-</div>
 
+          
+        
+      </div>
+    
+  </div>
 
-</div>
-
-
-<p>How does the biological mind work? How does the brain build a model of the world to instantly and robustly act on it? What kinds of processing and organizational mechanisms allow the brain to learn so rapidly, flexibly, and continuously in a noisy, dynamic, and changing environment? How can we build smart machines that perceive, think, act, and learn like the human brain and mind? In the Biointelligence Lab and the Cognitive Robotics and ArtificialIntelligence Center (CRAIC) we pursue these questions using diverse methods of cognitive modeling, computational neuroscience, robotics, and computer science.</p>
+  <div class="member-profile-content">
+    <p>How does the biological mind work? How does the brain build a model of the world to instantly and robustly act on it? What kinds of processing and organizational mechanisms allow the brain to learn so rapidly, flexibly, and continuously in a noisy, dynamic, and changing environment? How can we build smart machines that perceive, think, act, and learn like the human brain and mind? In the Biointelligence Lab and the Cognitive Robotics and ArtificialIntelligence Center (CRAIC) we pursue these questions using diverse methods of cognitive modeling, computational neuroscience, robotics, and computer science.</p>
 
 <p>We build robotic surrogates by “cloning” the embodied and situated mind using wearable sensors, such as smart glasses, watches, brain scanners, body sensors, and mobile devices. We collect human activity data by long-term life-tracking in the real world. Based on these observational data, we reverse-engineer the brain architecture by exploring the plausible neurocognitive models that best explain the mind in working. We also use videos and cartoons to study how the cognitive brain constructs episodic memory and mental imagery from a long sequence of context-rich events while watching dramas and movies.</p>
 
@@ -600,6 +648,8 @@ Seoul 151-744, Korea</p>
   <li><a href="/files/legacy/bi.snu.ac.kr/btzhang/PACS-2015.pdf">PACS 2015 PDF</a></li>
 </ul>
 
+  </div>
+</div>
 
 
 

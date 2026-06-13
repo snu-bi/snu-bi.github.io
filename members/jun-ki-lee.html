@@ -422,10 +422,51 @@
   
 
   <section class="background" data-size="page">
-    <div class="float">
-  
+    <style>
+  .member-profile-page {
+    width: min(100%, 920px);
+    margin: 0 auto;
+  }
+
+  .member-profile-summary {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.75rem;
+    margin: 1.5rem auto 2rem;
+    text-align: center;
+  }
+
+  .member-profile-summary .portrait {
+    width: min(220px, 60vw);
+    margin: 0;
+  }
+
+  .member-profile-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.25rem 0.5rem;
+    max-width: min(100%, 720px);
+  }
+
+  .member-profile-links .button {
+    margin: 0;
+  }
+
+  .member-profile-content {
+    margin-top: 1.5rem;
+  }
+</style>
+
+<div class="member-profile-page">
+  <div class="member-profile-summary">
+    
+
+
+
 <div class="portrait-wrapper">
-  <a class="portrait" data-style="" aria-label="Jun Ki Lee">
+  <a class="portrait" data-style="member-page" aria-label="Jun Ki Lee">
     
       <i class="icon fa-solid fa-microscope"></i>
     
@@ -452,11 +493,14 @@
   </a>
 </div>
 
-<div>
-  
+
     
-    
-    
+      <div class="member-profile-links" aria-label="Member links">
+        
+          
+          
+          
+            
 
 
 
@@ -469,11 +513,13 @@
     </a>
   </div>
 
-<br>
-  
-    
-    
-    
+
+          
+        
+          
+          
+          
+            
 
 
 
@@ -486,11 +532,13 @@
     </a>
   </div>
 
-<br>
-  
-    
-    
-    
+
+          
+        
+          
+          
+          
+            
 
 
 
@@ -503,11 +551,13 @@
     </a>
   </div>
 
-<br>
-  
-    
-    
-    
+
+          
+        
+          
+          
+          
+            
 
 
 
@@ -518,15 +568,15 @@
     </a>
   </div>
 
-<br>
-  
-</div>
 
+          
+        
+      </div>
+    
+  </div>
 
-</div>
-
-
-<p>My research focuses are in reinforcement learning especially in its explainability, machine learning, robotics, and humand robot interaction (HRI).</p>
+  <div class="member-profile-content">
+    <p>My research focuses are in reinforcement learning especially in its explainability, machine learning, robotics, and humand robot interaction (HRI).</p>
 
 <h3 id="-research-areas">
 <i class="fas fa-lightbulb"></i> Research Areas</h3>
@@ -562,6 +612,8 @@
   </li>
 </ul>
 
+  </div>
+</div>
 
 
 

@@ -422,10 +422,51 @@
   
 
   <section class="background" data-size="page">
-    <div class="float">
-  
+    <style>
+  .member-profile-page {
+    width: min(100%, 920px);
+    margin: 0 auto;
+  }
+
+  .member-profile-summary {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.75rem;
+    margin: 1.5rem auto 2rem;
+    text-align: center;
+  }
+
+  .member-profile-summary .portrait {
+    width: min(220px, 60vw);
+    margin: 0;
+  }
+
+  .member-profile-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.25rem 0.5rem;
+    max-width: min(100%, 720px);
+  }
+
+  .member-profile-links .button {
+    margin: 0;
+  }
+
+  .member-profile-content {
+    margin-top: 1.5rem;
+  }
+</style>
+
+<div class="member-profile-page">
+  <div class="member-profile-summary">
+    
+
+
+
 <div class="portrait-wrapper">
-  <a class="portrait" data-style="" aria-label="Sang-Jun Park">
+  <a class="portrait" data-style="member-page" aria-label="Sang-Jun Park">
     
       <i class="icon fa-solid fa-graduation-cap"></i>
     
@@ -448,11 +489,14 @@
   </a>
 </div>
 
-<div>
-  
+
     
-    
-    
+      <div class="member-profile-links" aria-label="Member links">
+        
+          
+          
+          
+            
 
 
 
@@ -465,50 +509,26 @@
     </a>
   </div>
 
-<br>
-  
-    
-    
-    
 
-
-
-  <div class="button-wrapper">
-    <a class="button" href="" data-tooltip="GitHub" data-style="bare" aria-label="GitHub">
-      <i class="icon fa-brands fa-github"></i>
-      
-        <span>GitHub</span>
-      
-    </a>
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+      </div>
+    
   </div>
 
-<br>
-  
-    
-    
+  <div class="member-profile-content">
     
 
-
-
-  <div class="button-wrapper">
-    <a class="button" href="" data-tooltip="Home page" data-style="bare" aria-label="Home page">
-      <i class="icon fa-solid fa-house-user"></i>
-      
-        <span>Home Page</span>
-      
-    </a>
   </div>
-
-<br>
-  
 </div>
-
-
-</div>
-
-
-
-
 
 
 
