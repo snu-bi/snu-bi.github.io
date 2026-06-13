@@ -152,7 +152,7 @@ We study mathematical tools for approximation and optimization of the neural lea
 - **L0444.000300** Introduction to Artificial Intelligence
 
 ### Spring 2018
-- **4190.408** Artificial Intelligence
+- **4190.408** [Artificial Intelligence](/course/4ai18s/)
 - **L0444.000300** Introduction to Artificial Intelligence
 
 ### Fall 2017
@@ -227,7 +227,7 @@ We study mathematical tools for approximation and optimization of the neural lea
 - **132.650** Studies in Artificial Intelligence and Cognitive Process
 
 ### Spring 2009
-- **4190.408** Artificial Intelligence: Biointelligence
+- **4190.408** [Artificial Intelligence: Biointelligence](/course/4ai09s/)
 - **2071.402** Brain and Computation
 - **132.551** Computational Models of Intelligence
 - **3391.506** Computational Neuroscience
@@ -243,12 +243,14 @@ We study mathematical tools for approximation and optimization of the neural lea
 - **4190.101** Discrete Mathematics
 
 ### Spring 2008
-- **4190.408** Artificial Intelligence: Biointelligence
+- **4190.408** [Artificial Intelligence: Biointelligence](/course/4ai08s/)
 - **4190.101** Discrete Mathematics
 - **3393.501A** Bioinformatics and Practice 1 *(Java)*
 
 ### 2007 and Before
-Legacy course materials (lecture notes, slides, problem sets) from 2007 and earlier are available in the archive below.
+- **Spring 2007** — [4190.408 Artificial Intelligence: Biointelligence](/course/4ai07s/)
+
+Legacy course materials (lecture notes, slides, problem sets) from 2007 and earlier are also available in the archive below.
 
 {% include section.html %}
 
