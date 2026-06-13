@@ -14,4 +14,4 @@ name: Seungjae Jung
 role: master
 status: 졸업
 graduation_year: 2020
---- 
+---

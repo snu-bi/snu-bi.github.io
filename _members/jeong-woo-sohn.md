@@ -14,4 +14,4 @@ name: Jeong-Woo Sohn
 role: master
 status: 졸업
 graduation_year: 1999
---- 
+---

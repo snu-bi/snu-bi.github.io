@@ -15,4 +15,4 @@ name: Sungjae Cho
 role: master
 status: 졸업
 graduation_year: 2019
---- 
+---

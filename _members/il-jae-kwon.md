@@ -14,4 +14,4 @@ role: master
 affiliation: Team Heimdallr
 graduation_year: 2021
 status: 졸업
---- 
+---

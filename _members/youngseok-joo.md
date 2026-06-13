@@ -14,4 +14,3 @@ status: 재학
 ---
 
 ![주영석](/images/ai-gened-joo.jpg)
-

@@ -14,4 +14,4 @@ role: master
 affiliation: DISQUEST
 graduation_year: 2021
 status: 졸업
---- 
+---

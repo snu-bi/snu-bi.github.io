@@ -14,4 +14,4 @@ name: Jin Young Choi
 role: master
 status: 졸업
 graduation_year: 2018
---- 
+---

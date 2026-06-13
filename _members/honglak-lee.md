@@ -13,4 +13,4 @@ role: intern
 affiliation: University of Michigan
 graduation_year: 2002
 status: 졸업
---- 
+---

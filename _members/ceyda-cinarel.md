@@ -14,4 +14,4 @@ name: Ceyda Çınarel
 role: master
 status: 졸업
 graduation_year: 2018
---- 
+---

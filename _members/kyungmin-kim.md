@@ -13,4 +13,4 @@ name: Kyungmin Kim
 role: phd
 status: 졸업
 graduation_year: 2018
---- 
+---

@@ -9,4 +9,4 @@ links:
 name: Seoyeon Lee
 role: master-student
 status: 재학
---- 
+---

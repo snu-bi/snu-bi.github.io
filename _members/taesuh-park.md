@@ -14,4 +14,4 @@ name: Tae-Suh Park
 role: phd
 status: 졸업
 graduation_year: 2015
---- 
+---

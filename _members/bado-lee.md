@@ -13,4 +13,4 @@ name: Bado Lee
 role: master
 status: 졸업
 graduation_year: 2012
---- 
+---

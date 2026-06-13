@@ -14,4 +14,4 @@ name: Dong-Yeon Cho
 role: phd
 status: 졸업
 graduation_year: 2007
---- 
+---

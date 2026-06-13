@@ -13,4 +13,4 @@ name: Ki-Roo Shin
 role: master
 status: 졸업
 graduation_year: 2005
---- 
+---

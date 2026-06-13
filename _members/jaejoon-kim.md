@@ -12,4 +12,4 @@ links:
 name: Jaejoon Kim
 role: intern
 status: 재학
---- 
+---

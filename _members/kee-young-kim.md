@@ -13,4 +13,4 @@ name: Kee-Young Kim
 role: master
 status: 졸업
 graduation_year: 2006
---- 
+---

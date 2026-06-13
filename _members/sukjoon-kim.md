@@ -14,4 +14,4 @@ name: Suk-Joon Kim
 role: master
 status: 졸업
 graduation_year: 2000
---- 
+---

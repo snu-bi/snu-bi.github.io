@@ -13,4 +13,4 @@ name: Jong-Youn Lim
 role: master
 status: 졸업
 graduation_year: 2002
---- 
+---

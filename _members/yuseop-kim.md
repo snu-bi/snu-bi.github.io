@@ -14,4 +14,4 @@ name: Yu-seop Kim
 role: phd
 status: 졸업
 graduation_year: 2000
---- 
+---

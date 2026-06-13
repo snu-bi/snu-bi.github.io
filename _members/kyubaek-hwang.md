@@ -14,4 +14,4 @@ name: Kyu-Baek Hwang
 role: phd
 status: 졸업
 graduation_year: 2005
---- 
+---

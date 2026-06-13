@@ -14,4 +14,4 @@ name: Jung-Woo Ha
 role: phd
 status: 졸업
 graduation_year: 2015
---- 
+---

@@ -9,4 +9,4 @@ links:
 name: Hyeonbin Park
 role: master-student
 status: 재학
---- 
+---

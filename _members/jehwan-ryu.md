@@ -14,4 +14,4 @@ links:
 name: Je-Hwan Ryu
 role: phd-candidate
 status: 재학
---- 
+---

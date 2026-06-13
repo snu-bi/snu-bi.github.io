@@ -11,4 +11,4 @@ links:
 name: Dohyun Yu
 role: master-student
 status: 재학
---- 
+---

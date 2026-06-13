@@ -14,4 +14,4 @@ name: Jang-Min oh
 role: phd
 status: 졸업
 graduation_year: 2006
---- 
+---

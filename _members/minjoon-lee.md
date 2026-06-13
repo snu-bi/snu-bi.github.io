@@ -11,4 +11,4 @@ name: Minjoon Lee
 role: intern
 status: 졸업
 graduation_year: 2023
---- 
+---

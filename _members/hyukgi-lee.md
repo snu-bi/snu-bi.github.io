@@ -13,4 +13,4 @@ role: master
 affiliation: Neosapiens
 graduation_year: 2022
 status: 졸업
---- 
+---
