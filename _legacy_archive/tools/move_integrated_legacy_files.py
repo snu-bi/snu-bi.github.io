@@ -12,6 +12,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[2]
 OLD_PREFIX = "legacy/raw/"
 NEW_PREFIX = "files/legacy/"
+DOWNLOAD_PREFIX = "_legacy_archive/downloads/"
 REPORT = ROOT / "_legacy_archive" / "reports" / "moved_integrated_legacy_files.json"
 
 CONTENT_GLOBS = [
@@ -42,9 +43,7 @@ def referenced_legacy_paths(files: list[Path]) -> set[str]:
             raw = match.group(0).strip()
             raw = raw.rstrip('")]}>,.')
             raw = raw.lstrip("/")
-            candidate = ROOT / raw
-            if candidate.exists() and candidate.is_file():
-                refs.add(raw)
+            refs.add(raw)
     return refs
 
 
@@ -57,26 +56,50 @@ def safe_path(relative: str) -> Path:
     return path
 
 
+def source_candidates(old_rel: str) -> list[tuple[Path, str, bool]]:
+    if not old_rel.startswith(OLD_PREFIX):
+        return []
+
+    archived_rel = DOWNLOAD_PREFIX + old_rel[len(OLD_PREFIX) :]
+    return [
+        (safe_path(old_rel), old_rel, True),
+        (safe_path(archived_rel), archived_rel, False),
+    ]
+
+
 def move_files(refs: set[str]) -> list[dict[str, str]]:
     moved = []
     for old_rel in sorted(refs):
         if not old_rel.startswith(OLD_PREFIX):
             continue
         new_rel = NEW_PREFIX + old_rel[len(OLD_PREFIX) :]
-        source = safe_path(old_rel)
         target = safe_path(new_rel)
 
-        if not source.exists():
+        source = None
+        source_rel = None
+        remove_source = False
+        for candidate, candidate_rel, candidate_remove in source_candidates(old_rel):
+            if candidate.exists() and candidate.is_file():
+                source = candidate
+                source_rel = candidate_rel
+                remove_source = candidate_remove
+                break
+        if source is None or source_rel is None:
             continue
+
         target.parent.mkdir(parents=True, exist_ok=True)
         if target.exists():
             if target.is_file() and target.stat().st_size == source.stat().st_size:
-                source.unlink()
+                if remove_source:
+                    source.unlink()
             else:
                 raise RuntimeError(f"Target already exists with different content: {new_rel}")
         else:
-            shutil.move(str(source), str(target))
-        moved.append({"old": old_rel, "new": new_rel})
+            if remove_source:
+                shutil.move(str(source), str(target))
+            else:
+                shutil.copy2(str(source), str(target))
+        moved.append({"old": old_rel, "new": new_rel, "source": source_rel})
     return moved
 
 

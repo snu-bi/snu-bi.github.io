@@ -143,15 +143,54 @@ nav:
 - **4190.101** Discrete Mathematics
 - **3393.501A** Bioinformatics and Practice 1 *(Java)*
 
-### 2007 and Before
-- **Spring 2007** — [4190.408 Artificial Intelligence: Biointelligence](/courses/2007-1/artificial-intelligence/)
+### Spring 2007
+- **4190.408** [Artificial Intelligence: Biointelligence](/courses/2007-1/artificial-intelligence/)
 
-Legacy course materials (lecture notes, slides, problem sets) from 2007 and earlier are also available in the archive below.
+### Fall 2006
+- **4190.408** [Artificial Intelligence: Biointelligence](/courses/2006-2/artificial-intelligence/)
 
-{% include section.html %}
+### Spring 2006
+- **4190.408** [Artificial Intelligence: Biointelligence](/courses/2006-1/artificial-intelligence/)
 
-## {% include icon.html icon="fa-solid fa-folder-open" %}Recovered Course Materials
+### Fall 2005
+- **4190.408** [Artificial Intelligence: Biointelligence](/courses/2005-2/artificial-intelligence/)
+- **4190.419** [Biotechnology and Computing](/courses/2005-2/biotechnology-and-computing/)
 
-Slide decks, assignments, project datasets, and reference PDFs from the former `bi.snu.ac.kr` archive have been migrated directly into each course page. See the individual course pages above for downloadable materials.
+### Spring 2005
+- **4190.408** [Artificial Intelligence: Biointelligence](/courses/2005-1/artificial-intelligence/)
 
-Very old courses (1997–2006) not yet in the current Jekyll structure are still accessible via the legacy catalog below.
+### Fall 2004
+- **4190.419** [Biotechnology and Computing](/courses/2004-2/biotechnology-and-computing/)
+
+### Spring 2004
+- **4190.408** [Artificial Intelligence](/courses/2004-1/artificial-intelligence/)
+
+### 2002
+- **4190.408** [Artificial Intelligence](/courses/2002-1/artificial-intelligence/)
+- [Bioinformatics](/courses/2002-1/bioinformatics/)
+- [Introduction to Computers](/courses/2002-1/introduction-to-computers/)
+
+### 2001
+- **4190.408** [Artificial Intelligence](/courses/2001-1/artificial-intelligence/)
+- [Introduction to Computers](/courses/2001-1/introduction-to-computers/)
+
+### 2000
+- **4190.408** [Artificial Intelligence](/courses/2000-1/artificial-intelligence/)
+- [Introduction to Computers](/courses/2000-1/introduction-to-computers/)
+
+### Fall 1999
+- **4190.408** [Artificial Intelligence: Softbot Soccer](/courses/1999-2/artificial-intelligence/)
+
+### Spring 1999
+- [Data Structures](/courses/1999-1/data-structures/)
+- [Statistical Learning Theory: Data Mining Workshop](/courses/1999-1/statistical-learning-theory/)
+
+### 1998
+- **4190.408** [Artificial Intelligence](/courses/1998-1/artificial-intelligence/)
+- [Unix and Internet](/courses/1998-1/unix-and-internet/)
+
+### Spring 1997
+- **419.017** [Introduction to Computers](/courses/1997-1/introduction-to-computers/)
+- **419.206** [Data Structures](/courses/1997-1/data-structures/)
+
+Lecture slides, project files, and datasets from these courses have been migrated into each course page above.
