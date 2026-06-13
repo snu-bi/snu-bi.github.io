@@ -1,0 +1,50 @@
+---
+layout: default
+---
+
+{% include section.html background=page.image %}
+
+<h1 class="center">{{ page.title }}</h1>
+
+{% if page.subtitle %}
+<p class="center project-subtitle">{{ page.subtitle }}</p>
+{% endif %}
+
+<div class="project-meta center">
+  {% if page.period %}
+  <span class="project-meta-chip">
+    {% include icon.html icon="fa-solid fa-calendar" %}
+    {{ page.period }}
+  </span>
+  {% endif %}
+  {% if page.funding %}
+  <span class="project-meta-chip">
+    {% include icon.html icon="fa-solid fa-building-columns" %}
+    {{ page.funding }}
+  </span>
+  {% endif %}
+</div>
+
+{% if page.tags %}
+{% include tags.html tags=page.tags %}
+{% endif %}
+
+{% if page.external_link %}
+<div class="center" style="margin: 1.5rem 0;">
+  {% include button.html link=page.external_link text="Project Website" icon="fa-solid fa-arrow-up-right-from-square" %}
+</div>
+{% endif %}
+
+{% include section.html %}
+
+{{ content }}
+
+{% include section.html %}
+
+{% capture pub_search %}research/?search="{{ page.title }}"{% endcapture %}
+<p class="center">
+  <a href="{{ pub_search | relative_url | uri_escape }}">
+    {% include icon.html icon="fa-solid fa-magnifying-glass" %}
+    Search related publications on the Research page
+  </a>
+</p>

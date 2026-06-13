@@ -36,6 +36,11 @@ defaults:
       type: "posts"
     values:
       layout: post
+  # markdown files in /_projects
+  - scope:
+      type: "projects"
+    values:
+      layout: project
 
 collections:
   # generate page for each member
@@ -46,6 +51,9 @@ collections:
     output: true
   # generate page for each seminar
   seminar:
+    output: true
+  # generate page for each project
+  projects:
     output: true
 
 # jekyll plugins
