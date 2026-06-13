@@ -3,7 +3,7 @@ aliases:
 - 장유원
 - Youwon Jang
 - ywjang
-description: ''
+description: 'PhD in Computer Science and Engineering'
 image: images/photo.jpg
 links:
   email: ywjang@bi.snu.ac.kr
