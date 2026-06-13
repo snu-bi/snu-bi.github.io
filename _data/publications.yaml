@@ -143,12 +143,8 @@
   - Minjoon Jung
   publisher: preprint
   year: 2026
-  link: https://jhkim-snu.github.io/
   image:
-  buttons:
-  - type: website
-    text: Source
-    link: https://jhkim-snu.github.io/
+  buttons: []
 
 - id: 2026-bjkim-espada
   title: 'ESPADA: Execution Speedup via Semantics Aware Demonstration Data Downsampling for Imitation Learning'
@@ -610,9 +606,6 @@
   - type: website
     text: Workshop
     link: https://3d-llm-vla.github.io/
-  - type: website
-    text: Source
-    link: https://jhkim-snu.github.io/
 
 - id: 2025-jkim-cdis
   title: 'CDIS: Cross-Dimensional Class-Agnostic 3D Instance Segmentation via 2D Mask Tracking and 3D-2D Projection Merging'
