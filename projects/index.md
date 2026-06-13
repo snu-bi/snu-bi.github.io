@@ -2,32 +2,7 @@
 title: Projects
 nav:
   order: 2
-  tooltip: Projects
-  subnav:
-    - title: Current
-      divider: true
-    - title: PICA
-      link: /projects/#featured
-    - title: LBA
-      link: /projects/#featured
-    - title: Embodied AI
-      link: /projects/embodied-intelligence/
-    - title: Completed
-      divider: true
-    - title: Video Turing Test (VTT)
-      link: /projects/vtt/
-    - title: BabyMind
-      link: /projects/babymind/
-    - title: StarLab
-      link: /projects/starlab/
-    - title: RoboMotion
-      link: /projects/robomotion/
-    - title: Molecular AI
-      link: /projects/molecular-ai/
-    - title: CogHRI
-      link: /projects/coghri/
-    - title: View all →
-      link: /projects/
+  tooltip: "PICA · LBA · Embodied AI · Tank · KAI · Alchemist · GSAI · VTT · BabyMind · StarLab · RoboMotion · Molecular AI · ..."
 ---
 
 # {% include icon.html icon="fa-solid fa-wrench" %}Projects

@@ -47,32 +47,12 @@
     %}
     {% for page in pages %}
       {% if page.nav %}
-        {% if page.nav.subnav %}
-          <div class="nav-dropdown">
-            <a
-              href="{{ page.dir | relative_url | uri_escape }}"
-              data-tooltip="{{ page.nav.tooltip | xml_escape }}"
-            >
-              {{ page.title }}
-            </a>
-            <div class="nav-dropdown-menu">
-              {% for item in page.nav.subnav %}
-                {% if item.divider %}
-                  <span class="nav-dropdown-divider">{{ item.title }}</span>
-                {% else %}
-                  <a href="{{ item.link | relative_url | uri_escape }}">{{ item.title }}</a>
-                {% endif %}
-              {% endfor %}
-            </div>
-          </div>
-        {% else %}
-          <a
-            href="{{ page.dir | relative_url | uri_escape }}"
-            data-tooltip="{{ page.nav.tooltip | xml_escape }}"
-          >
-            {{ page.title }}
-          </a>
-        {% endif %}
+        <a
+          href="{{ page.dir | relative_url | uri_escape }}"
+          data-tooltip="{{ page.nav.tooltip | xml_escape }}"
+        >
+          {{ page.title }}
+        </a>
       {% endif %}
     {% endfor %}
   </nav>
