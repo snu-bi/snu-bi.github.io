@@ -30,57 +30,39 @@ We pursue projects that integrate perception, cognition, and action to enable in
 * 자기주도: Developing self-directed AI capable of autonomous problem identification, hypothesis generation, data acquisition, and sequential reasoning for continuous learning and problem-solving.
 * AI Hub: Developing a Universal Learning Machine (ULM) via an open collaborative framework, enabling continuous self-learning and performance improvement in machine learning algorithms.
 
-## Completed Projects
+## Former Flagship Projects
 
-* StarLab Project: Cognitive Agents That Learn Everyday Life
+These projects were listed as current projects on the older BI research page and are now preserved as historical project records.
+
+* BabyMind Project: Infant-Mimic Neurocognitive Developmental Machine Learning from Interaction Experience with Real World
+* StarLab Project: Cognitive Agents That Learn Everyday Life. [Wayback page](https://web.archive.org/web/20211025062337https://bi.snu.ac.kr/Research/Starlab/)
 * DeepAction: Deep Learning of TV Viewer Activities
 * DeepClone: Cloning Humans for Scheduling Personal Service Robots
-* CogHRI: Cognitive Communication as Moving Target Tracking
-* Molecular AI: Intelligent Nanobio Agents That Learn
-* BabyMind Project: Infant-Mimic Neurocognitive Developmental Machine Learning from Interaction Experience with Real World (2020~2020)
-* Embodied Intelligence(EI): Embodied Artificial Intelligence that Interacts with the Real World (2023~2023)
-* Video Turing Test(VTT): Development of human-level video understanding intelligence (2017~2021)
-* Molecular ML: Bio-Inspired Human-Level Machine Learning (2012~2015)
-* Videome: Cognitive Machine Learning from Digital Videos (2011~2015)
-* mLife: Identifying Human Mobile Behaviors in Context (2010~2015)
-* RoboMotion: Learning to Generate Robot Motions from Human Activity Sequences (2011~2013)
-* BrainNet: Uncovering the Hyperedges of Cortical Brain Graphs (2010~2013)
-* DietAdvisor: A Smart Phone Agent That Recommends Meals and Exercises (2011~2012)
-* MARS: A Multimodal Associative Recommendation System (2009 ~ 2010)
-* Xtran: Crossmodal Translation of Language and Vision (2008~2010)
-* MMG: Cognitive Learning and the Multimodal Memory Game (2007 ~ 2010)
-* E-Learn: Personalized e-Learning with Bayesian Networks (2009 ~ 2010)
-* Lavatar: Learning Avatars in Virtual Worlds (2009)
-* MEC (Phase 3): DNA Computing Algorithms for Molecular Diagnosis (2006 ~ 2009)
-* SKT: Hypernetwork Models for Language Learning (2007 ~ 2008)
-* MLScene: Learning and Inference from Camera Scene Data (2007)
-* ProMiR: Probabilistic Prediction of microRNA (2004~2007)
-* MEC (Phases I and II): Molecular Evolutionary Computing (2000 ~ 2006)
-* HyperSNP: Hypergraph Modeling for Large-Scaling Data Analysis (2007~2008)
-* AptaCDSS II: A Clinical Decision Assistant System with Knowledge Discovry - A Post AptaCDSS System (2006 ~ 2007)
-* DNAChipBench (NRL Project): Intelligent Design and Analysis Technology for DNA Chips (2002~2007)
-* LGCore: Machine Learning Technologies for Performance Prediction of Digital Appliances (2006)
-* AptaCDSS: A diagnosis support system for cardiovascular disease using aptamer chip (2005-2006)
-* SysBio: In silico modeling and network construction of chromosomal replication and segregation (2003-2005)
-* LaText: Text mining based on latent variable models (2001 ~ 2004)
-* BrainGene: DNA data mining for the analysis of expression patterns of vertebrate brain development-specific genes (rat) (2001 ~ 2003)
-* MrHumor: A personalized Internet agent that recommends humors and jokes (2002 ~ 2002)
-* AngioProt: Development of a prediction algorithm for angiogenesis-related molecules (2001 ~ 2002)
-* MicroGene: Microbial gene identification using probabilistic graphical models (2001 ~ 2002)
-* ProClass: Protein classification based on molecular sequence and text information (2000 ~ 2001)
-* BioText: Information extraction from biological texts based on Markov models (2000)
-* DMDM: DNA microarray data mining using unsupervised learning techniques (2000)
-* LEONN: Learning and evolution of neural networks (1998 ~ 2001)
-* FACT: Text filtering and classification from large-scale document collections (1998 ~ 2001)
-* EOS: Online learning of robot behaviors with evolvable hardware (1998~ 2000)
-* NetMining: Network intrusion detection using active datamining techniques (1998 ~ 2000)
-* eClerk: A learning agent for recommending products at a virtual shopping mall (1998 ~ 1999)
-* NACST: Nucleic acid computing simulation toolbox (1998 ~ 1999)
-* ScaiTrec: SCAI at Text REtrieval Conference (TREC) (1998 ~ )
-* STAR: Statistical learning for ambiguity resolution (1998)
-* WAIR: Intelligent learning agents for personalized information retrieval on the Web (1997 ~ 1998)
-* ECTOP: Evolutionary computing theory for optimization (1997)
-* MACS: Evolving homing and herding behaviors of multiple robotic agents (1996 ~ 1999)
-* AGIPT: Adaptive genetic programming systems for flexible information processing (1996 ~ 1998)
-* ALENN: Active learning evolutionary neural networks (1996)
-* GAMAR: Genetic algorithms for multicast routing (1995 ~ 1997)
+* CogHRI: Cognitive Communication as Moving Target Tracking. [Recovered page]({{ "/legacy/raw/bi.snu.ac.kr/Research/CogHRI/CogHRI.html" | relative_url }})
+
+## Completed Projects
+
+{% include list.html component="card" data="projects" filter="group == 'completed'" style="small" %}
+
+{% include section.html %}
+
+## {% include icon.html icon="fa-solid fa-clock-rotate-left" %}Historical Project Records
+
+Recovered project pages from the former `bi.snu.ac.kr` site have been mapped back into the current project history.
+
+### Cognitive and Embodied AI
+
+- **Videome**: cognitive machine learning from digital videos, including multimodal activity understanding and video-based learning records. [Recovered page]({{ "/legacy/raw/bi.snu.ac.kr/Research/Videome/Videome.html" | relative_url }})
+- **CogHRI**: cognitive human-robot interaction work connected to moving-target communication, interaction, and robot learning. [Recovered page]({{ "/legacy/raw/bi.snu.ac.kr/Research/CogHRI/CogHRI.html" | relative_url }})
+- **MARS**: multimodal information extraction and recommendation technologies for next-generation customized services based on machine learning. [Recovered page]({{ "/legacy/raw/bi.snu.ac.kr/Research/MARS/MARS.html" | relative_url }})
+
+### Bioinformatics and Molecular Computing
+
+- **ProMiR**: probabilistic prediction of microRNA, with recovered records for the project, participants, publications, and online service context. [Recovered page]({{ "/legacy/raw/bi.snu.ac.kr/Research/ProMiR/ProMiR.html" | relative_url }})
+- **DNAChipBench / NRL**: intelligent design and analysis technology for DNA chips, including probe/target benchmark pages and NRL project records. [NRL page]({{ "/legacy/raw/bi.snu.ac.kr/NRL/index.htm" | relative_url }}), [DNAChipBench page]({{ "/legacy/raw/bi.snu.ac.kr/Research/DNAChipBench/nrl_intro_2.htm" | relative_url }})
+- **BIMML and Molecular AI**: bio-inspired human-level machine learning and molecular AI project records that connect molecular computation with machine learning models. [BIMML page]({{ "/legacy/raw/bi.snu.ac.kr/Research/BIMML/BIMML.html" | relative_url }}), [Molecular AI page]({{ "/legacy/raw/bi.snu.ac.kr/Research/Molecular_AI/index.html" | relative_url }})
+
+### Earlier Research Lines
+
+- **Probabilistic learning and hypernetworks**: historical learning pages covering probabilistic graphical models, hypernetworks, and cognitive learning. [Learning page]({{ "/legacy/raw/bi.snu.ac.kr/Research/Learning/index.html" | relative_url }})
+- **Bioinformatics project family**: recovered pages for BrainGene, DMDM, MicroGene, biochip resources, and related data/software materials. [Bioinformatics overview]({{ "/legacy/raw/bi.snu.ac.kr/Research/Bioinformatics/bi_bio.html" | relative_url }})

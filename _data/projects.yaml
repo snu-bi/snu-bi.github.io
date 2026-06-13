@@ -25,20 +25,415 @@
   tags:
     - resource
 
-- title: Cool Web App
-  subtitle: a subtitle
+- title: Video Turing Test (VTT)
+  subtitle: Toward Human-Level Video Story Understanding
+  group: completed
+  period: "2017~2021"
   image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
+  link: "https://videoturingtest.github.io/"
+  description: "The VTT project developed AI agents capable of human-level comprehension of video narratives and open-ended dialogue, using TV drama and movie data as a testbed. It introduced the VTT blind evaluation framework and the DramaQA benchmark—a large-scale character-centered video QA dataset. Key contributions include multimodal representation learning, hierarchical QA, character grounding, and scene graph-based causal reasoning over long-form video."
   tags:
-    - software
+    - computer-vision
+    - nlp
+    - multimodal
+    - video-understanding
+    - question-answering
+  funding: "IITP, grant No. 2017-0-01772, funded by Korea MSIT"
 
-- title: Cool Web Server
-  subtitle: a subtitle
+- title: BabyMind
+  subtitle: Infant-Mimic Neurocognitive Developmental Machine Learning
+  group: completed
+  period: "2020"
   image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
+  link: "https://babymind-project.github.io/"
+  description: "BabyMind is a large-scale collaborative initiative aiming to build infant-mimic neurocognitive AI that learns from real-world interaction the way human infants do, spanning knowledge integration, vision-audio processing, language-emotion analysis, and robot-behavior development. A key output was the NeurIPS 2020 workshop co-chaired by Prof. Zhang and Gary Marcus."
   tags:
-    - software
+    - machine-learning
+    - cognitive-science
+    - developmental-robotics
+    - neurocognitive-ai
+    - multimodal
+    - continual-learning
+  funding: "IITP (Korea government, MSIT)"
+
+- title: Embodied Intelligence (EI)
+  subtitle: Embodied Artificial Intelligence that Interacts with the Real World
+  group: completed
+  period: "2023"
+  image: images/photo.jpg
+  link: "https://bi.snu.ac.kr/"
+  description: "The Embodied Intelligence project investigated physically embodied AI systems for perceiving and acting in the real world, with contributions in multimodal perception for mobile robots, ROS-based robot control, and natural language-conditioned lifelong learning for robotic arm manipulation. Key 2023 outputs include GVCCI (IROS 2023), EXOT (ICRA 2023), and Robust Map Fusion (ICRA 2023)."
+  tags:
+    - robotics
+    - embodied-ai
+    - computer-vision
+    - multimodal
+    - reinforcement-learning
+
+- title: StarLab
+  subtitle: Cognitive Agents That Learn Everyday Life
+  group: completed
+  period: "2015~"
+  image: images/photo.jpg
+  link: "https://scienceon.kisti.re.kr/srch/selectPORSrchReport.do?cn=TRKO201600002509"
+  description: "The StarLab project (Korea SW StarLab program) developed cognitive agents that continuously learn from human daily activities captured through multimodal wearable sensors such as smart glasses and smartwatches. The research produced dual-memory deep learning architectures for lifelong learning, including LifeMap, CogMap, and ActMap systems, achieving ~82% accuracy in predicting user behavior from 46-day real-world lifelogged data."
+  tags:
+    - cognitive-agents
+    - wearable-computing
+    - lifelogging
+    - lifelong-learning
+    - multimodal
+    - deep-learning
+  funding: "IITP (SW StarLab, Ministry of Science and ICT, Korea)"
+
+- title: DeepAction
+  subtitle: Deep Learning of TV Viewer Activities
+  group: completed
+  image: images/photo.jpg
+  link: "https://bi.snu.ac.kr/projects/"
+  description: "DeepAction applied deep learning techniques to recognize and analyze the activities of television viewers, modeling viewer behaviors and interactions during TV watching using the lab's expertise in activity recognition, video understanding, and lifelong learning from multimodal sensory data."
+  tags:
+    - deep-learning
+    - activity-recognition
+    - computer-vision
+    - video-understanding
+    - multimodal
+
+- title: DeepClone
+  subtitle: Cloning Humans for Scheduling Personal Service Robots
+  group: completed
+  image: images/photo.jpg
+  link: "https://bi.snu.ac.kr/"
+  description: "DeepClone aimed to create deep-learning-based digital clones of humans by capturing behavioral patterns through wearable sensors and long-term lifelogging, enabling a personal service robot to anticipate and schedule tasks on the user's behalf by combining data from smart glasses, watches, brain scanners, and body sensors."
+  tags:
+    - robotics
+    - deep-learning
+    - lifelogging
+    - multimodal
+    - human-robot-interaction
+    - wearable-sensing
+  funding: "IITP"
+
+- title: CogHRI
+  subtitle: Cognitive Communication as Moving Target Tracking
+  group: completed
+  period: "2012~2017"
+  image: images/photo.jpg
+  link: "https://bi.snu.ac.kr/projects/"
+  description: "CogHRI developed self-improving, bidirectional human-robot interaction technology capable of understanding users' complex emotional states and transactional intent, framing cognitive communication as a moving target tracking problem using a perception-action-learning cycle with dynamic Bayesian inference."
+  tags:
+    - human-robot-interaction
+    - cognitive-computing
+    - natural-language-processing
+    - dialogue-systems
+    - bayesian-inference
+    - robotics
+  funding: "KEIT (Korea Evaluation Institute of Industrial Technology)"
+
+- title: Molecular AI
+  subtitle: Intelligent Nanobio Agents That Learn
+  group: completed
+  period: "2014~2018"
+  image: images/photo.jpg
+  link: "https://bi.snu.ac.kr/Research/Molecular_AI/"
+  description: "This project investigated intelligent nanobiomolecular agents that perceive, act, and learn in biomolecular environments, developing DNA-based molecular information processing for in vitro and in vivo biological systems. Key contributions include molecular evolutionary learning of DNA hypernetworks for handwritten digit classification and massively parallel distributed pattern recognition."
+  tags:
+    - molecular-computing
+    - dna-computing
+    - machine-learning
+    - nanobiotechnology
+    - bioinformatics
+  funding: "Samsung Foundation for Future Research Promotion"
+
+- title: Videome
+  subtitle: Cognitive Machine Learning from Digital Videos
+  group: completed
+  period: "2011~2015"
+  image: images/photo.jpg
+  link: "https://bi.snu.ac.kr/projects/"
+  description: "Videome investigated how machines can learn cognitive representations directly from digital video streams, drawing inspiration from how the human brain constructs episodic memory. Key contributions include multimodal hypernetwork architectures for evolutionary concept learning and a Deep Concept Hierarchy (DCH) model for progressive lifelong abstraction, demonstrated on large-scale cartoon video corpora."
+  tags:
+    - computer-vision
+    - multimodal
+    - cognitive-computing
+    - machine-learning
+    - video-understanding
+  funding: "NRF"
+
+- title: mLife
+  subtitle: Identifying Human Mobile Behaviors in Context
+  group: completed
+  period: "2010~2015"
+  image: images/photo.jpg
+  link: "https://bi.snu.ac.kr/projects/"
+  description: "The mLife project investigated automatic identification and modeling of human behaviors from mobile life-log data collected via smartphone sensors, capturing contextual information including location, activity, and situational context. Key contributions spanned context-aware activity recognition, multimodal mobile sensing, and behavioral pattern discovery."
+  tags:
+    - mobile-sensing
+    - context-awareness
+    - activity-recognition
+    - life-logging
+    - machine-learning
+    - human-behavior-modeling
+
+- title: RoboMotion
+  subtitle: Learning to Generate Robot Motions from Human Activity Sequences
+  group: completed
+  period: "2011~2013"
+  image: images/photo.jpg
+  link: "https://bi.snu.ac.kr/projects/"
+  description: "RoboMotion investigated machine learning approaches for generating flexible robot arm motions by learning from observed human activity sequences, combining spatio-temporal feature learning with semantic rule extraction. Conducted in collaboration with the IAS Group at TU München, with a key paper at IEEE-RAS Humanoid Robots 2013."
+  tags:
+    - robotics
+    - motion-generation
+    - human-robot-interaction
+    - machine-learning
+    - computer-vision
+  funding: "NRF"
+
+- title: BrainNet
+  subtitle: Uncovering the Hyperedges of Cortical Brain Graphs
+  group: completed
+  period: "2010~2013"
+  image: images/photo.jpg
+  link: "https://bi.snu.ac.kr/"
+  description: "The BrainNet project investigated higher-order relational structure in cortical brain networks by identifying hyperedges—groupings of multiple brain regions forming functionally meaningful modules beyond pairwise connections. The research applied hypernetwork and hypergraph models to brain imaging data, with applications to cognitive trait prediction such as IQ estimation from brain network topology."
+  tags:
+    - computational-neuroscience
+    - brain-networks
+    - hypergraph
+    - neuroimaging
+    - machine-learning
+  funding: "NRF"
+
+- title: DietAdvisor
+  subtitle: A Smart Phone Agent That Recommends Meals and Exercises
+  group: completed
+  period: "2011~2012"
+  image: images/photo.jpg
+  link: "https://bi.snu.ac.kr/projects/"
+  description: "DietAdvisor was a smartphone-based intelligent agent providing personalized meal and exercise recommendations, leveraging agent-based reasoning to suggest dietary choices and physical activities tailored to individual users. An early effort applying intelligent agent technology to personal health and wellness on mobile platforms."
+  tags:
+    - mobile-health
+    - intelligent-agents
+    - personalized-recommendation
+    - ubiquitous-computing
+
+- title: MARS
+  subtitle: A Multimodal Associative Recommendation System
+  group: completed
+  period: "2009~2010"
+  image: images/photo.jpg
+  link: "https://bi.snu.ac.kr/projects/"
+  description: "MARS developed a recommendation system leveraging multimodal associative learning to integrate textual and visual data modalities for improved content suggestion, applying layered hypernetwork architectures to capture higher-order cross-modal associations, with bidirectional inference demonstrated on real Korean magazine corpora."
+  tags:
+    - recommendation-systems
+    - multimodal-learning
+    - information-retrieval
+    - hypernetworks
+    - machine-learning
+  funding: "Korean MKE IT R&D Program (grant KI002138)"
+
+- title: Xtran
+  subtitle: Crossmodal Translation of Language and Vision
+  group: completed
+  period: "2008~2010"
+  image: images/photo.jpg
+  link: "https://bi.snu.ac.kr/Research/Xtran/Xtran.html"
+  description: "Xtran investigated bidirectional translation between language and visual modalities using hypernetwork-based machine learning, enabling text-to-image and image-to-text keyword generation from multimodal magazine article corpora. A layered probabilistic graphical model substantially improved keyword generation accuracy over single-modality approaches."
+  tags:
+    - multimodal
+    - computer-vision
+    - nlp
+    - cross-modal-retrieval
+    - hypernetworks
+  funding: "NRF (Korea)"
+
+- title: MMG
+  subtitle: Cognitive Learning and the Multimodal Memory Game
+  group: completed
+  period: "2007~2010"
+  image: images/photo.jpg
+  link: "https://bi.snu.ac.kr/Research/MMG/MMG.html"
+  description: "The MMG project developed a game-based research platform to study cognitive learning using multimodal data—text, speech, and images—drawn from TV drama episodes, where human players and a machine learner engaged in QA sessions about scenes. The project proposed two core principles for human-level machine learning: continuity (lifelong incremental memory) and glocality (globally connected local micromodules)."
+  tags:
+    - cognitive-computing
+    - multimodal
+    - machine-learning
+    - human-computer-interaction
+    - nlp
+
+- title: E-Learn
+  subtitle: Personalized e-Learning with Bayesian Networks
+  group: completed
+  period: "2009~2010"
+  image: images/photo.jpg
+  link: "https://bi.snu.ac.kr/"
+  description: "The E-Learn project investigated the use of Bayesian networks to build probabilistic learner models representing and reasoning about individual student knowledge states and learning styles, delivering adaptive personalized instructional content by inferring learner understanding from interaction data."
+  tags:
+    - machine-learning
+    - bayesian-networks
+    - e-learning
+    - intelligent-tutoring
+    - adaptive-systems
+
+- title: Lavatar
+  subtitle: Learning Avatars in Virtual Worlds
+  group: completed
+  period: "2009"
+  image: images/photo.jpg
+  link: "https://bi.snu.ac.kr/Research/Lavatar/Lavatar.html"
+  description: "Lavatar was a research project focused on building autonomous learning agents operating as avatars inside virtual world environments, investigating how machine learning techniques could enable avatars to acquire and adapt behaviors through interaction, drawing on the lab's broader work on Bayesian and hypernetwork models."
+  tags:
+    - virtual-worlds
+    - autonomous-agents
+    - reinforcement-learning
+    - machine-learning
+    - cognitive-science
+
+- title: SKT Hypernetwork
+  subtitle: Hypernetwork Models for Language Learning
+  group: completed
+  period: "2007~2008"
+  image: images/photo.jpg
+  link: "https://bi.snu.ac.kr/projects/"
+  description: "This SKT-sponsored project investigated hypernetwork models as a computational architecture for language learning, where weighted random hypergraph structures encode higher-order probabilistic relations through an evolutionary self-organizing process. Experiments demonstrated sentence generation from video drama corpora and cross-modal language-vision translation tasks."
+  tags:
+    - natural-language-processing
+    - hypernetworks
+    - evolutionary-computation
+    - cognitive-computing
+    - language-modeling
+  funding: "SK Telecom (SKT)"
+
+- title: ProMiR
+  subtitle: Probabilistic Prediction of microRNA
+  group: completed
+  period: "2004~2007"
+  image: images/photo.jpg
+  link: "https://academic.oup.com/nar/article/34/suppl_2/W455/2505724"
+  description: "ProMiR is a computational framework for identifying microRNA genes using a probabilistic co-learning model that jointly analyzes sequence and secondary structure features of pre-miRNA candidates, achieving 73% sensitivity and 96% specificity on known human miRNA datasets. The extended ProMiR II web server enabled prediction of miRNAs across human, mouse, and viral genomes."
+  tags:
+    - bioinformatics
+    - computational-biology
+    - microrna
+    - gene-prediction
+    - probabilistic-models
+  funding: "Korean Ministry of Science and Technology"
+
+- title: DNAChipBench
+  subtitle: Intelligent Design and Analysis Technology for DNA Chips
+  group: completed
+  period: "2002~2007"
+  image: images/photo.jpg
+  link: "https://scienceon.kisti.re.kr/srch/selectPORSrchReport.do?cn=TRKO200900072486&dbt=TRKO"
+  description: "DNAChipBench was an integrated computational platform supporting intelligent design and analysis of DNA chips (microarrays), comprising four modules: ProbeBench, ExpressBench, DiagBench, and MiRNABench. The project produced approximately 40 SCI-level publications and led to technology transfer agreements with LG Electronics."
+  tags:
+    - bioinformatics
+    - machine-learning
+    - genomics
+    - dna-microarray
+    - gene-expression
+  funding: "KOSEF / Korean Ministry of Science and Technology (NRL Program)"
+
+- title: MEC
+  subtitle: Molecular Evolutionary Computing (Phases I, II, III)
+  group: completed
+  period: "2000~2009"
+  image: images/photo.jpg
+  link: "http://bi.snu.ac.kr/Research/MEC/"
+  description: "The MEC project developed evolutionary algorithms operating at the molecular level using DNA molecules as the computational substrate, including DNA-based solutions to combinatorial problems such as the Traveling Salesman Problem. Phase III applied molecular computing methods to gene expression profile diagnosis and microRNA biomarker detection."
+  tags:
+    - dna-computing
+    - evolutionary-computation
+    - molecular-computing
+    - bioinformatics
+    - combinatorial-optimization
+  funding: "KOSEF"
+
+- title: HyperSNP
+  subtitle: Hypergraph Modeling for Large-Scale SNP Data Analysis
+  group: completed
+  period: "2007~2008"
+  image: images/photo.jpg
+  link: "https://bi.snu.ac.kr/"
+  description: "HyperSNP applied hypergraph-based computational models to the analysis of large-scale Single Nucleotide Polymorphism (SNP) data, exploring how hypergraph representations could better capture higher-order relationships among genetic variants compared to conventional pairwise network approaches."
+  tags:
+    - bioinformatics
+    - genomics
+    - hypergraph
+    - snp-analysis
+    - machine-learning
+
+- title: LaText
+  subtitle: Text Mining Based on Latent Variable Models
+  group: completed
+  period: "2001~2004"
+  image: images/photo.jpg
+  link: "https://bi.snu.ac.kr/"
+  description: "The LaText project investigated the application of latent variable models to text mining, aiming to discover hidden semantic structure in large document collections through probabilistic frameworks such as PLSA and Bayesian mixture models. The research addressed document clustering, topic discovery, and dimensionality reduction."
+  tags:
+    - text-mining
+    - nlp
+    - latent-variable-models
+    - probabilistic-models
+    - machine-learning
+
+- title: BrainGene
+  subtitle: Gene Expression Analysis for Vertebrate Brain Development
+  group: completed
+  period: "2001~2003"
+  image: images/photo.jpg
+  link: "https://bi.snu.ac.kr/Research/Bioinformatics/braingene.html"
+  description: "The BrainGene project developed a DNA chip-based gene expression analysis system covering approximately 10,000 rat genes to identify genes specifically expressed during vertebrate brain development, applying unsupervised machine learning, Bayesian network-based dependency analysis, and in situ hybridization profiling."
+  tags:
+    - bioinformatics
+    - genomics
+    - gene-expression
+    - bayesian-networks
+    - machine-learning
+    - neuroscience
+  funding: "Korean Ministry of Science and Technology (MOST)"
+
+- title: LEONN
+  subtitle: Learning and Evolution of Neural Networks
+  group: completed
+  period: "1998~2001"
+  image: images/photo.jpg
+  link: "http://bi.snu.ac.kr/Research/leonn.html"
+  description: "LEONN investigated joint optimization of neural network architectures and connection weights through Bayesian evolutionary algorithms, developing a framework that simultaneously optimized network topology, weights, and training data selection. Key contributions include Bayesian genetic programming and committee-based evolutionary neural tree ensembles."
+  tags:
+    - neuroevolution
+    - evolutionary-computation
+    - neural-networks
+    - genetic-programming
+    - bayesian-methods
+  funding: "KOSEF"
+
+- title: FACT
+  subtitle: Text Filtering and Classification from Large-Scale Document Collections
+  group: completed
+  period: "1998~2001"
+  image: images/photo.jpg
+  link: "https://bi.snu.ac.kr/projects/"
+  description: "The FACT project investigated machine learning methods for automatically filtering and classifying text from large-scale document collections, producing boosting-based approaches using Naive Bayes classifiers for improved performance on TREC filtering track benchmarks. The group developed their own filtering engine (SCAIR) and participated in TREC-8 experiments."
+  tags:
+    - natural-language-processing
+    - information-retrieval
+    - text-classification
+    - machine-learning
+    - information-filtering
+
+- title: MACS
+  subtitle: Evolving Homing and Herding Behaviors of Multiple Robotic Agents
+  group: completed
+  period: "1996~1999"
+  image: images/photo.jpg
+  link: "https://bi.snu.ac.kr/"
+  description: "The MACS project investigated how cooperative behaviors such as homing and herding could be automatically evolved for teams of autonomous mobile robots using evolutionary algorithms including genetic programming. Related work includes a multinet neural architecture for evolving collective robotic intelligence combining recurrent networks with self-organizing maps."
+  tags:
+    - evolutionary-robotics
+    - multi-agent-systems
+    - swarm-robotics
+    - genetic-programming
+    - neural-networks
+  funding: "KOSEF"
