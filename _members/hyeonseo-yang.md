@@ -10,6 +10,7 @@ links:
   linkedin: yhs0602
   github: yhs0602
   home-page: https://www.linkedin.com/in/yhs0602/
+  openreview: https://openreview.net/profile?id=~Hyeonseo_Yang1
 name: Hyeonseo Yang
 role: master
 status: 졸업

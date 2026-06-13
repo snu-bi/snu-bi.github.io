@@ -6,6 +6,7 @@ description: Undergraduate Intern | PhD @ Stanford CS → Professor @ University
 image: 
 links:
   email: honglak@eecs.umich.edu
+  linkedin: honglak-lee-8b07709
   home-page: https://web.eecs.umich.edu/~honglak/
 name: Honglak Lee
 role: intern-former

@@ -8,7 +8,7 @@ image: images/photo.jpg
 links:
   email: sbpark71@gmail.com
   github: 
-  linkedin: 
+  linkedin: seong-bae-park-24334139
   home-page: "https://software.khu.ac.kr/software/user/bbs/BMSR00047/list.do?menuNo=1700025&pageIndex=1&searchCategory=&pageUnit=&searchCondition=&searchKeyword=%EB%B0%95%EC%84%B1%EB%B0%B0"
 name: Seong-bae Park
 role: phd

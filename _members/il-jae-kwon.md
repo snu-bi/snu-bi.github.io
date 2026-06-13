@@ -7,6 +7,7 @@ description: MS in Neuroscience | CEO @ Team Heimdallr → AI Research @ Monad F
 image: images/il-jae-kwon.jpg
 links:
   linkedin: il-jae-kwon-4ba727199
+  openreview: https://openreview.net/profile?id=~Il-Jae_Kwon1
   email: kwonij2@gmail.com
 name: Il-Jae Kwon
 role: ms

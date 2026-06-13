@@ -7,6 +7,7 @@ description: ''
 image: images/youngseok-joo.png
 links:
   email: ysjoo@bi.snu.ac.kr
+  openreview: https://openreview.net/profile?id=~Youngseok_Joo1
 name: Youngseok Joo
 role: phd-student
 status: 재학

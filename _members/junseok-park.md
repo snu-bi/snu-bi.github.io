@@ -7,6 +7,7 @@ image: images/photo.jpg
 links:
   email: jspark@bi.snu.ac.kr
   linkedin: junseok-park-269319147
+  openreview: https://openreview.net/profile?id=~Junseok_Park1
 name: Junseok Park
 role: phd
 status: 졸업

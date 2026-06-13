@@ -6,6 +6,7 @@ description: MS in Cognitive Science → AI Tech Industry Researcher @ Hyundai M
 image: images/photo.jpg
 links:
   email: sjlee@bi.snu.ac.kr
+  linkedin: bdotswan
   home-page: https://www.linkedin.com/in/bdotswan/
 name: Sangjun Lee
 role: master

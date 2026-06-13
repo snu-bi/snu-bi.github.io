@@ -44,6 +44,9 @@ collections:
   # generate page for each post
   posts:
     output: true
+  # generate page for each seminar
+  seminar:
+    output: true
 
 # jekyll plugins
 plugins:

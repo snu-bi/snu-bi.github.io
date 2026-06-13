@@ -9,6 +9,7 @@ links:
   email: sangwoong24yoon@gmail.com
   github: swyoon
   linkedin: sangwoong-yoon-8a6944b9
+  openreview: https://openreview.net/profile?id=~Sangwoong_Yoon1
   home-page: https://swyoon.github.io/
 name: Sangwoong Yoon
 role: master

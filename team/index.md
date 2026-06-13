@@ -13,6 +13,8 @@ Our interdisciplinary team consists of researchers at various academic levels, f
 
 Located in the School of Computer Science and Engineering at Seoul National University, our lab provides an dynamic environment for innovative research and academic excellence in the field of artificial intelligence and cognitive science.
 
+{% include member-filter.html %}
+
 {% include section.html %}
 
 # {% include icon.html icon="fa-solid fa-flask" %}Professor

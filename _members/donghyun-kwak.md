@@ -8,7 +8,7 @@ image: images/photo.jpg
 links:
   email: imcomking@gmail.com
   github: imcomking
-  linkedin: https://www.linkedin.com/in/donghyun-kwak/
+  linkedin: donghyun-kwak
   home-page: https://newsight.tistory.com/
 name: Donghyun Kwak
 role: master

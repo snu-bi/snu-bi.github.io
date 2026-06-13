@@ -9,6 +9,7 @@ links:
   email: jnhwkim@gmail.com
   github: jnhwkim
   linkedin: "%EC%A7%84%ED%99%94-%EA%B9%80-6869b166"
+  openreview: https://openreview.net/profile?id=~Jin-Hwa_Kim1
   home-page: https://wityworks.com/
 name: Jin-Hwa Kim
 role: phd

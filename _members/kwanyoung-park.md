@@ -6,6 +6,7 @@ description: Undergraduate Intern | BS @ SNU CSE → PhD @ University of Califor
 image: images/kwanyoung-park.jpg
 links:
   home-page: https://kwanyoungpark.github.io/
+  openreview: https://openreview.net/profile?id=~Kwanyoung_Park1
   email: 
 name: Kwanyoung Park
 role: intern-former

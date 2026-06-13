@@ -8,6 +8,7 @@ image: images/photo.jpg
 links:
   email: sangwoolee.cs@gmail.com
   linkedin: sang-woo-lee-36198494
+  openreview: https://openreview.net/profile?id=~Sang-Woo_Lee1
   home-page: https://www.sang-woo-lee.com/
 name: Sang-Woo Lee
 role: phd

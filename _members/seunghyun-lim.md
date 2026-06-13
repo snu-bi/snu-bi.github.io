@@ -7,6 +7,7 @@ image: images/photo.jpg
 links:
   email: shlim@bi.snu.ac.kr
   github: LimSeunghyeon1
+  openreview: https://openreview.net/profile?id=~Seunghyeon_Lim1
 name: Seunghyeon Lim
 role: master
 status: 졸업

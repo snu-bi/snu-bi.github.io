@@ -10,6 +10,7 @@ links:
   github: HwiyeolJo
   linkedin: hwiyeol-jo-b50b2a11b
   home-page: http://github.com/HwiyeolJo
+  openreview: https://openreview.net/profile?id=~Hwiyeol_Jo1
 name: Hwiyeol Jo
 role: master
 status: 졸업

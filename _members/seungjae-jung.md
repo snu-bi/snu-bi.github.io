@@ -9,6 +9,7 @@ links:
   email: seanexplode@gmail.com
   github: seanexplode
   linkedin: seungjae-jung-3a2b74141
+  openreview: https://openreview.net/profile?id=~Seungjae_Jung1
 name: Seungjae Jung
 role: msc
 status: 졸업

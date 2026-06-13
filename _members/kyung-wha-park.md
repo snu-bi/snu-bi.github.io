@@ -7,6 +7,7 @@ image: images/photo.jpg
 links:
   email: kwpark@bi.snu.ac.kr
   linkedin: "%EA%B2%BD%ED%99%94-%EB%B0%95-275a2b88"
+  openreview: https://openreview.net/profile?id=~Kyung-Wha_Park1
 name: Kyung-Wha Park
 role: phd
 status: 졸업

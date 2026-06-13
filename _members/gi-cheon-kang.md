@@ -8,6 +8,8 @@ image: images/gicheon-kang.jpg
 links:
   home-page: https://gicheonkang.com
   email: gckang@bi.snu.ac.kr
+  linkedin: gi-cheon-kang-768b331b0
+  openreview: https://openreview.net/profile?id=~Gi-Cheon_Kang1
 name: Gi-Cheon Kang
 role: phd
 affiliation: 

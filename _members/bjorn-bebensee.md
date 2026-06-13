@@ -7,6 +7,7 @@ image: images/bjorn-bebensee.jpg
 links:
   home-page: https://www.bebens.ee/
   email: bjorn@bebens.ee
+  linkedin: bebensee
 name: Björn Bebensee
 role: ms
 affiliation: Cohere

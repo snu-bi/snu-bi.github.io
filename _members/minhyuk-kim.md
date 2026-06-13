@@ -8,7 +8,7 @@ image: images/photo.jpg
 links:
   email: min.fourleaf@gmail.com
   github: 
-  linkedin: 
+  linkedin: minhyeok-kim
   home-page: 
 name: MinHyeok Kim
 role: master

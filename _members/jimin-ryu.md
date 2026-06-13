@@ -11,4 +11,5 @@ links:
 name: Jimin Ryu
 role: intern-former
 status: 졸업
+graduation_year: 2024
 --- 

@@ -7,8 +7,8 @@ description: PhD in Computer Science | Project Leader @ Samsung Advanced Institu
 image: images/photo.jpg
 links:
   email: bshwang07@gmail.com
-  linkedin: "%EB%B3%B4%EC%84%A0-%ED%99%9C-79baab159"
-  home-page: https://openreview.net/profile?id=~Bosun_Hwang1
+  linkedin: bosun-hwang-abb29836
+  openreview: https://openreview.net/profile?id=~Bosun_Hwang1
 name: Bosun Hwang
 role: phd
 status: 졸업

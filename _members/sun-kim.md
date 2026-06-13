@@ -9,6 +9,7 @@ links:
   email: echosf@gmail.com
   github: 
   linkedin: 
+  google-scholar: https://scholar.google.com/citations?user=PA5b2b4AAAAJ&hl=en
   home-page: https://scholar.google.com.au/citations?user=PA5b2b4AAAAJ&hl=fi
 name: Sun Kim
 role: phd

@@ -7,6 +7,7 @@ description: ''
 image: images/wonseok-choi.jpg
 links:
   home-page: https://mkroughdiamond.github.io/
+  openreview: https://openreview.net/profile?id=~Won-Seok_Choi1
 name: Won-Seok Choi
 role: phd-candidate
 status: 재학

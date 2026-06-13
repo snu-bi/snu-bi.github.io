@@ -9,6 +9,7 @@ links:
   github: TikaToka
   linkedin: tikatoka
   home-page: https://slashpage.com/all-about-tika
+  openreview: https://openreview.net/profile?id=~Joochan_Kim1
 name: Joochan Kim
 role: master
 status: 졸업

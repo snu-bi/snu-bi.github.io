@@ -6,7 +6,7 @@ aliases:
 description: PhD Candidate in Computer Science | Research Engineer @ NAVER LABS
 image: images/photo.jpg
 links:
-  email: 
+  email: cheolho.han@naverlabs.com
   linkedin: 
 name: Cheolho Han
 role: master

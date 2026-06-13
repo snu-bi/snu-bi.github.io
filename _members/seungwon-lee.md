@@ -8,6 +8,7 @@ links:
   github: 
   linkedin: seungwon-lee-75154b112
   home-page: 
+  openreview: https://openreview.net/profile?id=~Seungwon_Lee2
 name: Seungwon Lee
 role: intern-former
 status: 졸업

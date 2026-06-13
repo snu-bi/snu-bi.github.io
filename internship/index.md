@@ -1,7 +1,7 @@
 ---
 title: Internship
 nav:
-  order: 6
+  order: 7
   tooltip: Internship opportunities
 ---
 

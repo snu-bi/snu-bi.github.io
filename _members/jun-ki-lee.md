@@ -8,6 +8,8 @@ image: images/junki-lee.jpg
 links:
   email: jklee@bi.snu.ac.kr
   home-page: https://junkilee.github.io/
+  linkedin: https://www.linkedin.com/in/jun-ki-lee-58526a3/
+  openreview: https://openreview.net/profile?id=~Jun_Ki_Lee3
 name: Jun Ki Lee
 role: research-professor
 status: 재학

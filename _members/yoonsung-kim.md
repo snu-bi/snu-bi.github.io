@@ -10,6 +10,7 @@ links:
   github: 
   linkedin: 
   home-page: https://openreview.net/profile?id=~Yoonsung_Kim2
+  openreview: https://openreview.net/profile?id=~Yoonsung_Kim2
 
 name: Yoonsung Kim
 role: phd-candidate

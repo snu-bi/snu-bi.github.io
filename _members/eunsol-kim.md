@@ -8,6 +8,7 @@ image: images/photo.jpg
 links:
   email: kimeunsol.001@gmail.com
   linkedin: eun-sol-kim-06685b176
+  openreview: https://openreview.net/profile?id=~Eun-Sol_Kim1
   home-page: https://sites.google.com/view/hyumllab/
 name: Eun-Sol Kim
 role: phd

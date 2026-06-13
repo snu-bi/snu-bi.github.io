@@ -7,6 +7,7 @@ description: MS in Computer Science | PhD @ KAIST AI
 image: images/injune-hwang.jpg
 links:
   email: injunehwang93@gmail.com
+  openreview: https://openreview.net/profile?id=~Injune_Hwang1
 name: Injune Hwang
 role: master
 affiliation: KAIST AI

@@ -10,6 +10,7 @@ image: images/jae-moon-park.png
 links:
   email: jmpark@bi.snu.ac.kr
   linkedin: jaemoon-park-64aa33322
+  openreview: https://openreview.net/profile?id=~Jaemoon_Park1
 name: Jaemoon Park
 role: master
 status: 졸업

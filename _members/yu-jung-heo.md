@@ -8,6 +8,7 @@ links:
   email: yjheo@bi.snu.ac.kr
   github: YuJungHeo
   home-page: https://yujungheo.github.io/
+  openreview: https://openreview.net/profile?id=~Yu-Jung_Heo1
 name: Yu-Jung Heo
 role: phd
 status: 졸업

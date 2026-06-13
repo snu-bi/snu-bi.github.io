@@ -9,6 +9,7 @@ links:
   email: handymail@naver.com
   github: 
   linkedin: hanock-kwak
+  openreview: https://openreview.net/profile?id=~Hanock_Kwak1
 name: Hanock Kwak
 role: phd-candidate
 status: 졸업

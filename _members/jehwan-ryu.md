@@ -10,8 +10,8 @@ links:
   github: 
   linkedin: 
   home-page: https://scholar.google.com/citations?hl=en&user=wW5dAlUAAAAJ&view_op=list_works&sortby=pubdate
+  openreview: https://openreview.net/profile?id=~JeHwan_Ryu2
 name: Je-Hwan Ryu
-role: phd
-status: 졸업
-graduation_year: 2023
+role: phd-candidate
+status: 재학
 --- 

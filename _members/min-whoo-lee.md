@@ -9,6 +9,7 @@ description: ''
 image: images/minwhoo-lee.png
 links:
   email: mwlee@bi.snu.ac.kr
+  openreview: https://openreview.net/profile?id=~Min_Whoo_Lee1
 name: Min Whoo Lee
 role: phd-candidate
 status: 재학

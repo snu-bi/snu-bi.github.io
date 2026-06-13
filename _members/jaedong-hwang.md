@@ -5,9 +5,10 @@ description: Undergraduate Intern | MS @ SNU → PhD @ MIT EECS
 image: images/photo.jpg
 links:
   email: 
-  github: 
+  github: jd730
   linkedin: jaedong-hwang-730
-  home-page: https://jd730.github.io/ 
+  home-page: https://jd730.github.io/
+  openreview: https://openreview.net/profile?id=~Jaedong_Hwang1
 name: Jaedong Hwang
 role: intern-former
 status: 졸업

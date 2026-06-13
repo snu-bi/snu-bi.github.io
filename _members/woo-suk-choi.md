@@ -11,6 +11,7 @@ links:
   email: wschoi@bi.snu.ac.kr
   home-page: http://cws7777.github.io/
   linkedin: woo-suk-paul-choi-36198494
+  openreview: https://openreview.net/profile?id=~Woo_Suk_Choi1
 name: Woo Suk (Paul) Choi
 role: phd-candidate
 status: 재학

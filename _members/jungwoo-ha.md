@@ -7,7 +7,7 @@ description: PhD in Computer Science | Head of Future AI Center @ NAVER, Adjunct
 image: images/photo.jpg
 links:
   email: jungwoo.ha@navercorp.com
-  github: 
+  github: jungwoo-ha
   linkedin: jung-woo-ha-b2782862
   home-page: https://aidljwha.wordpress.com/
 name: Jung-Woo Ha

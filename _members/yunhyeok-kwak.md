@@ -7,6 +7,7 @@ description: 'MS in Neuroscience | Research Engineer @ Krafton'
 image: images/photo.jpg
 links:
   email: yhkwak@bi.snu.ac.kr
+  linkedin: yunhyeok-k-39956b166
   home-page: https://yun-kwak.github.io/
 name: Yunhyeok Kwak
 role: master

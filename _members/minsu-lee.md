@@ -7,6 +7,7 @@ image: images/photo.jpg
 links:
   email: mslee@bi.snu.ac.kr
   home-page: https://scholar.google.com/citations?user=75_DkUwAAAAJ
+  openreview: https://openreview.net/profile?id=~Minsu_Lee1
 name: Minsu Lee
 role: professor
 status: 졸업

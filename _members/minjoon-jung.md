@@ -11,6 +11,7 @@ links:
   email: albert507@bi.snu.ac.kr
   home-page: https://minjoong507.github.io/
   linkedin: minjoonjung
+  openreview: https://openreview.net/profile?id=~Minjoon_Jung2
 name: Minjoon Jung
 role: phd-candidate
 status: 재학

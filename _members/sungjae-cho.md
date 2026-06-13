@@ -9,6 +9,7 @@ links:
   email: sungjae.cho@umontreal.ca
   github: sungjae-cho
   linkedin: sungjaecho
+  openreview: https://openreview.net/profile?id=~Sungjae_Cho1
   home-page: https://sites.google.com/view/sungjaecho
 name: Sungjae Cho
 role: master

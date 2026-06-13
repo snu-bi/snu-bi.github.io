@@ -6,6 +6,7 @@ description: ''
 image: images/hochan-bang.jpg
 links:
   email: hochan0115@snu.ac.kr
+  openreview: https://openreview.net/profile?id=~Hochan_Bang1
 name: Hochan Bang
 role: master-student
 status: 재학

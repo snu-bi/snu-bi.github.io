@@ -12,6 +12,6 @@ links:
   home-page: https://pubmed.ncbi.nlm.nih.gov/?term=Lee+JH&cauthor_id=21729738
 name: Ji-Hoon Lee
 role: phd
-status: Ji-Hoon Lee
+status: 졸업
 graduation_year: 2023
 --- 

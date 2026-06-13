@@ -8,7 +8,8 @@ image: images/photo.jpg
 links:
   email: yungkyun.noh@gmail.com
   github: 
-  linkedin: 
+  linkedin: yung-kyun-noh-18754b10
+  google-scholar: https://scholar.google.com/citations?user=k8uWc34AAAAJ&hl=en
   home-page: http://aais.hanyang.ac.kr/nohyung/
 name: Yung-Kyun Noh
 role: phd

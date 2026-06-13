@@ -9,6 +9,7 @@ links:
   github: iwhwang
   linkedin: inwoo-hwang-815643223
   home-page: https://iwhwang.github.io/
+  openreview: https://openreview.net/profile?id=~Inwoo_Hwang1
 name: Inwoo Hwang
 role: phd
 status: 졸업

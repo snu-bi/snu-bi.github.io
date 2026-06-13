@@ -8,6 +8,8 @@ aliases:
   - BT Zhang
 links:
   home-page: http://bi.snu.ac.kr/~btzhang/index.html
+  linkedin: https://www.linkedin.com/in/byoung-tak-zhang-a30a6546/
+  openreview: https://openreview.net/profile?id=~Byoung-Tak_Zhang1
   # orcid: 0000-0001-8713-9213
 ---
 

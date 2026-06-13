@@ -8,6 +8,7 @@ links:
   email: yangkasi@gmail.com
   github: 
   linkedin: 
+  google-scholar: https://scholar.google.com/citations?user=YbtVYkYAAAAJ&hl=en
 name: Kyung-Ae Yang
 role: phd
 status: 졸업

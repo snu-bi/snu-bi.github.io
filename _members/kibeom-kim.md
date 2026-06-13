@@ -7,8 +7,9 @@ image: images/photo.jpg
 links:
   email: kbkim@bi.snu.ac.kr
   github:  
-  linkedin: 기범-김-79470591 
+  linkedin: 기범-김-79470591
   home-page: 
+  openreview: https://openreview.net/profile?id=~Kibeom_Kim1
 name: Kibeom Kim
 role: phd
 status: 졸업

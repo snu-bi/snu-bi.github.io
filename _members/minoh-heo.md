@@ -8,6 +8,7 @@ image: images/photo.jpg
 links:
   email: tennin@gmail.com
   linkedin: min-oh-heo-27144491
+  openreview: https://openreview.net/profile?id=~Min-Oh_Heo2
   home-page: https://scholar.google.com/citations?user=TcpYBh0AAAAJ&hl=ko
 name: Min-Oh Heo
 role: phd

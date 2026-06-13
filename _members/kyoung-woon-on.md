@@ -8,6 +8,7 @@ image: images/photo.jpg
 links:
   email: okw0311@gmail.com
   linkedin: kyoung-woon-on-065228285
+  openreview: https://openreview.net/profile?id=~Kyoung-Woon_On1
 name: Kyoung-Woon On
 role: phd
 status: 졸업
