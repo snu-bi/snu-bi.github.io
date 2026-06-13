@@ -1,0 +1,634 @@
+<html>
+<head>
+<title>Multimodal Memory Game</title>
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;
+	mso-font-charset:2;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:0 268435456 0 0 -2147483648 0;}
+@font-face
+	{font-family:굴림;
+	panose-1:2 11 6 0 0 1 1 1 1 1;
+	mso-font-alt:Gulim;
+	mso-font-charset:129;
+	mso-generic-font-family:modern;
+	mso-font-pitch:variable;
+	mso-font-signature:-1342176593 1775729915 48 0 524447 0;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;
+	mso-font-charset:1;
+	mso-generic-font-family:roman;
+	mso-font-format:other;
+	mso-font-pitch:variable;
+	mso-font-signature:0 0 0 0 0 0;}
+@font-face
+	{font-family:"\@굴림";
+	panose-1:2 11 6 0 0 1 1 1 1 1;
+	mso-font-charset:129;
+	mso-generic-font-family:modern;
+	mso-font-pitch:variable;
+	mso-font-signature:-1342176593 1775729915 48 0 524447 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:굴림;
+	mso-bidi-font-family:굴림;
+	color:black;}
+h2
+	{mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-link:"제목 2 Char";
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	mso-outline-level:2;
+	font-size:18.0pt;
+	font-family:굴림;
+	mso-bidi-font-family:굴림;
+	color:black;
+	font-weight:bold;}
+h3
+	{mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-link:"제목 3 Char";
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	mso-outline-level:3;
+	font-size:13.5pt;
+	font-family:굴림;
+	mso-bidi-font-family:굴림;
+	color:black;
+	font-weight:bold;}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-link:"머리글 Char";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	tab-stops:center 225.65pt right 451.3pt;
+	layout-grid-mode:char;
+	font-size:12.0pt;
+	font-family:굴림;
+	mso-bidi-font-family:굴림;
+	color:black;}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-link:"바닥글 Char";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	tab-stops:center 225.65pt right 451.3pt;
+	layout-grid-mode:char;
+	font-size:12.0pt;
+	font-family:굴림;
+	mso-bidi-font-family:굴림;
+	color:black;}
+a:link, span.MsoHyperlink
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;
+	text-underline:single;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	color:purple;
+	text-decoration:underline;
+	text-underline:single;}
+p
+	{mso-style-priority:99;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:굴림;
+	mso-bidi-font-family:굴림;
+	color:black;}
+p.MsoAcetate, li.MsoAcetate, div.MsoAcetate
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-link:"풍선 도움말 텍스트 Char";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:9.0pt;
+	font-family:"맑은 고딕";
+	mso-ascii-font-family:"맑은 고딕";
+	mso-ascii-theme-font:major-latin;
+	mso-fareast-font-family:"맑은 고딕";
+	mso-fareast-theme-font:major-fareast;
+	mso-hansi-font-family:"맑은 고딕";
+	mso-hansi-theme-font:major-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:major-bidi;
+	color:black;}
+span.2Char
+	{mso-style-name:"제목 2 Char";
+	mso-style-noshow:yes;
+	mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:"제목 2";
+	mso-ansi-font-size:12.0pt;
+	mso-bidi-font-size:12.0pt;
+	font-family:"맑은 고딕";
+	mso-ascii-font-family:"맑은 고딕";
+	mso-ascii-theme-font:major-latin;
+	mso-fareast-font-family:"맑은 고딕";
+	mso-fareast-theme-font:major-fareast;
+	mso-hansi-font-family:"맑은 고딕";
+	mso-hansi-theme-font:major-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:major-bidi;
+	color:black;}
+span.3Char
+	{mso-style-name:"제목 3 Char";
+	mso-style-noshow:yes;
+	mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:"제목 3";
+	mso-ansi-font-size:12.0pt;
+	mso-bidi-font-size:12.0pt;
+	font-family:"맑은 고딕";
+	mso-ascii-font-family:"맑은 고딕";
+	mso-ascii-theme-font:major-latin;
+	mso-fareast-font-family:"맑은 고딕";
+	mso-fareast-theme-font:major-fareast;
+	mso-hansi-font-family:"맑은 고딕";
+	mso-hansi-theme-font:major-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:major-bidi;
+	color:black;}
+span.Char
+	{mso-style-name:"머리글 Char";
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:머리글;
+	mso-ansi-font-size:12.0pt;
+	mso-bidi-font-size:12.0pt;
+	font-family:굴림;
+	mso-ascii-font-family:굴림;
+	mso-fareast-font-family:굴림;
+	mso-hansi-font-family:굴림;
+	mso-bidi-font-family:굴림;
+	color:black;}
+span.Char0
+	{mso-style-name:"바닥글 Char";
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:바닥글;
+	mso-ansi-font-size:12.0pt;
+	mso-bidi-font-size:12.0pt;
+	font-family:굴림;
+	mso-ascii-font-family:굴림;
+	mso-fareast-font-family:굴림;
+	mso-hansi-font-family:굴림;
+	mso-bidi-font-family:굴림;
+	color:black;}
+span.Char1
+	{mso-style-name:"풍선 도움말 텍스트 Char";
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:"풍선 도움말 텍스트";
+	mso-ansi-font-size:9.0pt;
+	mso-bidi-font-size:9.0pt;
+	font-family:"맑은 고딕";
+	mso-ascii-font-family:"맑은 고딕";
+	mso-ascii-theme-font:major-latin;
+	mso-fareast-font-family:"맑은 고딕";
+	mso-fareast-theme-font:major-fareast;
+	mso-hansi-font-family:"맑은 고딕";
+	mso-hansi-theme-font:major-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:major-bidi;
+	color:black;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	mso-default-props:yes;
+	mso-bidi-font-size:10.0pt;
+	mso-ascii-font-family:"Times New Roman";
+	mso-hansi-font-family:"Times New Roman";
+	mso-font-kerning:0pt;}
+ /* Page Definitions */
+ @page
+	{mso-footnote-separator:url("Multimodal%20Memory%20Game.files/header.html") fs;
+	mso-footnote-continuation-separator:url("Multimodal%20Memory%20Game.files/header.html") fcs;
+	mso-endnote-separator:url("Multimodal%20Memory%20Game.files/header.html") es;
+	mso-endnote-continuation-separator:url("Multimodal%20Memory%20Game.files/header.html") ecs;}
+@page Section1
+	{size:595.3pt 841.9pt;
+	margin:3.0cm 72.0pt 72.0pt 72.0pt;
+	mso-header-margin:42.55pt;
+	mso-footer-margin:49.6pt;
+	mso-paper-source:0;}
+div.Section1
+	{page:Section1;}
+ /* List Definitions */
+ @list l0
+	{mso-list-id:199517198;
+	mso-list-template-ids:-1752263626;}
+@list l0:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l1
+	{mso-list-id:582762200;
+	mso-list-template-ids:975352496;}
+@list l1:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l2
+	{mso-list-id:1128353425;
+	mso-list-template-ids:-1352772328;}
+@list l2:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l2:level2
+	{mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l2:level3
+	{mso-level-tab-stop:108.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l2:level4
+	{mso-level-tab-stop:144.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l2:level5
+	{mso-level-tab-stop:180.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l2:level6
+	{mso-level-tab-stop:216.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l2:level7
+	{mso-level-tab-stop:252.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l2:level8
+	{mso-level-tab-stop:288.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l2:level9
+	{mso-level-tab-stop:324.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l3
+	{mso-list-id:1472020755;
+	mso-list-template-ids:1419289778;}
+@list l3:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l3:level2
+	{mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l3:level3
+	{mso-level-tab-stop:108.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l3:level4
+	{mso-level-tab-stop:144.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l3:level5
+	{mso-level-tab-stop:180.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l3:level6
+	{mso-level-tab-stop:216.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l3:level7
+	{mso-level-tab-stop:252.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l3:level8
+	{mso-level-tab-stop:288.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l3:level9
+	{mso-level-tab-stop:324.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+ol
+	{margin-bottom:0cm;}
+ul
+	{margin-bottom:0cm;}
+-->
+</style>
+</head>
+
+<body bgcolor=white lang=KO link=blue vlink=purple style='tab-interval:40.0pt' alink=red>
+
+<div class=Section1>
+<div align=center>
+<table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0 width=530
+ style='width:397.5pt;mso-cellspacing:0cm;mso-yfti-tbllook:1184;mso-padding-alt:
+ 0cm 0cm 0cm 0cm'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes;mso-yfti-lastrow:yes'>
+  <td valign=top style='padding:0cm 0cm 0cm 0cm'>
+  <h2><span lang=EN-US style='font-family:"Arial","sans-serif"'><br>
+  MMG:</span></h2>
+  <h2><span lang=EN-US style='font-family:"Arial","sans-serif";color:blue'>Cognitive  learning and the Multimodal
+  Memory Game Platform</span></h2>
+  <div class=MsoNormal align=center style='text-align:center'>
+  <hr size=2 width="100%" align=center>
+  </div>
+  <p>▒ <strong><span style='font-family:굴림;mso-ascii-font-family:Arial;
+  mso-hansi-font-family:Arial;mso-bidi-font-family:Arial'>개 요</span></strong>▒</p>
+  <p><span style='font-size:10.0pt;mso-ascii-font-family:Arial;mso-hansi-font-family:
+  Arial;mso-bidi-font-family:Arial'>자막, 소리, 이미지 3가지 다른 종류의 데이터를 이용하여, 인지적 기억과 관련된 새로운 기계학습 문제를 정의하고 해결하고자 하는 시도.
+</span></p>
+  <ul type=disc>
+   <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+       auto;mso-list:l3 level1 lfo3;tab-stops:list 36.0pt'><span style='font-size:10.0pt;mso-ascii-font-family:Arial;mso-hansi-font-family:
+       Arial;mso-bidi-font-family:Arial'>드라마 Friends 의 영상, 소리, 자막 데이터를 수집.</span></li>
+   <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+       auto;mso-list:l3 level1 lfo3;tab-stops:list 36.0pt'><span
+       style='font-size:10.0pt'>자막 데이터만을 학습하여 문장 완성 문제를 다룸<span lang=EN-US>.</span></span></li>
+   <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+       auto;mso-list:l3 level1 lfo3;tab-stops:list 36.0pt'><span
+       style='font-size:10.0pt;mso-ascii-font-family:Arial;mso-hansi-font-family:
+       Arial;mso-bidi-font-family:Arial'>이미지 데이터만을 학습하여 망가진 이미지 완성 문제를 다룸. </span></li>
+   <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+       auto;mso-list:l3 level1 lfo3;tab-stops:list 36.0pt'><span
+       style='font-size:10.0pt;mso-ascii-font-family:Arial;mso-hansi-font-family:
+       Arial;mso-bidi-font-family:Arial'>자막, 소리, 이미지 데이터를 함께 다루어, 보다 나은 성능을 보이는 기계학습 문제를 정의하고 해결하고자 함. </span></li>
+   <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+       auto;mso-list:l3 level1 lfo3;tab-stops:list 36.0pt'><span
+       style='font-size:10.0pt;mso-ascii-font-family:Arial;mso-hansi-font-family:
+       Arial;mso-bidi-font-family:Arial'>인지적 기억과 관련된 기계학습 문제를 정의하고 해결하고자 함. </span></li>
+  </ul>
+  <p align=center><img width=407 height=378 
+  src="concept.jpg" alt=concept.jpg>
+  <br><br>
+  <span style='font-size:10.0pt'>자막 </span><span lang=EN-US
+  style='font-size:10.0pt;font-family:Wingdings;mso-ascii-font-family:굴림;
+  mso-hansi-font-family:굴림;mso-char-type:symbol;mso-symbol-font-family:Wingdings'><span
+  style='mso-char-type:symbol;mso-symbol-font-family:Wingdings'>ß</span></span><span
+  lang=EN-US style='font-size:10.0pt;font-family:Wingdings;mso-ascii-font-family:
+  굴림;mso-hansi-font-family:굴림;mso-char-type:symbol;mso-symbol-font-family:Wingdings'><span
+  style='mso-char-type:symbol;mso-symbol-font-family:Wingdings'>&agrave;</span></span><span
+  lang=EN-US style='font-size:10.0pt'> </span><span style='font-size:10.0pt'>소리
+  </span><span lang=EN-US style='font-size:10.0pt;font-family:Wingdings;
+  mso-ascii-font-family:굴림;mso-hansi-font-family:굴림;mso-char-type:symbol;
+  mso-symbol-font-family:Wingdings'><span style='mso-char-type:symbol;
+  mso-symbol-font-family:Wingdings'>ß</span></span><span lang=EN-US
+  style='font-size:10.0pt;font-family:Wingdings;mso-ascii-font-family:굴림;
+  mso-hansi-font-family:굴림;mso-char-type:symbol;mso-symbol-font-family:Wingdings'><span
+  style='mso-char-type:symbol;mso-symbol-font-family:Wingdings'>&agrave;</span></span><span
+  lang=EN-US style='font-size:10.0pt'> </span><span style='font-size:10.0pt'>이미지의 중첩된 하이퍼네트워크에 <span lang=EN-US><br>
+  </span>기반한 Multimodal Memory Game</span></p>
+  <p align=center style='text-align:center'><span lang=EN-US style='font-size:
+  10.0pt'><o:p>&nbsp;</o:p></span></p>
+  <p align=center style='text-align:center'><span lang=EN-US style='font-size:
+  10.0pt;mso-no-proof:yes'><img width=370 height=268 id="_x0000_i1030"
+  src=ImageToText.jpg></span><span lang=EN-US style='font-size:10.0pt'><br>
+  <br>
+  </span><span style='font-size:10.0pt'>이미지로부터 텍스트를 복원하는 MMG의 구조 예</span></p>
+  <p><span lang=EN-US style='font-size:10.0pt;font-family:"Arial","sans-serif"'>&nbsp;&nbsp;&nbsp;</span></p>
+  <p align=center style='text-align:center'><span lang=EN-US style='font-size:
+  10.0pt;mso-no-proof:yes'><img width=380 height=268 id="_x0000_i1029"
+  src=ExImageToText.jpg></span><span lang=EN-US style='font-size:10.0pt'><br>
+  <br>
+  </span><span style='font-size:10.0pt'>이미지로부터 텍스트를 복원하는 실험 예</span></p>
+  <p align=center style='text-align:center'>&nbsp;</p>
+  <table class=MsoNormalTable border=0 cellpadding=0 width=530
+   style='width:397.5pt;mso-cellspacing:1.5pt;mso-yfti-tbllook:1184;mso-padding-alt:
+   0cm 5.4pt 0cm 5.4pt'>
+   <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes;mso-yfti-lastrow:yes'>
+    <td style='padding:.75pt .75pt .75pt .75pt'>
+    <p>▒ <b><span lang=EN-US style='font-family:"Arial","sans-serif"'>Publications</span></b>▒</p>
+    <ul type=disc>
+     <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+         auto;mso-list:l2 level1 lfo6;tab-stops:list 36.0pt'><b><span
+         lang=EN-US style='font-size:10.0pt'>Self-assembling hypernetworks for cognitive learning of linguistic memory</span></b><span lang=EN-US
+         style='font-size:10.0pt'>, B.-T Zhang and C.-H. Park, <i>Proceedings of World Academy of Science, Engineering and Technology (WASET)</i>,
+         p.134, 2008.<!--5 February--> <o:p></o:p></span></li>
+    </ul>
+    <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+    auto;margin-left:18.0pt'><span lang=EN-US><span
+    style='mso-spacerun:yes'>&nbsp;</span></span></p>
+    </td>
+   </tr>
+  </table>
+  <div class=MsoNormal align=center style='text-align:center'><span lang=EN-US>
+  <hr size=2 width="100%" align=center>
+  </span></div>
+  <table class=MsoNormalTable border=0 cellpadding=0 width=530
+   style='width:397.5pt;mso-cellspacing:1.5pt;mso-yfti-tbllook:1184;mso-padding-alt:
+   0cm 5.4pt 0cm 5.4pt'>
+   <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+    <td width=148 style='width:111.0pt;padding:.75pt .75pt .75pt .75pt'>
+    <p><b><span lang=EN-US>Project Title</span></b></p>
+    </td>
+    <td width=372 style='width:279.0pt;padding:.75pt .75pt .75pt .75pt'>
+    <p><b><span lang=EN-US>Multimodal Memory Game </span></b></p>
+    </td>
+   </tr>
+   <tr style='mso-yfti-irow:1'>
+    <td width=148 style='width:111.0pt;padding:.75pt .75pt .75pt .75pt'>
+    <p><b><span lang=EN-US>Sponsor</span></b></p>
+    </td>
+    <td width=372 style='width:279.0pt;padding:.75pt .75pt .75pt .75pt'>
+    <p><span lang=EN-US>-</span></p>
+    </td>
+   </tr>
+   <tr style='mso-yfti-irow:2'>
+    <td width=148 style='width:111.0pt;padding:.75pt .75pt .75pt .75pt'>
+    <p><b><span lang=EN-US>Principal Investigator</span></b></p>
+    </td>
+    <td width=372 style='width:279.0pt;padding:.75pt .75pt .75pt .75pt'>
+    <p><span lang=EN-US><a href="http://bi.snu.ac.kr/People/btzhang.html"><span
+    style='font-size:10.0pt;font-family:"Arial","sans-serif"'>Prof.Byoung-Tak
+    Zhang</span></a></span></p>
+    </td>
+   </tr>
+   <tr style='mso-yfti-irow:3;height:51.0pt'>
+    <td width=148 style='width:111.0pt;padding:.75pt .75pt .75pt .75pt;
+    height:51.0pt'>
+    <p><b><span lang=EN-US>Researchers</span></b></p>
+    </td>
+    <td width=372 style='width:279.0pt;padding:.75pt .75pt .75pt .75pt;
+    height:51.0pt'>
+    <p style='margin:0cm;margin-bottom:.0001pt'><span lang=EN-US
+    style='font-size:10.0pt'><a href="http://bi.snu.ac.kr/People/hsseok.html"><span
+    style='font-family:"Arial","sans-serif";mso-bidi-font-weight:bold'>Ho-Sik
+    Seok</span></a></span><span lang=EN-US style='font-size:10.0pt;font-family:
+    "Arial","sans-serif";mso-bidi-font-weight:bold'><o:p></o:p></span></p>
+    <p style='margin:0cm;margin-bottom:.0001pt'><span lang=EN-US
+    style='font-size:10.0pt;font-family:"Arial","sans-serif";mso-bidi-font-weight:
+    bold'><a href="http://bi.snu.ac.kr/People/skim.html">Sun Kim </a><o:p></o:p></span></p>
+    <p style='margin:0cm;margin-bottom:.0001pt'><span lang=EN-US
+    style='font-size:10.0pt'><a href="http://bi.snu.ac.kr/People/chpark.html"><span
+    style='font-family:"Arial","sans-serif";mso-bidi-font-weight:bold'>Chan-Hoon
+    Park</span></a></span><span lang=EN-US style='font-size:10.0pt;font-family:
+    "Arial","sans-serif";mso-bidi-font-weight:bold'><o:p></o:p></span></p>
+    <p style='margin:0cm;margin-bottom:.0001pt'><span lang=EN-US
+    style='font-size:10.0pt;font-family:"Arial","sans-serif";mso-bidi-font-weight:
+    bold'><a href="http://bi.snu.ac.kr/People/eslee.html">Eun-Seok Lee</a><o:p></o:p></span></p>
+    <p style='margin:0cm;margin-bottom:.0001pt'><span lang=EN-US
+    style='font-size:10.0pt;font-family:"Arial","sans-serif";color:blue;
+    mso-bidi-font-weight:bold'>Won-Jin Shin<o:p></o:p></span></p>
+    <p style='margin:0cm;margin-bottom:.0001pt'><span lang=EN-US
+    style='font-size:10.0pt;font-family:"Arial","sans-serif";color:blue;
+    mso-bidi-font-weight:bold'>Young-Kil Ko<o:p></o:p></span></p>
+    <p style='margin:0cm;margin-bottom:.0001pt'><span lang=EN-US
+    style='font-size:10.0pt;font-family:"Arial","sans-serif";mso-bidi-font-weight:
+    bold'><a href="http://bi.snu.ac.kr/People/hyjang.html">Ha-Young Jang</a><o:p></o:p></span></p>
+    <p style='margin:0cm;margin-bottom:.0001pt'><span lang=EN-US
+    style='font-size:10.0pt'><a href="http://bi.snu.ac.kr/People/kikim.html"><span
+    style='font-family:"Arial","sans-serif";mso-bidi-font-weight:bold'>Kwon-ill
+    Kim</span></a><o:p></o:p></span></p>
+    <p style='margin:0cm;margin-bottom:.0001pt'><span lang=EN-US
+    style='font-size:10.0pt;font-family:"Arial","sans-serif"'><a
+    href="http://bi.snu.ac.kr/People/moheo.html">Min-Oh Heo</a></span><span
+    lang=EN-US style='font-size:10.0pt'><o:p></o:p></span></p>
+    <p style='margin:0cm;margin-bottom:.0001pt'><span lang=EN-US
+    style='font-size:10.0pt'><a href="http://bi.snu.ac.kr/People/jkkim.html"><span
+    style='font-family:"Arial","sans-serif";mso-bidi-font-weight:bold'>Joo-Kyung
+    Kim</span></a><o:p></o:p></span></p>
+    <p style='margin:0cm;margin-bottom:.0001pt'><span lang=EN-US
+    style='font-size:10.0pt;font-family:"Arial","sans-serif";mso-bidi-font-weight:
+    bold'><a href="http://bi.snu.ac.kr/People/bwku.html">Bon-Woong Ku</a></span><span
+    lang=EN-US style='font-size:10.0pt'><o:p></o:p></span></p>
+    <p style='margin:0cm;margin-bottom:.0001pt'><span lang=EN-US
+    style='font-size:10.0pt;font-family:"Arial","sans-serif";color:blue;
+    mso-bidi-font-weight:bold'>Sang-Yoon Yi<o:p></o:p></span></p>
+    <p style='margin:0cm;margin-bottom:.0001pt'><span lang=EN-US
+    style='font-size:10.0pt;font-family:"Arial","sans-serif";color:blue;
+    mso-bidi-font-weight:bold'>Young-Jin Park</span><span lang=EN-US
+    style='font-size:10.0pt'><o:p></o:p></span></p>
+    <p style='margin:0cm;margin-bottom:.0001pt'><span lang=EN-US
+    style='font-size:10.0pt;font-family:"Arial","sans-serif";color:blue;
+    mso-bidi-font-weight:bold'>Seong-Bae Lee</span></p>
+    </td>
+   </tr>
+   <tr style='mso-yfti-irow:4'>
+    <td width=148 style='width:111.0pt;padding:.75pt .75pt .75pt .75pt'>
+    <p><b><span lang=EN-US>Duration</span></b></p>
+    </td>
+    <td width=372 style='width:279.0pt;padding:.75pt .75pt .75pt .75pt'>
+    <p><span lang=EN-US style='font-size:10.0pt;font-family:"Arial","sans-serif"'>2007.11
+    -&nbsp;</span></p>
+    </td>
+   </tr>
+   <tr style='mso-yfti-irow:5;mso-yfti-lastrow:yes'>
+    <td width=148 style='width:111.0pt;padding:.75pt .75pt .75pt .75pt'></td>
+    <td width=372 style='width:279.0pt;padding:.75pt .75pt .75pt .75pt'></td>
+   </tr>
+  </table>
+  <div class=MsoNormal align=center style='text-align:center'><span lang=EN-US>
+  <hr size=2 width="100%" align=center>
+  </span></div>
+  <table class=MsoNormalTable border=0 cellpadding=0 width=353
+   style='width:264.75pt;mso-cellspacing:1.5pt;mso-yfti-tbllook:1184;
+   mso-padding-alt:0cm 5.4pt 0cm 5.4pt'>
+   <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+    <td width=148 style='width:111.0pt;padding:.75pt .75pt .75pt .75pt'>
+    <p class=MsoNormal><b><span lang=EN-US>Contact</span></b></p>
+    </td>
+    <td width=195 style='width:146.25pt;padding:.75pt .75pt .75pt .75pt'>
+    <p class=MsoNormal><span lang=EN-US style='font-size:10.0pt'>&nbsp;Min-Oh
+    Heo</span></p>
+    </td>
+   </tr>
+   <tr style='mso-yfti-irow:1'>
+    <td width=148 style='width:111.0pt;padding:.75pt .75pt .75pt .75pt'>
+    <p class=MsoNormal><b><span lang=EN-US>E-Mail</span></b></p>
+    </td>
+    <td width=195 style='width:146.25pt;padding:.75pt .75pt .75pt .75pt'>
+    <p class=MsoNormal><span lang=EN-US style='font-size:10.0pt;mso-no-proof:
+    yes'><a href="mailto:moheo@bi.snu.ac.kr">moheo (a) bi.snu.ac.kr</a></span></p>
+    </td>
+   </tr>
+   <tr style='mso-yfti-irow:2'>
+    <td width=148 style='width:111.0pt;padding:.75pt .75pt .75pt .75pt'>
+    <p class=MsoNormal><b><span lang=EN-US>Phone</span></b></p>
+    </td>
+    <td width=195 style='width:146.25pt;padding:.75pt .75pt .75pt .75pt'>
+    <p class=MsoNormal><span lang=EN-US style='font-size:10.0pt'>&nbsp;+82-2-880-1835</span></p>
+    </td>
+   </tr>
+   <tr style='mso-yfti-irow:3;mso-yfti-lastrow:yes'>
+    <td width=148 style='width:111.0pt;padding:.75pt .75pt .75pt .75pt'>
+    <p class=MsoNormal><b><span lang=EN-US>Fax</span></b></p>
+    </td>
+    <td width=195 style='width:146.25pt;padding:.75pt .75pt .75pt .75pt'>
+    <p class=MsoNormal><span lang=EN-US style='font-size:10.0pt'>&nbsp;+82-2-875-2240</span></p>
+    </td>
+   </tr>
+  </table>
+  <p class=MsoNormal><span lang=EN-US style='font-size:10.0pt;font-family:"Times New Roman","serif";
+  color:windowtext'><o:p></o:p></span></p>
+  </td>
+  <td valign=top style='padding:0cm 0cm 0cm 0cm'>
+  <div class=MsoNormal align=center style='text-align:center'><span lang=EN-US>
+  <hr size=2 width="100%" align=center>
+  </span></div>
+  </td>
+ </tr>
+</table>
+
+</div>
+
+<p><span lang=EN-US>&nbsp;</span></p>
+
+</div>
+
+</body>
+
+</html>
+

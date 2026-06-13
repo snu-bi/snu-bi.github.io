@@ -1,0 +1,27 @@
+The problem of Synaptic Complexity
+Seth Grant (2010.09.28)
+
+Shortcomings of the anatomical model
+ - regionalisation of behaviors is not clear cut
+ - does not fit well with evolutionary and comparative species data
+ - does not take into account genomic or synapse evolution
+
+High complexity in synapse proteome
+
+Modular protain interation networks
+ - Upstream & downstream modules
+
+Synaptic origins & evolution
+ - Synapse proteins in organisms lacking neurons
+
+Evolution of Combinations/Organization of complexes
+
+Overlapping combinations of postsynaptic subnetworks modulate each trait and are used in specific environments
+
+Genetic architecture of innate behaviours (Diagram at 18:00)
+
+Implications
+- subtle changes in gene expression or protein in a species could give it an advantage in a particular environmental niche
+- may explain, in part, the larger behavioural repertoire and flexibility of vertebrates
+- common underlying molecular mechanism in postsynaptic complexes for innate and learned responses
+- disease mutations shift repertoire of innate (and learned) responses in particular ways, which characterises the disease.

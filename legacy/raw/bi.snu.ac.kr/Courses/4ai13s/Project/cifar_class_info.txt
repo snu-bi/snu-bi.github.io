@@ -1,0 +1,21 @@
+[for 2 classes]
+1	horse
+2	ship
+
+[for 4 classes]
+1	automobile
+2	bird
+3	dog
+4	airplane
+
+[for 10 classes]
+1	automobile
+2	bird
+3	cat
+4	deer
+5	dog
+6	frog
+7	horse
+8	ship
+9	truck
+10	airplane

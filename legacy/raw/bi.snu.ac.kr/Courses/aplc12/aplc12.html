@@ -1,0 +1,455 @@
+<HTML>
+	<HEAD>
+		<TITLE>Brain, Computation, and Neural Learning - Fall 2011</TITLE>
+		<STYLE type="text/css">
+			a:active	{text-decoration: underline; color: blue}
+			a:link		{text-decoration: underline; color: blue}
+			a:visited	{text-decoration: underline; color: blue}
+			a:hover		{text-decoration: underline; color: blue}
+
+			#subli ul	{list-style-type: circle; padding: 0px; margin: 0px;}
+			#subli li	{line-height: 18px; margin: 0px 0px 0px -10px;}
+
+			#sched ul	{list-style-type: square; padding: 0px; margin: 10px;}
+			#sched li	{line-height: 24px; margin: 0px 0px 0px 20px;}
+
+			ul.none		{list-style-type: none; margin: 0px;}
+			li.none		{margin: 0px 0px 0px 20px;}
+
+			ul.ref		{list-style-type: none; margin: 0px;}
+			li.ref		{margin: 0px 0px 0px -40px;}
+			
+			td.line_wr	{border-right-width:2px; border-right-color:#ffffff; border-right-style:solid;}
+			td.line_gb	{border-bottom-width:1px; border-bottom-color:#999999; border-bottom-style:dotted; line-height:1.5em};
+		</STYLE>
+		<meta charset="euc-kr">
+	</HEAD>
+
+	<BODY>
+		<TABLE width=620 border=0 cellspacing=0 cellpadding=0 align=center>
+			<TBODY style="FONT-FAMILY: Times New Roman; FONT-SIZE: 16px; line-height: 24px">
+			
+			<!-- LECTURE TITLE //-->
+			<TR height="60" valign="top">
+				<TD colspan="2" align="center"><STRONG>
+					<SPAN style="FONT-SIZE: 24px; font-weight:bold">
+						Action-Perception-Learning Cycles</SPAN><BR>
+				</TD>
+			</TR>
+
+			<!--// GENERAL INFORMATION //-->
+			<TR>
+				<TD height="620" colspan=2>
+				
+						<!--// TARGET //-->
+						<LI><STRONG>2012 Fall Graduate Course in
+						Computer Science and Engineering, Cognitive Science, and Brain Science
+						</STRONG></LI>
+						
+						<!--// INSTRUCTOR //-->
+						<LI><STRONG>Instructor: </STRONG>
+							<A href="http://bi.snu.ac.kr/~btzhang/" target="_blank">Prof. Byoung-Tak Zhang </A></LI>
+						
+						<!--// TEACHING ASSISTANT //-->
+						<LI><STRONG>TA: </STRONG>
+							<A href="mailto:hyjang@bi.snu.ac.kr">Ha-Young Jang</A></LI>
+						
+						<!--// CLASSROOM //-->
+						<LI><STRONG>Classroom: </STRONG>
+                        302-209</LI>
+						
+						<!--// TIME //-->
+						<LI><STRONG>Time: </STRONG>
+                        Tue & Thu, 11:00-12:15</LI></UL>
+						
+						<!--// TEXT //-->
+						
+						
+						<!--// REFERENCES //-->
+						<LI><STRONG>Reference: </STRONG>
+							<UL>
+								<LI>[1] <a href="http://www.amazon.com/Bayesian-Series-Models-David-Barber/dp/0521196760/ref=sr_1_1?ie=UTF8&qid=1346732749&sr=8-1&keywords=Bayesian+Time+Series+Models" target="_blank">Bayesian Time Series Models</a>, Barber, Cemgil, and Chiappa, 2011 </LI>
+								<LI>[2] <a href="http://www.amazon.com/Kalman-Filtering-Neural-Networks-Haykin/dp/0471369985/ref=sr_1_1?s=books&ie=UTF8&qid=1346732815&sr=1-1&keywords=Kalman+Filtering+and+Neural+Networks" target="_blank">Kalman Filtering and Neural Networks</a>, Haykin, 2001</LI>
+								<LI>[3] <a href="http://www.amazon.com/Beyond-Kalman-Filter-Particle-Applications/dp/158053631X/ref=sr_1_1?s=books&ie=UTF8&qid=1346733233&sr=1-1&keywords=Beyond+the+Kalman+Filter" target="_blank">Beyond the Kalman Filter</a>, Ristic, Arulampalam, and Gordon, 2004</LI>
+							</UL>
+						</LI>
+						
+						<!--// EVALUATION //-->
+						<LI><STRONG>Evaluation: </STRONG>
+							<UL id="subli">
+								<LI>Two open-book exams (70%) </LI>
+								<LI>Paper presentations (20%)</LI>
+								<LI>Participation and discussion (10%) </LI>
+							</UL>
+						</LI>
+						
+						<!--// ANNOUNCEMENT //-->
+						<LI><STRONG>Announcement: </STRONG>
+							<UL id="subli">
+								<LI>(9/6): <a href="./GuidingQuestion.docx">Guiding Questions</a> for mid-term paper presentations and exam preparations  </LI>
+								<LI>(10/16): Poster Workshop. (Room 302-308) Please read <a href="./PosterGuideline.pdf">Guidelines for Poster Presentation</a></LI>
+								<LI>All the presenters please send your presentation files to <A href="mailto:slee@bi.snu.ac.kr">slee@bi.snu.ac.kr</A></LI>
+								<LI>Mid-term lecture evaluation is opened during 10.22~11.2. Please evaluate this course in <a href="http://my.snu.ac.kr" target="_blank">MYSNU</a>.
+								<LI>(11/12): <a href="./GuidingQuestion2.docx">Guiding Questions</a> for paper presentations and exam preparations on Week 11  </LI>
+								<LI>(11/19): <a href="./GuidingQuestion3.docx">Guiding Questions</a> for theory part</LI>
+								<LI>(12/13): Poster Workshop. (Room 302-308) Please read <a href="./PosterGuideline.pdf">Guidelines for Poster Presentation</a></LI>
+								<LI>(12/14): <a href="grade.html">Check your marks in midterm and final exam.</a></LI>
+								</UL>
+				  </LI>
+				  <LI><STRONG>Course Description: </STRONG></LI>
+                        <UL id="subli">
+                        <LI>How can the brain learn so fast, flexibly, and robustly? What representational mechanisms and organizational principles does the brain use? How can we apply these principles to constructing intelligent cognitive machines that learn like humans? To address these questions, it is important to observe that the brain is embodied with sensors and actuators, and interacts with its environment in a continuous perception-action cycle. Living in a dynamic environment under uncertainty requires the brain to learn moment by moment in real time and incrementally in this continuous, rapid perception-action cycle. In this course we review recent experimental and theoretical work on perception-action cycles and neural coding principles in the brain. We also study mathematical tools developed in information theory, control theory, and Bayesian statistics that may be useful to model the biological information processing in the brain. The goal is to develop computational models of sequential learning processes, i.e. action-perception-learning cycle machines, that enable rapid, continuous, and reliable action and decision-making in a changing environment over an extended period of time or lifelong. </LI>
+                        </UL>
+						
+						<!--// GOAL //-->
+							
+						
+								
+					</UL>
+				</TD>
+			</TR>
+
+			<!--// SEPARATE LINE //-->
+			<TR><TD><HR size=2 width="98%" align=right></TD></TR>
+
+			<!--// SCHEDULE //-->
+			<TR>
+				<TD colspan=2>
+					<UL type=disk><LI><STRONG>Lecture Schedule</STRONG></LI></UL>
+
+					<UL class=none><LI class=none>
+					<TABLE width="660" align="center" border="0" cellspacing="0" cellpadding="0">
+						<TBODY style="FONT-FAMILY: Times New Roman; FONT-SIZE: 16px" id="sched">
+						
+
+						<!--// INDEX //-->
+						<TR height="21" bgcolor="#7FB8FF">
+							<TD align="center" width="57" class="line_wr"><STRONG>Week</STRONG></TD>
+							<TD align="center" width="356" class="line_wr"><STRONG>Topics</STRONG></TD>
+							<TD align="center" width="90" class="line_wr"><STRONG>Slides</STRONG></TD>
+							<TD align="center" width="48" class="line_wr"><STRONG>Papers</STRONG></TD>
+							<TD align="center" width="109">Presenter</TD>
+						</TR>
+
+						<!--// WEEK 01 //-->
+						<TR height="60">
+						  <TD align="center" class="line_gb"><p>Week 1</p>
+					      <p> (9/4, 9/6)</p></TD>
+							<TD class="line_gb">
+                            <UL>
+									<LI>From machine learning to brain-like cognitive learning</LI>
+                                    <LI>Brain as a physical, thermodynamic computer</LI>
+                                    <LI>Perception-action cycles and Carnot cycles</LI>
+                                    <LI>Models of action-perception-learning cycles</LI>
+                              </UL>
+						  </TD>
+							<TD class="line_gb" align="center">
+								<a href="./Action-Perception-Learning Cycle (Zhang).pptx">Action-Perception Learning Cycles</a>
+							</TD>
+							<TD class="line_gb" align="center">&nbsp;</TD>
+							<TD class="line_gb" align="center">&nbsp;</TD>
+						</TR>
+
+						<!--// WEEK 02 //-->
+						<TR height="60">
+						  <TD align="center" class="line_gb"><p>Week 2</p>
+					      <p> (9/11, 9/13)</p></TD>
+							<TD class="line_gb">
+								<UL>
+									<LI>Gordon, G., Kaplan, D. M., Lankow, B., Little, D. Y.-J., Sherwin, J., Suter, B. A., and Thaler, L., Toward an integrated approach to perception and action: conference report and future directions, <em>Frontiers in Systems Neuroscience</em>, 5(20):1-6, 2011.</LI>
+                                    <LI>Fuster, J. M., The prefrontal cortex - an update: Time is of the essence, <em>Neuron</em>, 30:319-333, 2001. <br>
+									(Ref : Fuster, J. M., The cognit: A network model of cortical representation, <em>International Journal of Psychophysiology</em>, 60:125-132, 2006.)</LI>
+									
+								</UL>
+							</TD>
+							<TD class="line_gb" align="center">
+								<a href="./2-1_.pptx">2-1</a><br><br>												
+								<a href="./2-2_.pptx">2-2</a><br><br>
+							</TD>
+							<TD class="line_gb" align="center">
+								<a href="./2-1.pdf">2-1</a><br><br>
+								<a href="./2-2-1.pdf">2-2-1</a><br>
+								<a href="./2-2-2.pdf">2-2-2</a><br><br>
+							</TD>
+							
+							<TD class="line_gb" align="center">
+							Beom-Jin Lee<br><br><br>
+							Hyo-Sun Chun<br><br>
+						</TR>
+
+						<!--// WEEK 03 //-->
+						<TR height="60">
+						  <TD align="center" class="line_gb"><p>Week 3</p>
+					      <p>(9/18, 9/20)</p></TD>
+							<TD class="line_gb">
+								<UL>
+									<LI>Pickering, M. and Garrod, S., An integrated theory of language production and comprehension, <em>Behavioral and Brain Sciences</em>, 2012. (in press)</LI>
+                                    <LI>Clark, A., Whatever next? Predictive brains, situated agents, and the future of cognitive science, <em>Behavioral and Brain Sciences</em>, 2012. (in press)</LI>
+								</UL>
+							</TD>
+							<TD class="line_gb" align="center">	
+								<a href="./3-1_.pptx">3-1</a><br><br>
+								<a href="./3-2_.pptx">3-2</a><br>
+							</TD>
+							<TD class="line_gb" align="center">	
+								<a href="./3-1.pdf">3-1</a><br><br>
+								<a href="./3-2.pdf">3-2</a><br>
+							</TD>
+							<TD class="line_gb" align="center"><br>Sang-woo Lee<br><br>Eun-seok Lee<br><br></TD>
+						</TR>
+
+						<!--// WEEK 04 //-->
+						<TR height="60">
+						  <TD align="center" class="line_gb"><p>Week 4</p>
+					      <p>(9/25, 9/27)</p></TD>
+							<TD class="line_gb">
+                            <UL>
+                                    <LI>Fry, R. L., Neural statics and dynamics, <em>Neurocomputing</em>, 65-66:455-462, 2005. <br>
+									(Ref : Fry, R. L., Computation by neural and cortical systems, <em>BMC Neuroscience</em>, 9(Suppl 1):P66, 2008.)</LI>
+									<LI>Reviews and discussion (9/27)</LI>
+							</UL>
+                            </TD>
+							<TD class="line_gb" align="center">
+								<a href="./4-1_.pdf">4-1</a><br>
+							</TD>
+							<TD class="line_gb" align="center">
+								<a href="./4-1-1.pdf">4-1-1</a><br>
+								<a href="./4-1-2.pdf">4-1-2</a><br><br>
+							</TD>
+							<TD class="line_gb" align="center">Sungjoo Ha, MyoungHoon Ha<br><br> </TD>
+						</TR>
+
+						<!--// WEEK 05 //-->
+						<TR height="60">
+						  <TD align="center" class="line_gb"><p>Week 5</p>
+					      <p>(10/2, 10/4)</p></TD>
+							<TD class="line_gb">
+								<UL>
+                                	<LI>Friston, K., The free-energy principle: a rough guide to the brain?, <em>Trends in Cognitive Sciences</em>, 2009.</LI>
+                                    <LI>Dayan, P. & Daw, N. D., Connections between computational and neurobiological perspectives on decision making, <em>Cognitive, Affective, & Behavioral Neuroscience</em>, 8(4):429-453, 2008.</LI>    
+								</UL>
+					    </TD>
+							<TD class="line_gb" align = "center">								
+								<a href="./5-1_.pptx">5-1</a><br><br>		
+								<a href="./5-2_.pdf">5-2</a><br>
+							</TD>
+
+							<TD class="line_gb" align = "center">								
+								<a href="./5-1.pdf">5-1</a><br><br>
+								<a href="./5-2.pdf">5-2</a><br>
+							
+							</TD>
+							<TD class="line_gb" align="center">Poudel Gokrna<br><br>Daeseob Lim</TD>
+						</TR>
+
+						<!--// WEEK 06 //-->
+						<TR height="60">
+						  <TD align="center" class="line_gb"><p>Week 6</p>
+						    <p>(10/9, 10/11)</p></TD>
+							<TD class="line_gb">
+								<UL>
+									<LI>Zahedi, K., Ay,N., and Der, R., Higher coordination with less control-A result of information maximization in the sensorimotor loop, <em>Adaptive Behavior</em>, 18(3-4):338-355, 2010.</LI> 
+									<LI>Tishby, N. & Polani, D., Information theory of decisions and actions, In: Perception-Reason-Action Cycle: <em>Models, Algorithms and Systems</em>, 2010.</LI>
+								</UL>
+							</TD>
+							<TD class="line_gb" align = "center">
+							<a href="./6-1_.pptx">6-1</a><br><br>		
+							<a href="./6-2_.pptx">6-2</a><br>
+							</TD>
+							<TD class="line_gb" align = "center">
+								<a href="./6-1.pdf">6-1</a><br><br>
+								<a href="./6-2.pdf">6-2</a><br>
+							</TD>
+							<TD class="line_gb" align="center">Sangam Uprety<br><br>Jongki Cho, Shinchoo Kim</TD>
+						</TR>
+
+						<!--// WEEK 07 //-->
+						<TR height="60">
+						  <TD align="center" class="line_gb"><p>Week 7</p>
+						    <p>(10/16, 10/18)</p></TD>
+							<TD class="line_gb">
+                            <UL>	
+								<LI>Reviews and discussion (10/16)</LI>
+                                <LI>Exam 1 (10/18)</LI>
+                            </UL>
+						  </TD>
+						  <TD class="line_gb" align = "center">&nbsp;	</TD>
+							<TD class="line_gb" align = "center">								
+								<br>
+							</TD>
+							<TD class="line_gb" align="center">&nbsp;</TD>
+						</TR>
+
+						<!--// WEEK 08 //-->
+						<TR height="60">
+						  <TD align="center" class="line_gb"><p>Week 8</p>
+					      <p>(10/23, 10/25)</p></TD>
+							<TD class="line_gb">
+                            <UL>
+                                <LI>Bayesian inference and estimation</LI>
+                            	<LI>Barber, D., Cemgil, A, T. and Chiappa, S., Inference and estimation in probabilistic time series models [1]</LI>
+
+                            </UL>
+							</TD>
+							<TD class="line_gb" align = "center">&nbsp;</TD>
+							<TD class="line_gb" align = "center">
+								<a href="./Lifelong Learning AAAI SSS-2013 (Zhang).pdf">8-1</a><br><br>
+								<a href="./8-2.pdf">8-2</a><br>
+								<br>
+							</TD>
+							<TD class="line_gb" align="center">&nbsp;</TD>
+						</TR>
+
+						<!--// WEEK 09 //-->
+						<TR height="60">
+							<TD align="center" class="line_gb"><p>Week 9</p>
+					      <p>(10/30,  11/1) </p></TD>
+							<TD class="line_gb">
+                            <UL>
+                            	<LI>Barber, D., Cemgil, A, T. and Chiappa, S., Inference and estimation in probabilistic time series models [1]</LI>
+                             </UL>
+					    </TD>
+						<TD class="line_gb" align = "center">&nbsp;	</TD>
+							<TD class="line_gb" align = "center">
+								<br>
+							</TD>
+							<TD class="line_gb" align="center">&nbsp;</TD>
+						</TR>
+						
+						<!--// WEEK 10 //-->
+						<TR height="60">
+						  <TD align="center" class="line_gb"><p>Week 10</p>
+					      <p>(11/6, 11/8)</p></TD>
+							<TD class="line_gb">
+                            <UL>
+								<LI>Haykin, S., Kalman filters [2]</LI>
+                                <LI>Extensions and variations</LI>
+								
+                            
+
+                              </UL>
+					    </TD>
+						<TD class="line_gb" align = "center">&nbsp;	</TD>
+							<TD class="line_gb" align = "center">
+								<a href="./10-1.pdf">10-1</a><br>
+								<br>
+							</TD>
+							<TD class="line_gb" align="center">&nbsp;</TD>
+						</TR>
+
+						<!--// WEEK 11 //-->
+						<TR height="60">
+						  <TD align="center" class="line_gb"><p>Week 11</p>
+					      <p>(11/13, 11/15)</p></TD>
+							<TD class="line_gb">
+                            <UL>
+								<LI>Pouget, A. Dayan, P., & Zemel, R. S., Inference and computation with population codes, <em>Annual Review of Neuroscience</em>, 26:381-410, 2003.</LI>						
+								<LI>Knill, D. C. & Pouget, A., The Bayesian brain: the role of uncertainty in neural coding and computation, <em>Trends in Neurosciences</em>, 27(12):712-719, 2004.</LI>
+							</UL>
+					    </TD>
+						<TD class="line_gb" align = "center">
+							<a href="./11-1_.pptx">11-1</a>
+						</TD>
+							<TD class="line_gb" align="center">								
+								<a href="./11-1.pdf">11-1</a><br><br>
+								<a href="./11-2.pdf">11-2</a><br>
+							</TD>
+							<TD class="line_gb" align="center">Jisu Kim, Hahn SangWook<br><br>Chung-Yeon Lee, Zhiqiang Ma</TD>
+						</TR>
+
+						<!--// WEEK 12 //-->
+						<TR height="60">
+						  <TD align="center" class="line_gb"><p>Week 12</p>
+					      <p>(11/20,  11/22)</p></TD>
+							<TD class="line_gb">
+                            <UL>
+								<LI>A tutorial on particle filters [3]</LI>
+                                <LI>Bayesian evolutionary algorithms</LI> 
+                              </UL>
+					    </TD>
+						<TD class="line_gb" align = "center">
+							<a href="./KalmanFilter.pdf">Kalman Filter</a><br><br>
+							<a href="./ParticleFilter.pdf">Particle Filter</a>
+						</TD>
+							<TD class="line_gb" align = "center">
+								<a href="./12-1.pdf">12-1</a><br><br>
+							</TD>
+							<TD class="line_gb" align="center">&nbsp;</TD>
+						</TR>
+
+						<!--// WEEK 13 //-->
+						<TR height="60">
+						  <TD align="center" class="line_gb"><p>Week 13</p>
+					      <p>(11/27, 11/29)</p></TD>
+							<TD class="line_gb">
+                            <UL>
+								
+ 								<LI>Reviews and discussion (11/27)</LI>                           
+                                <LI>Exam 2 (11/29)</LI>								
+							</UL>
+							</TD>
+							<TD class="line_gb" align = "center">&nbsp;	</TD>
+							<TD class="line_gb" align = "center">
+							<br>
+							</TD>
+							<TD class="line_gb" align="center">&nbsp;</TD>
+						</TR>
+
+						<!--// WEEK 14 //-->
+						<TR height="60">
+							<TD align="center" class="line_gb"><p>Week 14</p>
+							<p>(12/4, 12/6)</p></TD>
+							<TD class="line_gb">
+								<UL>
+									<LI>Osborne, L. C., Palmer, S. E.,  Lisberger, S. G., and Bialek, W., The neural basis for combinatorial coding in a  cortical population response, <em>Journal of  Neuroscience</em>, 28,13522-13531, 2008. </LI> 
+									<LI>Bach, D. and Dolan, R. J., Knowing how much you don't know: a neural organization of uncertainty estimates, <em>Nature Reviews Neuroscience</em>, 13:572-586, 2012.</LI>
+
+								</UL>								
+							</TD>
+							<TD class="line_gb" align = "center">&nbsp;	</TD>
+				  			<TD class="line_gb" align = "center">
+								<a href="./14-1.pdf">14-1</a><br><br>
+								<a href="./14-2.pdf">14-2</a><br>
+							</TD>	
+							<TD class="line_gb" align="center">Roger Paris<br><br>Jonathan Boellke</TD>
+
+						</TR>
+                        <!--// WEEK 15 //-->
+						<TR height="60">
+							<TD align="center" class="line_gb"><p>Week 15</p>
+					      <p>(12/11, 12/13)</p></TD>
+							<TD class="line_gb">
+                            <UL>
+                            
+                            
+						<LI>Reviews and discussion</LI>
+									
+                              </UL>							
+						  </TD>
+						  <TD class="line_gb" align = "center">&nbsp;	</TD>
+						  <TD class="line_gb">
+                                <p align="center">12/13</p>
+                          </TD>
+							<TD class="line_gb" align="center"><p><strong>Place: 302-308</strong></p></TD>
+						</TR>
+
+						
+
+
+				  </TABLE></LI></UL>
+				</TD>
+			</TR>
+
+			<!--// SEPARATE LINE //-->
+			<TR><TD><HR size=2 width="98%" align=right></TD></TR>
+
+			<!--// UPDATE INFO //-->
+			<TR>
+				<TD align=right>
+					This page is maintained by Sang-Woo Lee<BR>
+					Last update: 2012.11.21.
+				</TD>
+			</TR></TBODY>
+		</TABLE>
+	</BODY>
+</HTML>
