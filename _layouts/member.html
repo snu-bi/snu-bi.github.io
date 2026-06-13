@@ -2,23 +2,64 @@
 layout: default
 ---
 
-{% capture floatcontent %}
+<style>
+  .member-profile-page {
+    width: min(100%, 920px);
+    margin: 0 auto;
+  }
 
-{% include portrait.html lookup=page.slug %}
+  .member-profile-summary {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.75rem;
+    margin: 1.5rem auto 2rem;
+    text-align: center;
+  }
 
-<div>
-  {% for link in page.links %}
-    {% assign key = link[0] %}
-    {% assign value = link[1] %}
-    {% include button.html type=key link=value style="bare" %}<br>
-  {% endfor %}
+  .member-profile-summary .portrait {
+    width: min(220px, 60vw);
+    margin: 0;
+  }
+
+  .member-profile-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.25rem 0.5rem;
+    max-width: min(100%, 720px);
+  }
+
+  .member-profile-links .button {
+    margin: 0;
+  }
+
+  .member-profile-content {
+    margin-top: 1.5rem;
+  }
+</style>
+
+<div class="member-profile-page">
+  <div class="member-profile-summary">
+    {% include portrait.html lookup=page.slug style="member-page" %}
+
+    {% if page.links %}
+      <div class="member-profile-links" aria-label="Member links">
+        {% for link in page.links %}
+          {% assign key = link[0] %}
+          {% assign value = link[1] | strip %}
+          {% if value != "" %}
+            {% include button.html type=key link=value style="bare" %}
+          {% endif %}
+        {% endfor %}
+      </div>
+    {% endif %}
+  </div>
+
+  <div class="member-profile-content">
+    {{ content }}
+  </div>
 </div>
-
-{% endcapture %}
-
-{% include float.html content=floatcontent %}
-
-{{ content }}
 
 {% assign aliases = page.aliases
   | default: page.name
