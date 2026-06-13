@@ -9,6 +9,6 @@ links:
   email: ywjang@bi.snu.ac.kr
   openreview: https://openreview.net/profile?id=~Youwon_Jang1
 name: Youwon Jang
-role: phd-student
-status: 재학
+role: phd
+status: 졸업
 ---
