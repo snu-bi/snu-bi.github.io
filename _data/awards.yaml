@@ -1,32 +1,34 @@
-# Awards and Achievements
+# Awards and Achievements — SNU Biointelligence Lab
 
-- title: RoboCup@Home 2024 - DSPL 3rd, OPL 2nd Place
+# ── Competition Wins ──────────────────────────────────────────────────────────
+
+- title: AI Co-Scientist Challenge Korea — 우수상
+  year: 2026
+  event: AI Co-Scientist Challenge (Ministry of Science and ICT)
+  location: Republic of Korea
+  category: competition
+  description: >
+    Lab team led by doctoral student Yun Hye-jeong received the Excellence Prize (우수상)
+    at the AI Co-Scientist Challenge hosted by the Ministry of Science and ICT.
+  image:
+  links:
+    - text: GSAI SNU
+      url: https://gsai.snu.ac.kr/18199/
+
+- title: RoboCup@Home 2024 — OPL 2nd Place
   year: 2024
   event: RoboCup@Home 2024
   location: Eindhoven, Netherlands
   category: competition
   description: >
-    Team Tidyboy (SNU Biointelligence Lab) achieved 3rd place in the Domestic Standard Platform League (DSPL)
-    and 2nd place in the Open Platform League (OPL) at RoboCup@Home 2024.
+    Team Tidyboy (SNU Biointelligence Lab) achieved 2nd place in the Open Platform League (OPL)
+    at RoboCup@Home 2024, scoring 7,495 points.
   image:
   links:
     - text: RoboCup@Home
       url: https://athome.robocup.org/awards/
 
-- title: R-BIZ Challenge 2022 - 대통령상 (President's Award)
-  year: 2022
-  event: 국제로봇 콘테스트 R-BIZ Challenge — 제우스 산업용 로봇 ZERO 미션 챌린지
-  location: Republic of Korea
-  category: competition
-  description: >
-    Team SNU-BI (장병탁 교수 연구팀) won the President's Award (대통령상) at the 2022 International Robot Contest
-    and R-BIZ Challenge in the Zeus Industrial Robot ZERO Mission Challenge category.
-  image:
-  links:
-    - text: 한국대학신문
-      url: https://news.unn.net
-
-- title: RoboCup@Home 2023 - DSPL & OPL Winner
+- title: RoboCup@Home 2023 — DSPL & OPL Champion
   year: 2023
   event: RoboCup@Home 2023
   location: Bordeaux, France
@@ -41,19 +43,89 @@
     - text: RoboCup@Home
       url: https://athome.robocup.org/awards/
 
-- title: RoboCup@Home 2021 - DSPL Winner
+- title: R-BIZ Challenge 2022 — 대통령상
+  year: 2022
+  event: 제17회 국제로봇콘테스트 R-BIZ Challenge — 제우스 산업용 로봇 ZERO 미션 챌린지
+  location: Republic of Korea
+  category: competition
+  description: >
+    Team SNU-BI (팀원: 윤혜정, 박예솔, 김준오, 유영재) won the Presidential Award (대통령상),
+    the top prize at the 17th International Robot Contest & R-BIZ Challenge in the Zeus Industrial Robot ZERO Mission Challenge category.
+  image:
+  links:
+    - text: GSAI SNU
+      url: https://gsai.snu.ac.kr/7990/
+    - text: 한국대학신문
+      url: https://news.unn.net
+
+- title: RoboCup@Home 2022 — SSPL Champion
+  year: 2022
+  event: RoboCup@Home 2022
+  location: Bangkok, Thailand
+  category: competition
+  description: >
+    Team Tidyboy won the Social Standard Platform League (SSPL) championship at RoboCup@Home 2022.
+  image:
+  links:
+    - text: RoboCup@Home
+      url: https://athome.robocup.org/awards/
+
+- title: RoboCup@Home 2021 — DSPL Champion
   year: 2021
   event: RoboCup@Home 2021 (Virtual)
   location: Virtual
   category: competition
   description: >
-    Team Tidyboy won the Domestic Standard Platform League (DSPL) at the virtual RoboCup@Home 2021 competition.
+    Team Tidyboy won the Domestic Standard Platform League (DSPL) championship at the virtual RoboCup@Home 2021.
   image:
   links:
     - text: Paper
       url: https://link.springer.com/chapter/10.1007/978-3-030-98682-7_24
 
-- title: Distinguished Service Award - IEEE CIS
+- title: WRS 2020 — 1st Place
+  year: 2020
+  event: World Robot Summit 2020 — Partner Robot Challenge (Remote Participation League)
+  location: Virtual (Japan)
+  category: competition
+  description: >
+    Team Tidyboy won 1st place in the Partner Robot Challenge Remote Participation League
+    at the World Robot Summit 2020.
+  image:
+  links:
+    - text: Paper
+      url: https://www.tandfonline.com/doi/abs/10.1080/01691864.2022.2111229
+
+- title: RoboCup@Home 2019 — DSPL 2nd Place
+  year: 2019
+  event: RoboCup@Home 2019
+  location: Sydney, Australia
+  category: competition
+  description: >
+    Team Tidyboy achieved 2nd place in the Domestic Standard Platform League (DSPL)
+    and received the special "Dishwasher Award" at RoboCup@Home 2019.
+  image:
+  links:
+    - text: RoboCup 2019 Results
+      url: https://2019.robocup.org/major-league-results.php.html
+
+- title: NAACL Visual Storytelling Challenge 2018 — 1st Place
+  year: 2018
+  event: Visual Storytelling Challenge (VIST) at NAACL 2018
+  location: New Orleans, USA
+  category: competition
+  description: >
+    Team SnuBiVtt (허민오, 김태형, 박경화, 손선일) achieved 1st place in all 6 human-evaluated categories
+    at the Visual Storytelling Challenge held at NAACL 2018.
+  image:
+  links:
+    - text: SNU News
+      url: https://en.snu.ac.kr/snunow/snu_media/news?bm=v&bbsidx=125391
+    - text: iRobot News
+      url: http://www.irobotnews.com/news/articleView.html?idxno=14181
+
+# ── Academic & National Awards ────────────────────────────────────────────────
+
+- title: Distinguished Service Award — IEEE CIS
   year: 2023
   event: IEEE Computational Intelligence Society
   location:
@@ -64,36 +136,25 @@
   image:
   links: []
 
-- title: Red Stripes Order of Service Merit
-  year: 2020
+- title: 국가연구개발우수성과 100선
+  year: 2018
+  event: Ministry of Science and ICT
+  location: Republic of Korea
+  category: award
+  description: >
+    Professor Byoung-Tak Zhang's cognitive architecture research was selected among the Top 100 National R&D
+    Outstanding Achievements by the Ministry of Science and ICT.
+  image:
+  links: []
+
+- title: 홍조근정훈장 (Order of Service Merit, Red Stripes)
+  year: 2017
   event: Korean Government
   location: Republic of Korea
   category: award
   description: >
-    Professor Byoung-Tak Zhang was awarded the Red Stripes Order of Service Merit by the Korean Government
-    for his contributions to science and technology.
-  image:
-  links: []
-
-- title: Academic Excellence Award
-  year: 2019
-  event: Korea Information Science Society (KIISE)
-  location: Republic of Korea
-  category: award
-  description: >
-    Professor Byoung-Tak Zhang received the Academic Excellence Award from the Korea Information Science Society
-    for outstanding research contributions.
-  image:
-  links: []
-
-- title: Minister of Science and Technology Award
-  year: 2018
-  event: Ministry of Science and ICT, Republic of Korea
-  location: Republic of Korea
-  category: award
-  description: >
-    Professor Byoung-Tak Zhang received the Minister of Science and Technology Award for his contributions
-    to AI research and development in Korea.
+    Professor Byoung-Tak Zhang was awarded the Red Stripes Order of Service Merit (홍조근정훈장)
+    by the Korean Government for his contributions to Information & Communications.
   image:
   links: []
 
