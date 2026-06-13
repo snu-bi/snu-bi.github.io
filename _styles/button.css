@@ -25,12 +25,23 @@ button {
   text-decoration: none;
   vertical-align: middle;
   appearance: none;
-  transition: background var(--transition), color var(--transition);
+  transition: background 0.2s ease, color 0.2s ease, transform 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94), box-shadow 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
 
 .button:hover {
   background: var(--text);
   color: var(--background);
+  transform: scale(1.05);
+  box-shadow: 0 4px 16px var(--overlay);
+}
+
+.button:focus-visible {
+  outline: 2px solid var(--primary);
+  outline-offset: 2px;
+}
+
+.button:active {
+  transform: scale(0.98);
 }
 
 .button[data-style=bare] {
@@ -40,6 +51,13 @@ button {
 }
 .button[data-style=bare]:hover {
   color: var(--text);
+  background: var(--background-alt);
+  border-radius: var(--rounded);
+  padding: 5px 8px;
+}
+.button[data-style=bare]:focus-visible {
+  outline: 2px solid var(--primary);
+  outline-offset: 2px;
 }
 
 .button[data-flip] {

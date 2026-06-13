@@ -43,47 +43,39 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title>Example post 3 | SNU Biointelligence Lab</title>
+<title>Seminar | SNU Biointelligence Lab</title>
 
 <link rel="icon" href="/images/icon.png">
 
-<meta name="title" content="Example post 3">
+<meta name="title" content="Seminar">
 <meta name="description" content="">
 
-<meta property="og:title" content="Example post 3">
+<meta property="og:title" content="Seminar">
 <meta property="og:site_title" content="SNU Biointelligence Lab">
 <meta property="og:description" content="">
 <meta property="og:url" content="https://snu-bi.github.io">
 <meta property="og:image" content="/images/share.png">
 <meta property="og:locale" content="en_US">
 
-<meta property="twitter:title" content="Example post 3">
+<meta property="twitter:title" content="Seminar">
 <meta property="twitter:description" content="">
 <meta property="twitter:url" content="https://snu-bi.github.io">
 <meta property="twitter:card" content="summary_large_image">
 <meta property="twitter:image" content="/images/share.png">
 
 
-  <meta name="author" content="john-doe">
-  <meta property="og:type" content="article">
-  <meta property="og:updated_time" content="2026-04-07T09:00:43+00:00">
-  <meta property="article:published_time" content="2023-02-23T00:00:00+00:00">
-  <meta property="article:modified_time" content="2026-04-07T09:00:43+00:00">
-  <meta name="revised" content="2026-04-07T09:00:43+00:00">
+  <meta property="og:type" content="website">
 
 
 <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     
-      "@type": "BlogPosting",
-      "author": { "@type": "Person", "name": "Example post 3" },
-      "datePublished": "2023-02-23T00:00:00+00:00",
-      "dateModified": "2026-04-07T09:00:43+00:00",
+      "@type": "WebSite",
     
-    "name": "Example post 3",
+    "name": "Seminar",
     "description": "",
-    "headline": "Example post 3",
+    "headline": "Seminar",
     "publisher": {
       "@type": "Organization",
       "logo": { "@type": "ImageObject", "url": "/images/icon.png" }
@@ -235,6 +227,10 @@
   
 
   
+    <link href="/_styles/member-filter.css" rel="stylesheet">
+  
+
+  
     <link href="/_styles/paragraph.css" rel="stylesheet">
   
 
@@ -313,6 +309,8 @@
 
   <script src="/_scripts/fetch-tags.js"></script>
 
+  <script src="/_scripts/member-filter.js"></script>
+
   <script src="/_scripts/search.js"></script>
 
   <script src="/_scripts/site-search.js"></script>
@@ -376,14 +374,14 @@
       
     
       
-        <a href="/course/" data-tooltip="Course Information">
-          Course
+        <a href="/contact/" data-tooltip="Email, address, and location">
+          Contact
         </a>
       
     
       
-        <a href="/contact/" data-tooltip="Email, address, and location">
-          Contact
+        <a href="/course/" data-tooltip="Course Information">
+          Course
         </a>
       
     
@@ -413,63 +411,11 @@
   
   
 
-  <section class="background" data-size="1" style="--image: url('/images/photo.jpg')">
-    <!--
-  <background>images/photo.jpg</background>
-  <dark></dark>
-  <size>1</size>
--->
+  <section class="background" data-size="page">
+    <h1 id="seminar">
+<i class="icon fa-solid fa-feather-pointed"></i>Seminar</h1>
 
-
-<h1 class="center">Example post 3</h1>
-
-<div class="post-info">
-  
-    
-    
-      
-      
-        <span data-tooltip="Author">
-          <i class="icon fa-solid fa-feather-pointed"></i>
-          <span>john-doe</span>
-        </span>
-      
-    
-  
-
-  
-  
-
-  
-    <span data-tooltip="Originally published on">
-      <i class="icon fa-regular fa-calendar"></i>
-      <span>February 23, 2023</span>
-    </span>
-  
-
-  
-    <span data-tooltip="Last updated on">
-      <i class="icon fa-solid fa-clock-rotate-left"></i>
-      <span>April 07, 2026</span>
-    </span>
-  
-</div>
-
-
-  
-
-
-  <div class="tags" data-link="/blog">
-    
-      <a href="blog?search=%22tag:%20biology%22" class="tag" data-tooltip='Show items with the tag "biology"'>
-        biology
-      </a>
-    
-      <a href="blog?search=%22tag:%20medicine%22" class="tag" data-tooltip='Show items with the tag "medicine"'>
-        medicine
-      </a>
-    
-  </div>
+<p>A collection of past seminar slides and materials shared within our lab for learning, discussion, and collaboration.</p>
   </section>
 
   
@@ -483,35 +429,14 @@
   <size></size>
 -->
 
-
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-  </section>
-
-  
-  
-  
-
-  <section class="background" data-size="page">
-    <!--
-  <background></background>
-  <dark></dark>
-  <size></size>
--->
-
-
-<div class="post-nav">
-  <span>
-    
-      <i class="icon fa-solid fa-angle-left"></i> Previous post<br>
-      <a href="/2021/09/30/example-post-2.html">
-        Example post 2
-      </a>
-    
-  </span>
-  <span>
-    
-  </span>
+<div class="search-box">
+  <input type="text" class="search-input" oninput="onSearchInput(this)" placeholder="Search items on this page">
+  <button disabled data-tooltip="Clear search" aria-label="clear search" onclick="onSearchClear()">
+    <i class="icon fa-solid fa-magnifying-glass"></i>
+  </button>
 </div>
+
+<div class="search-info"></div>
   </section>
 
 

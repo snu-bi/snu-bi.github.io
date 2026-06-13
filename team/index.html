@@ -227,6 +227,10 @@
   
 
   
+    <link href="/_styles/member-filter.css" rel="stylesheet">
+  
+
+  
     <link href="/_styles/paragraph.css" rel="stylesheet">
   
 
@@ -359,6 +363,8 @@
 
   <script src="/_scripts/fetch-tags.js"></script>
 
+  <script src="/_scripts/member-filter.js"></script>
+
   <script src="/_scripts/search.js"></script>
 
   <script src="/_scripts/site-search.js"></script>
@@ -422,14 +428,14 @@
       
     
       
-        <a href="/course/" data-tooltip="Course Information">
-          Course
+        <a href="/contact/" data-tooltip="Email, address, and location">
+          Contact
         </a>
       
     
       
-        <a href="/contact/" data-tooltip="Email, address, and location">
-          Contact
+        <a href="/course/" data-tooltip="Course Information">
+          Course
         </a>
       
     
@@ -468,6 +474,46 @@
 <p>Our interdisciplinary team consists of researchers at various academic levels, from master’s students to postdoctoral researchers, all working collaboratively on cutting-edge projects in cognitive modeling, computational neuroscience, robotics, and artificial intelligence. We are particularly interested in developing deep learning architectures and algorithms that can help us better understand and replicate human-like intelligence.</p>
 
 <p>Located in the School of Computer Science and Engineering at Seoul National University, our lab provides an dynamic environment for innovative research and academic excellence in the field of artificial intelligence and cognitive science.</p>
+
+<div class="member-filter-wrapper">
+  <div class="member-filter" id="memberFilter">
+    <div class="filter-header">
+      <span class="filter-label">
+        <i class="icon fa-solid fa-filter"></i>
+        Filter by role:
+      </span>
+    </div>
+
+    <div class="filter-buttons">
+      <button class="filter-btn active" data-filter="all" aria-label="Show all members">
+        <span class="label">All</span>
+        <span class="label-short">All</span>
+      </button>
+      <button class="filter-btn" data-filter="faculty" aria-label="Show faculty">
+        <span class="label">Faculty</span>
+        <span class="label-short">Prof</span>
+      </button>
+      <button class="filter-btn" data-filter="phd" aria-label="Show PhD students">
+        <span class="label">PhD</span>
+        <span class="label-short">PhD</span>
+      </button>
+      <button class="filter-btn" data-filter="master" aria-label="Show Master students">
+        <span class="label">Master</span>
+        <span class="label-short">Mst</span>
+      </button>
+      <button class="filter-btn" data-filter="intern" aria-label="Show interns">
+        <span class="label">Intern</span>
+        <span class="label-short">Int</span>
+      </button>
+      <button class="filter-btn" data-filter="alumni" aria-label="Show alumni">
+        <span class="label">Alumni</span>
+        <span class="label-short">Alm</span>
+      </button>
+    </div>
+  </div>
+
+  <div class="filter-divider"></div>
+</div>
   </section>
 
   
@@ -814,6 +860,30 @@
     
       <span class="portrait-description">
         PhD Candidate
+      </span>
+    
+
+    
+  </a>
+</div>
+
+<div class="portrait-wrapper">
+  <a href="/members/jehwan-ryu.html" class="portrait" data-style="" aria-label="Je-Hwan Ryu">
+    
+      <i class="icon fa-solid fa-graduation-cap"></i>
+    
+
+    <img src="" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+
+    
+      <span class="portrait-name">
+        Je-Hwan Ryu
+      </span>
+    
+
+    
+      <span class="portrait-description">
+        PhD @ Brain Science | Researcher @ Surromind
       </span>
     
 
@@ -2037,6 +2107,15 @@
               
             </li>
           
+            <li class="alumni-item">
+              
+                <span class="alumni-name">Soomin Kimm</span>
+              
+              
+                <span class="alumni-description"> - BS &amp; MS @ UIUC -&gt; Tommoro Robotics</span>
+              
+            </li>
+          
         </ul>
       </div>
     
@@ -2046,6 +2125,42 @@
         <h4 class="alumni-year">2024</h4>
         <ul class="alumni-names">
           
+          
+            <li class="alumni-item">
+              
+                <span class="alumni-name">Doyeon Kim</span>
+              
+              
+                <span class="alumni-description"> - BS @ SNU CSE</span>
+              
+            </li>
+          
+            <li class="alumni-item">
+              
+                <a href="https://linktr.ee/eduardoayervecruz?fbclid=PAZXh0bgNhZW0CMTEAAadkUSH45IBMB6rA3bmmaE-vUL9pNEhFDiB0Cfb1Zwkvgrhq7JL679YmAbtXYQ_aem_iWCQFOYqdF66HQ1OCZc0QQ" target="_blank" class="alumni-name-link">Eduardo Ayerve Cruz</a>
+              
+              
+                <span class="alumni-description"> - BS @ SNU CSE</span>
+              
+            </li>
+          
+            <li class="alumni-item">
+              
+                <span class="alumni-name">Jaeung Choi</span>
+              
+              
+                <span class="alumni-description"> - BS @ SNU CSE</span>
+              
+            </li>
+          
+            <li class="alumni-item">
+              
+                <a href="https://github.com/nick11967" target="_blank" class="alumni-name-link">Jimin Ryu</a>
+              
+              
+                <span class="alumni-description"> - BS @ SNU CSE</span>
+              
+            </li>
           
             <li class="alumni-item">
               
@@ -2085,10 +2200,19 @@
           
             <li class="alumni-item">
               
-                <a href="https://openreview.net/profile?id=~Seongho_Choi1" target="_blank" class="alumni-name-link">Seongho Choi</a>
+                <span class="alumni-name">Seongho Choi</span>
               
               
                 <span class="alumni-description"> - PhD in Computer Science | Researcher @ SKT</span>
+              
+            </li>
+          
+            <li class="alumni-item">
+              
+                <span class="alumni-name">Seongjae Kim</span>
+              
+              
+                <span class="alumni-description"> - BS @ SNU Aerospace</span>
               
             </li>
           
@@ -2167,16 +2291,16 @@
           
             <li class="alumni-item">
               
-                <a href="https://scholar.google.com/citations?hl=en&user=wW5dAlUAAAAJ&view_op=list_works&sortby=pubdate" target="_blank" class="alumni-name-link">Je-Hwan Ryu</a>
+                <a href="https://pubmed.ncbi.nlm.nih.gov/?term=Lee+JH&amp;cauthor_id=21729738" target="_blank" class="alumni-name-link">Ji-Hoon Lee</a>
               
               
-                <span class="alumni-description"> - PhD @ Brain Science | Researcher @ Surromind</span>
+                <span class="alumni-description"> - PhD @ Bioinformatics</span>
               
             </li>
           
             <li class="alumni-item">
               
-                <span class="alumni-name">Jihwan Moon</span>
+                <a href="https://linkedin.com/in/jihwan-moon-%EB%AC%B8%EC%A7%80%ED%99%98-913b41256" target="_blank" class="alumni-name-link">Jihwan Moon</a>
               
               
                 <span class="alumni-description"> - Undergraduate Intern | BS @ SNU College of Liberal Studies</span>
@@ -2249,7 +2373,7 @@
           
             <li class="alumni-item">
               
-                <a href="https://openreview.net/profile?id=~Jiseob_Kim1" target="_blank" class="alumni-name-link">Jiseob Kim</a>
+                <a href="https://linkedin.com/in/jiseob-kim-8a1b9634b" target="_blank" class="alumni-name-link">Jiseob Kim</a>
               
               
                 <span class="alumni-description"> - PhD in Computer Science | Team Leader @ NAVER Cloud, HyperCLOVA X Diffusion Model Team</span>
@@ -2286,7 +2410,7 @@
           
             <li class="alumni-item">
               
-                <span class="alumni-name">Ahjeong Seo</span>
+                <a href="https://linkedin.com/in/ahjeong-seo-b2a081104" target="_blank" class="alumni-name-link">Ahjeong Seo</a>
               
               
                 <span class="alumni-description"> - MS in Neuroscience | Researcher @ KAIST</span>
@@ -2432,7 +2556,7 @@
           
             <li class="alumni-item">
               
-                <a href="https://openreview.net/profile?id=~Bosun_Hwang1" target="_blank" class="alumni-name-link">Bosun Hwang</a>
+                <a href="https://linkedin.com/in/bosun-hwang-abb29836" target="_blank" class="alumni-name-link">Bosun Hwang</a>
               
               
                 <span class="alumni-description"> - PhD in Computer Science | Project Leader @ Samsung Advanced Institute of Technology, Machine Learning Lab</span>
@@ -3028,7 +3152,7 @@
           
             <li class="alumni-item">
               
-                <span class="alumni-name">MinHyeok Kim</span>
+                <a href="https://linkedin.com/in/minhyeok-kim" target="_blank" class="alumni-name-link">MinHyeok Kim</a>
               
               
                 <span class="alumni-description"> - MS in Computer Science | Senior Research Engineer @ LG Electronics</span>
@@ -3390,73 +3514,9 @@
       </div>
     
   
-    
+
   
   
-  
-  
-  
-    <div class="alumni-year-group">
-      <h4 class="alumni-year">기타</h4>
-      <ul class="alumni-names">
-        
-        
-          <li class="alumni-item">
-            
-              <span class="alumni-name">Doyeon Kim</span>
-            
-            
-              <span class="alumni-description"> - BS @ SNU CSE</span>
-            
-          </li>
-        
-          <li class="alumni-item">
-            
-              <a href="https://linktr.ee/eduardoayervecruz?fbclid=PAZXh0bgNhZW0CMTEAAadkUSH45IBMB6rA3bmmaE-vUL9pNEhFDiB0Cfb1Zwkvgrhq7JL679YmAbtXYQ_aem_iWCQFOYqdF66HQ1OCZc0QQ" target="_blank" class="alumni-name-link">Eduardo Ayerve Cruz</a>
-            
-            
-              <span class="alumni-description"> - BS @ SNU CSE</span>
-            
-          </li>
-        
-          <li class="alumni-item">
-            
-              <span class="alumni-name">Jaeung Choi</span>
-            
-            
-              <span class="alumni-description"> - BS @ SNU CSE</span>
-            
-          </li>
-        
-          <li class="alumni-item">
-            
-              <a href="https://github.com/nick11967" target="_blank" class="alumni-name-link">Jimin Ryu</a>
-            
-            
-              <span class="alumni-description"> - BS @ SNU CSE</span>
-            
-          </li>
-        
-          <li class="alumni-item">
-            
-              <span class="alumni-name">Seongjae Kim</span>
-            
-            
-              <span class="alumni-description"> - BS @ SNU Aerospace</span>
-            
-          </li>
-        
-          <li class="alumni-item">
-            
-              <span class="alumni-name">Soomin Kimm</span>
-            
-            
-              <span class="alumni-description"> - BS &amp; MS @ UIUC -&gt; Tommoro Robotics</span>
-            
-          </li>
-        
-      </ul>
-    </div>
   
 </div>
 
@@ -4282,51 +4342,6 @@
     
       <span class="portrait-description">
         PhD in Bioinformatics | Samsung Medical Center, Samsung Genome Institute
-      </span>
-    
-
-    
-  </a>
-</div>
-
-  
-    
-
-    
-
-
-
-<div class="portrait-wrapper">
-  <a
-    
-      href="/members/jehwan-ryu.html"
-    
-    class="portrait"
-    data-style=""
-    aria-label="Je-Hwan Ryu"
-  >
-    
-      <i class="icon fa-solid fa-graduation-cap"></i>
-    
-
-    <img
-      src=""
-      class="portrait-image"
-      alt="member portrait"
-      loading="lazy"
-      onerror="this.src = '/images/fallback.svg'; this.onerror = null;"
-
-    >
-
-    
-      <span class="portrait-name">
-        Je-Hwan Ryu
-      </span>
-    
-
-    
-      <span class="portrait-description">
-        PhD @ Brain Science | Researcher @ Surromind
       </span>
     
 
