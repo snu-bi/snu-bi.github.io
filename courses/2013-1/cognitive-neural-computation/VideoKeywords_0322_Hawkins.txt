@@ -1,0 +1,15 @@
+Jeff Hawkins
+
+ANN <-------?-------> Brain
+
+A sensory motor model of the world
+- Prediction
+- Anomalies
+- Action
+
+1. Online learning from streaming data
+2. Hierachy of memory regions
+3. Sequence memory
+4. Sparse distributed representation
+5. All regions are sensory & motor
+6. Attention

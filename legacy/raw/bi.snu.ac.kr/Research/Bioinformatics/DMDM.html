@@ -1,0 +1,89 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN">
+<html>
+<head>
+<title> SCAI Bioinformatics Research Group</title>
+<meta name="generator" content="Namo WebEditor v4.0">
+<link rel=stylesheet href="scai_bio.css" type="text/css">
+</head>
+
+<body bgcolor="white" text="black" link="blue" vlink="purple" alink="red">
+
+<p align="center"><!--img src="http://scai.snu.ac.kr/Images/scai_6.gif" width="561" height="112" border="0"
+ usemap="#FrontPageMap" ismap-->
+
+<div align="center">
+ <table  border="0" cellpadding="0" cellspacing="0" width="530">
+    <tr>
+        <td class="top" align="left" valign="top"><p><br>(written in Korean)</p>
+<!---- Mission Statement -->
+                <p><font face="Arial,Helvetica" color="#000099"><b>
+              SCAI Bioinformatics Research:</b></font></p>
+                <h2 style="line-height:100%; margin-top:0; margin-bottom:0;"><font face="Arial,Helvetica" color="#000099">DNA Microarray 
+                Data Data Mining</font></h2>
+                <h3 style="line-height:100%; margin-top:0; margin-bottom:0;"><font face="Arial,Helvetica" color="#000099">(along with <a href="http://bioinformatics.duke.edu/camda/">CAMDA'00</a>)</font></h3>
+<!---- Mission Statement -->
+                <p><font face="Arial,Helvetica" color="#000099"><b>What's DNA 
+                Microarray Data</b></font></p>
+                <p><font face="Arial,Helvetica" color="#000099">DNA microarray data란 
+                서로 다른 두 실험환경 하에서 여러 유전자들의 발현정도가 어떻게 
+                달라지는지에 대한 ratio를 수치적으로 표현한 것을 말한다. 즉, 수천개의 
+                유전자에 대한 DNA 시퀀스를 두 개의 글라스에 깔아놓고, 특정 실험환경에서 
+                각각 다른 시각에 채집된 mRNA를 역전사하여 만든 cDNA를 hybridization하면 
+                특정 유전자들이 이 cDNA와 특별히 많이 hybrid되어 expression level이 
+                높아진다. 즉, 수천개의 유전자에 대해 서로 다른 조건 (일반적으로 
+                한 조건은 background 조건으로 하고 다른 한 조건을 heat shock과 
+                같은 특정 조건으로 한다) 의 cDNA가 얼마나&nbsp;expression level ratio를 
+                보이는가가 DNA microarray data인 것이다. 이 ratio를 expression level로 
+                수치화하는 방법이 다음 두 논문에 나와 있다.</font></p>
+                <p><font face="Arial,Helvetica" color="#000099">&nbsp;&nbsp;Lashkari,D.,Derisi,J.,McCusker,J.,Namath,A.,Gentile,C.,Hwang,S.,Brown, 
+                P.,andDavis,R.(1997). Yeast microarrays for genome wide parallel genetic and gene expression analysis, pnas,94:13057-13062.
+	      (<a href="http://www.pnas.org">click</a>)<BR>
+	      &nbsp;&nbsp;DeRisi,J.,Iyer,V.,and Brosn,P.(1997).Exploring the metabolic and genetic control of gene expression on a genomic scale. Science, 278:680-686. 
+                (click)</font></p>
+                <p><font face="Arial,Helvetica" color="#000099">&nbsp;&nbsp;참고로 
+                이 ratio값을 바로 쓰는 것 보다 log를 취해서 사용하는 것이 좋다는 
+                결과가 다음 논문에 나와 있다.</font></p>
+                <p><font face="Arial,Helvetica" color="#000099">
+	      &nbsp;&nbsp;Eisen,M.,Spellman,P.,Brown.P.,and Bostein,D.(1998). Cluster analysis and display of genome-wide expression patterns. pnas,95:14863-14868.
+	      (<a href="http://www.pnas.org">click</a>)</font></p>
+                <p><font face="Arial,Helvetica" color="#000099">&nbsp;&nbsp;이 
+                ratio의 값은 gene이 더 많이 발현되었을 경우 (induced, turned up)(background조건에서보다) 
+                는 양수이고 억제되었을 경우 (repressed, turned down)는 음수이다.</font></p>
+<!---- Mission Statement -->
+                <p><font face="Arial,Helvetica" color="#000099"><b>두 번째 데이터 
+                (<a href="http://www.genome.wi.mit.edu/MPR/data_set_ALL_AML.html">link</a>)</b></font></p>
+                <ul>
+                    <li><font face="Arial,Helvetica" color="#000099">training 
+                    data (7129*38): <a href="data_set_ALL_AML_train.txt">ascii</a>, 
+                    <a href="data_set_ALL_AML_train.tsv">tsv(excel)</font></a></li>
+                    <li><font face="Arial,Helvetica" color="#000099">test data 
+                    (7129*34): <a href="data_set_ALL_AML_independent.txt">ascii</a>, 
+                    <a href="data_set_ALL_AML_independent.tsv">tsv(excel)</font></a></li>
+                    <li><font face="Arial,Helvetica" color="#000099">training데이터와 
+                    test데이터의 sample설명 및 label (AAL, AML): <a href="table_ALL_AML_samples.rtf">rtf</font></a></li>
+                </ul>
+                <p><font face="Arial,Helvetica" color="#000099"><b>두 번째 데이터 
+                분석</b></font></p>
+                <ul>
+                    <li><font face="Arial,Helvetica" color="#000099">training 
+                    데이터 각각의 gene에 대한 P-Metric, P2_WIL Metric, GAIN-Metric, 
+                    GAIN_RATIO-Metric: <a href="data-p1-scores.txt">ascii</font></a></li>
+                    <li><font face="Arial,Helvetica" color="#000099">Feature 
+                    Selection with Information Theory <b>(<a href="CAMDA%20competition%202.ppt">ppt</a>)</b></font></li>
+                    <li><font face="Arial,Helvetica" color="#000099">Clustering 
+                    with NMF (Nonnegative Matrix Factorization) <b>(<a href="jhchang.ppt">ppt</a>)</b></font></li>
+                </ul>
+            <!---- Maintenance ---->
+            <hr>
+            <font size=-1>This page is maintained by Hyung Joo Shin (<a href="mailto:hjshin@scai.snu.ac.kr">hjshin@scai.snu.ac.kr</a>). <BR>
+            Last Update : 25, Sep, 2000.</font>
+    </td>
+   </tr>
+ </table>
+</div>
+
+<!--- Map Definition --->
+
+
+</body>
+</html>
