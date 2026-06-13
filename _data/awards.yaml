@@ -1,0 +1,83 @@
+# Awards and Achievements
+
+- title: RoboCup@Home 2023 - DSPL & OPL Winner
+  year: 2023
+  event: RoboCup@Home 2023
+  location: Bordeaux, France
+  category: competition
+  description: >
+    Team Tidyboy (SNU & Pusan National University) won both the Domestic Standard Platform League (DSPL)
+    and Open Platform League (OPL) at RoboCup@Home 2023, competing against 2,500 participants from 45 countries.
+  image: images/robocup2023.jpg
+  links:
+    - text: SNU News
+      url: https://en.snu.ac.kr/snunow/snu_media/news?md=v&bbsidx=142740
+    - text: RoboCup@Home
+      url: https://athome.robocup.org/awards/
+
+- title: RoboCup@Home 2021 - DSPL Winner
+  year: 2021
+  event: RoboCup@Home 2021 (Virtual)
+  location: Virtual
+  category: competition
+  description: >
+    Team Tidyboy won the Domestic Standard Platform League (DSPL) at the virtual RoboCup@Home 2021 competition.
+  image:
+  links:
+    - text: Paper
+      url: https://link.springer.com/chapter/10.1007/978-3-030-98682-7_24
+
+- title: Distinguished Service Award - IEEE CIS
+  year: 2023
+  event: IEEE Computational Intelligence Society
+  location:
+  category: award
+  description: >
+    Professor Byoung-Tak Zhang received the Distinguished Service Award from the IEEE Computational Intelligence Society
+    in recognition of outstanding contributions to the field.
+  image:
+  links: []
+
+- title: Red Stripes Order of Service Merit
+  year: 2020
+  event: Korean Government
+  location: Republic of Korea
+  category: award
+  description: >
+    Professor Byoung-Tak Zhang was awarded the Red Stripes Order of Service Merit by the Korean Government
+    for his contributions to science and technology.
+  image:
+  links: []
+
+- title: Academic Excellence Award
+  year: 2019
+  event: Korea Information Science Society (KIISE)
+  location: Republic of Korea
+  category: award
+  description: >
+    Professor Byoung-Tak Zhang received the Academic Excellence Award from the Korea Information Science Society
+    for outstanding research contributions.
+  image:
+  links: []
+
+- title: Minister of Science and Technology Award
+  year: 2018
+  event: Ministry of Science and ICT, Republic of Korea
+  location: Republic of Korea
+  category: award
+  description: >
+    Professor Byoung-Tak Zhang received the Minister of Science and Technology Award for his contributions
+    to AI research and development in Korea.
+  image:
+  links: []
+
+- title: Okawa Research Grant
+  year: 2006
+  event: Okawa Foundation
+  location: Japan
+  category: award
+  description: >
+    Professor Byoung-Tak Zhang received the Okawa Research Grant Award in recognition of outstanding
+    research in information and telecommunications.
+  image:
+  links: []
