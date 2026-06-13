@@ -12,9 +12,10 @@ show/hide via member-filter.js.
   {% for year_group in alumni_by_year %}
     {% if year_group.name != "" and year_group.name != nil %}
 
-      {% assign phd_members    = year_group.items | where: "role", "phd"    | sort: "name" %}
-      {% assign master_members = year_group.items | where: "role", "master" | sort: "name" %}
-      {% assign intern_members = year_group.items | where: "role", "intern" | sort: "name" %}
+        {% assign phd_members    = year_group.items | where: "role", "phd"    | sort: "name" %}
+        {% assign master_members = year_group.items | where: "role", "master" | sort: "name" %}
+        {% assign intern_members = year_group.items | where: "role", "intern" | sort: "name" %}
+        {% assign legacy_members = year_group.items | where: "role", "legacy-member" | sort: "name" %}
 
       <div class="alumni-year-group">
         <h4 class="alumni-year">{{ year_group.name }}</h4>
@@ -103,6 +104,22 @@ show/hide via member-filter.js.
           </div>
         {% endif %}
 
+        {% if legacy_members.size > 0 %}
+          <div class="alumni-degree-group">
+            <span class="alumni-degree-label">Legacy Records</span>
+            <ul class="alumni-names">
+              {% for member in legacy_members %}
+                <li class="alumni-item">
+                  <a href="{{ member.url | relative_url }}" class="alumni-name-link">{{ member.name }}</a>
+                  {% if member.description and member.description != "" %}
+                    <span class="alumni-description"> — {{ member.description }}</span>
+                  {% endif %}
+                </li>
+              {% endfor %}
+            </ul>
+          </div>
+        {% endif %}
+
       </div>
     {% endif %}
   {% endfor %}
@@ -113,6 +130,7 @@ show/hide via member-filter.js.
     {% assign phd_no_year    = no_year | where: "role", "phd"    | sort: "name" %}
     {% assign master_no_year = no_year | where: "role", "master" | sort: "name" %}
     {% assign intern_no_year = no_year | where: "role", "intern" | sort: "name" %}
+    {% assign legacy_no_year = no_year | where: "role", "legacy-member" | sort: "name" %}
     <div class="alumni-year-group">
       <h4 class="alumni-year">기타</h4>
       {% if phd_no_year.size > 0 %}
@@ -141,6 +159,21 @@ show/hide via member-filter.js.
           <ul class="alumni-names">
             {% for member in intern_no_year %}
               <li class="alumni-item"><span class="alumni-name">{{ member.name }}</span>{% if member.description and member.description != "" %}<span class="alumni-description"> — {{ member.description }}</span>{% endif %}</li>
+            {% endfor %}
+          </ul>
+        </div>
+      {% endif %}
+      {% if legacy_no_year.size > 0 %}
+        <div class="alumni-degree-group">
+          <span class="alumni-degree-label">Legacy Records</span>
+          <ul class="alumni-names">
+            {% for member in legacy_no_year %}
+              <li class="alumni-item">
+                <a href="{{ member.url | relative_url }}" class="alumni-name-link">{{ member.name }}</a>
+                {% if member.description and member.description != "" %}
+                  <span class="alumni-description"> — {{ member.description }}</span>
+                {% endif %}
+              </li>
             {% endfor %}
           </ul>
         </div>

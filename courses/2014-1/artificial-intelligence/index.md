@@ -7,5 +7,8 @@ title: Artificial Intelligence — Spring 2014
 - **Instructor**: Prof. Byoung-Tak Zhang
 - **Semester**: Spring 2014
 
-*Lecture slides and course materials for this semester are available in the [legacy archive](/legacy/raw/bi.snu.ac.kr/Courses/4ai14s/).*
+## {% include icon.html icon="fa-solid fa-folder-open" %}Course Materials
+
+- [Constraint propagation & planning](/courses/2014-1/artificial-intelligence/cpt.pdf)
+- [Lecture notes](/courses/2014-1/artificial-intelligence/0401_19.pdf)
 

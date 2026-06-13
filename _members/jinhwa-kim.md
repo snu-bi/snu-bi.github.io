@@ -19,7 +19,7 @@ graduation_year: 2018
 
 ## Historical Homepage Snapshot
 
-[Open preserved homepage snapshot]({{ "/legacy/raw/bi.snu.ac.kr/jhkim.html" | relative_url }})
+[Open preserved homepage snapshot]({{ "/files/legacy/bi.snu.ac.kr/jhkim.html" | relative_url }})
 
 Jin-Hwa Kim was a PhD candidate under the supervision of [Byoung-Tak Zhang]({{ "/members/byoung-tak-zhang" | relative_url }}) at Seoul National University. He was a recipient of a Google PhD Fellowship in Machine Learning in 2017 and was a research intern at Facebook AI Research in Menlo Park under Yuandong Tian from January 2017 to May 2017.
 
@@ -47,13 +47,13 @@ Last updated on June 15, 2018
 - **Jin-Hwa Kim**, Jaehyun Jun, and Byoung-Tak Zhang, "Bilinear Attention Networks," arXiv preprint arXiv:1805.07932, 2018. [arXiv](https://arxiv.org/abs/1805.07932), [code](https://github.com/jnhwkim/ban-vqa)
 - Sang-Woo Lee, **Jin-Hwa Kim**, Jaehyun Jun, Jung-Woo Ha, and Byoung-Tak Zhang, "Overcoming Catastrophic Forgetting by Incremental Moment Matching," Advances in Neural Information Processing Systems 30 (NIPS Spotlight), 2017. [arXiv](https://arxiv.org/abs/1703.08475)
 - **Jin-Hwa Kim**, Kyoung-Woon On, Woosang Lim, Jeonghee Kim, Jung-Woo Ha, and Byoung-Tak Zhang, "Hadamard Product for Low-rank Bilinear Pooling," International Conference on Learning Representations (ICLR), 2017. [OpenReview](https://openreview.net/pdf?id=r1rhWnZkg), [arXiv](https://arxiv.org/abs/1610.04325), [code](https://github.com/jnhwkim/MulLowBiVQA)
-- **Jin-Hwa Kim**, Sang-Woo Lee, Donghyun Kwak, Min-Oh Heo, Jeonghee Kim, Jung-Woo Ha, and Byoung-Tak Zhang, "Multimodal Residual Learning For Visual QA," Advances in Neural Information Processing Systems 29 (NIPS), 2016. [arXiv](http://arxiv.org/abs/1606.01455), [poster]({{ "/legacy/raw/bi.snu.ac.kr/jhkim/posters/mrn-nips16-poster.pdf" | relative_url }}), [code](https://github.com/jnhwkim/nips-mrn-vqa)
+- **Jin-Hwa Kim**, Sang-Woo Lee, Donghyun Kwak, Min-Oh Heo, Jeonghee Kim, Jung-Woo Ha, and Byoung-Tak Zhang, "Multimodal Residual Learning For Visual QA," Advances in Neural Information Processing Systems 29 (NIPS), 2016. [arXiv](http://arxiv.org/abs/1606.01455), [poster]({{ "/files/legacy/bi.snu.ac.kr/jhkim/posters/mrn-nips16-poster.pdf" | relative_url }}), [code](https://github.com/jnhwkim/nips-mrn-vqa)
 
 ## Recovered Materials
 
-- [BI profile page]({{ "/legacy/raw/bi.snu.ac.kr/People/jhkim.html" | relative_url }})
-- [Personal homepage snapshot]({{ "/legacy/raw/bi.snu.ac.kr/jhkim.html" | relative_url }})
-- [BAN CVPR 2018 poster]({{ "/legacy/raw/bi.snu.ac.kr/jhkim/posters/ban-cvpr18-poster.pdf" | relative_url }})
-- [MRN NIPS 2016 poster]({{ "/legacy/raw/bi.snu.ac.kr/jhkim/posters/mrn-nips16-poster.pdf" | relative_url }})
-- [Bilinear attention networks slides]({{ "/legacy/raw/bi.snu.ac.kr/jhkim/slides/bilinear_attention_networks_8min.pdf" | relative_url }})
-- [ICLR 2017 slides]({{ "/legacy/raw/bi.snu.ac.kr/jhkim/slides/iclr2017_slides.pdf" | relative_url }})
+- [BI profile page]({{ "/files/legacy/bi.snu.ac.kr/People/jhkim.html" | relative_url }})
+- [Personal homepage snapshot]({{ "/files/legacy/bi.snu.ac.kr/jhkim.html" | relative_url }})
+- [BAN CVPR 2018 poster]({{ "/files/legacy/bi.snu.ac.kr/jhkim/posters/ban-cvpr18-poster.pdf" | relative_url }})
+- [MRN NIPS 2016 poster]({{ "/files/legacy/bi.snu.ac.kr/jhkim/posters/mrn-nips16-poster.pdf" | relative_url }})
+- [Bilinear attention networks slides]({{ "/files/legacy/bi.snu.ac.kr/jhkim/slides/bilinear_attention_networks_8min.pdf" | relative_url }})
+- [ICLR 2017 slides]({{ "/files/legacy/bi.snu.ac.kr/jhkim/slides/iclr2017_slides.pdf" | relative_url }})

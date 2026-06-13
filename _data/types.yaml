@@ -34,6 +34,10 @@ undergrad:
   icon: fa-solid fa-user-graduate
   description: Undergraduate Student
 
+legacy-member:
+  icon: fa-solid fa-address-card
+  description: Legacy BI/SCAI Member
+
 phd-candidate:
   icon: fa-solid fa-graduation-cap
   description: PhD Candidate

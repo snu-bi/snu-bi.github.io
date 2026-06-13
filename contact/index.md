@@ -42,3 +42,10 @@ Seoul 151-744, Korea
 
 {% include section.html %}
 
+## {% include icon.html icon="fa-solid fa-clock-rotate-left" %}Historical Office Records
+
+Recovered BI member pages used several historical office records, including Bldg. 301/302 rooms and Bldg. 138 rooms 409 and 417-1. These are preserved only as historical context; the current contact information above is authoritative.
+
+- Historical BI office references include Room 409, Bldg. 138 and Room 417-1, Bldg. 138.
+- Historical phone numbers appearing in recovered profiles include +82-2-880-1847, +82-2-880-1835, and +82-2-880-5890.
+- Historical profile pages have been folded into the corresponding Team member pages.

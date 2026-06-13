@@ -249,7 +249,7 @@ def read_inventory(path: Path) -> list[CdxRow]:
         return rows
 
 
-def download_one(row: CdxRow, downloads: Path) -> dict:
+def download_one(row: CdxRow, downloads: Path, retries: int) -> dict:
     target = local_path_for(row, downloads)
     replay = REPLAY.format(timestamp=row.timestamp, original=row.original)
     record = {
@@ -262,26 +262,32 @@ def download_one(row: CdxRow, downloads: Path) -> dict:
         "error": "",
     }
 
-    try:
-        if target.exists() and target.stat().st_size > 0:
-            data = target.read_bytes()
-            record["bytes"] = len(data)
-            record["sha256"] = hashlib.sha256(data).hexdigest()
-            record["download_status"] = "exists"
-            return record
-
-        data = fetch_url(replay, timeout=90)
-        target.parent.mkdir(parents=True, exist_ok=True)
-        target.write_bytes(data)
+    if target.exists() and target.stat().st_size > 0:
+        data = target.read_bytes()
         record["bytes"] = len(data)
         record["sha256"] = hashlib.sha256(data).hexdigest()
-        record["download_status"] = "downloaded"
-    except HTTPError as exc:
-        record["download_status"] = "error"
-        record["error"] = f"HTTP {exc.code}: {exc.reason}"
-    except (URLError, TimeoutError, OSError) as exc:
-        record["download_status"] = "error"
-        record["error"] = str(exc)
+        record["download_status"] = "exists"
+        return record
+
+    for attempt in range(max(0, retries) + 1):
+        try:
+            data = fetch_url(replay, timeout=90)
+            target.parent.mkdir(parents=True, exist_ok=True)
+            target.write_bytes(data)
+            record["bytes"] = len(data)
+            record["sha256"] = hashlib.sha256(data).hexdigest()
+            record["download_status"] = "downloaded"
+            record["error"] = ""
+            break
+        except HTTPError as exc:
+            record["download_status"] = "error"
+            record["error"] = f"HTTP {exc.code}: {exc.reason}"
+        except (URLError, TimeoutError, OSError) as exc:
+            record["download_status"] = "error"
+            record["error"] = str(exc)
+
+        if attempt < retries:
+            time.sleep(min(30, 2 ** attempt))
     return record
 
 
@@ -344,6 +350,83 @@ def summarize(rows: list[CdxRow], records: list[dict], reports: Path) -> None:
     (reports / "summary.md").write_text("\n".join(lines) + "\n", encoding="utf-8")
 
 
+def write_coverage(rows: list[CdxRow], downloads: Path, reports: Path) -> None:
+    records = []
+    for row in rows:
+        local = local_path_for(row, downloads)
+        parsed = urlparse(row.original)
+        parts = [part for part in parsed.path.strip("/").split("/") if part]
+        folder = parts[0] if parts else "_root"
+        exists = local.exists() and local.is_file()
+        size = local.stat().st_size if exists else 0
+        records.append(
+            {
+                **row.__dict__,
+                "folder": folder,
+                "local_path": str(local),
+                "exists": str(exists).lower(),
+                "bytes": size,
+            }
+        )
+
+    reports.mkdir(parents=True, exist_ok=True)
+    fields = list(records[0].keys()) if records else []
+    with (reports / "coverage.csv").open("w", newline="", encoding="utf-8") as handle:
+        writer = csv.DictWriter(handle, fieldnames=fields)
+        writer.writeheader()
+        writer.writerows(records)
+
+    by_folder: dict[str, dict[str, int]] = {}
+    by_mime: dict[str, dict[str, int]] = {}
+    total_bytes = 0
+    for record in records:
+        folder = record["folder"]
+        mime = record["mimetype"]
+        by_folder.setdefault(folder, {"total": 0, "exists": 0, "bytes": 0})
+        by_mime.setdefault(mime, {"total": 0, "exists": 0, "bytes": 0})
+        for bucket in (by_folder[folder], by_mime[mime]):
+            bucket["total"] += 1
+            if record["exists"] == "true":
+                bucket["exists"] += 1
+                bucket["bytes"] += int(record["bytes"])
+        total_bytes += int(record["bytes"])
+
+    lines = [
+        "# Wayback Coverage",
+        "",
+        f"- Inventory rows: {len(records):,}",
+        f"- Local files present: {sum(1 for r in records if r['exists'] == 'true'):,}",
+        f"- Local bytes: {total_bytes:,}",
+        "",
+        "## By Folder",
+        "",
+        "| Folder | Present | Total | Bytes |",
+        "|---|---:|---:|---:|",
+    ]
+    for folder, values in sorted(
+        by_folder.items(), key=lambda item: (-item[1]["bytes"], item[0].lower())
+    ):
+        lines.append(
+            f"| `{folder}` | {values['exists']:,} | {values['total']:,} | {values['bytes']:,} |"
+        )
+
+    lines += [
+        "",
+        "## By MIME",
+        "",
+        "| MIME | Present | Total | Bytes |",
+        "|---|---:|---:|---:|",
+    ]
+    for mime, values in sorted(
+        by_mime.items(), key=lambda item: (-item[1]["bytes"], item[0].lower())
+    ):
+        lines.append(
+            f"| `{mime}` | {values['exists']:,} | {values['total']:,} | {values['bytes']:,} |"
+        )
+
+    (reports / "coverage.md").write_text("\n".join(lines) + "\n", encoding="utf-8")
+
+
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--domain", default="bi.snu.ac.kr")
@@ -351,6 +434,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--max-urls", type=int, default=2500)
     parser.add_argument("--offset", type=int, default=0)
     parser.add_argument("--workers", type=int, default=6)
+    parser.add_argument("--retries", type=int, default=2)
     parser.add_argument("--cdx-page-size", type=int, default=5000)
     parser.add_argument("--to", default="")
     parser.add_argument(
@@ -363,6 +447,11 @@ def parse_args() -> argparse.Namespace:
         "--inventory-only",
         action="store_true",
         help="Write inventory without downloading files.",
+    )
+    parser.add_argument(
+        "--coverage-only",
+        action="store_true",
+        help="Read inventory and write local coverage reports without downloading.",
     )
     parser.add_argument(
         "--use-inventory",
@@ -421,13 +510,18 @@ def main() -> int:
         print(f"Wrote reports to {reports}", flush=True)
         return 0
 
+    if args.coverage_only:
+        write_coverage(rows, downloads, reports)
+        print(f"Wrote coverage reports to {reports}", flush=True)
+        return 0
+
     records: list[dict] = []
     workers = max(1, min(args.workers, 12))
     print(f"Downloading with {workers} workers into {downloads} ...", flush=True)
     started = time.time()
 
     with ThreadPoolExecutor(max_workers=workers) as executor:
-        futures = [executor.submit(download_one, row, downloads) for row in rows]
+        futures = [executor.submit(download_one, row, downloads, args.retries) for row in rows]
         for index, future in enumerate(as_completed(futures), start=1):
             record = future.result()
             records.append(record)

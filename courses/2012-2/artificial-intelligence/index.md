@@ -7,5 +7,8 @@ title: Artificial Intelligence: Cognitive Robotics — Fall 2012
 - **Instructor**: Prof. Byoung-Tak Zhang
 - **Semester**: Fall 2012
 
-*Lecture slides and course materials for this semester are available in the [legacy archive](/legacy/raw/bi.snu.ac.kr/Courses/4ai12f/).*
+## {% include icon.html icon="fa-solid fa-folder-open" %}Course Materials
+
+- [Question set 11](/courses/2012-2/artificial-intelligence/Questions/Q11.pdf)
+- [Reference Ch.6](/courses/2012-2/artificial-intelligence/References/ch6.pdf)
 

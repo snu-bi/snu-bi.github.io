@@ -93,6 +93,66 @@ $wrap: 800px;
   margin: 0;
 }
 
+.publication-overview {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 12px;
+  margin: 24px 0 30px;
+}
+
+.publication-stat {
+  min-height: 86px;
+  padding: 16px;
+  border: 1px solid var(--light-gray);
+  border-radius: var(--rounded);
+  background: var(--background);
+  box-shadow: var(--shadow);
+}
+
+.publication-stat-value {
+  display: block;
+  font-size: 1.8rem;
+  font-weight: var(--bold);
+  line-height: 1;
+}
+
+.publication-stat-label {
+  display: block;
+  margin-top: 8px;
+  color: var(--gray);
+  font-size: 0.9rem;
+  line-height: 1.3;
+}
+
+.publication-year-links {
+  display: flex;
+  flex-wrap: wrap;
+  grid-column: 1 / -1;
+  gap: 8px;
+}
+
+.publication-year-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 12px;
+  border: 1px solid var(--light-gray);
+  border-radius: var(--rounded);
+  background: var(--background);
+  text-decoration: none;
+}
+
+.publication-year-link strong {
+  min-width: 24px;
+  padding: 2px 6px;
+  border-radius: calc(var(--rounded) / 2);
+  background: var(--light-gray);
+  color: var(--text);
+  font-size: 0.85rem;
+  line-height: 1.3;
+  text-align: center;
+}
+
 .year-heading {
   font-size: 1.5em;
   font-weight: bold;
@@ -100,6 +160,18 @@ $wrap: 800px;
   margin: 30px 0 20px 0;
   padding-bottom: 8px;
   border-bottom: 2px solid var(--light-gray);
+}
+
+@media (max-width: 700px) {
+  .publication-overview {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 420px) {
+  .publication-overview {
+    grid-template-columns: 1fr;
+  }
 }
 
 @container (max-width: #{$wrap}) {

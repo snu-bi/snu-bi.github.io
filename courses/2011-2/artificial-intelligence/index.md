@@ -9,5 +9,8 @@ title: Brain, Computation, and Neural Learning — Fall 2011
 - **Instructor**: Prof. Byoung-Tak Zhang
 - **Semester**: Fall 2011
 
-*Lecture slides and course materials for this semester are available in the [legacy archive](/legacy/raw/bi.snu.ac.kr/Courses/4ai11f/).*
+## {% include icon.html icon="fa-solid fa-folder-open" %}Course Materials
+
+- [Lecture 3 slides](/courses/2011-2/artificial-intelligence/slides/Lecture3_0908.pdf)
+- [SVM lecture](/courses/2011-2/artificial-intelligence/slides/svm.pdf)
 

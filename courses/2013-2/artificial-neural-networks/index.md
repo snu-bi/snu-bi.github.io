@@ -9,5 +9,7 @@ title: Mathematics of Lifelong Sequential Learning — Fall 2013
 - **Instructor**: Prof. Byoung-Tak Zhang
 - **Semester**: Fall 2013
 
-*Lecture slides and course materials for this semester are available in the [legacy archive](/legacy/raw/bi.snu.ac.kr/Courses/ann13/).*
+## {% include icon.html icon="fa-solid fa-folder-open" %}Course Materials
+
+- [Project 2: Lifelog behavior analysis](/courses/2013-2/artificial-neural-networks/Project2.html)
 

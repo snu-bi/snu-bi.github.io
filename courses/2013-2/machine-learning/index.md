@@ -8,6 +8,3 @@ title: Machine Learning — Fall 2013
 
 - **Instructor**: Prof. Byoung-Tak Zhang
 - **Semester**: Fall 2013
-
-*Lecture slides and course materials for this semester are available in the [legacy archive](/legacy/raw/bi.snu.ac.kr/Courses/ann13/).*
-

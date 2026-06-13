@@ -55,3 +55,39 @@ Seoul 151-744, Korea
 
 **Email**  
 [btzhang@bi.snu.ac.kr](mailto:btzhang@bi.snu.ac.kr)
+
+## Selected Legacy Talks and Tutorials
+
+Recovered talk lists from the former BI site document a long-running series of invited talks and tutorials on cognitive AI, human-level machine learning, robotics, hypernetworks, DNA computing, and bio-inspired computation.
+
+### International
+
+- Cognitive AI, 2019 Nanjing Forum, November 23, 2019
+- Empowering Cognitive AI Robots with Deep Learning, CJK Forum at CNCC 2019, October 18, 2019
+- Video Turing Test: A Challenge for Human-Level AI, AIRC International Symposium, February 22, 2019
+- Teaching Robots to See, Hear, Talk & Act Like Humans Using Videos, AIST Artificial Intelligence Research Center, February 13, 2018
+- Cognitive AI: Beyond Symbolism and Connectionism Toward Human-Level Intelligence, Max Planck Haus, Tuebingen, January 19, 2018
+- Cloning Humans to Build Personal AI Robots, AIST, Tokyo, February 25, 2016
+- Deep Learning for the Web, tutorial at WWW 2015, May 18, 2015
+- Bio-Inspired Human Level Machine Learning, AFOSR program review, November 2014
+- Learning with Hypernetworks, German-Korean Workshop on Machine Learning in Life Sciences, August 2007
+- Molecular Evolutionary Computation in vitro and in silico, DNA Computing 13, June 2007
+
+### Domestic
+
+- 실세계 인공지능, 기술경영인 하계포럼, July 12, 2019
+- 차세대 AI 기술 및 국내외 기술동향, AI사업단워크샵, July 9, 2019
+- 인공지능의 현재와 미래, 진대제 AMP, June 25, 2019
+- Deep learning AI for Autonomous Robots, Hyundai Motor seminar, November 20, 2018
+- AI 3.0: From Virtual to Real, Global AI Summit 2018, June 12, 2018
+- 인지로봇 인공지능 기술, Samsung SDS technical seminar, April 25, 2018
+- Challenges in Machine Learning, AI Korea 2017, November 15, 2017
+- Powering AI Robots with Deep Learning, NVIDIA Deep Learning Day, October 31, 2017
+- Deep Learning Theories of Cognitive Brain, Korean Cognitive Science Society BRIDGE school, October 14, 2017
+- Robots with Free Will, joint symposium of the Korean Cognitive Science Society and Philosophy Research Society, April 29, 2017
+
+## Recovered Talk Materials
+
+- [Full recovered international talks list]({{ "/files/legacy/bi.snu.ac.kr/btzhang/Talks_and_Tutorials_Offered_inter.html" | relative_url }})
+- [Full recovered domestic talks list]({{ "/files/legacy/bi.snu.ac.kr/btzhang/Talks_and_Tutorials_Offered_dome.html" | relative_url }})
+- [PACS 2015 PDF]({{ "/files/legacy/bi.snu.ac.kr/btzhang/PACS-2015.pdf" | relative_url }})

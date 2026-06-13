@@ -7,5 +7,9 @@ title: Artificial Intelligence — Spring 2021
 - **Instructor**: Prof. Byoung-Tak Zhang
 - **Semester**: Spring 2021
 
-*Lecture slides and course materials for this semester are available in the [legacy archive](/legacy/raw/bi.snu.ac.kr/Courses/4ai21s/).*
+## {% include icon.html icon="fa-solid fa-folder-open" %}Course Materials
+
+- [Lecture 2 slides](/courses/2021-1/artificial-intelligence/slides/Lec2.pdf)
+- [Lecture 11 slides](/courses/2021-1/artificial-intelligence/slides/Lec11.pdf)
+- [Lecture 22 slides](/courses/2021-1/artificial-intelligence/slides/Lec22.pdf)
 

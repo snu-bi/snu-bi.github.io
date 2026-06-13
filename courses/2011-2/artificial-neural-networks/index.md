@@ -8,6 +8,3 @@ title: Multisensory Predictive Learning — Fall 2011
 
 - **Instructor**: Prof. Byoung-Tak Zhang
 - **Semester**: Fall 2011
-
-*Lecture slides and course materials for this semester are available in the [legacy archive](/legacy/raw/bi.snu.ac.kr/Courses/4ai11f/).*
-

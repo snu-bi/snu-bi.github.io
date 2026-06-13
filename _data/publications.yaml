@@ -1,5 +1,204 @@
 # preprints
 
+- id: 2026-sshin-b2ff
+  title: 'Back to the Familiar Future: Failure Recovery for VLA Policies via Pre-Imagined Milestone Selection'
+  authors:
+  - Suyeon Shin
+  - Juwon Kim
+  - Hyeonbin Park
+  - Hyunseo Kim
+  - Hyundo Lee
+  - Hyung-Sin Kim
+  - Byoung-Tak Zhang
+  publisher: preprint
+  year: 2026
+  link: https://arxiv.org/abs/2606.09258
+  image:
+  buttons:
+  - type: paper
+    text: Paper
+    link: https://arxiv.org/abs/2606.09258
+
+- id: 2026-kkim-phasor
+  title: 'PHASOR: Phase-Anchored Universal Action Representations for Humanoid Embodiments'
+  authors:
+  - Kihyun Kim
+  - Chaeyun Kim
+  - Jongho Shin
+  - Taeyoun Kwon
+  - Junghyun Kim
+  - Mijin Koo
+  - Haon Park
+  publisher: preprint
+  year: 2026
+  link: https://arxiv.org/abs/2606.01851
+  image:
+  description: 'CoRL 2026 under review'
+  buttons:
+  - type: paper
+    text: Paper
+    link: https://arxiv.org/abs/2606.01851
+
+- id: 2026-mjjung-evoground
+  title: 'EvoGround: Self-Evolving Video Agents for Video Temporal Grounding'
+  authors:
+  - Minjoon Jung
+  - Byoung-Tak Zhang
+  - Lorenzo Torresani
+  publisher: preprint
+  year: 2026
+  link: https://arxiv.org/abs/2605.13803
+  image:
+  buttons:
+  - type: paper
+    text: Paper
+    link: https://arxiv.org/abs/2605.13803
+  - type: website
+    text: Home
+    link: https://minjoong507.github.io/projects/EvoGround/
+
+- id: 2026-yjsong-kinematics-gs
+  title: 'Kinematics-Driven Gaussian Shape Deformation for Blurry Monocular Dynamic Scenes'
+  authors:
+  - Yeon-Ji Song
+  - Kiyoung Kwon
+  - Junoh Lee
+  - Jin-Hwa Kim
+  - Byoung-Tak Zhang
+  publisher: ICML 2026
+  year: 2026
+  link: https://arxiv.org/abs/2605.08635
+  image:
+  buttons:
+  - type: paper
+    text: Paper
+    link: https://arxiv.org/abs/2605.08635
+  - type: source
+    text: Code
+    link: https://github.com/yeonjisong/Kinematics-GS
+  - type: website
+    text: Poster
+    link: https://yeonjisong.github.io/data/Kinematics-GS_poster.png
+
+- id: 2026-tommoro-habilis
+  title: 'Habilis-β: A Fast-Motion and Long-Lasting On-Device Vision-Language-Action Model'
+  authors:
+  - Jesoon Kang
+  - Taegeon Park
+  - Jisu An
+  - Soo Min Kimm
+  - Jaejoon Kim
+  - Jinu Pahk
+  - Byungju Kim
+  - Junseok Lee
+  - Namheon Baek
+  - Sungwan Ha
+  - Hojun Baek
+  - Eduardo Ayerve Cruz
+  - Wontae Kim
+  - Junghyeon Choi
+  - Yousuk Lee
+  - Joonmo Han
+  - Sunghyun Cho
+  - Sunghyun Kwon
+  - Soyoung Lee
+  - Jun Ki Lee
+  - Seung-Joon Yi
+  - Byoung-Tak Zhang
+  - Theo Taeyeong Kim
+  publisher: preprint
+  year: 2026
+  link: https://arxiv.org/abs/2602.18813
+  image:
+  buttons:
+  - type: paper
+    text: Paper
+    link: https://arxiv.org/abs/2602.18813
+  - type: website
+    text: Home
+    link: https://tommoro-ai.github.io/habilis-beta/
+
+- id: 2026-jhkim-spurious-vla
+  title: 'Disentangling Spurious Correlations in Vision-Language-Action Models via Predicting Domain-Invariant Latent Lookahead'
+  authors:
+  - Junghyun Kim
+  - Ngseo Kim
+  - Chungwoo Lee
+  - Seoyeon Lee
+  - Woo-Jeong Baek
+  - Adam Zhou
+  - Chip Huyen
+  - Jun Ki Lee
+  - Gi-Cheon Kang
+  - Byoung-Tak Zhang
+  publisher: preprint
+  year: 2026
+  link: https://jhkim-snu.github.io/
+  image:
+  description: 'CoRL 2026 under review'
+  buttons:
+  - type: website
+    text: Source
+    link: https://jhkim-snu.github.io/
+
+- id: 2026-jlee-refineground
+  title: 'RefineGround: From Noisy Similarity to Discriminative Grounding for Zero-shot Video Moment Retrieval'
+  authors:
+  - Jangha Lee
+  - Junbin Xiao
+  - Junghyun Kim
+  - Byoung-Tak Zhang
+  - Minjoon Jung
+  publisher: preprint
+  year: 2026
+  link: https://jhkim-snu.github.io/
+  image:
+  description: 'ECCV 2026 under review'
+  buttons:
+  - type: website
+    text: Source
+    link: https://jhkim-snu.github.io/
+
+- id: 2026-bjkim-espada
+  title: 'ESPADA: Execution Speedup via Semantics Aware Demonstration Data Downsampling for Imitation Learning'
+  authors:
+  - Byungju Kim
+  - Jinu Pahk
+  - Chungwoo Lee
+  - Jaejoon Kim
+  - Jangha Lee
+  - Theo Taeyeong Kim
+  - Kyuhwan Shim
+  - Jun Ki Lee
+  - Byoung-Tak Zhang
+  publisher: IEEE Robotics and Automation Letters
+  year: 2026
+  link: https://arxiv.org/abs/2512.07371
+  image:
+  description: 'Forwarded to publisher on June 12, 2026'
+  buttons:
+  - type: paper
+    text: Paper
+    link: https://arxiv.org/abs/2512.07371
+
+- id: 2025-sjjeon-locality-cbm
+  title: 'Locality-aware Concept Bottleneck Model'
+  authors:
+  - Sujin Jeon
+  - Hyundo Lee
+  - Eungseo Kim
+  - Sanghack Lee
+  - Byoung-Tak Zhang
+  - Inwoo Hwang
+  publisher: preprint
+  year: 2025
+  link: https://arxiv.org/abs/2508.14562
+  image:
+  buttons:
+  - type: paper
+    text: Paper
+    link: https://arxiv.org/abs/2508.14562
+
 - id: 2025-ywjang-sq-instruct-blip
   title: 'Instruction-tuned Self-Questioning Framework for Multimodal Reasoning'
   authors:
@@ -85,6 +284,118 @@
     text: Paper
     link: https://arxiv.org/abs/2504.02618
 
+- id: 2023-kbkim-lsa
+  title: 'L-SA: Learning Under-Explored Targets in Multi-Target Reinforcement Learning'
+  authors:
+  - Kibeom Kim
+  - Hyundo Lee
+  - Min Whoo Lee
+  - Moonheon Lee
+  - Minsu Lee
+  - Byoung-Tak Zhang
+  publisher: preprint
+  year: 2023
+  link: https://arxiv.org/abs/2305.13741
+  image:
+  buttons:
+  - type: paper
+    text: Paper
+    link: https://arxiv.org/abs/2305.13741
+
+- id: 2022-tkim-crossmodal
+  title: 'Cross-Modal Alignment Learning of Vision-Language Conceptual Systems'
+  authors:
+  - Taehyeong Kim
+  - Hyeonseop Song
+  - Byoung-Tak Zhang
+  publisher: preprint
+  year: 2022
+  link: https://arxiv.org/abs/2208.01744
+  image:
+  buttons:
+  - type: paper
+    text: Paper
+    link: https://arxiv.org/abs/2208.01744
+
+- id: 2022-sson-coherence
+  title: 'Learning to Write with Coherence From Negative Examples'
+  authors:
+  - Seonil Son
+  - Jaeseo Lim
+  - Youwon Jang
+  - Jaeyoung Lee
+  - Byoung-Tak Zhang
+  publisher: preprint
+  year: 2022
+  link: https://arxiv.org/abs/2209.10922
+  image:
+  buttons:
+  - type: paper
+    text: Paper
+    link: https://arxiv.org/abs/2209.10922
+
+- id: 2022-wschoi-sgram
+  title: 'SGRAM: Improving Scene Graph Parsing via Abstract Meaning Representation'
+  authors:
+  - Woo Suk Choi
+  - Yu-Jung Heo
+  - Byoung-Tak Zhang
+  publisher: preprint
+  year: 2022
+  link: https://arxiv.org/abs/2210.08675
+  image:
+  buttons:
+  - type: paper
+    text: Paper
+    link: https://arxiv.org/abs/2210.08675
+
+- id: 2021-dglee-video-metadata
+  title: 'Mounting Video Metadata on Transformer-based Language Model for Open-ended Video Question Answering'
+  authors:
+  - Donggeon Lee
+  - Seongho Choi
+  - Youwon Jang
+  - Byoung-Tak Zhang
+  publisher: preprint
+  year: 2021
+  link: https://arxiv.org/abs/2108.05158
+  image:
+  buttons:
+  - type: paper
+    text: Paper
+    link: https://arxiv.org/abs/2108.05158
+
+- id: 2021-kpark-taskagnostic
+  title: 'Learning task-agnostic representation via toddler-inspired learning'
+  authors:
+  - Kwanyoung Park
+  - Junseok Park
+  - Hyunseok Oh
+  - Byoung-Tak Zhang
+  - Youngki Lee
+  publisher: preprint
+  year: 2021
+  link: https://arxiv.org/abs/2101.11221
+  image:
+  buttons:
+  - type: paper
+    text: Paper
+    link: https://arxiv.org/abs/2101.11221
+
+- id: 2020-dpunithan-denoising
+  title: 'Pattern Denoising in Molecular Associative Memory using Pairwise Markov Random Field Models'
+  authors:
+  - Dharani Punithan
+  - Byoung-Tak Zhang
+  publisher: preprint
+  year: 2020
+  link: https://arxiv.org/abs/2005.13780
+  image:
+  buttons:
+  - type: paper
+    text: Paper
+    link: https://arxiv.org/abs/2005.13780
+
 - id: 2025-jspark-s2d
   title: 'From Sparse to Dense: Toddler-Inspired Reward Transition in Goal-Oriented Reinforcement Learning'
   authors:
@@ -94,17 +405,297 @@
   - Won-Seok Choi
   - Minsu Lee
   - Byoung-Tak Zhang
-  publisher: preprint
+  publisher: IEEE Transactions on Cognitive and Developmental Systems
   year: 2025
-  link: https://arxiv.org/abs/2501.17842
+  link: https://doi.org/10.1109/TCDS.2025.3642038
   image: images/s2d-toddler-rl.png
   buttons:
   - type: paper
     text: Paper
-    link: https://arxiv.org/abs/2501.17842
+    link: https://doi.org/10.1109/TCDS.2025.3642038
 
 
 # selected publications
+
+- id: 2026-jkim-eckconv
+  title: 'Learning Coordinate-based Convolutional Kernels for Continuous SE(3) Equivariant and Efficient Point Cloud Analysis'
+  authors:
+  - Jaein Kim
+  - Hee Bin Yoo
+  - Dong-Sig Han
+  - Byoung-Tak Zhang
+  publisher: CVPR 2026
+  year: 2026
+  link: https://openaccess.thecvf.com/content/CVPR2026/html/Kim_Learning_Coordinate-based_Convolutional_Kernels_for_Continuous_SE3_Equivariant_and_Efficient_CVPR_2026_paper.html
+  image:
+  description: 'Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2026, pp. 9986-9995'
+  buttons:
+  - type: paper
+    text: Paper
+    link: https://openaccess.thecvf.com/content/CVPR2026/papers/Kim_Learning_Coordinate-based_Convolutional_Kernels_for_Continuous_SE3_Equivariant_and_Efficient_CVPR_2026_paper.pdf
+  - type: paper
+    text: Supplement
+    link: https://openaccess.thecvf.com/content/CVPR2026/supplemental/Kim_Learning_Coordinate-based_Convolutional_Kernels_for_Continuous_SE3_Equivariant_and_Efficient_CVPR_2026_supplemental.pdf
+  - type: preprint
+    text: arXiv
+    link: https://arxiv.org/abs/2503.16865
+  - type: source
+    text: Code
+    link: https://github.com/jykim2958/ECKConv
+
+- id: 2026-wschoi-hsr
+  title: 'Hybrid State Representation for Video Procedure Planning'
+  authors:
+  - Woo Suk Choi
+  - Youwon Jang
+  - Minsu Lee
+  - Byoung-Tak Zhang
+  publisher: WACV 2026
+  year: 2026
+  link: https://openaccess.thecvf.com/content/WACV2026/html/Choi_Hybrid_State_Representation_for_Video_Procedure_Planning_WACV_2026_paper.html
+  image:
+  buttons:
+  - type: paper
+    text: Paper
+    link: https://openaccess.thecvf.com/content/WACV2026/html/Choi_Hybrid_State_Representation_for_Video_Procedure_Planning_WACV_2026_paper.html
+
+- id: 2026-hbyoo-periun
+  title: 'PeriUn: Enhancing Unlearning by Selectively Forgetting Peripheral Samples'
+  authors:
+  - Hee Bin Yoo
+  - Dong-Sig Han
+  - Jaein Kim
+  - Byoung-Tak Zhang
+  publisher: AAAI 2026
+  year: 2026
+  link: https://doi.org/10.1609/aaai.v40i14.38196
+  image:
+  buttons:
+  - type: paper
+    text: Paper
+    link: https://doi.org/10.1609/aaai.v40i14.38196
+
+- id: 2026-jpark-confidence
+  title: 'Confidence Controls Deep Metric Learning'
+  authors:
+  - Jinhee Park
+  - Hee Bin Yoo
+  - Byoung-Tak Zhang
+  - Junseok Kwon
+  publisher: Machine Learning
+  year: 2026
+  link: https://doi.org/10.1007/s10994-026-07032-y
+  image:
+  buttons:
+  - type: paper
+    text: Paper
+    link: https://doi.org/10.1007/s10994-026-07032-y
+
+- id: 2026-mjkim-sherpa
+  title: 'Climb With SHERPA: Heuristic-Guided Reinforcement Learning via Segmented Experience Relay'
+  authors:
+  - Minji Kim
+  - Ganghun Lee
+  - Minsu Lee
+  - Byoung-Tak Zhang
+  publisher: IEEE Robotics and Automation Letters
+  year: 2026
+  link: https://doi.org/10.1109/LRA.2026.3673900
+  image:
+  buttons:
+  - type: paper
+    text: Paper
+    link: https://doi.org/10.1109/LRA.2026.3673900
+
+- id: 2026-hskim-affordance
+  title: 'One-Shot 3-D Affordance Learning for Multi-Stage Robotic Manipulation'
+  authors:
+  - Hyunseo Kim
+  - Yeon-Ji Song
+  - Minsu Lee
+  - Byoung-Tak Zhang
+  publisher: IEEE Access
+  year: 2026
+  link: https://doi.org/10.1109/ACCESS.2026.3681732
+  image:
+  buttons:
+  - type: paper
+    text: Paper
+    link: https://doi.org/10.1109/ACCESS.2026.3681732
+
+- id: 2026-hyyang-craftground
+  title: 'CraftGround: A High-Performance Reinforcement Learning Environment Based on Minecraft'
+  authors:
+  - Hyeonseo Yang
+  - Minsu Lee
+  - Byoung-Tak Zhang
+  publisher: IEEE Access
+  year: 2026
+  link: https://doi.org/10.1109/ACCESS.2026.3690228
+  image:
+  buttons:
+  - type: paper
+    text: Paper
+    link: https://doi.org/10.1109/ACCESS.2026.3690228
+
+- id: 2026-jkim-voronoi
+  title: 'Voronoi-Based Second-Order Descriptor with Whitened Metric in LiDAR Place Recognition'
+  authors:
+  - Jaein Kim
+  - Hee Bin Yoo
+  - Dong-Sig Han
+  - Byoung-Tak Zhang
+  publisher: ICRA 2026
+  year: 2026
+  link: https://arxiv.org/abs/2603.14974
+  image:
+  description: 'Poster presentation; final version received'
+  buttons:
+  - type: paper
+    text: Paper
+    link: https://arxiv.org/abs/2603.14974
+  - type: source
+    text: Code
+    link: https://github.com/jykim2958/Voronoi-Second-Pooling
+
+- id: 2026-jpahk-ecahd
+  title: 'ECAHD: Efficient Collision-Aware Hierarchical Diffusion Navigation'
+  authors:
+  - Jinu Pahk
+  - Theo Taeyeong Kim
+  - Jun Ki Lee
+  - Byoung-Tak Zhang
+  publisher: ICRA 2026
+  year: 2026
+  link: https://2026.ieee-icra.org/
+  image:
+  description: 'IROS-ICRA transfer; poster presentation; final version received'
+  buttons:
+  - type: website
+    text: Conference
+    link: https://2026.ieee-icra.org/
+
+- id: 2026-sychoi-maq
+  title: 'Making Your Action Policies Interpretable: Mixtures of Action Queries'
+  authors:
+  - Suhyung Choi
+  - Youngseok Joo
+  - Hyundo Lee
+  - Kyuhwan Shim
+  - Kisung Shin
+  - Chungwoo Lee
+  - Minjeong Gu
+  - Jun Ki Lee
+  - Byoung-Tak Zhang
+  publisher: ICML 2026 AI4GOOD Workshop
+  year: 2026
+  link: https://openreview.net/forum?id=NacjcqQ1kD
+  image:
+  buttons:
+  - type: paper
+    text: Paper
+    link: https://openreview.net/forum?id=NacjcqQ1kD
+
+- id: 2026-wyjung-hopfield
+  title: 'Deep Neural Networks as Finite-Step Hopfield Dynamics'
+  authors:
+  - Wooyul Jung
+  - Hochan Bang
+  - Hee Bin Yoo
+  - Byoung-Tak Zhang
+  publisher: ICLR 2026 NFAM Workshop
+  year: 2026
+  link: https://openreview.net/forum?id=bH0myuWvhJ
+  image:
+  buttons:
+  - type: paper
+    text: Paper
+    link: https://openreview.net/forum?id=bH0myuWvhJ
+
+- id: 2026-sjjeong-embodied-memory
+  title: 'Can Embodied Agents Remember What You Said? Evaluating Dialogue-Grounded Embodied Memory in 3D Environments'
+  authors:
+  - Seongjun Jeong
+  - Junghyun Kim
+  - Gi-Cheon Kang
+  - Byoung-Tak Zhang
+  publisher: CVPR 2026 Workshop on 3D-LLM/VLA
+  year: 2026
+  link: https://3d-llm-vla.github.io/
+  image:
+  buttons:
+  - type: website
+    text: Workshop
+    link: https://3d-llm-vla.github.io/
+  - type: website
+    text: Source
+    link: https://jhkim-snu.github.io/
+
+- id: 2025-jkim-cdis
+  title: 'CDIS: Cross-Dimensional Class-Agnostic 3D Instance Segmentation via 2D Mask Tracking and 3D-2D Projection Merging'
+  authors:
+  - Juno Kim
+  - Hye-Jung Yoon
+  - Yesol Park
+  - Byoung-Tak Zhang
+  publisher: IROS 2025
+  year: 2025
+  link: https://doi.org/10.1109/IROS60139.2025.11247636
+  image:
+  buttons:
+  - type: paper
+    text: Paper
+    link: https://doi.org/10.1109/IROS60139.2025.11247636
+
+- id: 2025-ypark-dafusion
+  title: 'DA-Fusion: Deformable Attention-Based RGB-D Fusion Transformer for Unseen Object Instance Segmentation'
+  authors:
+  - Yesol Park
+  - Hye-Jung Yoon
+  - Juno Kim
+  - Byoung-Tak Zhang
+  publisher: ICRA 2025
+  year: 2025
+  link: https://doi.org/10.1109/ICRA55743.2025.11128151
+  image:
+  buttons:
+  - type: paper
+    text: Paper
+    link: https://doi.org/10.1109/ICRA55743.2025.11128151
+
+- id: 2025-jpark-rethinking-metric
+  title: 'Rethinking Metric Learning: Enhancing Generalization to Unseen Classes'
+  authors:
+  - Jinhee Park
+  - Hee Bin Yoo
+  - Byoung-Tak Zhang
+  - Junseok Kwon
+  publisher: IEEE Access
+  year: 2025
+  link: https://doi.org/10.1109/ACCESS.2025.3637551
+  image:
+  buttons:
+  - type: paper
+    text: Paper
+    link: https://doi.org/10.1109/ACCESS.2025.3637551
+
+- id: 2024-mshin-cogme
+  title: 'CogME: A Cognition-Inspired Multi-Dimensional Evaluation Metric for Story Understanding'
+  authors:
+  - Minjung Shin
+  - Seongho Choi
+  - Yu-Jung Heo
+  - Minsu Lee
+  - Byoung-Tak Zhang
+  - Jeh-Kwang Ryu
+  publisher: CogSci 2024
+  year: 2024
+  link: https://escholarship.org/uc/item/8p3137gd
+  image:
+  buttons:
+  - type: paper
+    text: Paper
+    link: https://escholarship.org/uc/item/8p3137gd
 
 - id: 2025-hdlee-ildm
   title: 'Towards Spatially Consistent Image Generation: On Incorporating Intrinsic Scene Properties into Diffusion Models'
@@ -133,12 +724,12 @@
   - Junseok Kwon
   publisher: 'AAAI 2026'
   year: 2026
-  link: https://arxiv.org/abs/2410.00000
+  link: https://doi.org/10.1609/aaai.v40i10.37777
   image: images/2025-hbyoo.png
   buttons:
   - type: paper
     text: Paper
-    link: https://arxiv.org/abs/2410.00000 
+    link: https://doi.org/10.1609/aaai.v40i10.37777
 
 - id: 2025-ywjang-cgrr
   title: 'Confidence-guided Refinement Reasoning for Zero-shot Question Answering'
@@ -246,17 +837,18 @@
     link: https://arxiv.org/abs/2506.20998
 
 - id: 2025-mjjung-egoexo
-  title: 'Exploring Ego-Exo View-Invariant Temporal Understanding in Video LLMs'
+  title: 'EgoExo-Con: Exploring View-Invariant Video Temporal Understanding'
   authors: 
   - Minjoon Jung
   - Junbin Xiao
   - Junghyun Kim
   - Byoung-Tak Zhang
   - Angela Yao
-  publisher: NeurIPS 2025 Workshop on Multimodal Algorithmic Reasoning.
+  publisher: NeurIPS 2025 Workshop on Multimodal Algorithmic Reasoning
   year: 2025
   link: https://arxiv.org/abs/2510.26113
   image: images/2025-mjjung-egoexo.png
+  description: 'ECCV 2026 under review'
   buttons:
   - type: paper
     text: Paper
@@ -619,19 +1211,21 @@
 - id: 2024-mwlee
   title: 'Communicating Unexpectedness for Out-of-Distribution Multi-Agent Reinforcement Learning'
   authors:
-  - Minwhoo Lee
+  - Min Whoo Lee
+  - Yunsu Lee
   - Kibeom Kim
   - Soo Wung Shin
+  - Jun Ki Lee
   - Minsu Lee
   - Byoung-Tak Zhang
-  publisher: AAAI 2024 Workshop
-  year: 2024
-  link: https://arxiv.org/abs/2501.01140
+  publisher: IEEE Access
+  year: 2026
+  link: https://doi.org/10.1109/ACCESS.2026.3660261
   image: images/unexpectedness.png
   buttons:
   - type: paper
     text: Paper
-    link: https://arxiv.org/abs/2501.01140
+    link: https://doi.org/10.1109/ACCESS.2026.3660261
 - id: 2024-shlim-b
   title: 'Decomposing the Configuration of an Articulated Object via Graph Neural Network'
   authors:
@@ -1011,7 +1605,7 @@
     link: https://arxiv.org/abs/2208.04833
 
 - id: 2022-yjheo-hypergraph
-  title: 'Hypergraph Transformer: Weakly-Supervised Multi-hop Reasoning for Knowledge-Based Visual Question AnSoftware Engineerring'
+  title: 'Hypergraph Transformer: Weakly-Supervised Multi-hop Reasoning for Knowledge-Based Visual Question Answering'
   authors:
   - Yu-Jung Heo
   - Eunsol Kim
@@ -1232,6 +1826,45 @@
     text: Paper
     link: https://openreview.net/pdf/de00d08540430654378b06fd1a43dcf279b1e336.pdf
 
+- id: 2021-bbebensee-bot
+  title: 'Leveraging node neighborhoods and egograph topology for better bot detection in social graphs'
+  authors:
+  - Björn Bebensee
+  - Nagmat Nazarov
+  - Byoung-Tak Zhang
+  publisher: Social Network Analysis and Mining
+  year: 2021
+  link: https://doi.org/10.1007/s13278-020-00713-z
+  image:
+  buttons:
+  - type: paper
+    text: Paper
+    link: https://doi.org/10.1007/s13278-020-00713-z
+
+- id: 2021-robocup-home
+  title: 'RoboCup@Home 2021 Domestic Standard Platform League Winner'
+  authors:
+  - Dongwoon Song
+  - Taewoong Kang
+  - Jae-Bong Yi
+  - Joonyoung Kim
+  - Taeyang Kim
+  - Chung-Yeon Lee
+  - Je-Hwan Ryu
+  - Minji Kim
+  - Hyun-Jun Jo
+  - Byoung-Tak Zhang
+  - Jae-Bok Song
+  - Seung-Joon Yi
+  publisher: RoboCup 2021
+  year: 2021
+  link: https://doi.org/10.1007/978-3-030-98682-7_24
+  image:
+  buttons:
+  - type: paper
+    text: Paper
+    link: https://doi.org/10.1007/978-3-030-98682-7_24
+
 
 - id: 2021-khpark-m2fn
   title: 'M2FN: Multi-Step Modality Fusion for Advertisement Image Assessment'
@@ -1271,7 +1904,7 @@
     link: https://arxiv.org/abs/2005.03356
 
 - id: 2021-ajseo-masn
-  title: 'Attend What You Need: Motion-Appearance Synergistic Networks for Video Question AnSoftware Engineerring'
+  title: 'Attend What You Need: Motion-Appearance Synergistic Networks for Video Question Answering'
   authors:
   - Ahjeong Seo
   - Gi-Cheon Kang
@@ -1438,3 +2071,100 @@
   - type: paper
     text: Paper
     link: https://arxiv.org/abs/2110.04203
+
+- id: 2020-kon-cbgl
+  title: 'Cut-Based Graph Learning Networks to Discover Compositional Structure of Sequential Video Data'
+  authors:
+  - Kyoung-Woon On
+  - Eun-Sol Kim
+  - Yu-Jung Heo
+  - Byoung-Tak Zhang
+  publisher: AAAI 2020
+  year: 2020
+  link: https://doi.org/10.1609/aaai.v34i04.5978
+  image:
+  buttons:
+  - type: paper
+    text: Paper
+    link: https://doi.org/10.1609/aaai.v34i04.5978
+
+- id: 2020-ekim-hypergraph-attention
+  title: 'Hypergraph Attention Networks for Multimodal Learning'
+  authors:
+  - Eun-Sol Kim
+  - Woo-Young Kang
+  - Kyoung-Woon On
+  - Yu-Jung Heo
+  - Byoung-Tak Zhang
+  publisher: CVPR 2020
+  year: 2020
+  link: https://openaccess.thecvf.com/content_CVPR_2020/html/Kim_Hypergraph_Attention_Networks_for_Multimodal_Learning_CVPR_2020_paper.html
+  image:
+  buttons:
+  - type: paper
+    text: Paper
+    link: https://openaccess.thecvf.com/content_CVPR_2020/papers/Kim_Hypergraph_Attention_Networks_for_Multimodal_Learning_CVPR_2020_paper.pdf
+
+- id: 2020-tkim-lpart
+  title: 'Label Propagation Adaptive Resonance Theory for Semi-Supervised Continuous Learning'
+  authors:
+  - Taehyeong Kim
+  - Injune Hwang
+  - Gi-Cheon Kang
+  - Won-Seok Choi
+  - Hyunseo Kim
+  - Byoung-Tak Zhang
+  publisher: ICASSP 2020
+  year: 2020
+  link: https://doi.org/10.1109/ICASSP40776.2020.9054655
+  image:
+  buttons:
+  - type: paper
+    text: Paper
+    link: https://doi.org/10.1109/ICASSP40776.2020.9054655
+
+- id: 2020-chickey-color
+  title: 'Hierarchical Color Learning in Convolutional Neural Networks'
+  authors:
+  - Chris Hickey
+  - Byoung-Tak Zhang
+  publisher: CVPR 2020 Workshops
+  year: 2020
+  link: https://openaccess.thecvf.com/content_CVPRW_2020/html/w26/Hickey_Hierarchical_Color_Learning_in_Convolutional_Neural_Networks_CVPRW_2020_paper.html
+  image:
+  buttons:
+  - type: paper
+    text: Paper
+    link: https://openaccess.thecvf.com/content_CVPRW_2020/papers/w26/Hickey_Hierarchical_Color_Learning_in_Convolutional_Neural_Networks_CVPRW_2020_paper.pdf
+
+- id: 2020-jlim-prelearning
+  title: 'Effect of Active Pre-Learning Activities on Humans and Machines'
+  authors:
+  - Jaeseo Lim
+  - Hwiyeol Jo
+  - Byoung-Tak Zhang
+  - Jooyong Park
+  publisher: CogSci 2020
+  year: 2020
+  link: https://escholarship.org/uc/item/1gz4t0j7
+  image:
+  buttons:
+  - type: paper
+    text: Paper
+    link: https://escholarship.org/uc/item/1gz4t0j7
+
+- id: 2020-cylee-visual-perception
+  title: 'Visual Perception Framework for an Intelligent Mobile Robot'
+  authors:
+  - Chung-Yeon Lee
+  - Hyundo Lee
+  - Injune Hwang
+  - Byoung-Tak Zhang
+  publisher: UR 2020
+  year: 2020
+  link: https://doi.org/10.1109/UR49135.2020.9144932
+  image:
+  buttons:
+  - type: paper
+    text: Paper
+    link: https://doi.org/10.1109/UR49135.2020.9144932

@@ -150,8 +150,8 @@ Legacy course materials (lecture notes, slides, problem sets) from 2007 and earl
 
 {% include section.html %}
 
-## {% include icon.html icon="fa-solid fa-box-archive" %}Legacy Course Materials
+## {% include icon.html icon="fa-solid fa-folder-open" %}Recovered Course Materials
 
-Recovered course pages, lecture notes, PDFs, and slide decks from the former `bi.snu.ac.kr` site.
+Slide decks, assignments, project datasets, and reference PDFs from the former `bi.snu.ac.kr` archive have been migrated directly into each course page. See the individual course pages above for downloadable materials.
 
-{% include legacy-catalog.html categories="Courses" %}
+Very old courses (1997–2006) not yet in the current Jekyll structure are still accessible via the legacy catalog below.

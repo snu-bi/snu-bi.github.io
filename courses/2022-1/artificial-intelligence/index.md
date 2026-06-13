@@ -7,5 +7,7 @@ title: Artificial Intelligence — Spring 2022
 - **Instructor**: Prof. Byoung-Tak Zhang
 - **Semester**: Spring 2022
 
-*Lecture slides and course materials for this semester are available in the [legacy archive](/legacy/raw/bi.snu.ac.kr/Courses/4ai22s/).*
+## {% include icon.html icon="fa-solid fa-folder-open" %}Course Materials
+
+- [Deep Learning lecture (Lec.16)](/courses/2022-1/artificial-intelligence/slides/Lecture_16_Deep_Learning.pdf)
 

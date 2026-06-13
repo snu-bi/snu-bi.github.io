@@ -7,5 +7,7 @@ title: Artificial Intelligence: Biointelligence — Spring 2010
 - **Instructor**: Prof. Byoung-Tak Zhang
 - **Semester**: Spring 2010
 
-*Lecture slides and course materials for this semester are available in the [legacy archive](/legacy/raw/bi.snu.ac.kr/Courses/4ai10s/).*
+## {% include icon.html icon="fa-solid fa-folder-open" %}Course Materials
+
+- [AI Introduction slides](/courses/2010-1/artificial-intelligence/AI_Introduction.pdf)
 

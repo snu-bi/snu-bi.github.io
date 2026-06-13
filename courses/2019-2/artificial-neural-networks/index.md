@@ -9,5 +9,7 @@ title: Self-learning Neural Algorithms — Fall 2019
 - **Instructor**: Prof. Byoung-Tak Zhang
 - **Semester**: Fall 2019
 
-*Lecture slides and course materials for this semester are available in the [legacy archive](/legacy/raw/bi.snu.ac.kr/Courses/ann19f/).*
+## {% include icon.html icon="fa-solid fa-folder-open" %}Course Materials
+
+- [Midterm reference (2017)](/courses/2019-2/artificial-neural-networks/suppl/midterm_2017.pdf)
 

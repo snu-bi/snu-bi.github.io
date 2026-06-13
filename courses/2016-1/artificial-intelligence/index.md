@@ -7,5 +7,7 @@ title: Artificial Intelligence — Spring 2016
 - **Instructor**: Prof. Byoung-Tak Zhang
 - **Semester**: Spring 2016
 
-*Lecture slides and course materials for this semester are available in the [legacy archive](/legacy/raw/bi.snu.ac.kr/Courses/4ai16s/).*
+## {% include icon.html icon="fa-solid fa-folder-open" %}Course Materials
+
+- [NLP slides (Ch.7)](/courses/2016-1/artificial-intelligence/slides/NLP-ch7.pdf)
 

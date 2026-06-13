@@ -38,7 +38,7 @@ These projects were listed as current projects on the older BI research page and
 * StarLab Project: Cognitive Agents That Learn Everyday Life. [Wayback page](https://web.archive.org/web/20211025062337https://bi.snu.ac.kr/Research/Starlab/)
 * DeepAction: Deep Learning of TV Viewer Activities
 * DeepClone: Cloning Humans for Scheduling Personal Service Robots
-* CogHRI: Cognitive Communication as Moving Target Tracking. [Recovered page]({{ "/legacy/raw/bi.snu.ac.kr/Research/CogHRI/CogHRI.html" | relative_url }})
+* CogHRI: Cognitive Communication as Moving Target Tracking. [Recovered page]({{ "/files/legacy/bi.snu.ac.kr/Research/CogHRI/CogHRI.html" | relative_url }})
 
 ## Completed Projects
 
@@ -52,17 +52,17 @@ Recovered project pages from the former `bi.snu.ac.kr` site have been mapped bac
 
 ### Cognitive and Embodied AI
 
-- **Videome**: cognitive machine learning from digital videos, including multimodal activity understanding and video-based learning records. [Recovered page]({{ "/legacy/raw/bi.snu.ac.kr/Research/Videome/Videome.html" | relative_url }})
-- **CogHRI**: cognitive human-robot interaction work connected to moving-target communication, interaction, and robot learning. [Recovered page]({{ "/legacy/raw/bi.snu.ac.kr/Research/CogHRI/CogHRI.html" | relative_url }})
-- **MARS**: multimodal information extraction and recommendation technologies for next-generation customized services based on machine learning. [Recovered page]({{ "/legacy/raw/bi.snu.ac.kr/Research/MARS/MARS.html" | relative_url }})
+- **Videome**: cognitive machine learning from digital videos, including multimodal activity understanding and video-based learning records. [Recovered page]({{ "/files/legacy/bi.snu.ac.kr/Research/Videome/Videome.html" | relative_url }})
+- **CogHRI**: cognitive human-robot interaction work connected to moving-target communication, interaction, and robot learning. [Recovered page]({{ "/files/legacy/bi.snu.ac.kr/Research/CogHRI/CogHRI.html" | relative_url }})
+- **MARS**: multimodal information extraction and recommendation technologies for next-generation customized services based on machine learning. [Recovered page]({{ "/files/legacy/bi.snu.ac.kr/Research/MARS/MARS.html" | relative_url }})
 
 ### Bioinformatics and Molecular Computing
 
-- **ProMiR**: probabilistic prediction of microRNA, with recovered records for the project, participants, publications, and online service context. [Recovered page]({{ "/legacy/raw/bi.snu.ac.kr/Research/ProMiR/ProMiR.html" | relative_url }})
-- **DNAChipBench / NRL**: intelligent design and analysis technology for DNA chips, including probe/target benchmark pages and NRL project records. [NRL page]({{ "/legacy/raw/bi.snu.ac.kr/NRL/index.htm" | relative_url }}), [DNAChipBench page]({{ "/legacy/raw/bi.snu.ac.kr/Research/DNAChipBench/nrl_intro_2.htm" | relative_url }})
-- **BIMML and Molecular AI**: bio-inspired human-level machine learning and molecular AI project records that connect molecular computation with machine learning models. [BIMML page]({{ "/legacy/raw/bi.snu.ac.kr/Research/BIMML/BIMML.html" | relative_url }}), [Molecular AI page]({{ "/legacy/raw/bi.snu.ac.kr/Research/Molecular_AI/index.html" | relative_url }})
+- **ProMiR**: probabilistic prediction of microRNA, with recovered records for the project, participants, publications, and online service context. [Recovered page]({{ "/files/legacy/bi.snu.ac.kr/Research/ProMiR/ProMiR.html" | relative_url }})
+- **DNAChipBench / NRL**: intelligent design and analysis technology for DNA chips, including probe/target benchmark pages and NRL project records. [NRL page]({{ "/files/legacy/bi.snu.ac.kr/NRL/index.htm" | relative_url }}), [DNAChipBench page]({{ "/files/legacy/bi.snu.ac.kr/Research/DNAChipBench/nrl_intro_2.htm" | relative_url }})
+- **BIMML and Molecular AI**: bio-inspired human-level machine learning and molecular AI project records that connect molecular computation with machine learning models. [BIMML page]({{ "/files/legacy/bi.snu.ac.kr/Research/BIMML/BIMML.html" | relative_url }}), [Molecular AI page]({{ "/files/legacy/bi.snu.ac.kr/Research/Molecular_AI/index.html" | relative_url }})
 
 ### Earlier Research Lines
 
-- **Probabilistic learning and hypernetworks**: historical learning pages covering probabilistic graphical models, hypernetworks, and cognitive learning. [Learning page]({{ "/legacy/raw/bi.snu.ac.kr/Research/Learning/index.html" | relative_url }})
-- **Bioinformatics project family**: recovered pages for BrainGene, DMDM, MicroGene, biochip resources, and related data/software materials. [Bioinformatics overview]({{ "/legacy/raw/bi.snu.ac.kr/Research/Bioinformatics/bi_bio.html" | relative_url }})
+- **Probabilistic learning and hypernetworks**: historical learning pages covering probabilistic graphical models, hypernetworks, and cognitive learning. [Learning page]({{ "/files/legacy/bi.snu.ac.kr/Research/Learning/index.html" | relative_url }})
+- **Bioinformatics project family**: recovered pages for BrainGene, DMDM, MicroGene, biochip resources, and related data/software materials. [Bioinformatics overview]({{ "/files/legacy/bi.snu.ac.kr/Research/Bioinformatics/bi_bio.html" | relative_url }})

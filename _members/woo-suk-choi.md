@@ -13,7 +13,6 @@ links:
   linkedin: woo-suk-paul-choi-36198494
   openreview: https://openreview.net/profile?id=~Woo_Suk_Choi1
 name: Woo Suk (Paul) Choi
-role: phd
-status: 졸업
-graduation_year: 2026
+role: phd-student
+status: 재학
 ---
