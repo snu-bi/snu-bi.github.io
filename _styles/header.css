@@ -91,32 +91,6 @@ nav {
   font-family: var(--heading);
   text-transform: uppercase;
 }
-nav a {
-  position: relative;
-  padding: 5px 10px;
-  transition: color 0.2s ease;
-}
-nav a::after {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  width: 0;
-  height: 2px;
-  background: var(--primary);
-  transition: width 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94), left 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
-  transform: translateX(-50%);
-}
-nav a:hover {
-  color: var(--primary);
-}
-nav a:hover::after {
-  width: 100%;
-}
-nav a:focus-visible {
-  outline: 2px solid var(--primary);
-  outline-offset: 4px;
-}
 
 nav > a {
   padding: 5px 8px;
