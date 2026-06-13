@@ -1,5 +1,31 @@
 # Awards and Achievements
 
+- title: RoboCup@Home 2024 - DSPL 3rd, OPL 2nd Place
+  year: 2024
+  event: RoboCup@Home 2024
+  location: Eindhoven, Netherlands
+  category: competition
+  description: >
+    Team Tidyboy (SNU Biointelligence Lab) achieved 3rd place in the Domestic Standard Platform League (DSPL)
+    and 2nd place in the Open Platform League (OPL) at RoboCup@Home 2024.
+  image:
+  links:
+    - text: RoboCup@Home
+      url: https://athome.robocup.org/awards/
+
+- title: R-BIZ Challenge 2022 - 대통령상 (President's Award)
+  year: 2022
+  event: 국제로봇 콘테스트 R-BIZ Challenge — 제우스 산업용 로봇 ZERO 미션 챌린지
+  location: Republic of Korea
+  category: competition
+  description: >
+    Team SNU-BI (장병탁 교수 연구팀) won the President's Award (대통령상) at the 2022 International Robot Contest
+    and R-BIZ Challenge in the Zeus Industrial Robot ZERO Mission Challenge category.
+  image:
+  links:
+    - text: 한국대학신문
+      url: https://news.unn.net
+
 - title: RoboCup@Home 2023 - DSPL & OPL Winner
   year: 2023
   event: RoboCup@Home 2023
