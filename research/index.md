@@ -18,28 +18,8 @@ Our research focuses on “biointelligence” i.e. the study of artificial intel
 {% assign publications = site.data.publications | where_exp: "item", "item.publisher != 'preprint'" %}
 {% assign publications_by_year = publications | group_by: "year" | sort: "name" | reverse %}
 {% assign all_by_year = site.data.publications | group_by: "year" | sort: "name" | reverse %}
-{% assign latest_year = all_by_year | first %}
-{% assign publication_count = site.data.publications | size %}
-{% assign accepted_count = publications | size %}
-{% assign preprint_count = preprints | size %}
 
 <div class="publication-overview" aria-label="Publication overview">
-  <div class="publication-stat">
-    <span class="publication-stat-value">{{ publication_count }}</span>
-    <span class="publication-stat-label">total works</span>
-  </div>
-  <div class="publication-stat">
-    <span class="publication-stat-value">{{ accepted_count }}</span>
-    <span class="publication-stat-label">published or accepted</span>
-  </div>
-  <div class="publication-stat">
-    <span class="publication-stat-value">{{ preprint_count }}</span>
-    <span class="publication-stat-label">preprints</span>
-  </div>
-  <div class="publication-stat">
-    <span class="publication-stat-value">{{ latest_year.items.size }}</span>
-    <span class="publication-stat-label">{{ latest_year.name }} works</span>
-  </div>
   <div class="publication-year-links" aria-label="Jump to publication year">
     {% for year_group in all_by_year limit: 6 %}
       <a class="publication-year-link" href="#year-{{ year_group.name }}">
