@@ -9,7 +9,7 @@ links:
   email: yjyoo@bi.snu.ac.kr
   linkedin: youngjae-yoo-858309162
 name: Youngjae Yoo
-role: phd-student
+role: phd
 status: 졸업
 graduation_year: 2024
 ---

@@ -9,7 +9,7 @@ links:
   openreview: https://openreview.net/profile?id=~Kwanyoung_Park1
   email: 
 name: Kwanyoung Park
-role: intern-former
+role: intern
 affiliation: UC Berkeley
 graduation_year: 2021
 status: 졸업

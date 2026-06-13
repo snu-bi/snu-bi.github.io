@@ -9,7 +9,7 @@ links:
   email: ywjang@bi.snu.ac.kr
   openreview: https://openreview.net/profile?id=~Youwon_Jang1
 name: Youwon Jang
-role: phd-candidate
+role: phd
 status: 졸업
 graduation_year: 2026
 ---

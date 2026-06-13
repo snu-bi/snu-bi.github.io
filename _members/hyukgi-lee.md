@@ -9,7 +9,7 @@ links:
   home-page: https://komkmm.github.io/
   email: komkmm@gmail.com
 name: Hyukgi Lee
-role: ms
+role: master
 affiliation: Neosapiens
 graduation_year: 2022
 status: 졸업

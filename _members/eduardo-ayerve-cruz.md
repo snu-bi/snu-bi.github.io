@@ -10,7 +10,7 @@ links:
   linkedin: eduardo-jesús-ayerve-cruz-8a5b1a211
   github: eduardoayervecruz
 name: Eduardo Ayerve Cruz
-role: intern-former
+role: intern
 status: 졸업
 graduation_year: 2024
 --- 

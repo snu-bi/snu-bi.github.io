@@ -8,7 +8,7 @@ image: images/photo.jpg
 links:
   email: bjkang@bi.snu.ac.kr
 name: Byungjun Kang
-role: master-student
+role: master
 status: 졸업
 graduation_year: 2026
 ---

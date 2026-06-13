@@ -10,7 +10,7 @@ links:
   openreview: https://openreview.net/profile?id=~Jaeah_Lee1
   home-page: 
 name: Jaeah Lee
-role: intern-former
+role: intern
 status: 졸업
 graduation_year: 2021
 ---

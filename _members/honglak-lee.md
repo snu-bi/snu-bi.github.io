@@ -9,7 +9,7 @@ links:
   linkedin: honglak-lee-8b07709
   home-page: https://web.eecs.umich.edu/~honglak/
 name: Honglak Lee
-role: intern-former
+role: intern
 affiliation: University of Michigan
 graduation_year: 2002
 status: 졸업

@@ -9,7 +9,7 @@ links:
   github: 
   email: bigblue1122@snu.ac.kr
 name: Seongjae Kim
-role: intern-former
+role: intern
 status: 졸업
 graduation_year: 2024
 --- 

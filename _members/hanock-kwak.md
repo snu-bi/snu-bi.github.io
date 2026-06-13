@@ -11,7 +11,7 @@ links:
   linkedin: hanock-kwak
   openreview: https://openreview.net/profile?id=~Hanock_Kwak1
 name: Hanock Kwak
-role: phd-candidate
+role: phd
 status: 졸업
 graduation_year: 2015
 --- 

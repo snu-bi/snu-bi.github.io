@@ -10,7 +10,7 @@ links:
   home-page: https://jd730.github.io/
   openreview: https://openreview.net/profile?id=~Jaedong_Hwang1
 name: Jaedong Hwang
-role: intern-former
+role: intern
 status: 졸업
 graduation_year: 2015
 ---

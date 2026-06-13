@@ -10,7 +10,7 @@ links:
   home-page: 
   openreview: https://openreview.net/profile?id=~Seungwon_Lee2
 name: Seungwon Lee
-role: intern-former
+role: intern
 status: 졸업
 graduation_year: 2015
 ---

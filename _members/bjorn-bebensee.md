@@ -9,7 +9,7 @@ links:
   email: bjorn@bebens.ee
   linkedin: bebensee
 name: Björn Bebensee
-role: ms
+role: master
 affiliation: Cohere
 graduation_year: 2021
 status: 졸업

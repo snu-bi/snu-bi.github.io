@@ -10,7 +10,7 @@ links:
   openreview: https://openreview.net/profile?id=~Il-Jae_Kwon1
   email: kwonij2@gmail.com
 name: Il-Jae Kwon
-role: ms
+role: master
 affiliation: Team Heimdallr
 graduation_year: 2021
 status: 졸업

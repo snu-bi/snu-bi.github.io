@@ -9,7 +9,7 @@ links:
   linkedin: 
   github: nick11967
 name: Jimin Ryu
-role: intern-former
+role: intern
 status: 졸업
 graduation_year: 2024
 --- 

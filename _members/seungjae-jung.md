@@ -11,7 +11,7 @@ links:
   linkedin: seungjae-jung-3a2b74141
   openreview: https://openreview.net/profile?id=~Seungjae_Jung1
 name: Seungjae Jung
-role: msc
+role: master
 status: 졸업
 graduation_year: 2020
 --- 
