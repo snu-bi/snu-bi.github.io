@@ -7,7 +7,7 @@
   const filterConfig = {
     all: {
       name: "All",
-      sectionIds: ["faculty", "research-professor", "phd", "master", "intern", "phd-alumni", "master-alumni", "intern-alumni"]
+      sectionIds: ["faculty", "research-professor", "phd", "master", "intern", "alumni"]
     },
     faculty: {
       name: "Faculty",
@@ -15,19 +15,19 @@
     },
     phd: {
       name: "PhD Students",
-      sectionIds: ["phd", "phd-alumni"]
+      sectionIds: ["phd", "alumni"]
     },
     master: {
       name: "Master Students",
-      sectionIds: ["master", "master-alumni"]
+      sectionIds: ["master", "alumni"]
     },
     intern: {
       name: "Interns",
-      sectionIds: ["intern", "intern-alumni"]
+      sectionIds: ["intern", "alumni"]
     },
     alumni: {
       name: "Alumni",
-      sectionIds: ["phd-alumni", "master-alumni", "intern-alumni"]
+      sectionIds: ["alumni"]
     }
   };
 
@@ -54,11 +54,6 @@
   const getHeadingFilterId = (headingText) => {
     const text = headingText.toLowerCase().trim();
 
-    // Alumni sub-sections must be checked BEFORE generic phd/master/intern
-    if (text.includes("phd alumni")) return "phd-alumni";
-    if (text.includes("master alumni")) return "master-alumni";
-    if (text.includes("intern alumni")) return "intern-alumni";
-
     if (text.includes("professor") && !text.includes("research")) {
       return "faculty";
     }
@@ -74,8 +69,9 @@
     if (text.includes("intern")) {
       return "intern";
     }
-    // "Alumni" h1 heading is intentionally skipped (returns null) so it stays
-    // always visible as a section divider regardless of the active filter.
+    if (text.includes("alumni")) {
+      return "alumni";
+    }
     return null;
   };
 
@@ -112,7 +108,6 @@
             nextElement.classList.add("portrait-grid");
           }
         } else if (nextElement.classList.contains("section")) {
-          // Skip section dividers between filter groups
           break;
         } else {
           nextElement.style.display = shouldShow ? "" : "none";
@@ -136,7 +131,6 @@
     const filterKey = btn.getAttribute("data-filter");
     if (!filterKey) return;
 
-    // Update URL hash (triggers hashchange event)
     window.location.hash = filterKey;
   };
 
@@ -147,18 +141,15 @@
       btn.addEventListener("click", handleFilterClick);
     });
 
-    // Handle hash change (browser back/forward or direct hash link)
     window.addEventListener("hashchange", () => {
       updateActiveButton();
       filterMembers(getCurrentFilter());
     });
 
-    // Set initial state
     updateActiveButton();
     filterMembers(getCurrentFilter());
   };
 
-  // Run on page load
   if (document.readyState === "loading") {
     document.addEventListener("DOMContentLoaded", init);
   } else {

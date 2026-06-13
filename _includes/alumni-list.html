@@ -1,205 +1,151 @@
 {% comment %}
-Alumni list grouped by degree (PhD → Master → Intern), then by graduation year descending.
-h2 headings ("PhD Alumni", "Master Alumni", "Intern Alumni") are picked up by member-filter.js
-so that the PhD/Master/Intern filter buttons show both current members AND their alumni.
+Alumni list: grouped by graduation year (descending), then within each year by PhD → Master → Intern.
+The entire list lives inside one div so the h1 "Alumni" heading in team/index.md controls
+show/hide via member-filter.js.
 {% endcomment %}
 
 {% assign all_alumni = site.members | where: "status", "졸업" %}
-{% assign phd_grads   = all_alumni | where: "role", "phd"    %}
-{% assign ms_grads    = all_alumni | where: "role", "master"  %}
-{% assign intern_grads = all_alumni | where: "role", "intern" %}
+{% assign alumni_by_year = all_alumni | group_by: "graduation_year" | sort: "name" | reverse %}
 
-{% comment %} ─── PhD Alumni ─────────────────────────────────────────── {% endcomment %}
-<h2 class="alumni-degree-heading">{% include icon.html icon="fa-solid fa-user-graduate" %} PhD Alumni</h2>
 <div class="alumni-list">
-  {% assign phd_by_year = phd_grads | group_by: "graduation_year" | sort: "name" | reverse %}
-  {% for year_group in phd_by_year %}
+
+  {% for year_group in alumni_by_year %}
     {% if year_group.name != "" and year_group.name != nil %}
+
+      {% assign phd_members    = year_group.items | where: "role", "phd"    | sort: "name" %}
+      {% assign master_members = year_group.items | where: "role", "master" | sort: "name" %}
+      {% assign intern_members = year_group.items | where: "role", "intern" | sort: "name" %}
+
       <div class="alumni-year-group">
         <h4 class="alumni-year">{{ year_group.name }}</h4>
-        <ul class="alumni-names">
-          {% assign sorted = year_group.items | sort: "name" %}
-          {% for member in sorted %}
-            <li class="alumni-item">
-              {% if member.links.home-page and member.links.home-page != "" %}
-                <a href="{{ member.links.home-page }}" target="_blank" class="alumni-name-link">{{ member.name }}</a>
-              {% elsif member.links.linkedin and member.links.linkedin != "" %}
-                {% if member.links.linkedin contains "://" %}
-                  <a href="{{ member.links.linkedin }}" target="_blank" class="alumni-name-link">{{ member.name }}</a>
-                {% else %}
-                  <a href="https://www.linkedin.com/in/{{ member.links.linkedin }}" target="_blank" class="alumni-name-link">{{ member.name }}</a>
-                {% endif %}
-              {% elsif member.links.github and member.links.github != "" %}
-                <a href="https://github.com/{{ member.links.github }}" target="_blank" class="alumni-name-link">{{ member.name }}</a>
-              {% else %}
-                <span class="alumni-name">{{ member.name }}</span>
-              {% endif %}
-              {% if member.description and member.description != "" %}
-                <span class="alumni-description"> — {{ member.description }}</span>
-              {% endif %}
-            </li>
-          {% endfor %}
-        </ul>
+
+        {% if phd_members.size > 0 %}
+          <div class="alumni-degree-group">
+            <span class="alumni-degree-label">PhD</span>
+            <ul class="alumni-names">
+              {% for member in phd_members %}
+                <li class="alumni-item">
+                  {% if member.links.home-page and member.links.home-page != "" %}
+                    <a href="{{ member.links.home-page }}" target="_blank" class="alumni-name-link">{{ member.name }}</a>
+                  {% elsif member.links.linkedin and member.links.linkedin != "" %}
+                    {% if member.links.linkedin contains "://" %}
+                      <a href="{{ member.links.linkedin }}" target="_blank" class="alumni-name-link">{{ member.name }}</a>
+                    {% else %}
+                      <a href="https://www.linkedin.com/in/{{ member.links.linkedin }}" target="_blank" class="alumni-name-link">{{ member.name }}</a>
+                    {% endif %}
+                  {% elsif member.links.github and member.links.github != "" %}
+                    <a href="https://github.com/{{ member.links.github }}" target="_blank" class="alumni-name-link">{{ member.name }}</a>
+                  {% else %}
+                    <span class="alumni-name">{{ member.name }}</span>
+                  {% endif %}
+                  {% if member.description and member.description != "" %}
+                    <span class="alumni-description"> — {{ member.description }}</span>
+                  {% endif %}
+                </li>
+              {% endfor %}
+            </ul>
+          </div>
+        {% endif %}
+
+        {% if master_members.size > 0 %}
+          <div class="alumni-degree-group">
+            <span class="alumni-degree-label">Master</span>
+            <ul class="alumni-names">
+              {% for member in master_members %}
+                <li class="alumni-item">
+                  {% if member.links.home-page and member.links.home-page != "" %}
+                    <a href="{{ member.links.home-page }}" target="_blank" class="alumni-name-link">{{ member.name }}</a>
+                  {% elsif member.links.linkedin and member.links.linkedin != "" %}
+                    {% if member.links.linkedin contains "://" %}
+                      <a href="{{ member.links.linkedin }}" target="_blank" class="alumni-name-link">{{ member.name }}</a>
+                    {% else %}
+                      <a href="https://www.linkedin.com/in/{{ member.links.linkedin }}" target="_blank" class="alumni-name-link">{{ member.name }}</a>
+                    {% endif %}
+                  {% elsif member.links.github and member.links.github != "" %}
+                    <a href="https://github.com/{{ member.links.github }}" target="_blank" class="alumni-name-link">{{ member.name }}</a>
+                  {% else %}
+                    <span class="alumni-name">{{ member.name }}</span>
+                  {% endif %}
+                  {% if member.description and member.description != "" %}
+                    <span class="alumni-description"> — {{ member.description }}</span>
+                  {% endif %}
+                </li>
+              {% endfor %}
+            </ul>
+          </div>
+        {% endif %}
+
+        {% if intern_members.size > 0 %}
+          <div class="alumni-degree-group">
+            <span class="alumni-degree-label">Intern</span>
+            <ul class="alumni-names">
+              {% for member in intern_members %}
+                <li class="alumni-item">
+                  {% if member.links.home-page and member.links.home-page != "" %}
+                    <a href="{{ member.links.home-page }}" target="_blank" class="alumni-name-link">{{ member.name }}</a>
+                  {% elsif member.links.linkedin and member.links.linkedin != "" %}
+                    {% if member.links.linkedin contains "://" %}
+                      <a href="{{ member.links.linkedin }}" target="_blank" class="alumni-name-link">{{ member.name }}</a>
+                    {% else %}
+                      <a href="https://www.linkedin.com/in/{{ member.links.linkedin }}" target="_blank" class="alumni-name-link">{{ member.name }}</a>
+                    {% endif %}
+                  {% elsif member.links.github and member.links.github != "" %}
+                    <a href="https://github.com/{{ member.links.github }}" target="_blank" class="alumni-name-link">{{ member.name }}</a>
+                  {% else %}
+                    <span class="alumni-name">{{ member.name }}</span>
+                  {% endif %}
+                  {% if member.description and member.description != "" %}
+                    <span class="alumni-description"> — {{ member.description }}</span>
+                  {% endif %}
+                </li>
+              {% endfor %}
+            </ul>
+          </div>
+        {% endif %}
+
       </div>
     {% endif %}
   {% endfor %}
-  {% assign phd_no_year = phd_grads | where: "graduation_year", nil %}
-  {% if phd_no_year.size > 0 %}
-    <div class="alumni-year-group">
-      <h4 class="alumni-year">기타</h4>
-      <ul class="alumni-names">
-        {% assign sorted_no_year = phd_no_year | sort: "name" %}
-        {% for member in sorted_no_year %}
-          <li class="alumni-item">
-            {% if member.links.home-page and member.links.home-page != "" %}
-              <a href="{{ member.links.home-page }}" target="_blank" class="alumni-name-link">{{ member.name }}</a>
-            {% elsif member.links.linkedin and member.links.linkedin != "" %}
-              {% if member.links.linkedin contains "://" %}
-                <a href="{{ member.links.linkedin }}" target="_blank" class="alumni-name-link">{{ member.name }}</a>
-              {% else %}
-                <a href="https://www.linkedin.com/in/{{ member.links.linkedin }}" target="_blank" class="alumni-name-link">{{ member.name }}</a>
-              {% endif %}
-            {% elsif member.links.github and member.links.github != "" %}
-              <a href="https://github.com/{{ member.links.github }}" target="_blank" class="alumni-name-link">{{ member.name }}</a>
-            {% else %}
-              <span class="alumni-name">{{ member.name }}</span>
-            {% endif %}
-            {% if member.description and member.description != "" %}
-              <span class="alumni-description"> — {{ member.description }}</span>
-            {% endif %}
-          </li>
-        {% endfor %}
-      </ul>
-    </div>
-  {% endif %}
-</div>
 
-{% comment %} ─── Master Alumni ───────────────────────────────────────── {% endcomment %}
-<h2 class="alumni-degree-heading">{% include icon.html icon="fa-solid fa-user-graduate" %} Master Alumni</h2>
-<div class="alumni-list">
-  {% assign ms_by_year = ms_grads | group_by: "graduation_year" | sort: "name" | reverse %}
-  {% for year_group in ms_by_year %}
-    {% if year_group.name != "" and year_group.name != nil %}
-      <div class="alumni-year-group">
-        <h4 class="alumni-year">{{ year_group.name }}</h4>
-        <ul class="alumni-names">
-          {% assign sorted = year_group.items | sort: "name" %}
-          {% for member in sorted %}
-            <li class="alumni-item">
-              {% if member.links.home-page and member.links.home-page != "" %}
-                <a href="{{ member.links.home-page }}" target="_blank" class="alumni-name-link">{{ member.name }}</a>
-              {% elsif member.links.linkedin and member.links.linkedin != "" %}
-                {% if member.links.linkedin contains "://" %}
-                  <a href="{{ member.links.linkedin }}" target="_blank" class="alumni-name-link">{{ member.name }}</a>
-                {% else %}
-                  <a href="https://www.linkedin.com/in/{{ member.links.linkedin }}" target="_blank" class="alumni-name-link">{{ member.name }}</a>
-                {% endif %}
-              {% elsif member.links.github and member.links.github != "" %}
-                <a href="https://github.com/{{ member.links.github }}" target="_blank" class="alumni-name-link">{{ member.name }}</a>
-              {% else %}
-                <span class="alumni-name">{{ member.name }}</span>
-              {% endif %}
-              {% if member.description and member.description != "" %}
-                <span class="alumni-description"> — {{ member.description }}</span>
-              {% endif %}
-            </li>
-          {% endfor %}
-        </ul>
-      </div>
-    {% endif %}
-  {% endfor %}
-  {% assign ms_no_year = ms_grads | where: "graduation_year", nil %}
-  {% if ms_no_year.size > 0 %}
+  {% comment %} Members with no graduation_year {% endcomment %}
+  {% assign no_year = all_alumni | where: "graduation_year", nil %}
+  {% if no_year.size > 0 %}
+    {% assign phd_no_year    = no_year | where: "role", "phd"    | sort: "name" %}
+    {% assign master_no_year = no_year | where: "role", "master" | sort: "name" %}
+    {% assign intern_no_year = no_year | where: "role", "intern" | sort: "name" %}
     <div class="alumni-year-group">
       <h4 class="alumni-year">기타</h4>
-      <ul class="alumni-names">
-        {% assign sorted_no_year = ms_no_year | sort: "name" %}
-        {% for member in sorted_no_year %}
-          <li class="alumni-item">
-            {% if member.links.home-page and member.links.home-page != "" %}
-              <a href="{{ member.links.home-page }}" target="_blank" class="alumni-name-link">{{ member.name }}</a>
-            {% elsif member.links.linkedin and member.links.linkedin != "" %}
-              {% if member.links.linkedin contains "://" %}
-                <a href="{{ member.links.linkedin }}" target="_blank" class="alumni-name-link">{{ member.name }}</a>
-              {% else %}
-                <a href="https://www.linkedin.com/in/{{ member.links.linkedin }}" target="_blank" class="alumni-name-link">{{ member.name }}</a>
-              {% endif %}
-            {% elsif member.links.github and member.links.github != "" %}
-              <a href="https://github.com/{{ member.links.github }}" target="_blank" class="alumni-name-link">{{ member.name }}</a>
-            {% else %}
-              <span class="alumni-name">{{ member.name }}</span>
-            {% endif %}
-            {% if member.description and member.description != "" %}
-              <span class="alumni-description"> — {{ member.description }}</span>
-            {% endif %}
-          </li>
-        {% endfor %}
-      </ul>
+      {% if phd_no_year.size > 0 %}
+        <div class="alumni-degree-group">
+          <span class="alumni-degree-label">PhD</span>
+          <ul class="alumni-names">
+            {% for member in phd_no_year %}
+              <li class="alumni-item"><span class="alumni-name">{{ member.name }}</span>{% if member.description and member.description != "" %}<span class="alumni-description"> — {{ member.description }}</span>{% endif %}</li>
+            {% endfor %}
+          </ul>
+        </div>
+      {% endif %}
+      {% if master_no_year.size > 0 %}
+        <div class="alumni-degree-group">
+          <span class="alumni-degree-label">Master</span>
+          <ul class="alumni-names">
+            {% for member in master_no_year %}
+              <li class="alumni-item"><span class="alumni-name">{{ member.name }}</span>{% if member.description and member.description != "" %}<span class="alumni-description"> — {{ member.description }}</span>{% endif %}</li>
+            {% endfor %}
+          </ul>
+        </div>
+      {% endif %}
+      {% if intern_no_year.size > 0 %}
+        <div class="alumni-degree-group">
+          <span class="alumni-degree-label">Intern</span>
+          <ul class="alumni-names">
+            {% for member in intern_no_year %}
+              <li class="alumni-item"><span class="alumni-name">{{ member.name }}</span>{% if member.description and member.description != "" %}<span class="alumni-description"> — {{ member.description }}</span>{% endif %}</li>
+            {% endfor %}
+          </ul>
+        </div>
+      {% endif %}
     </div>
   {% endif %}
-</div>
 
-{% comment %} ─── Intern Alumni ───────────────────────────────────────── {% endcomment %}
-<h2 class="alumni-degree-heading">{% include icon.html icon="fa-solid fa-user-graduate" %} Intern Alumni</h2>
-<div class="alumni-list">
-  {% assign intern_by_year = intern_grads | group_by: "graduation_year" | sort: "name" | reverse %}
-  {% for year_group in intern_by_year %}
-    {% if year_group.name != "" and year_group.name != nil %}
-      <div class="alumni-year-group">
-        <h4 class="alumni-year">{{ year_group.name }}</h4>
-        <ul class="alumni-names">
-          {% assign sorted = year_group.items | sort: "name" %}
-          {% for member in sorted %}
-            <li class="alumni-item">
-              {% if member.links.home-page and member.links.home-page != "" %}
-                <a href="{{ member.links.home-page }}" target="_blank" class="alumni-name-link">{{ member.name }}</a>
-              {% elsif member.links.linkedin and member.links.linkedin != "" %}
-                {% if member.links.linkedin contains "://" %}
-                  <a href="{{ member.links.linkedin }}" target="_blank" class="alumni-name-link">{{ member.name }}</a>
-                {% else %}
-                  <a href="https://www.linkedin.com/in/{{ member.links.linkedin }}" target="_blank" class="alumni-name-link">{{ member.name }}</a>
-                {% endif %}
-              {% elsif member.links.github and member.links.github != "" %}
-                <a href="https://github.com/{{ member.links.github }}" target="_blank" class="alumni-name-link">{{ member.name }}</a>
-              {% else %}
-                <span class="alumni-name">{{ member.name }}</span>
-              {% endif %}
-              {% if member.description and member.description != "" %}
-                <span class="alumni-description"> — {{ member.description }}</span>
-              {% endif %}
-            </li>
-          {% endfor %}
-        </ul>
-      </div>
-    {% endif %}
-  {% endfor %}
-  {% assign intern_no_year = intern_grads | where: "graduation_year", nil %}
-  {% if intern_no_year.size > 0 %}
-    <div class="alumni-year-group">
-      <h4 class="alumni-year">기타</h4>
-      <ul class="alumni-names">
-        {% assign sorted_no_year = intern_no_year | sort: "name" %}
-        {% for member in sorted_no_year %}
-          <li class="alumni-item">
-            {% if member.links.home-page and member.links.home-page != "" %}
-              <a href="{{ member.links.home-page }}" target="_blank" class="alumni-name-link">{{ member.name }}</a>
-            {% elsif member.links.linkedin and member.links.linkedin != "" %}
-              {% if member.links.linkedin contains "://" %}
-                <a href="{{ member.links.linkedin }}" target="_blank" class="alumni-name-link">{{ member.name }}</a>
-              {% else %}
-                <a href="https://www.linkedin.com/in/{{ member.links.linkedin }}" target="_blank" class="alumni-name-link">{{ member.name }}</a>
-              {% endif %}
-            {% elsif member.links.github and member.links.github != "" %}
-              <a href="https://github.com/{{ member.links.github }}" target="_blank" class="alumni-name-link">{{ member.name }}</a>
-            {% else %}
-              <span class="alumni-name">{{ member.name }}</span>
-            {% endif %}
-            {% if member.description and member.description != "" %}
-              <span class="alumni-description"> — {{ member.description }}</span>
-            {% endif %}
-          </li>
-        {% endfor %}
-      </ul>
-    </div>
-  {% endif %}
 </div>
