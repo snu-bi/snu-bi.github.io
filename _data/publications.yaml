@@ -33,7 +33,6 @@
   year: 2026
   link: https://arxiv.org/abs/2606.01851
   image:
-  description: 'CoRL 2026 under review'
   buttons:
   - type: paper
     text: Paper
@@ -73,9 +72,6 @@
   - type: paper
     text: Paper
     link: https://arxiv.org/abs/2605.08635
-  - type: source
-    text: Code
-    link: https://github.com/yeonjisong/Kinematics-GS
   - type: website
     text: Poster
     link: https://yeonjisong.github.io/data/Kinematics-GS_poster.png
@@ -135,7 +131,6 @@
   year: 2026
   link: https://jhkim-snu.github.io/
   image:
-  description: 'CoRL 2026 under review'
   buttons:
   - type: website
     text: Source
@@ -153,7 +148,6 @@
   year: 2026
   link: https://jhkim-snu.github.io/
   image:
-  description: 'ECCV 2026 under review'
   buttons:
   - type: website
     text: Source
@@ -439,9 +433,6 @@
   - type: preprint
     text: arXiv
     link: https://arxiv.org/abs/2503.16865
-  - type: source
-    text: Code
-    link: https://github.com/jykim2958/ECKConv
 
 - id: 2026-wschoi-hsr
   title: 'Hybrid State Representation for Video Procedure Planning'
@@ -549,14 +540,10 @@
   year: 2026
   link: https://arxiv.org/abs/2603.14974
   image:
-  description: 'Poster presentation; final version received'
   buttons:
   - type: paper
     text: Paper
     link: https://arxiv.org/abs/2603.14974
-  - type: source
-    text: Code
-    link: https://github.com/jykim2958/Voronoi-Second-Pooling
 
 - id: 2026-jpahk-ecahd
   title: 'ECAHD: Efficient Collision-Aware Hierarchical Diffusion Navigation'
@@ -569,7 +556,6 @@
   year: 2026
   link: https://2026.ieee-icra.org/
   image:
-  description: 'IROS-ICRA transfer; poster presentation; final version received'
   buttons:
   - type: website
     text: Conference
@@ -816,9 +802,6 @@
   - type: paper
     text: Paper
     link: https://arxiv.org/abs/2404.18423v3
-  - type: source
-    text: Code
-    link: https://github.com/yeonjisong/ock
 
 - id: 2025-yjsong-dbmovigs
   title: 'DBMovi-GS: Motion-aware Dynamic View Synthesis from Blurry Monocular Video via Sparse-Controlled Gaussian Splatting'
@@ -848,14 +831,10 @@
   year: 2025
   link: https://arxiv.org/abs/2510.26113
   image: images/2025-mjjung-egoexo.png
-  description: 'ECCV 2026 under review'
   buttons:
   - type: paper
     text: Paper
     link: https://arxiv.org/abs/2510.26113
-  - type: source
-    text: Code
-    link: https://github.com/minjoong507/EgoExo-Con
   - type: website
     text: Home
     link: https://minjoong507.github.io/projects/EgoExo-Con/
@@ -913,9 +892,6 @@
   - type: paper
     text: Paper
     link: https://arxiv.org/abs/2411.00508
-  - type: source
-    text: Code
-    link: https://github.com/clip-rt/clip-rt
 
 - id: 2025-sychoi
   title: 'Mixture of Action Expert Embeddings: Multi-Task ACT'
@@ -947,9 +923,6 @@
   - type: paper
     text: Paper
     link: https://arxiv.org/abs/2411.12951
-  - type: source
-    text: Code
-    link: https://github.com/minjoong507/consistency-of-video-llm
 
 - id: 2025-syshin
   title: "Socratic planner: Inquiry-based zero-shot planning for embodied instruction following"
@@ -999,9 +972,6 @@
   - type: paper
     text: Paper
     link: https://arxiv.org/abs/2306.02728
-  - type: source
-    text: Code
-    link: https://github.com/minjoong507/BM-DETR
 
 - id: 2025-sshin-relaxedhlp
   title: 'Relaxed HLP: A Metric for Flexible High-Level Plan Evaluation in Embodied Environments'
@@ -1033,9 +1003,6 @@
   - type: paper
     text: Paper
     link: https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/06843.pdf
-  - type: source
-    text: Code
-    link: https://github.com/qpwodlsqp/CSEConv
 - id: 2024-wschoi
   title: 'DUEL: Duplicate Elimination on Active Memory for Self-Supervised Class-Imbalanced Learning'
   authors:
@@ -1069,9 +1036,6 @@
   - type: paper
     text: Paper
     link: https://arxiv.org/abs/2406.00614
-  - type: source
-    text: Code
-    link: https://github.com/yun-kwak/efficient-mcts
 - id: 2024-iwhwang
   title: 'Fine-Grained Causal Dynamics Learning with Quantization for Improving Robustness in Reinforcement Learning'
   authors:
@@ -1088,9 +1052,6 @@
   - type: paper
     text: Paper
     link: https://arxiv.org/abs/2406.03234
-  - type: source
-    text: Code
-    link: https://github.com/iwhwang/Fine-Grained-Causal-RL
 - id: 2024-sjjeon
   title: 'HAPFI: History-Aware Planning based on Fused Information'
   authors:
@@ -1152,9 +1113,6 @@
   - type: paper
     text: Paper
     link: https://arxiv.org/abs/2310.12547
-  - type: source
-    text: Code
-    link: https://github.com/JHKim-snu/PGA
 - id: 2024-gckang
   title: 'PROGrasp: Pragmatic Human-Robot Communication for Object Grasping'
   authors:
@@ -1170,9 +1128,6 @@
   - type: paper
     text: Paper
     link: https://arxiv.org/abs/2309.07759
-  - type: source
-    text: Code
-    link: https://github.com/gicheonkang/prograsp
 - id: 2024-hjyoon-b
   title: 'Seg2Grasp: A Robust Modular Suction Grasping in Bin Picking'
   authors:
@@ -1340,9 +1295,6 @@
   - type: paper
     text: Paper
     link: https://arxiv.org/abs/2306.05262
-  - type: source
-    text: Code
-    link: https://github.com/hskAlena/EXOT
 
 - id: 2023-jhkim-gvcci
   title: 'GVCCI: Lifelong Learning of Visual Grounding for Language-Guided Robotic Manipulation'
@@ -1360,9 +1312,6 @@
   - type: paper
     text: Paper
     link: https://arxiv.org/abs/2307.05963
-  - type: source
-    text: Code
-    link: https://github.com/JHKim-snu/GVCCI
 
 - id: 2023-hlee-lbs
   title: 'Learning Geometry-Aware Representations by Sketching'
@@ -1381,9 +1330,6 @@
   - type: paper
     text: Paper
     link: https://arxiv.org/abs/2304.08204
-  - type: source
-    text: Code
-    link: https://github.com/illhyhl1111/LearningBySketching
 
 - id: 2023-glee-nct
   title: 'Neural Collage Transfer: Artistic Reconstruction via Material Manipulation'
@@ -1401,9 +1347,6 @@
   - type: paper
     text: Paper
     link: https://openaccess.thecvf.com/content/ICCV2023/papers/Lee_Neural_Collage_Transfer_Artistic_Reconstruction_via_Material_Manipulation_ICCV_2023_paper.pdf
-  - type: source
-    text: Code
-    link: https://github.com/northadventure/CollageRL
 
 - id: 2023-ihwang-locindep
   title: 'On Discovery of Local Independence over Continuous Variables via Neural Contextual Decomposition'
@@ -1421,9 +1364,6 @@
   - type: paper
     text: Paper
     link: https://arxiv.org/abs/2405.07220
-  - type: source
-    text: Code
-    link: https://github.com/iwhwang/NCD
 
 - id: 2023-jkim-rmf
   title: 'Robust Map Fusion with Visual Attention Utilizing Multi-Agent Rendezvous'
@@ -1439,9 +1379,6 @@
   - type: paper
     text: Paper
     link: https://doi.org/10.1109/ICRA48891.2023.10161072
-  - type: source
-    text: Code
-    link: https://github.com/qpwodlsqp/Map-Merger
 
 - id: 2023-gckang-dialog
   title: 'The Dialog Must Go On: Improving Visual Dialog via Generative Self-Training'
@@ -1459,9 +1396,6 @@
   - type: paper
     text: Paper
     link: https://arxiv.org/abs/2205.12502
-  - type: source
-    text: Code
-    link: https://github.com/gicheonkang/gst-visdial
 
 - id: 2023-ihwang-cdl
   title: 'Causal Dynamics Learning with Quantized Local Independence Discovery'
