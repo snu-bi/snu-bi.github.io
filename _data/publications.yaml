@@ -131,10 +131,7 @@
   year: 2026
   link: https://jhkim-snu.github.io/
   image:
-  buttons:
-  - type: website
-    text: Source
-    link: https://jhkim-snu.github.io/
+  buttons: []
 
 - id: 2026-jlee-refineground
   title: 'RefineGround: From Noisy Similarity to Discriminative Grounding for Zero-shot Video Moment Retrieval'
