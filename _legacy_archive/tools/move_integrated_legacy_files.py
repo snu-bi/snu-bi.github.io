@@ -18,12 +18,19 @@ REPORT = ROOT / "_legacy_archive" / "reports" / "moved_integrated_legacy_files.j
 CONTENT_GLOBS = [
     "*.md",
     "_members/*.md",
+    "_projects/*.md",
     "research/*.md",
+    "research/**/*.md",
     "projects/*.md",
+    "projects/**/*.md",
     "courses/*.md",
+    "courses/**/*.md",
     "team/*.md",
+    "team/**/*.md",
     "contact/*.md",
+    "contact/**/*.md",
     "internship/*.md",
+    "internship/**/*.md",
 ]
 
 
@@ -141,6 +148,20 @@ def update_catalog(moved: list[dict[str, str]]) -> int:
     return updated
 
 
+def catalog_moved_entries() -> list[dict[str, str]]:
+    catalog = ROOT / "legacy" / "catalog.json"
+    if not catalog.exists():
+        return []
+    data = json.loads(catalog.read_text(encoding="utf-8"))
+    entries = []
+    for item in data.get("items", []):
+        local = item.get("local")
+        moved_from = item.get("moved_from")
+        if local and moved_from:
+            entries.append({"old": moved_from, "new": local})
+    return sorted(entries, key=lambda item: (item["old"], item["new"]))
+
+
 def prune_empty_dirs(root: Path) -> int:
     removed = 0
     if not root.exists():
@@ -160,6 +181,7 @@ def main() -> int:
     moved = move_files(refs)
     changed_files = update_text_references(files, moved)
     catalog_updates = update_catalog(moved)
+    catalog_moved = catalog_moved_entries()
     pruned_dirs = prune_empty_dirs(ROOT / "legacy" / "raw")
 
     REPORT.parent.mkdir(parents=True, exist_ok=True)
@@ -169,8 +191,11 @@ def main() -> int:
                 "moved_files": len(moved),
                 "updated_content_files": changed_files,
                 "updated_catalog_entries": catalog_updates,
+                "catalog_moved_entries": len(catalog_moved),
+                "catalog_moved_unique_files": len({item["new"] for item in catalog_moved}),
                 "pruned_empty_dirs": pruned_dirs,
                 "files": moved,
+                "catalog_files": catalog_moved,
             },
             ensure_ascii=False,
             indent=2,
@@ -181,6 +206,7 @@ def main() -> int:
     print(f"Moved files: {len(moved)}")
     print(f"Updated content files: {changed_files}")
     print(f"Updated catalog entries: {catalog_updates}")
+    print(f"Catalog moved entries: {len(catalog_moved)}")
     print(f"Pruned empty legacy/raw dirs: {pruned_dirs}")
     print(f"Wrote {REPORT}")
     return 0

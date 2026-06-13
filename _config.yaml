@@ -84,3 +84,5 @@ exclude:
   - README.md
   - LICENSE.md
   - CITATION.cff
+  - _legacy_archive/
+  - legacy/
