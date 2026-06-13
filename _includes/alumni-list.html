@@ -26,19 +26,7 @@ show/hide via member-filter.js.
             <ul class="alumni-names">
               {% for member in phd_members %}
                 <li class="alumni-item">
-                  {% if member.links.home-page and member.links.home-page != "" %}
-                    <a href="{{ member.links.home-page }}" target="_blank" class="alumni-name-link">{{ member.name }}</a>
-                  {% elsif member.links.linkedin and member.links.linkedin != "" %}
-                    {% if member.links.linkedin contains "://" %}
-                      <a href="{{ member.links.linkedin }}" target="_blank" class="alumni-name-link">{{ member.name }}</a>
-                    {% else %}
-                      <a href="https://www.linkedin.com/in/{{ member.links.linkedin }}" target="_blank" class="alumni-name-link">{{ member.name }}</a>
-                    {% endif %}
-                  {% elsif member.links.github and member.links.github != "" %}
-                    <a href="https://github.com/{{ member.links.github }}" target="_blank" class="alumni-name-link">{{ member.name }}</a>
-                  {% else %}
-                    <span class="alumni-name">{{ member.name }}</span>
-                  {% endif %}
+                  <a href="{{ member.url | relative_url }}" class="alumni-name-link">{{ member.name }}</a>
                   {% if member.description and member.description != "" %}
                     <span class="alumni-description"> — {{ member.description }}</span>
                   {% endif %}
@@ -54,19 +42,7 @@ show/hide via member-filter.js.
             <ul class="alumni-names">
               {% for member in master_members %}
                 <li class="alumni-item">
-                  {% if member.links.home-page and member.links.home-page != "" %}
-                    <a href="{{ member.links.home-page }}" target="_blank" class="alumni-name-link">{{ member.name }}</a>
-                  {% elsif member.links.linkedin and member.links.linkedin != "" %}
-                    {% if member.links.linkedin contains "://" %}
-                      <a href="{{ member.links.linkedin }}" target="_blank" class="alumni-name-link">{{ member.name }}</a>
-                    {% else %}
-                      <a href="https://www.linkedin.com/in/{{ member.links.linkedin }}" target="_blank" class="alumni-name-link">{{ member.name }}</a>
-                    {% endif %}
-                  {% elsif member.links.github and member.links.github != "" %}
-                    <a href="https://github.com/{{ member.links.github }}" target="_blank" class="alumni-name-link">{{ member.name }}</a>
-                  {% else %}
-                    <span class="alumni-name">{{ member.name }}</span>
-                  {% endif %}
+                  <a href="{{ member.url | relative_url }}" class="alumni-name-link">{{ member.name }}</a>
                   {% if member.description and member.description != "" %}
                     <span class="alumni-description"> — {{ member.description }}</span>
                   {% endif %}
@@ -82,19 +58,7 @@ show/hide via member-filter.js.
             <ul class="alumni-names">
               {% for member in intern_members %}
                 <li class="alumni-item">
-                  {% if member.links.home-page and member.links.home-page != "" %}
-                    <a href="{{ member.links.home-page }}" target="_blank" class="alumni-name-link">{{ member.name }}</a>
-                  {% elsif member.links.linkedin and member.links.linkedin != "" %}
-                    {% if member.links.linkedin contains "://" %}
-                      <a href="{{ member.links.linkedin }}" target="_blank" class="alumni-name-link">{{ member.name }}</a>
-                    {% else %}
-                      <a href="https://www.linkedin.com/in/{{ member.links.linkedin }}" target="_blank" class="alumni-name-link">{{ member.name }}</a>
-                    {% endif %}
-                  {% elsif member.links.github and member.links.github != "" %}
-                    <a href="https://github.com/{{ member.links.github }}" target="_blank" class="alumni-name-link">{{ member.name }}</a>
-                  {% else %}
-                    <span class="alumni-name">{{ member.name }}</span>
-                  {% endif %}
+                  <a href="{{ member.url | relative_url }}" class="alumni-name-link">{{ member.name }}</a>
                   {% if member.description and member.description != "" %}
                     <span class="alumni-description"> — {{ member.description }}</span>
                   {% endif %}
@@ -138,7 +102,10 @@ show/hide via member-filter.js.
           <span class="alumni-degree-label">PhD</span>
           <ul class="alumni-names">
             {% for member in phd_no_year %}
-              <li class="alumni-item"><span class="alumni-name">{{ member.name }}</span>{% if member.description and member.description != "" %}<span class="alumni-description"> — {{ member.description }}</span>{% endif %}</li>
+              <li class="alumni-item">
+                <a href="{{ member.url | relative_url }}" class="alumni-name-link">{{ member.name }}</a>
+                {% if member.description and member.description != "" %}<span class="alumni-description"> — {{ member.description }}</span>{% endif %}
+              </li>
             {% endfor %}
           </ul>
         </div>
@@ -148,7 +115,10 @@ show/hide via member-filter.js.
           <span class="alumni-degree-label">Master</span>
           <ul class="alumni-names">
             {% for member in master_no_year %}
-              <li class="alumni-item"><span class="alumni-name">{{ member.name }}</span>{% if member.description and member.description != "" %}<span class="alumni-description"> — {{ member.description }}</span>{% endif %}</li>
+              <li class="alumni-item">
+                <a href="{{ member.url | relative_url }}" class="alumni-name-link">{{ member.name }}</a>
+                {% if member.description and member.description != "" %}<span class="alumni-description"> — {{ member.description }}</span>{% endif %}
+              </li>
             {% endfor %}
           </ul>
         </div>
@@ -158,7 +128,10 @@ show/hide via member-filter.js.
           <span class="alumni-degree-label">Intern</span>
           <ul class="alumni-names">
             {% for member in intern_no_year %}
-              <li class="alumni-item"><span class="alumni-name">{{ member.name }}</span>{% if member.description and member.description != "" %}<span class="alumni-description"> — {{ member.description }}</span>{% endif %}</li>
+              <li class="alumni-item">
+                <a href="{{ member.url | relative_url }}" class="alumni-name-link">{{ member.name }}</a>
+                {% if member.description and member.description != "" %}<span class="alumni-description"> — {{ member.description }}</span>{% endif %}
+              </li>
             {% endfor %}
           </ul>
         </div>
