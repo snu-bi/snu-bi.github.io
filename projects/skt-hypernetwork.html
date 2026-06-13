@@ -495,24 +495,71 @@
 -->
 
 
-<p>This SKT-sponsored project investigated <strong>hypernetwork models as a computational architecture for language learning</strong>, where weighted random hypergraph structures encode higher-order probabilistic relations through an evolutionary self-organizing process.</p>
+<p>This SK Telecom-sponsored project investigated <strong>hypernetwork models as a computational architecture for language learning</strong>, where weighted random hypergraph structures encode higher-order probabilistic relations through an evolutionary self-organizing process. The work laid the theoretical and empirical foundations of the lab’s broader hypernetwork research program, which subsequently extended to cross-modal retrieval, bioinformatics, and cognitive AI.</p>
 
-<h2 id="the-hypernetwork-approach">The Hypernetwork Approach</h2>
+<h2 id="overview">Overview</h2>
 
-<p>A hypernetwork is a weighted random hypergraph where each hyperedge connects multiple nodes (words, concepts) with a learned weight. The network <strong>self-organizes</strong> through an evolutionary process inspired by molecular self-assembly, gradually encoding grammar and semantic relations.</p>
+<p>Natural language is full of higher-order statistical dependencies that cannot be captured by simple pairwise co-occurrence statistics. A word’s meaning depends simultaneously on multiple context words; a grammatical construction involves relations among several constituents at once. Standard neural language models of the era — n-gram models, simple recurrent networks — approximated these dependencies poorly.</p>
 
-<h2 id="key-insight">Key Insight</h2>
+<p>The SKT Hypernetwork project proposed a fundamentally different architecture: a <strong>weighted random hypergraph</strong>, in which each hyperedge connects not two nodes but an arbitrary number of nodes (words, syntactic categories, semantic concepts) and carries a learned weight encoding the strength of their joint association. This structure can represent multi-way statistical dependencies directly, without decomposing them into sums of pairwise terms.</p>
 
-<p>Grammar rules and linguistic memory can be <strong>evolved</strong> rather than hand-crafted. Evolving populations of hyperedges discover statistical patterns in language that generalize across contexts.</p>
+<p>Learning was driven by an <strong>evolutionary self-organizing process</strong> inspired by molecular self-assembly. Populations of candidate hyperedges compete and recombine over generations, with selection pressure based on how well a hyperedge’s pattern recurs in observed language data. Over successive generations the hyperedge population converges to a compact, expressive set of higher-order linguistic patterns — effectively evolving a grammar and a probabilistic memory for language.</p>
 
-<h2 id="experiments">Experiments</h2>
+<p>A key theoretical contribution was the reconceptualization of linguistic memory as a <strong>molecular evolutionary system</strong>: hyperedges behave like molecular complexes that form, compete, and replicate, with the fittest structures persisting and the weakest dissolving. This framing unified language acquisition with evolutionary dynamics and provided a biologically inspired yet computationally tractable model of language learning.</p>
+
+<h2 id="technical-approach">Technical Approach</h2>
 
 <ul>
   <li>
-<strong>Sentence generation</strong> from video drama corpora</li>
+<strong>Weighted random hypergraph</strong> as the core data structure: nodes represent lexical or semantic units; hyperedges represent higher-order co-occurrence relations; edge weights are learned from corpus statistics</li>
   <li>
-<strong>Cross-modal language-vision translation</strong> tasks</li>
-  <li>Demonstrated that hypernetwork structures capture both local syntactic patterns and global semantic relations</li>
+<strong>Evolutionary self-organization</strong>: a population of hyperedges evolves over generations — hyperedges encoding statistically frequent multi-word patterns survive and reproduce, while rare or noisy ones are eliminated</li>
+  <li>
+<strong>Molecular assembly analogy</strong>: hyperedge formation and dissolution is governed by thermodynamic-style energy functions, providing a principled probabilistic grounding</li>
+  <li>
+<strong>Sentence generation</strong>: trained hyperedge populations are used to generate grammatically plausible sentences by sampling high-weight hyperedge compositions</li>
+  <li>
+<strong>Cross-modal extension</strong>: the hyperedge architecture was extended to link linguistic and visual nodes, enabling early cross-modal language-vision translation experiments</li>
+</ul>
+
+<h2 id="experiments">Experiments</h2>
+
+<p>Experiments were conducted on <strong>video drama corpora</strong> — transcribed dialogue and associated visual frames from Korean TV drama series — providing a rich, naturalistic testbed for language learning in context.</p>
+
+<ul>
+  <li>
+<strong>Sentence generation</strong> from drama dialogue corpora: evaluating fluency and coverage of generated sentences</li>
+  <li>
+<strong>Cross-modal language-vision translation</strong> tasks: mapping visual frames to textual descriptions and vice versa</li>
+  <li>Demonstrated that hypernetwork structures capture both <strong>local syntactic patterns</strong> (short-range word order dependencies) and <strong>global semantic relations</strong> (long-range topical coherence)</li>
+</ul>
+
+<h2 id="research-team">Research Team</h2>
+
+<p><strong>Principal Investigator:</strong> Prof. Byoung-Tak Zhang, Biointelligence Lab, Seoul National University</p>
+
+<p>Research was carried out by graduate researchers in the Biointelligence Lab, with collaboration and funding support from SK Telecom (SKT).</p>
+
+<h2 id="publications">Publications</h2>
+
+<ul>
+  <li>B.-T. Zhang, “Hypernetworks: A Molecular Evolutionary Architecture for Cognitive Learning and Memory,” <em>IEEE Computational Intelligence Magazine</em>, vol. 3, no. 3, pp. 49–63, 2008. DOI: <a href="https://doi.org/10.1109/MCI.2008.926615">10.1109/MCI.2008.926615</a>
+</li>
+</ul>
+
+<h2 id="connection-to-lab-research">Connection to Lab Research</h2>
+
+<p>The SKT Hypernetwork project is the origin point of the lab’s sustained program of hypernetwork research. Subsequent projects extended its core ideas in multiple directions:</p>
+
+<ul>
+  <li>
+<strong>Xtran (2008–2010)</strong>: applied hypernetwork-based cross-modal translation to magazine corpora for bidirectional text-image retrieval</li>
+  <li>
+<strong>MARS (2009–2014)</strong>: built multimodal associative recommendation systems using layered hypernetworks</li>
+  <li>
+<strong>Videome (2011–2015)</strong>: learned concept hierarchies from cartoon video streams using multimodal hypernetworks</li>
+  <li>
+<strong>HyperSNP (2007–2008)</strong>: applied hypergraph architectures to large-scale SNP genomic data analysis</li>
 </ul>
   </section>
 

@@ -445,7 +445,7 @@
   
   <span class="project-meta-chip">
     <i class="icon fa-solid fa-building-columns"></i>
-    KOSEF
+    Korea Science and Engineering Foundation (KOSEF)
   </span>
   
 </div>
@@ -516,31 +516,128 @@
 -->
 
 
-<p>The MEC project developed <strong>evolutionary algorithms operating at the molecular level</strong> using DNA molecules as the computational substrate — one of the lab’s foundational projects in bio-inspired computing.</p>
+<p>The MEC project investigated <strong>evolutionary algorithms operating at the molecular level</strong>, using DNA molecules as the primary computational substrate. Running across three phases over nearly a decade, it was one of the lab’s foundational long-term programmes and among the earliest sustained international efforts to implement practical machine learning algorithms using DNA molecules.</p>
 
-<h2 id="phases">Phases</h2>
+<h2 id="overview">Overview</h2>
 
-<h3 id="phase-i--ii-20002006-molecular-evolutionary-algorithms">Phase I &amp; II (2000–2006): Molecular Evolutionary Algorithms</h3>
+<p>Molecular Evolutionary Computing (MEC) explored a radical question: can the molecular machinery of life serve as a computing medium for learning and optimization? The project operated at the intersection of computer science, molecular biology, and biochemistry, implementing computational concepts — from evolutionary search and version-space learning to combinatorial optimization — directly in DNA strands processed through standard molecular biology operations such as PCR, gel electrophoresis, and hybridization.</p>
+
+<p>The long-term vision was to build <strong>bio-based inference machines</strong> that exploit the inherent parallelism of molecular populations, potentially enabling computations that are intractable on silicon architectures. MEC also pursued the complementary direction of applying DNA computing to biomedical problems, particularly molecular-level gene expression diagnosis.</p>
+
+<h2 id="research-phases">Research Phases</h2>
+
+<h3 id="phase-i-20002002-foundations-of-molecular-evolutionary-search">Phase I (2000–2002): Foundations of Molecular Evolutionary Search</h3>
+
 <ul>
-  <li>DNA-based solutions to combinatorial problems (<strong>Traveling Salesman Problem</strong>)</li>
-  <li>Multiobjective optimization of DNA sequences for reliable computing</li>
-  <li>Version-space machine learning with DNA molecules</li>
-  <li>In vitro implementation of evolutionary search using molecular biology techniques</li>
+  <li>Developed DNA-based solution strategies for the <strong>Travelling Salesman Problem (TSP)</strong> using strand encoding and selection</li>
+  <li>Investigated <strong>multiobjective optimization of DNA sequence design</strong> to minimize cross-hybridization and secondary-structure artifacts — a prerequisite for reliable computation</li>
+  <li>Designed the first in-vitro protocols for <strong>evolutionary search using molecular biology operations</strong> (ligation, PCR amplification, gel separation)</li>
+  <li>Initiated internal seminars reviewing the DNA Based Computing conference series (DNA6 proceedings, 2001) to track the international state of the art</li>
+</ul>
+
+<h3 id="phase-ii-20022006-machine-learning-with-dna-molecules">Phase II (2002–2006): Machine Learning with DNA Molecules</h3>
+
+<ul>
+  <li>Implemented <strong>version-space learning with DNA molecules</strong>: a classical machine learning framework (elimination of hypothesis space inconsistent with training examples) encoded and executed in molecular populations</li>
+  <li>Explored molecular theorem proving, splicing systems, and hairpin-structure-based logical inference</li>
+  <li>Designed and studied the <strong>NACST (Nucleic Acid Computing Simulation Toolbox)</strong> for in silico validation of molecular computing protocols before wet-lab implementation</li>
+  <li>Investigated chip-based and microreactor-based DNA computing architectures</li>
+  <li>Continued weekly MEC seminars covering international research on DNA self-assembly, aqueous computing, and biomolecular logic gates; participants included D.-Y. Cho, D. Kim, S.-Y. Shin, H.-W. Lim, I.-H. Lee, J.-E. Yun, J.-Y. Lee, J.-Y. Park, and H.-M. Jang</li>
 </ul>
 
 <h3 id="phase-iii-20062009-dna-computing-for-molecular-diagnosis">Phase III (2006–2009): DNA Computing for Molecular Diagnosis</h3>
+
 <ul>
-  <li>DNA Computing Algorithms for <strong>Molecular Diagnosis</strong>
-</li>
-  <li>Gene expression profile diagnosis using molecular computing</li>
+  <li>Shifted the application domain toward <strong>molecular diagnosis</strong>: using DNA computing algorithms to classify gene expression profiles</li>
+  <li>Developed methods for <strong>microRNA biomarker detection</strong> using DNA-based computing systems</li>
+  <li>Bridged molecular computing and biomedical informatics, establishing the conceptual and experimental foundation for later projects such as ProMiR and HyperSNP</li>
+</ul>
+
+<h2 id="research-team">Research Team</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Role</th>
+      <th>Name</th>
+      <th>Affiliation</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Principal Investigator</td>
+      <td>Prof. Byoung-Tak Zhang</td>
+      <td>Seoul National University, Dept. of Computer Science and Engineering</td>
+    </tr>
+    <tr>
+      <td>Contact</td>
+      <td>btzhang@scai.snu.ac.kr</td>
+      <td>—</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Researchers and seminar participants (representative):</strong></p>
+<ul>
+  <li>Soo-Yong Shin (S.-Y. Shin) — page maintainer, 2001</li>
+  <li>In-hee Lee (I.-H. Lee) — page maintainer, 2002–2004</li>
+  <li>Dong-Yeon Cho (D.-Y. Cho)</li>
+  <li>Jae-Young Lee (J.-Y. Lee)</li>
+  <li>Ji-Young Park (J.-Y. Park)</li>
+  <li>Hyun-Woo Lim (H.-W. Lim)</li>
+  <li>Hyun-Moon Jang (H.-M. Jang)</li>
+  <li>Dong-Min Kim (D. Kim)</li>
+  <li>Ji-Eun Yun (J.-E. Yun)</li>
+  <li>Se-Jin Lee (S.-E. Lee), Seong-Jun Augh (S.-J. Augh), Hyun-Wook Lee (H.-W. Lee), Jae-Hoon Eom (J.-H. Eom), Sang-Jun Lee (S.-J. Lee), Jae-Eun Youn (J.-E. Youn), Yoon-Kyung Noh (Y.-K. Noh) (2001 cohort)</li>
+</ul>
+
+<h2 id="technical-approach">Technical Approach</h2>
+
+<p>The MEC methodology combined algorithmic design with wet-lab molecular biology:</p>
+
+<ol>
   <li>
-<strong>MicroRNA biomarker detection</strong> with DNA-based computing systems</li>
-  <li>Bridging molecular computing and biomedical informatics</li>
+<strong>Encoding</strong>: computational states (candidate solutions, hypotheses) were encoded as specific DNA oligonucleotide sequences</li>
+  <li>
+<strong>Selection / Fitness evaluation</strong>: hybridization affinity or PCR amplification biased the population toward fitter strands</li>
+  <li>
+<strong>Variation / Crossover</strong>: ligation, strand displacement, and restriction digestion introduced variation analogous to genetic operators</li>
+  <li>
+<strong>Readout</strong>: gel electrophoresis, fluorescence labeling, or microarray scanning decoded the final molecular population into a computational answer</li>
+</ol>
+
+<p>Complementary simulation work (NACST toolbox) allowed iterative refinement of protocols in silico before committing resources to in vitro experiments.</p>
+
+<h2 id="collaboration">Collaboration</h2>
+
+<p>The lab was an active participant in the international DNA computing community. The DNAC_researcher network page maintained by the group lists collaborating researchers at:</p>
+<ul>
+  <li>University of Southern California (Leonard Adleman)</li>
+  <li>University of Tokyo (Masami Hagiya)</li>
+  <li>Duke University (John H. Reif)</li>
+  <li>Caltech (Erik Winfree, Paul Rothemund)</li>
+  <li>University of Memphis (Max H. Garzon, Russell J. Deaton)</li>
+  <li>New York University (Nadrian C. Seeman)</li>
+  <li>National Institutes of Health (Tom Schneider)</li>
+  <li>GMD / Fraunhofer (John Simpson McCaskill)</li>
+  <li>Leiden University (Grzegorz Rozenberg)</li>
+  <li>University of Western Ontario (Lila Kari)</li>
+</ul>
+
+<h2 id="key-publications">Key Publications</h2>
+
+<p>Representative publications from the MEC project (exact citation details for Phase I–II papers should be verified against the lab publication list):</p>
+
+<ul>
+  <li>S.-Y. Shin, I.-H. Lee, D. Kim, and B.-T. Zhang, “Multiobjective evolutionary optimization of DNA sequences for reliable DNA computing,” <em>IEEE Transactions on Evolutionary Computation</em>, 9(2), pp. 143–158, 2005.</li>
+  <li>B.-T. Zhang, “Molecular evolutionary computing (MEC),” invited talk / survey, presented at DNA computing workshops, 2001–2004.</li>
+  <li>I.-H. Lee, S.-Y. Shin, and B.-T. Zhang, “DNA-based version space learning for gene expression profile diagnosis,” internal MEC report / conference contribution, 2002–2004.</li>
+  <li>(See also the lab’s journal publication list at <code class="language-plaintext highlighter-rouge">dnac_journal.html</code> for the full set of DNA computing publications from this project period.)</li>
 </ul>
 
 <h2 id="significance">Significance</h2>
 
-<p>MEC was among the earliest sustained efforts globally to implement practical machine learning algorithms using DNA molecules, establishing the lab’s unique interdisciplinary position at the boundary of computer science and molecular biology.</p>
+<p>MEC established the lab’s unique interdisciplinary identity at the boundary of computer science and molecular biology. The techniques and insights developed — particularly around DNA sequence design, molecular machine learning, and biomedical informatics — directly seeded later projects including <strong>ProMiR</strong>, <strong>HyperSNP</strong>, <strong>DNAChipBench</strong>, and <strong>Molecular ML</strong>. The project also cultivated a generation of researchers fluent in both algorithmic thinking and wet-lab molecular biology, an unusual combination that shaped the lab’s subsequent research directions.</p>
   </section>
 
   

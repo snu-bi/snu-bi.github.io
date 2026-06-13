@@ -439,13 +439,13 @@
   
   <span class="project-meta-chip">
     <i class="icon fa-solid fa-calendar"></i>
-    2015~
+    2015~2020
   </span>
   
   
   <span class="project-meta-chip">
     <i class="icon fa-solid fa-building-columns"></i>
-    IITP (SW StarLab, Ministry of Science and ICT, Korea)
+    IITP (SW Star Lab, Ministry of Science, ICT and Future Planning, Korea)
   </span>
   
 </div>
@@ -484,6 +484,10 @@
         human-activity-recognition
       </a>
     
+      <a href="?search=%22tag:%20complementary-learning-systems%22" class="tag" data-tooltip='Show items with the tag "complementary-learning-systems"'>
+        complementary-learning-systems
+      </a>
+    
   </div>
 
 
@@ -520,48 +524,106 @@
 -->
 
 
-<p>The StarLab project, part of Korea’s <strong>SW StarLab program</strong>, developed cognitive agents that continuously learn from human daily activities captured through multimodal wearable sensors.</p>
+<p>The <strong>SW StarLab</strong> project developed cognitive software agents capable of continuously learning from human daily activities captured through multimodal wearable sensors. Under Korea’s SW Star Lab program, the SNU Biointelligence Lab built a full pipeline from real-world lifelogging data collection to behavioral prediction and memory-based anticipation of future activities.</p>
 
-<h2 id="sensors--data-collection">Sensors &amp; Data Collection</h2>
+<h2 id="overview">Overview</h2>
+
+<p>A central challenge in building human-aware intelligent systems is learning continuously from the unstructured flow of everyday life — a stream of sensory experiences, routines, and events that is too vast and variable for conventional batch learning. The StarLab project addressed this challenge by deploying wearable devices (Google Glass and smartwatch) on human participants over extended periods, collecting egocentric visual, motion, and physiological signals in the wild.</p>
+
+<p>From this real-world lifelog data, the team designed three interconnected cognitive architectures:</p>
 
 <ul>
-  <li>Smart glasses (Google Glass): first-person visual context</li>
-  <li>Smartwatches: motion and physiological signals</li>
-  <li>Real-world lifelogging over 46 days</li>
+  <li>
+<strong>LifeMap</strong>: a visualization and indexing system that converts raw sensor streams into structured behavioral maps, enabling navigation and retrieval of past experiences.</li>
+  <li>
+<strong>CogMap</strong>: an episodic memory architecture built on deep recurrent neural networks that stores sequential event representations as “stories” of daily activity.</li>
+  <li>
+<strong>ActMap</strong>: a predictive model, based on POMDP (Partially Observable Markov Decision Process) frameworks, that anticipates future user activities given current perceptual context and stored memory.</li>
 </ul>
 
-<h2 id="core-systems">Core Systems</h2>
+<p>The project was inspired by neurocognitive <strong>Complementary Learning Systems (CLS)</strong> theory, which posits that biological memory relies on two interacting systems: a fast hippocampal episodic store and a slower neocortical semantic store. The dual-memory deep learning architectures developed in StarLab directly embody this principle, allowing the agent to retain long-term behavioral regularities while adapting rapidly to new episodic observations without catastrophic forgetting.</p>
+
+<p>A 46-day real-world lifelogging experiment was conducted to validate the systems. Participants wore Google Glass and Microsoft Band smartwatches continuously, generating first-person video and motion/physiological sensor streams. On this dataset the system achieved approximately <strong>82% accuracy</strong> in predicting future user behaviors from wearable sensor patterns.</p>
+
+<h2 id="research-team">Research Team</h2>
+
+<p><strong>Principal Investigator</strong></p>
+<ul>
+  <li>Prof. Byoung-Tak Zhang (Seoul National University)</li>
+</ul>
+
+<p><strong>Researchers</strong></p>
+<ul>
+  <li>Sang-Woo Lee</li>
+  <li>Chung-Yeon Lee</li>
+  <li>Dong-Hyun Kwak</li>
+  <li>Jeong-Woo Ha</li>
+  <li>Jiwon Kim</li>
+  <li>Jeonghee Kim</li>
+  <li>Eun-Sol Kim</li>
+  <li>Kyoung-Woon On</li>
+</ul>
+
+<p><strong>Host Institution:</strong> Seoul National University Industry-University Cooperation Foundation</p>
+
+<h2 id="technical-approach">Technical Approach</h2>
+
+<h3 id="data-collection--sensors">Data Collection &amp; Sensors</h3>
 
 <table>
   <thead>
     <tr>
-      <th>System</th>
-      <th>Description</th>
+      <th>Device</th>
+      <th>Modality</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td><strong>LifeMap</strong></td>
-      <td>Visualization of sensor-derived behavioral maps</td>
+      <td>Google Glass</td>
+      <td>First-person (egocentric) video and images</td>
     </tr>
     <tr>
-      <td><strong>CogMap</strong></td>
-      <td>Episodic memory architecture for daily activities</td>
-    </tr>
-    <tr>
-      <td><strong>ActMap</strong></td>
-      <td>Prediction of future user activities</td>
+      <td>Microsoft Band (smartwatch)</td>
+      <td>Accelerometer, gyroscope, heart rate, EDA</td>
     </tr>
   </tbody>
 </table>
 
-<h2 id="results">Results</h2>
+<p>Two software applications were developed and registered for the data collection pipeline:</p>
+<ul>
+  <li>Android LifeLogging sensor data collector (Software Registration C-2016-001315)</li>
+  <li>Google Glass lifelogging application (Software Registration C-2016-001434)</li>
+</ul>
+
+<h3 id="learning-architecture">Learning Architecture</h3>
+
+<p>The dual-memory deep learning framework separates fast episodic learning from slow semantic consolidation:</p>
 
 <ul>
-  <li>~<strong>82% accuracy</strong> in predicting user behavior from real-world lifelogged data</li>
-  <li>Dual-memory deep learning architecture inspired by neurocognitive Complementary Learning Systems (CLS) theory</li>
-  <li>Publications at <strong>IJCAI 2016</strong> and <strong>Neural Networks (2017)</strong>
-</li>
+  <li>
+<strong>Fast memory (episodic)</strong>: an online-learning module that tracks rapidly changing local behaviors using incremental updates and weight transfer</li>
+  <li>
+<strong>Slow memory (semantic)</strong>: a deep network that accumulates stable global patterns over extended time horizons</li>
+</ul>
+
+<p>The CogMap component uses deep recurrent networks (LSTMs) to encode activity sequences as narrative “stories,” while ActMap feeds these memory representations into POMDP-based decision frameworks for activity prediction. Emotion recognition was also explored by combining voice signals and electrodermal activity (EDA) data.</p>
+
+<h3 id="key-results">Key Results</h3>
+
+<ul>
+  <li>~82% accuracy in predicting user behavior on a 46-day real-world lifelog</li>
+  <li>Demonstrated lifelong learning without catastrophic forgetting on CIFAR-10 and the lab’s own Lifelog dataset</li>
+  <li>Systems for emotion recognition combining voice and EDA signals</li>
+  <li>Deep recurrent neural networks for story learning from first-person video</li>
+</ul>
+
+<h2 id="publications">Publications</h2>
+
+<ul>
+  <li>Sang-Woo Lee, Chung-Yeon Lee, Dong-Hyun Kwak, Jiwon Kim, Jeonghee Kim, Byoung-Tak Zhang. <strong>“Dual-Memory Deep Learning Architectures for Lifelong Learning of Everyday Human Behaviors.”</strong> <em>IJCAI 2016</em>, pp. 1669–1675.</li>
+  <li>Sang-Woo Lee, Chung-Yeon Lee, Dong-Hyun Kwak, Jeong-Woo Ha, Jiwon Kim, Byoung-Tak Zhang. <strong>“Dual-Memory Neural Networks for Modeling Cognitive Activities of Humans via Wearable Sensors.”</strong> <em>Neural Networks</em>, Elsevier, 2017.</li>
+  <li>Eun-Sol Kim, Kyoung-Woon On, Byoung-Tak Zhang. <strong>“DeepSchema: Automatic Schema Acquisition from Wearable Sensor Data in Restaurant Situations.”</strong> <em>IJCAI 2016</em>, p. 834.</li>
+  <li>Sang-Woo Lee, Chung-Yeon Lee, Dong-Hyun Kwak, Byoung-Tak Zhang. <strong>“Glassbot: Personalized Wearable Agents Learning from Everyday Human Behaviors.”</strong> 2016.</li>
 </ul>
   </section>
 

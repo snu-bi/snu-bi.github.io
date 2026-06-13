@@ -439,9 +439,14 @@
   
   <span class="project-meta-chip">
     <i class="icon fa-solid fa-calendar"></i>
-    2007~2008
+    November 2007 - January 2008
   </span>
   
+  
+  <span class="project-meta-chip">
+    <i class="icon fa-solid fa-building-columns"></i>
+    Korea Centers for Disease Control and Prevention (KCDC)
+  </span>
   
 </div>
 
@@ -475,6 +480,14 @@
         large-scale-data
       </a>
     
+      <a href="?search=%22tag:%20gwas%22" class="tag" data-tooltip='Show items with the tag "gwas"'>
+        gwas
+      </a>
+    
+      <a href="?search=%22tag:%20feature-selection%22" class="tag" data-tooltip='Show items with the tag "feature-selection"'>
+        feature-selection
+      </a>
+    
   </div>
   </section>
 
@@ -490,24 +503,90 @@
 -->
 
 
-<p>HyperSNP applied <strong>hypergraph-based computational models</strong> to the analysis of large-scale Single Nucleotide Polymorphism (SNP) data — exploring how hypergraph representations can better capture genetic relationships.</p>
+<p>HyperSNP developed a <strong>hypergraph-based computational analysis system</strong> for identifying disease risk factors from large-scale Single Nucleotide Polymorphism (SNP) data and cohort datasets. The project applied hypergraph modeling to genome-wide association studies, enabling multi-locus interaction analysis that goes beyond conventional pairwise statistical approaches.</p>
 
-<h2 id="background">Background</h2>
+<h2 id="overview">Overview</h2>
 
-<p>SNPs are the most common type of genetic variation. Understanding how combinations of SNPs relate to traits and diseases requires modeling interactions among many variants simultaneously — far beyond what pairwise graphs can represent.</p>
+<p>SNPs (Single Nucleotide Polymorphisms) are the most common form of genetic variation in the human genome. Identifying which combinations of SNPs act as risk factors for complex diseases requires modeling higher-order interactions among many genetic variants simultaneously — a task that pairwise graph models cannot adequately represent.</p>
 
-<h2 id="technical-approach">Technical Approach</h2>
+<p>The HyperSNP project addressed this challenge by constructing a hypergraph-based analysis framework that models multi-SNP relationships as hyperedges (edges connecting more than two nodes). The system was applied to genome-wide SNP data as well as cohort study data to discover compound genetic markers associated with disease phenotypes.</p>
+
+<p>The project produced two main system components:</p>
+
+<ul>
+  <li>A <strong>research process pipeline</strong> for systematic hypergraph-based SNP analysis (illustrated in the project’s process diagram)</li>
+  <li>A <strong>visualization interface</strong> for exploring the hypergraph structure of discovered genetic associations</li>
+</ul>
+
+<h2 id="research-objectives">Research Objectives</h2>
+
+<ul>
+  <li>Develop an analysis system for discovering disease risk factors using hypergraph-based computational models</li>
+  <li>Implement feature selection and classification methods leveraging hypergraph representations of multi-locus genetic data</li>
+  <li>Provide interactive visualization of important genetic factors identified through hypergraph analysis</li>
+  <li>Apply the hypergraph analysis framework to genome-wide association studies (GWAS) and cohort data</li>
+</ul>
+
+<h2 id="methodology">Methodology</h2>
 
 <ul>
   <li>
-<strong>Hypergraph representations</strong>: edges connecting more than two SNP nodes simultaneously, capturing multi-locus interactions</li>
-  <li>Algorithms for discovering significant multi-SNP modules from large-scale genotyping data</li>
-  <li>Machine learning-based scoring of hyperedge significance</li>
+<strong>Hypergraph modeling of genomic data</strong>: Represent multi-locus SNP relationships as hyperedges, capturing complex epistatic interactions that pairwise graph models miss</li>
+  <li>
+<strong>Explorative analysis and visualization</strong>: Develop tools for visually navigating hypergraph structures to support biological interpretation</li>
+  <li>
+<strong>Cohort-based SNP analysis</strong>: Apply the framework to real cohort datasets to discover statistically significant multi-SNP associations</li>
+  <li>
+<strong>Comparative algorithm evaluation</strong>: Benchmark the hypergraph approach against existing genome-wide association analysis algorithms</li>
+  <li>
+<strong>Compound marker discovery</strong>: Use hypergraph modeling to identify compound genetic markers composed of multiple interacting SNPs</li>
 </ul>
 
-<h2 id="connection-to-lab-research">Connection to Lab Research</h2>
+<h2 id="expected-outcomes">Expected Outcomes</h2>
 
-<p>HyperSNP is part of the lab’s broader program of applying hypernetwork/hypergraph architectures — developed for language, vision, and cognitive tasks — to genomics and bioinformatics, demonstrating their universality across domains.</p>
+<ul>
+  <li>Improved early detection of disease biomarkers</li>
+  <li>Increased usability of analysis systems through integrated visualization</li>
+  <li>Standardized analytical framework applicable to diverse large-scale genomic datasets</li>
+  <li>Support for whole-genome analysis through efficient association algorithms</li>
+  <li>Expanded collaboration with external research groups and international institutions</li>
+  <li>Practical tools for large-volume bioinformatics data analysis</li>
+</ul>
+
+<h2 id="research-team">Research Team</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Role</th>
+      <th>Name</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Principal Investigator</strong></td>
+      <td>Prof. Byoung-Tak Zhang</td>
+    </tr>
+    <tr>
+      <td><strong>Researcher</strong></td>
+      <td>Je-Keun Rhee (Contact)</td>
+    </tr>
+    <tr>
+      <td><strong>Researcher</strong></td>
+      <td>Jung-Woo Ha</td>
+    </tr>
+    <tr>
+      <td><strong>Researcher</strong></td>
+      <td>Soo-Jin Kim</td>
+    </tr>
+    <tr>
+      <td><strong>Researcher</strong></td>
+      <td>Min-Su Lee</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Contact</strong>: Je-Keun Rhee — Phone: +82-2-880-5890 / Fax: +82-2-883-9120</p>
   </section>
 
   

@@ -439,13 +439,13 @@
   
   <span class="project-meta-chip">
     <i class="icon fa-solid fa-calendar"></i>
-    2012~2017
+    Dec 2012 – Nov 2017
   </span>
   
   
   <span class="project-meta-chip">
     <i class="icon fa-solid fa-building-columns"></i>
-    KEIT (Korea Evaluation Institute of Industrial Technology)
+    Korea Evaluation Institute of Industrial Technology (KEIT)
   </span>
   
 </div>
@@ -485,27 +485,6 @@
       </a>
     
   </div>
-
-
-
-
-
-<div class="center" style="margin: 1.5rem 0;">
-  
-
-
-
-  <div class="button-wrapper">
-    <a class="button" href="/%7B%7B%20'/legacy/raw/bi.snu.ac.kr/Research/CogHRI/CogHRI.html'%20%7C%20relative_url%20%7D%7D" data-style="" aria-label="fa-solid fa-arrow-up-right-from-square">
-      <i class="icon fa-solid fa-arrow-up-right-from-square"></i>
-      
-        <span>Project Website</span>
-      
-    </a>
-  </div>
-
-
-</div>
   </section>
 
   
@@ -522,48 +501,116 @@
 
 <p>CogHRI developed <strong>self-improving, bidirectional human-robot interaction</strong> technology capable of understanding users’ complex emotional states and transactional intent through continuous interactions — targeting a 95% successful response rate.</p>
 
-<h2 id="core-concept">Core Concept</h2>
+<h2 id="overview">Overview</h2>
+
+<p>The core objective of CogHRI was to develop autonomous, bidirectional HRI technology that progressively understands and learns a user’s combined cognitive and emotional states, as well as their transactional intent (current intent, future sequential intent, and intent transitions) through sustained robot-user interaction. The system aimed to respond appropriately in 95% or more of such interactions.</p>
 
 <p>Cognitive communication is framed as a <strong>moving target tracking problem</strong>: the user’s intent and emotional state are constantly shifting, and the robot must continuously update its model through a perception-action-learning cycle with dynamic Bayesian inference.</p>
 
-<h2 id="collaborative-structure">Collaborative Structure</h2>
+<p>The project addressed this challenge through five core HRI element technologies, collectively named <strong>MESSI</strong>:</p>
 
-<p>SNU Biointelligence Lab led the <strong>HRI.Intention</strong> sub-task (dialogue intent understanding), collaborating with:</p>
+<table>
+  <thead>
+    <tr>
+      <th>Sub-task</th>
+      <th>Domain</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>HRI.Map</strong></td>
+      <td>Robot spatial mapping and navigation</td>
+    </tr>
+    <tr>
+      <td><strong>HRI.Emotion</strong></td>
+      <td>User emotion recognition</td>
+    </tr>
+    <tr>
+      <td><strong>HRI.Service</strong></td>
+      <td>Service planning and execution</td>
+    </tr>
+    <tr>
+      <td><strong>HRI.System</strong></td>
+      <td>Full system integration</td>
+    </tr>
+    <tr>
+      <td><strong>HRI.Intention</strong></td>
+      <td>Dialogue (linguistic) intent understanding</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>SNU Biointelligence Lab led the <strong>HRI.Intention</strong> sub-task (Sub-task 3), focusing on dialogue understanding and generation based on a perception-action-learning cycle, and developing real-time conversation models backed by hierarchical probabilistic inference to verify and support transactional intent recognition.</p>
+
+<h2 id="research-team">Research Team</h2>
+
+<p><strong>Principal Investigator:</strong> Prof. Byoung-Tak Zhang (HRI.Intention sub-task)</p>
+
+<p><strong>Researchers:</strong></p>
+<ul>
+  <li>Ha-Young Jang</li>
+  <li>Beom-Jin Lee</li>
+  <li>Jin-Hwa Kim</li>
+  <li>Chung-Yeon Lee</li>
+  <li>Kyung-Min Kim</li>
+</ul>
+
+<h2 id="technical-approach">Technical Approach</h2>
+
+<p>The HRI.Intention sub-task pursued four lines of technical development:</p>
+
+<ol>
+  <li>
+<strong>Dialogue corpus collection and machine-learning-based dialogue modeling</strong> — building annotated corpora of human-robot dialogue and training statistical models of conversational structure.</li>
+  <li>
+<strong>Real-time dialogue understanding with dynamic model refinement</strong> — applying learned dialogue models to live interactions and updating the model incrementally as new exchanges occur.</li>
+  <li>
+<strong>Linguistic intent recognition using nonverbal transactional cues and complex emotion</strong> — integrating body language and affective signals to improve interpretation of spoken intent.</li>
+  <li>
+<strong>Support module for nonverbal transactional intent verification</strong> — providing auxiliary inference to cross-validate cues from non-linguistic channels.</li>
+</ol>
+
+<p>The overall goal was to maximize transactional-intent accuracy while improving dialogue coherence, comprehension depth, and processing speed through real-time dialogue understanding and generation models.</p>
+
+<h2 id="collaboration">Collaboration</h2>
 
 <table>
   <thead>
     <tr>
       <th>Partner</th>
-      <th>Focus</th>
+      <th>Role</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>Hanyang University</td>
-      <td>Robot mapping</td>
+      <td>Hanyang University (Prof. Il-Hong Suh)</td>
+      <td>HRI.Map, HRI.Service — overall project PI</td>
     </tr>
     <tr>
-      <td>Kyungpook National University</td>
-      <td>Emotion recognition</td>
+      <td>Kyungpook National University (Prof. Min-Ho Lee)</td>
+      <td>HRI.Intention support</td>
     </tr>
     <tr>
-      <td>KAIST</td>
-      <td>Service planning</td>
+      <td>KAIST (Prof. Dong-Soo Kwon)</td>
+      <td>HRI.Emotion</td>
     </tr>
     <tr>
-      <td>KIST</td>
-      <td>System integration</td>
+      <td>KIST (Dr. Seung-Jong Kim)</td>
+      <td>HRI.System integration</td>
     </tr>
   </tbody>
 </table>
 
-<h2 id="technical-contributions">Technical Contributions</h2>
+<h2 id="publications">Publications</h2>
 
 <ul>
-  <li>Dynamic Bayesian inference for real-time dialogue intent modeling</li>
-  <li>Continuous update of user emotional state and transactional intent</li>
-  <li>Integration with robot perception, mapping, and action modules</li>
+  <li>J.-H. Oh, H.-S. Chun, and B.-T. Zhang, “Generating cafeteria conversations with a hypernetwork dialogue model,” in <em>Proceedings of the 14th International Symposium on Advanced Intelligent Systems (ISIS 2013)</em>, pp. 1424–1435, 2013.</li>
 </ul>
+
+<h2 id="contact">Contact</h2>
+
+<p><strong>Contact:</strong> Ha-Young Jang
+<strong>Email:</strong> hyjang at bi.snu.ac.kr</p>
   </section>
 
   

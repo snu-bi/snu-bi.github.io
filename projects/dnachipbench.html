@@ -439,13 +439,13 @@
   
   <span class="project-meta-chip">
     <i class="icon fa-solid fa-calendar"></i>
-    2002~2007
+    June 2002 - June 2007
   </span>
   
   
   <span class="project-meta-chip">
     <i class="icon fa-solid fa-building-columns"></i>
-    KOSEF / Korean Ministry of Science and Technology (National Research Laboratory Program)
+    Korean Ministry of Science and Technology (National Research Laboratory Program)
   </span>
   
 </div>
@@ -472,36 +472,15 @@
         dna-microarray
       </a>
     
-      <a href="?search=%22tag:%20mirna%22" class="tag" data-tooltip='Show items with the tag "mirna"'>
-        mirna
-      </a>
-    
       <a href="?search=%22tag:%20gene-expression%22" class="tag" data-tooltip='Show items with the tag "gene-expression"'>
         gene-expression
       </a>
     
+      <a href="?search=%22tag:%20text-mining%22" class="tag" data-tooltip='Show items with the tag "text-mining"'>
+        text-mining
+      </a>
+    
   </div>
-
-
-
-
-
-<div class="center" style="margin: 1.5rem 0;">
-  
-
-
-
-  <div class="button-wrapper">
-    <a class="button" href="/%7B%7B%20'/legacy/raw/bi.snu.ac.kr/NRL/index.htm'%20%7C%20relative_url%20%7D%7D" data-style="" aria-label="fa-solid fa-arrow-up-right-from-square">
-      <i class="icon fa-solid fa-arrow-up-right-from-square"></i>
-      
-        <span>Project Website</span>
-      
-    </a>
-  </div>
-
-
-</div>
   </section>
 
   
@@ -516,49 +495,197 @@
 -->
 
 
-<p>DNAChipBench was an <strong>integrated computational platform</strong> for intelligent design and analysis of DNA chips (microarrays), developed under Korea’s National Research Laboratory (NRL) program.</p>
+<p>DNAChipBench was an <strong>integrated computational platform</strong> for intelligent design and analysis of DNA chips (microarrays), developed under Korea’s National Research Laboratory (NRL) program. The project aimed to develop intelligent bioinformatics technologies and a unified DNAChipBench platform covering the full pipeline of DNA chip design, fabrication, analysis, and application.</p>
 
-<h2 id="four-modules">Four Modules</h2>
+<h2 id="overview">Overview</h2>
+
+<p>The central goal of the NRL project was to build both a body of <strong>intelligent bioinformatics methods</strong> and a unified software platform — <strong>DNAChipBench</strong> — that could support every stage of the DNA chip workflow: target selection, probe design, expression data analysis, biomedical literature mining, and disease diagnostic applications.</p>
+
+<p>The DNAChipBench system was composed of five integrated subsystems: <strong>TargetBench</strong>, <strong>ProbeBench</strong>, <strong>ExpressBench</strong>, <strong>BiblioBench</strong>, and <strong>DiagBench</strong>. Each subsystem addressed a distinct stage of the DNA chip pipeline, and all shared a common machine-learning infrastructure developed at the SNU Biointelligence Lab.</p>
+
+<p>The project ran in two phases:</p>
 
 <table>
   <thead>
     <tr>
-      <th>Module</th>
-      <th>Function</th>
+      <th>Phase</th>
+      <th>Period</th>
+      <th>Focus</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td><strong>ProbeBench</strong></td>
-      <td>Oligonucleotide probe design for microarrays</td>
+      <td>Phase 1</td>
+      <td>June 2002 - June 2004</td>
+      <td>Development of DNA chip informatics base algorithms</td>
     </tr>
     <tr>
-      <td><strong>ExpressBench</strong></td>
-      <td>Gene expression data analysis and pattern mining</td>
-    </tr>
-    <tr>
-      <td><strong>DiagBench</strong></td>
-      <td>Disease diagnostic chip applications</td>
-    </tr>
-    <tr>
-      <td><strong>MiRNABench</strong></td>
-      <td>MicroRNA prediction and target identification</td>
+      <td>Phase 2</td>
+      <td>June 2004 - June 2007</td>
+      <td>Integrated platform for DNA chip design and analysis</td>
     </tr>
   </tbody>
 </table>
 
-<h2 id="unifying-technology">Unifying Technology</h2>
+<h2 id="platform-modules">Platform Modules</h2>
 
-<p>All modules are integrated through machine learning, evolutionary computation, and probabilistic graphical models developed at the SNU Biointelligence Lab.</p>
+<h3 id="targetbench">TargetBench</h3>
 
-<h2 id="impact">Impact</h2>
+<p>TargetBench identifies the DNA chip contents and target genes required for a given application. It integrates target selection from clinical databases (e.g., OMIM) and public expression databases using expression DB filtering. Algorithmically, it combines information from BiblioBench and ExpressBench with sequence analysis and transcription factor binding site prediction, using naive Bayes classifiers, hidden Markov models, and machine learning methods.</p>
+
+<h3 id="probebench">ProbeBench</h3>
+
+<p>ProbeBench designs optimal oligonucleotide and cDNA probes based on virtual hybridization modeling. It performs assay parameter optimization and fabrication parameter optimization. Probe quality is assessed using naive Bayes and probabilistic machine learning methods; evolutionary algorithms are used for optimization.</p>
+
+<h3 id="expressbench">ExpressBench</h3>
+
+<p>ExpressBench analyzes gene expression data from DNA chips. The subsystem covers preprocessing, expression profiling, genotyping, and integration with gene databases. It applies probabilistic machine learning methods for clustering gene expression patterns, Bayesian network-based dependency analysis, latent variable models for time-series analysis, and generative topographic mapping for visualization.</p>
+
+<h3 id="bibliobench">BiblioBench</h3>
+
+<p>BiblioBench extracts biological knowledge from biomedical literature databases such as MEDLINE and PubMed. It incorporates information retrieval for searching and filtering relevant literature, information extraction for pulling key facts from text, and natural language processing methods. Hidden Markov models and latent variable models are the primary machine learning methods employed.</p>
+
+<h3 id="diagbench">DiagBench</h3>
+
+<p>DiagBench was developed in the later phase of the project (introduced from Year 5, 2006) and focuses on DNA chip applications for disease diagnostics, including novel biochip development, biochip data analysis for knowledge discovery, and bioinformatics commercialization.</p>
+
+<h2 id="annual-research-milestones">Annual Research Milestones</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Year</th>
+      <th>Focus</th>
+      <th>Key Deliverables</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Year 1 (2002)</td>
+      <td>Core algorithms for DNA chip design and analysis</td>
+      <td>Target selection algorithms; probe design algorithms; expression profiling algorithms; text mining prototypes; HPV diagnostic oligo chip DB</td>
+    </tr>
+    <tr>
+      <td>Year 2 (2003)</td>
+      <td>Prototype systems for all subsystems</td>
+      <td>TargetBench prototype; ProbeBench prototype system; ExpressBench prototype system; BiblioBench prototype system</td>
+    </tr>
+    <tr>
+      <td>Year 3 (2004)</td>
+      <td>DNA chip design — TargetBench and ProbeBench integration</td>
+      <td>Literature mining for target selection; target selection using DNA chip analysis data; virtual hybridization-based probe design; assay parameter optimization</td>
+    </tr>
+    <tr>
+      <td>Year 4 (2005)</td>
+      <td>DNA chip analysis — ExpressBench and BiblioBench integration</td>
+      <td>Biotext and chip data interface; ~30,000 gene promoter DB and visualization; bioinformatics database optimization and visualization; web-based bioinformatics database</td>
+    </tr>
+    <tr>
+      <td>Year 5 (2006)</td>
+      <td>DNA chip informatics — full system integration (DiagBench introduction)</td>
+      <td>Integrated DNAChipBench system; novel biochip development; biochip data analysis for knowledge discovery; bioinformatics application development</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="research-team">Research Team</h2>
+
+<p><strong>Principal Investigator:</strong> Prof. Byoung-Tak Zhang (Seoul National University, Biointelligence Lab)</p>
+
+<p><strong>TargetBench Team</strong></p>
+<ul>
+  <li>Je-Gun Joung</li>
+  <li>Sirk June Augh</li>
+  <li>Seong-Wook Chi</li>
+  <li>Jin-Woo Nam</li>
+</ul>
+
+<p><strong>ProbeBench Team</strong></p>
+<ul>
+  <li>Sun Kim</li>
+  <li>Jang-Min Oh</li>
+  <li>Seung-Joon Lee</li>
+  <li>Ha-Young Jang</li>
+  <li>In-Hee Lee</li>
+</ul>
+
+<p><strong>ExpressBench Team</strong></p>
+<ul>
+  <li>Kyu-Baek Hwang</li>
+  <li>Jin-San Yang</li>
+  <li>Jeong-Ho Chang</li>
+  <li>Jeong-Moon Lee</li>
+  <li>Dong-Min Kim</li>
+</ul>
+
+<p><strong>BiblioBench Team</strong></p>
+<ul>
+  <li>Seong-Bae Park</li>
+  <li>Jae-Hong Eom</li>
+  <li>Jeong-Ho Chang</li>
+  <li>So-Hyun Hwang</li>
+</ul>
+
+<h2 id="publications">Publications</h2>
+
+<p>Selected international conference papers produced under this project:</p>
 
 <ul>
-  <li>~<strong>40 SCI-level publications</strong> produced during the project</li>
   <li>
-<strong>Technology transfer agreements</strong> with LG Electronics and biotech ventures</li>
-  <li>Key contributions in novel <strong>microRNA discovery</strong> methods integrating mRNA and miRNA data for multi-dimensional gene expression analysis</li>
+<strong>DNA Sequence Optimization Using Constrained Multi-Objective Evolutionary Algorithm</strong>, Lee, I.-H., Shin, S.-Y., and Zhang, B.-T., <em>2003 Congress on Evolutionary Computation (CEC 2003)</em>.</li>
+  <li>
+<strong>Molecular Immunocomputing with Application to Alphabetical Pattern Recognition Mimics the Characterization of ABO Blood Type</strong>, Kim, S.D., Shin, K.-R., and Zhang, B.-T., <em>2003 Congress on Evolutionary Computation (CEC 2003)</em>.</li>
+  <li>
+<strong>Mining the Risk Types of Human Papillomavirus (HPV) by Cost-Sensitive Learning</strong>, Hwang, S., Park, S.-B., and Zhang, B.-T., <em>Proceedings of PAKDD2003 Workshop on Biological Data Mining</em>, pp. 107-118, 2003.</li>
+  <li>
+<strong>Text Chunking by Combining Hand-Crafted Rules and Memory-Based Learning</strong>, Park, S.-B. and Zhang, B.-T., <em>Proceedings of the 41st Annual Meeting of the Association for Computational Linguistics (ACL 2003)</em>, pp. 497-504, 2003.</li>
+  <li>
+<strong>DNA Computing Complexity Analysis Using DNA/DNA Hybridization Kinetics</strong>, Shin, S.-Y., Lee, E.J., Park, T.H., and Zhang, B.-T., <em>Preliminary Proceedings of the Ninth International Meeting on DNA Based Computers (DNA9)</em>, p. 207, 2003.</li>
 </ul>
+
+<p>The project produced approximately <strong>40 SCI-level publications</strong> over its five-year duration.</p>
+
+<h2 id="key-figures">Key Figures</h2>
+
+<ul>
+  <li>
+<strong>DNAChipBench.JPG</strong> — System architecture diagram showing the five integrated subsystems (TargetBench, ProbeBench, ExpressBench, BiblioBench, DiagBench) and their interconnections.</li>
+  <li>
+<strong>TargetBench.JPG</strong> — Workflow diagram for the TargetBench target selection subsystem.</li>
+  <li>
+<strong>ProbeBench.JPG</strong> — Architecture diagram for the ProbeBench probe design subsystem.</li>
+  <li>
+<strong>ExpressBench.JPG</strong> — Workflow diagram for the ExpressBench gene expression analysis subsystem.</li>
+  <li>
+<strong>BiblioBench.JPG</strong> — Architecture diagram for the BiblioBench biomedical literature mining subsystem.</li>
+  <li>
+<strong>ResearchPropulsion.JPG</strong> — Research momentum and knowledge transfer diagram illustrating the project’s broader impact.</li>
+</ul>
+
+<h2 id="contact">Contact</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Field</th>
+      <th>Detail</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Contact person</td>
+      <td>Kyu-Baek Hwang</td>
+    </tr>
+    <tr>
+      <td>Email</td>
+      <td>kbhwang@bi.snu.ac.kr</td>
+    </tr>
+    <tr>
+      <td>Institution</td>
+      <td>Biointelligence Laboratory, School of Computer Science and Engineering, Seoul National University</td>
+    </tr>
+  </tbody>
+</table>
   </section>
 
   

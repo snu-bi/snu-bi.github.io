@@ -443,6 +443,11 @@
   </span>
   
   
+  <span class="project-meta-chip">
+    <i class="icon fa-solid fa-building-columns"></i>
+    Korea Research Foundation (KRF)
+  </span>
+  
 </div>
 
 
@@ -471,6 +476,14 @@
         information-filtering
       </a>
     
+      <a href="?search=%22tag:%20boosting%22" class="tag" data-tooltip='Show items with the tag "boosting"'>
+        boosting
+      </a>
+    
+      <a href="?search=%22tag:%20text-mining%22" class="tag" data-tooltip='Show items with the tag "text-mining"'>
+        text-mining
+      </a>
+    
   </div>
   </section>
 
@@ -486,30 +499,77 @@
 -->
 
 
-<p>The FACT project investigated <strong>machine learning methods for automatically filtering and classifying text</strong> from large-scale document collections — foundational work in what we now call information retrieval and NLP.</p>
+<p>The FACT project investigated <strong>machine learning methods for automatically filtering and classifying text</strong> from large-scale document collections — foundational work in what we now call information retrieval and natural language processing. The lab built and evaluated its own text retrieval and filtering engine, SCAIR (SNU Cognitive AI Research), which was submitted to multiple tracks of the internationally competitive <strong>Text REtrieval Conference (TREC)</strong>.</p>
 
-<h2 id="approach">Approach</h2>
+<h2 id="overview">Overview</h2>
+
+<p>As the web exploded with text content in the late 1990s, the ability to automatically identify and surface relevant documents from massive collections became a critical challenge. The FACT project addressed this by developing principled probabilistic and ensemble learning methods for two related problems: <strong>adaptive text filtering</strong> (continuously deciding whether incoming documents are relevant to a user profile) and <strong>text classification</strong> (assigning documents to predefined categories).</p>
+
+<p>A central contribution was the application of <strong>boosting</strong> — particularly AdaBoost with Naïve Bayes classifiers as weak learners — to the text filtering problem. This approach leveraged term frequency statistics with probabilistically accurate confidence ratios, yielding strong empirical performance on the TREC filtering track benchmarks. The project also explored boosting linear perceptrons, reinforcement learning for personalized filtering, and semi-supervised methods that exploited large quantities of unlabeled documents.</p>
+
+<p>Results were validated through repeated participation in TREC (TREC-7 through TREC-9), covering the <strong>ad hoc retrieval</strong>, <strong>adaptive filtering</strong>, and <strong>question answering</strong> tracks. TREC is a major annual evaluation campaign organized by NIST that enables large-scale, standardized comparison of information retrieval systems across participating research groups worldwide.</p>
+
+<h2 id="research-team">Research Team</h2>
 
 <ul>
   <li>
-<strong>Boosting-based methods</strong> using Naïve Bayes classifiers as weak learners</li>
-  <li>Leveraging term frequency information with probabilistically accurate confidence ratios</li>
-  <li>Improved performance on <strong>TREC filtering track</strong> benchmarks (a major international competition)</li>
+<strong>Principal Investigator:</strong> Prof. Byoung-Tak Zhang</li>
+  <li>
+<strong>Researchers:</strong>
+    <ul>
+      <li>Dong-Hyun Shin — ad hoc retrieval, two-stage retrieval model (TREC-7, TREC-8)</li>
+      <li>Young-Hoon Kim — text filtering, TREC-8, TREC-9, SIGIR-2000</li>
+      <li>Sungwon Kim — TREC-8, TREC-9 web track experiments</li>
+      <li>Jong-Hyeok Eom — TREC-8, TREC-9 experiments</li>
+      <li>Ho-Jin Shin — TREC-8 classification experiments</li>
+      <li>Sung-Yong Hahn — text filtering by boosting (SIGIR-2000)</li>
+      <li>Sang-Bum Park — document filtering with unlabeled data</li>
+      <li>Jang-Min Oh — text filtering by boosting linear perceptrons</li>
+    </ul>
+  </li>
 </ul>
 
-<h2 id="scair-labs-custom-filtering-engine">SCAIR: Lab’s Custom Filtering Engine</h2>
+<h2 id="technical-approach">Technical Approach</h2>
 
-<p>The lab developed <strong>SCAIR</strong> (SNU Cognitive AI Research), its own text filtering engine, used in TREC-8 experiments covering:</p>
 <ul>
-  <li>Ad hoc retrieval</li>
-  <li>Adaptive filtering</li>
-  <li>Web search</li>
-  <li>Question answering tracks</li>
+  <li>
+<strong>Boosting-based filtering:</strong> AdaBoost combining Naïve Bayes weak classifiers, exploiting term confidence ratios for reliable relevance scoring</li>
+  <li>
+<strong>Boosting linear perceptrons:</strong> An alternative boosting framework applied to adaptive filtering with linear models</li>
+  <li>
+<strong>Semi-supervised filtering:</strong> Leveraging large pools of unlabeled documents to improve adaptive filtering under limited labeled training data</li>
+  <li>
+<strong>Two-stage ad hoc retrieval:</strong> A two-pass retrieval model tuned for TREC ad hoc tasks, separating initial candidate retrieval from re-ranking</li>
+  <li>
+<strong>SCAIR engine:</strong> The lab’s custom retrieval and filtering system used for all TREC submissions, covering ad hoc retrieval, adaptive filtering, web search, and question answering tracks</li>
+</ul>
+
+<h2 id="publications">Publications</h2>
+
+<ul>
+  <li>
+<strong>Text Filtering by Boosting Naive Bayes Classifiers</strong>, Kim, Y.-H., Hahn, S.-Y., and Zhang, B.-T., <em>Proceedings of the 23rd Annual International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR-2000)</em>, pp. 168–175, 2000. <a href="http://bi.snu.ac.kr/Publications/Conferences/International/SIGIR2000.pdf">[Full Paper]</a>
+</li>
+  <li>
+<strong>SCAI Experiments on TREC-9</strong>, Kim, Y.-H., Kim, S., Eom, J.-H., and Zhang, B.-T., <em>Proceedings of the Ninth Text REtrieval Conference (TREC-9)</em>, pp. 392–399, 2000. <a href="http://bi.snu.ac.kr/Publications/Conferences/International/TREC9.ps">[Full Paper]</a>
+</li>
+  <li>
+<strong>Document Filtering Boosted by Unlabeled Data</strong>, Park, S.-B. and Zhang, B.-T., <em>Proceedings of the 2001 IEEE International Symposium on Industrial Electronics (ISIE2001)</em>, vol. 1, pp. 328–333, 2001. <a href="http://bi.snu.ac.kr/Publications/Conferences/International/ISIE2001.pdf">[Full Paper]</a>
+</li>
+  <li>
+<strong>SCAI TREC-8 Experiments</strong>, Shin, D.-H., Kim, Y.-H., Kim, S., Eom, J.-H., Shin, H.-J., and Zhang, B.-T., <em>Proceedings of the Eighth Text REtrieval Conference (TREC-8)</em>, pp. 511–518, 1999. <a href="http://bi.snu.ac.kr/Publications/Conferences/International/TREC8.ps">[Full Paper]</a>
+</li>
+  <li>
+<strong>A Two-Stage Retrieval Model for the TREC-7 Ad Hoc Task</strong>, Shin, D.-H. and Zhang, B.-T., <em>Proceedings of the Seventh Text REtrieval Conference (TREC-7)</em>, pp. 501–507, 1998.</li>
+  <li>
+<strong>Text Filtering by Boosting Linear Perceptrons</strong>, Oh, J.-M. and Zhang, B.-T., <em>Journal of Fuzzy Logic and Intelligent Systems</em>, vol. 10, no. 6, pp. 373–378, 2000.</li>
+  <li>
+<strong>Building Software Agents for Information Filtering on the Internet: A Genetic Programming Approach</strong>, Zhang, B.-T., Kwak, J.-H., and Lee, C.-H., <em>Late Breaking Papers at the Genetic Programming 1996 Conference (GP-96)</em>, p. 196, 1996.</li>
 </ul>
 
 <h2 id="historical-context">Historical Context</h2>
 
-<p>FACT was conducted at a time when the web was exploding with text content and automated filtering was a pressing need. This work laid the groundwork for later research in NLP, information extraction, and eventually the lab’s multimodal learning projects.</p>
+<p>FACT was conducted at a pivotal moment when the web was growing faster than human curation could manage. The lab’s sustained participation across TREC-7, TREC-8, and TREC-9 (1998–2000) placed it alongside leading international information retrieval groups, and the boosting-based filtering methods produced results that influenced the broader community’s adoption of ensemble methods for text tasks. This work laid the groundwork for the lab’s later research in text mining, bioinformatics text analysis, and multimodal learning.</p>
   </section>
 
   

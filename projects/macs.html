@@ -445,7 +445,7 @@
   
   <span class="project-meta-chip">
     <i class="icon fa-solid fa-building-columns"></i>
-    KOSEF
+    Korea Science and Engineering Foundation (KOSEF)
   </span>
   
 </div>
@@ -480,6 +480,10 @@
         reinforcement-learning
       </a>
     
+      <a href="?search=%22tag:%20cooperative-behavior%22" class="tag" data-tooltip='Show items with the tag "cooperative-behavior"'>
+        cooperative-behavior
+      </a>
+    
   </div>
   </section>
 
@@ -495,33 +499,70 @@
 -->
 
 
-<p>The MACS project investigated how <strong>cooperative behaviors such as homing and herding</strong> could be automatically evolved for teams of autonomous mobile robots — a foundational project in the lab’s robotics research.</p>
+<p>MACS investigated how <strong>cooperative behaviors such as homing and herding</strong> could be automatically evolved for teams of autonomous mobile robots — a foundational project in the lab’s evolutionary robotics research, conducted with support from the Korea Science and Engineering Foundation (KOSEF).</p>
 
-<h2 id="the-problem">The Problem</h2>
+<h2 id="overview">Overview</h2>
 
-<p>How do you program a team of robots to cooperate without explicitly coding the cooperation? MACS answered: don’t program it — evolve it.</p>
+<p>A central challenge in multi-robot systems is enabling teams of robots to cooperate effectively without hard-coding every rule of interaction. MACS addressed this by asking a deceptively simple question: rather than programming cooperation, can we <em>evolve</em> it?</p>
+
+<p>The project focused on two archetypal collective behaviors. <strong>Homing</strong> requires all members of a robot team to converge on a target location — a task that demands coordinated movement without collisions and without explicit communication about the goal. <strong>Herding</strong> requires the team to collectively shepherd a set of objects (or simulated animals) toward a designated region, demanding even more sophisticated distributed decision-making because the “herd” reacts dynamically to the robots’ own actions.</p>
+
+<p>Both tasks were tackled using <strong>evolutionary algorithms</strong>, specifically genetic programming and evolved neural network controllers. Individual robots were equipped with sensorimotor neural networks whose architectures and weights were shaped by an evolutionary process operating on a population of candidate controllers. Fitness was evaluated by running candidate controllers in simulation and measuring how effectively the robot team accomplished the collective task — no hand-crafted reward shaping, no explicit communication protocol.</p>
+
+<p>A key technical contribution was the <strong>Multinet architecture</strong>: a multi-module neural system combining recurrent networks (for temporal memory) with self-organizing maps (for adaptive sensory clustering). This allowed individual robots to develop local response policies that, when deployed as a homogeneous team, gave rise to coherent group behaviors. The emergent herding and homing patterns were not pre-programmed — they arose from the interaction of individually evolved controllers with the physical and social dynamics of the robot team.</p>
+
+<p>The project demonstrated that competitive collective intelligence could be evolved for multi-robot systems without centralized coordination, laying conceptual groundwork for what would later be called <em>swarm robotics</em>.</p>
+
+<h2 id="research-team">Research Team</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Role</th>
+      <th>Name</th>
+      <th>Affiliation</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Principal Investigator</td>
+      <td>Prof. Byoung-Tak Zhang</td>
+      <td>SNU Biointelligence Lab</td>
+    </tr>
+    <tr>
+      <td>Researcher</td>
+      <td>Byoung-Hoon Hong</td>
+      <td>SNU Biointelligence Lab</td>
+    </tr>
+  </tbody>
+</table>
 
 <h2 id="technical-approach">Technical Approach</h2>
 
 <ul>
   <li>
-<strong>Genetic programming</strong> to evolve neural network controllers for individual robots</li>
-  <li>Homogeneous robot team: all robots share the same evolved control policy</li>
+<strong>Genetic programming for controller evolution</strong>: robot control policies are encoded as programs and evolved over generations using selection, crossover, and mutation operators; no hand-designed control logic required</li>
   <li>
-<strong>Multi-objective fitness</strong>: balancing individual task completion with team-level cooperative behavior</li>
+<strong>Multinet neural architecture</strong>: a multi-module neural system pairing recurrent networks (for short-term memory of past sensor readings) with self-organizing maps (for unsupervised clustering of sensory inputs), enabling adaptive and context-sensitive robot responses</li>
   <li>
-<strong>Emergent cooperation</strong>: group behaviors (herding, formation-keeping) emerge from individually evolved policies</li>
+<strong>Homogeneous team policy</strong>: all robots in the team share the same evolved controller — simplifying the evolutionary search while still enabling emergent differentiation of roles through local sensory differences</li>
+  <li>
+<strong>Multi-objective fitness evaluation</strong>: candidate controllers are scored on both individual task completion and team-level collective performance, balancing local and global objectives</li>
+  <li>
+<strong>Emergent cooperation</strong>: group behaviors (formation-keeping, herding, convergence to a goal) arise from interactions among individually evolved policies rather than from explicit programming of group rules</li>
+  <li>
+<strong>Simulation-based evolution</strong>: evolutionary evaluation conducted in physics-based robot simulations, with results transferred to real robot platforms</li>
 </ul>
 
-<h2 id="key-publication">Key Publication</h2>
+<h2 id="publications">Publications</h2>
 
 <ul>
-  <li>Zhang &amp; Hong (1997). “Multinet Neural Architecture for Evolving Collective Robotic Intelligence.” <em>ICONIP 1997.</em> Combining recurrent networks with self-organizing maps for goal-directed group motion.</li>
+  <li>B.-T. Zhang and B.-H. Hong (1997). “Multinet Neural Architecture for Evolving Collective Robotic Intelligence.” <em>Proceedings of the International Conference on Neural Information Processing (ICONIP 1997)</em>. — Introduced the Multinet architecture combining recurrent networks with self-organizing maps for goal-directed group motion in evolved multi-robot teams.</li>
 </ul>
 
 <h2 id="legacy">Legacy</h2>
 
-<p>MACS established the lab’s early commitment to <strong>evolutionary approaches to robot intelligence</strong>, a thread that continued through EOS, RoboMotion, CogHRI, and the modern Embodied AI and RoboCup projects.</p>
+<p>MACS established the lab’s early commitment to <strong>evolutionary approaches to robot intelligence</strong> — the insight that collective behaviors need not be programmed but can emerge from selection pressure on individual controllers. This thread continued through the <strong>LEONN</strong> project (evolving neural network architectures), the <strong>RoboMotion</strong> project (learning robot motions from human demonstrations), and <strong>CogHRI</strong> (cognitive human-robot interaction), and remains central to the lab’s current Embodied AI research.</p>
   </section>
 
   

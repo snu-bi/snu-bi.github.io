@@ -439,7 +439,7 @@
   
   <span class="project-meta-chip">
     <i class="icon fa-solid fa-calendar"></i>
-    2020
+    2019~2020
   </span>
   
   
@@ -526,13 +526,96 @@
 
 <p>BabyMind is a large-scale collaborative research initiative led by Prof. Byoung-Tak Zhang at SNU Biointelligence Lab, aiming to build <strong>infant-mimic neurocognitive AI</strong> that learns from interaction with the real world the way human infants do.</p>
 
-<h2 id="motivation">Motivation</h2>
+<h2 id="overview">Overview</h2>
 
-<p>Modern deep learning is data-hungry and brittle. Human infants, by contrast, learn rapidly from very few examples through curiosity-driven exploration and multimodal sensing. BabyMind asks: can we build AI that learns like a baby?</p>
+<p>Human infants acquire knowledge at a remarkable pace — learning to perceive objects, understand language, navigate space, and interact socially — all from sparse, noisy, multimodal experience and without explicit supervision. Modern machine learning systems, by contrast, require vast labeled datasets and still struggle to generalize beyond their training distribution.</p>
 
-<h2 id="research-teams">Research Teams</h2>
+<p>The BabyMind project asks a fundamental question: <strong>can we build AI systems that learn the way babies do?</strong> The project pursues this goal by studying the computational principles underlying infant neurocognitive development and translating them into novel machine learning architectures. Core themes include curiosity-driven active learning from scarce data, complementary learning systems (fast episodic memory paired with slow semantic consolidation), developmental stage progression from sensorimotor grounding to symbolic reasoning, and multimodal grounding across vision, audio, and language.</p>
 
-<p>The project was organized into four sub-teams:</p>
+<p>Research activities span both physical robotic platforms and virtual-reality-based environments, enabling controlled developmental experiments that mirror the kinds of structured experiences available to human infants.</p>
+
+<h2 id="research-team">Research Team</h2>
+
+<p><strong>Principal Investigator</strong></p>
+
+<ul>
+  <li>Prof. Byoung-Tak Zhang — Seoul National University (SNU Biointelligence Lab)</li>
+</ul>
+
+<p><strong>Co-Investigators and Collaborating Faculty</strong></p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Professor</th>
+      <th>Affiliation / Focus</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Eon-Suk Ko</td>
+      <td>Language and speech</td>
+    </tr>
+    <tr>
+      <td>Nojun Kwak</td>
+      <td>Computer vision and semi-supervised learning</td>
+    </tr>
+    <tr>
+      <td>Hyoun Jin Kim</td>
+      <td>Robotics and mobile manipulation</td>
+    </tr>
+    <tr>
+      <td>Chong Woo Park</td>
+      <td>Human-computer interaction</td>
+    </tr>
+    <tr>
+      <td>Hyun Oh Song</td>
+      <td>Reinforcement learning and exploration</td>
+    </tr>
+    <tr>
+      <td>Woo-Young Ahn</td>
+      <td>Computational psychiatry and decision-making</td>
+    </tr>
+    <tr>
+      <td>Song Joo Oh</td>
+      <td>Cognitive vision science</td>
+    </tr>
+    <tr>
+      <td>Sung Roh Yoon</td>
+      <td>Video and sequence learning</td>
+    </tr>
+    <tr>
+      <td>Kyogu Lee</td>
+      <td>Music and audio intelligence</td>
+    </tr>
+    <tr>
+      <td>Youngki Lee</td>
+      <td>Wearable and mobile sensing</td>
+    </tr>
+    <tr>
+      <td>In Ah Lee</td>
+      <td>Language understanding</td>
+    </tr>
+    <tr>
+      <td>Jung Woo Lee</td>
+      <td>Neural imaging and neuroimaging ML</td>
+    </tr>
+    <tr>
+      <td>Hyung Bo Shim</td>
+      <td>Embedded and hardware AI</td>
+    </tr>
+    <tr>
+      <td>Choong Wan Woo</td>
+      <td>Affective and social neuroscience</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Contact:</strong> babymind-bi@bi.snu.ac.kr</p>
+
+<h2 id="research-structure">Research Structure</h2>
+
+<p>The project was organized into four specialized sub-teams covering the full developmental stack:</p>
 
 <table>
   <thead>
@@ -543,34 +626,79 @@
   </thead>
   <tbody>
     <tr>
-      <td>Knowledge Integration</td>
-      <td>Multimodal memory and concept learning</td>
+      <td><strong>Knowledge Integration</strong></td>
+      <td>Multimodal memory, concept learning, and hypergraph-based knowledge representation</td>
     </tr>
     <tr>
-      <td>Vision-Audio Processing</td>
-      <td>Perceptual grounding from sensory streams</td>
+      <td><strong>Vision-Audio Processing</strong></td>
+      <td>Perceptual grounding from visual and auditory streams; face-speech synthesis</td>
     </tr>
     <tr>
-      <td>Language-Emotion Analysis</td>
-      <td>Pragmatic and affective language understanding</td>
+      <td><strong>Language-Emotion Analysis</strong></td>
+      <td>Pragmatic and affective language understanding; child-directed speech modeling</td>
     </tr>
     <tr>
-      <td>Robot-Behavior Development</td>
-      <td>Embodied learning in real and virtual environments</td>
+      <td><strong>Robot-Behavior Development</strong></td>
+      <td>Embodied learning in real and virtual-reality environments; safe policy transfer</td>
     </tr>
   </tbody>
 </table>
 
-<h2 id="neurips-2020-workshop">NeurIPS 2020 Workshop</h2>
-
-<p>A key output was the <strong>NeurIPS 2020 workshop “BabyMind: How Babies Learn and How Machines Can Imitate”</strong>, co-chaired by Prof. Byoung-Tak Zhang and Gary Marcus, which brought together researchers in cognitive science, developmental robotics, and machine learning.</p>
-
-<h2 id="key-ideas">Key Ideas</h2>
+<h2 id="key-projects-and-tools">Key Projects and Tools</h2>
 
 <ul>
-  <li>Curiosity-driven active learning from scarce data</li>
-  <li>Complementary learning systems (fast episodic + slow semantic memory)</li>
-  <li>Developmental stages: from sensorimotor to symbolic reasoning</li>
+  <li>
+<strong>COGNIA</strong> — cognitive architecture framework for integrating perception and memory (open source on GitHub)</li>
+  <li>
+<strong>VECA</strong> — virtual environment for cognitive agent development (open source on GitHub)</li>
+  <li>
+<strong>Korean Child-Language Corpus</strong> — Ko corpus collected via CHILDES TalkBank for studying Korean child language acquisition</li>
+  <li>
+<strong>LENA Evaluation API</strong> — tools for evaluating child language environment metrics in Korean</li>
+</ul>
+
+<h2 id="neurips-2020-workshop">NeurIPS 2020 Workshop</h2>
+
+<p>A major public-facing output was the <strong>NeurIPS 2020 Workshop “BabyMind: How Babies Learn and How Machines Can Imitate”</strong>, co-organized by the project. The workshop brought together researchers in cognitive developmental science, computational neuroscience, developmental robotics, and machine learning to discuss infant-inspired AI.</p>
+
+<h2 id="publications">Publications</h2>
+
+<p>Selected publications produced under the BabyMind project:</p>
+
+<p><strong>2020</strong></p>
+
+<ul>
+  <li>Eun-Sol Kim, Woo-Young Kang, Yu-Jung Heo, Kyoung-Woon On, Byoung-Tak Zhang. “Hypergraph Attention Networks for Multimodal Learning.” <em>CVPR 2020</em>.</li>
+  <li>Taehyeong Kim, Injune Hwang, Gi-Cheon Kang, Won-Seok Choi, Hyunseo Kim, Byoung-Tak Zhang. “Label Propagation Adaptive Resonance Theory for Semi-supervised Continuous Learning.” <em>ICASSP 2020</em>.</li>
+  <li>Wansoo Kim, Kyogu Lee. “Digital Watermarking for Protecting Audio Classification Datasets.” <em>ICASSP 2020</em>.</li>
+  <li>Kyoung-Woon On, Eun-Sol Kim, Yu-Jung Heo, Byoung-Tak Zhang. “Cut-Based Graph Learning Networks to Discover Compositional Structure of Sequential Video Data.” <em>AAAI 2020</em>.</li>
+  <li>Jaemyung Kim, Chanwoo Park, Hyungjin Kim, Jungwoo Lee. “REST: Performance Improvement of a Black Box Model via RL Based Spatial Transformation.” <em>AAAI 2020</em>.</li>
+  <li>Hyeong-Seok Choi, Changdae Park, Kyogu Lee. “From Inference to Generation: End-to-end Fully Self-supervised Generation of Human Face from Speech.” <em>ICLR 2020</em>.</li>
+  <li>J. Hyeon Park, Jigang Kim, Younseok Jang, Inkyu Jang, H. Jin Kim. “Learning Transformable and Plannable se(3) Features for Scene Imitation of a Mobile Service Robot.” <em>RA-L 2020</em>.</li>
+  <li>Lada Kohoutová, Juyeon Heo, Sungmin Cha, Sungwoo Lee, Taesup Moon, Tor D. Wager, Choong-Wan Woo. “Toward a Unified Framework for Interpreting Machine-Learning Models in Neuroimaging.” <em>Nature Protocols 2020</em>.</li>
+  <li>Songjoo Oh. “The Stone-Base Illusion.” <em>Vision Research 2020</em>.</li>
+  <li>Jisoo Jeong, Seungeui Lee, Nojun Kwak. “Self-Training Using Selection Network for Semi-Supervised Learning.” <em>ICPRAM 2020</em>.</li>
+  <li>Hyojin Park, Lars Sjösund, Youngjoon Yoo, Nicolas Monet, Jihwan Bang, Nojun Kwak. “SINet: Extreme Lightweight Portrait Segmentation Networks with Spatial Squeeze Module and Information Blocking Decoder.” <em>WACV 2020</em>.</li>
+  <li>Nathaniel Haines et al. “Anxiety Predicts Diminished Preference for Immediate Rewards in Trait-Impulsive Individuals.” <em>Clinical Psychological Science 2020</em>.</li>
+  <li>Jaeyeong Yang, Mark A. Pitt, Woo-Young Ahn, Jay I Myung. “ADOpy: A Python Package for Adaptive Design Optimization.” <em>Behavior Research Methods 2020</em>.</li>
+</ul>
+
+<p><strong>2019</strong></p>
+
+<ul>
+  <li>Jisoo Jeong, Seungeui Lee, Jeesoo Kim, Nojun Kwak. “Consistency-based Semi-supervised Learning for Object Detection.” <em>NeurIPS 2019</em>.</li>
+  <li>Gi-Cheon Kang, Jaeseo Lim, Byoung-Tak Zhang. “Dual Attention Networks for Visual Reference Resolution in Visual Dialog.” <em>EMNLP 2019</em>.</li>
+  <li>Hwiyeol Jo, Ceyda Cinarel. “Delta-training: Simple Semi-Supervised Text Classification using Pretrained Word Embeddings.” <em>EMNLP 2019</em>.</li>
+  <li>Jungbeom Lee, Eunji Kim, Sungmin Lee, Jangho Lee, Sungroh Yoon. “Frame-to-Frame Aggregation of Active Regions in Web Videos for Weakly Supervised Semantic Segmentation.” <em>ICCV 2019</em>.</li>
+  <li>Jigang Kim, Seungwon Choi, Hyoun Jin Kim. “Fast and Safe Policy Adaptation via Alignment-based Transfer.” <em>IROS 2019</em>.</li>
+  <li>Juheon Lee, Hyeong-Seok Choi, Chang-Bin Jeon, Junghyun Koo, Kyogu Lee. “Adversarially Trained End-to-end Korean Singing Voice Synthesis System.” <em>INTERSPEECH 2019</em>.</li>
+  <li>Jie Hwan Lee, Hyeong-Seok Choi, Kyogu Lee. “Audio Query-Based Music Source Separation.” <em>ISMIR 2019</em>.</li>
+  <li>Hyoungseok Kim, Jaekyeom Kim, Yeonwoo Jeong, Sergey Levine, Hyun Oh Song. “EMI: Exploration with Mutual Information.” <em>ICML 2019</em>.</li>
+  <li>Seungyong Moon, Gaon An, Hyun Oh Song. “Parsimonious Black-Box Adversarial Attacks via Efficient Combinatorial Optimization.” <em>ICML 2019</em>.</li>
+  <li>Sungjae Cho, Jaeseo Lim, Chris Hickey, Byoung-Tak Zhang. “Problem Difficulty in Arithmetic Cognition: Humans and Connectionist Models.” <em>CogSci 2019</em>.</li>
+  <li>Cholmin Kang, Hyunwoo Jung, Youngki Lee. “Towards Machine Learning with Zero Real-World Data.” <em>WearSys 2019</em>.</li>
+  <li>Kyoung-Woon On, Eun-Sol Kim, Yu-Jung Heo, Byoung-Tak Zhang. “Compositional Structure Learning for Sequential Video Data.” <em>ICML 2019 Workshop on Learning and Reasoning</em>.</li>
+  <li>Chung-Yeon Lee, Hyundo Lee, Injune Hwang, Byoung-Tak Zhang. “Spatial Perception by Object-Aware Visual Scene Representation.” <em>ICCV 2019 Workshop on Deep Learning for Visual SLAM</em>.</li>
 </ul>
   </section>
 

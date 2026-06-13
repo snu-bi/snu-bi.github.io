@@ -439,13 +439,13 @@
   
   <span class="project-meta-chip">
     <i class="icon fa-solid fa-calendar"></i>
-    2011~2015
+    May 2010 - April 2015
   </span>
   
   
   <span class="project-meta-chip">
     <i class="icon fa-solid fa-building-columns"></i>
-    NRF
+    National Research Foundation (NRF)
   </span>
   
 </div>
@@ -478,6 +478,14 @@
     
       <a href="?search=%22tag:%20natural-language-processing%22" class="tag" data-tooltip='Show items with the tag "natural-language-processing"'>
         natural-language-processing
+      </a>
+    
+      <a href="?search=%22tag:%20bayesian-inference%22" class="tag" data-tooltip='Show items with the tag "bayesian-inference"'>
+        bayesian-inference
+      </a>
+    
+      <a href="?search=%22tag:%20recommendation-systems%22" class="tag" data-tooltip='Show items with the tag "recommendation-systems"'>
+        recommendation-systems
       </a>
     
   </div>
@@ -516,28 +524,129 @@
 -->
 
 
-<p>Videome investigated how machines can learn <strong>cognitive representations directly from streams of digital video</strong>, drawing inspiration from how the human brain constructs episodic memory and conceptual knowledge.</p>
+<h2 id="overview">Overview</h2>
 
-<h2 id="approach">Approach</h2>
+<p><strong>Videome</strong> (full title: <em>Cognitive Machine Learning and Inference Technologies for Intelligent Recommendation Services</em>) investigated how machines can learn cognitive representations directly from streams of digital video, drawing inspiration from how the human brain constructs episodic memory and conceptual knowledge.</p>
 
-<p>Rather than training on curated image datasets, Videome exposed the model to continuous video streams — just as a child watches TV — and learned structured knowledge incrementally.</p>
+<p>Digital videos provide an excellent learning substrate for teaching machines. The project used an IPTV-like game platform and EEG to study human visual and linguistic memory in a <em>learning-by-viewing</em> paradigm. The findings informed the development of advanced machine learning techniques designed to simulate human learning and memory. In particular, the project explored <strong>nonparametric Bayesian architectures</strong> — such as dynamic hypernetworks — that learn from sequences of digital videos of unbounded size by self-organizing cognitive networks.</p>
+
+<p>The overall goal was to build an intelligent recommendation system capable of continuously acquiring structured knowledge from video streams, much as a viewer naturally learns from television, and to leverage that knowledge for proactive, personalized content recommendation.</p>
+
+<h2 id="research-team">Research Team</h2>
+
+<p><strong>Principal Investigator</strong></p>
+<ul>
+  <li>Prof. Byoung-Tak Zhang (Seoul National University)</li>
+</ul>
+
+<p><strong>Researchers</strong></p>
+<ul>
+  <li>Jin-San Yang</li>
+  <li>Jung-Woo Ha</li>
+  <li>Min-Oh Heo</li>
+  <li>Ha-Young Jang</li>
+  <li>Byoung-Hee Kim</li>
+  <li>Soo-Jin Kim</li>
+  <li>Ji-Hoon Lee</li>
+  <li>Je-Keun Rhee</li>
+  <li>Ho-Sik Seok</li>
+  <li>Hyunwoo Kim</li>
+  <li>Jin-Seok Nam</li>
+  <li>Woongchang Yoon</li>
+  <li>Bado Lee</li>
+  <li>Myung-Goo Kang</li>
+</ul>
+
+<p><strong>Contact</strong></p>
+<ul>
+  <li>Kyung-min Kim (kmkim@bi.snu.ac.kr), +82-2-880-1847</li>
+</ul>
+
+<h2 id="methodology">Methodology</h2>
+
+<p>The project was structured across five annual phases, each building on the last:</p>
+
+<p><strong>Year 1 (2010) — Interactive Home Media Platform and Recommendation System</strong></p>
+<ul>
+  <li>Designed a multimodal multigraph (MMG) framework for an interactive home media platform</li>
+  <li>Built a Videome engine capable of managing video archives exceeding 1,000 hours</li>
+  <li>Developed foundational algorithms for content recommendation using TV viewing logs</li>
+  <li>Applied probabilistic graphical models with EM-based learning and Cross-Entropy-based training</li>
+</ul>
+
+<p><strong>Year 2 (2011) — Content Learning and Channel Recommendation via Probabilistic Graphical Models</strong></p>
+<ul>
+  <li>Developed MMG-based learning models using Bayesian inference</li>
+  <li>Designed automatic channel detection and recognition algorithms for multimodal content</li>
+  <li>Built channel recommendation systems using graphical model learning</li>
+  <li>Applied particle filtering and MCMC-based probabilistic analysis for viewer behavior modeling</li>
+</ul>
+
+<p><strong>Year 3 (2012) — Activity-Aware Interactive Recommendation via Probabilistic Graphical Models</strong></p>
+<ul>
+  <li>Extended probabilistic Markov model-based activity inference</li>
+  <li>Developed multichannel switching and content recommendation algorithms</li>
+  <li>Applied Sequential Monte Carlo methods for viewer activity modeling</li>
+  <li>Used Importance Sampling for viewer command synthesis and generation</li>
+</ul>
+
+<p><strong>Year 4 (2013) — Lifelong Learning and Activity Inference for Interactive Recommendation</strong></p>
+<ul>
+  <li>Built extended probabilistic graphical models for task-aware, activity-aware recommendation</li>
+  <li>Developed Continuous Lifelong recommendation learning frameworks via Sequential Bayesian Inference</li>
+  <li>Applied efficient analysis methods to large-scale interactive program guides</li>
+</ul>
+
+<p><strong>Year 5 (2014) — Proactive Recommendation Services and Optimization</strong></p>
+<ul>
+  <li>Developed proactive service recommendation combining diverse context signals</li>
+  <li>Personalized and optimized recommendation models for specific service scenarios</li>
+  <li>Addressed cold-start problems through novel user modeling approaches</li>
+  <li>Extended models to incorporate new activity domains and wearable sensor data</li>
+</ul>
 
 <h2 id="key-technical-contributions">Key Technical Contributions</h2>
 
 <ul>
   <li>
-<strong>Multimodal Hypernetwork</strong> architectures for evolutionary concept learning from cartoon video streams</li>
+<strong>Multimodal Multigraph (MMG)</strong>: a unified probabilistic graphical framework representing multi-modal video content and viewer behavior</li>
   <li>
-<strong>Deep Concept Hierarchy (DCH)</strong>: a model enabling progressive, lifelong abstraction of visual-linguistic knowledge</li>
-  <li>Demonstrated on the children’s series <em>Pororo</em> as a large-scale cartoon video corpus</li>
+<strong>Dynamic Hypernetworks</strong>: nonparametric Bayesian architectures for lifelong, unbounded video stream learning</li>
+  <li>
+<strong>Deep Concept Hierarchy (DCH)</strong>: a model enabling progressive, incremental abstraction of visual-linguistic knowledge from video sequences</li>
+  <li>
+<strong>Sequential Bayesian Inference</strong> for continuous, online adaptation to evolving viewer preferences</li>
+  <li>Demonstrated on children’s cartoon series (e.g., <em>Pororo</em>) as a large-scale cartoon video corpus for vision-language learning</li>
 </ul>
 
-<h2 id="results">Results</h2>
+<h2 id="project-information">Project Information</h2>
 
-<ul>
-  <li>Presented at <strong>AAAI 2015</strong>: incremental concept learning from video yields structured vision-language knowledge</li>
-  <li>Applicable to scene recognition, dialogue understanding, and visual question answering</li>
-</ul>
+<table>
+  <thead>
+    <tr>
+      <th>Field</th>
+      <th>Details</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Full Title</td>
+      <td>Cognitive Machine Learning and Inference Technologies for Intelligent Recommendation Services</td>
+    </tr>
+    <tr>
+      <td>Duration</td>
+      <td>May 2010 – April 2015</td>
+    </tr>
+    <tr>
+      <td>Funding</td>
+      <td>National Research Foundation (NRF)</td>
+    </tr>
+    <tr>
+      <td>Principal Investigator</td>
+      <td>Prof. Byoung-Tak Zhang</td>
+    </tr>
+  </tbody>
+</table>
   </section>
 
   

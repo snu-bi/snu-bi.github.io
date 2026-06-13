@@ -480,6 +480,10 @@
         machine-learning
       </a>
     
+      <a href="?search=%22tag:%20time-series%22" class="tag" data-tooltip='Show items with the tag "time-series"'>
+        time-series
+      </a>
+    
   </div>
 
 
@@ -516,36 +520,57 @@
 -->
 
 
-<p>LEONN investigated the <strong>joint optimization of neural network architectures and connection weights</strong> through Bayesian evolutionary algorithms — a forerunner of modern neuroevolution research.</p>
+<p>LEONN investigated the <strong>joint optimization of neural network architectures and connection weights</strong> through Bayesian evolutionary algorithms — a forerunner of modern neuroevolution research conducted at SNU Biointelligence Lab with support from the Korea Science and Engineering Foundation (KOSEF).</p>
 
-<h2 id="core-approach">Core Approach</h2>
+<h2 id="overview">Overview</h2>
 
-<p>Rather than fixing a network architecture and training weights, LEONN simultaneously evolved:</p>
+<p>A central challenge in machine learning is deciding not just what a neural network should learn, but what shape it should take. Traditional approaches fix the architecture first and then train the weights — but the best architecture for a given problem is rarely known in advance. LEONN attacked this challenge head-on by co-evolving both structure and parameters simultaneously.</p>
+
+<p>The project developed a family of methods under the umbrella of <strong>Evolving Neural Trees (ENTs)</strong>: tree-structured neural network representations that can be searched and optimized using genetic programming. By encoding networks as trees, LEONN enabled principled application of evolutionary operators — crossover, mutation, and selection — to both the topology (which nodes connect to which) and the numerical weights of a network.</p>
+
+<p>A distinguishing feature of LEONN was its use of <strong>Bayesian model selection</strong> to guide the evolutionary search. Rather than relying solely on training accuracy, the Bayesian criterion penalizes complexity, implementing a form of Occam’s Razor that naturally favors compact, generalizable solutions. This prevented the evolutionary process from converging on overfitted, bloated networks — a problem endemic to unconstrained neuroevolution at the time.</p>
+
+<p>LEONN also pioneered <strong>incremental data inheritance</strong>: a mechanism for transferring learned weights when the network structure changes during evolution. This substantially reduced wasted computation and accelerated convergence, allowing the evolutionary search to build on partial solutions rather than restarting from scratch each generation.</p>
+
+<p>Finally, LEONN explored <strong>committee machines</strong> — ensembles of evolved neural trees whose predictions are combined to improve generalization. By maintaining a diverse population and aggregating their outputs, committee-based ENTs achieved lower variance than any single evolved network.</p>
+
+<h2 id="research-team">Research Team</h2>
+
 <ul>
   <li>
-<strong>Network topology</strong> (which nodes connect to which)</li>
+<strong>Principal Investigator</strong>: Byoung-Tak Zhang (Seoul National University)</li>
   <li>
-<strong>Connection weights</strong> (strength of each connection)</li>
-  <li>
-<strong>Training data selection</strong> (which examples to learn from)</li>
+<strong>Researchers</strong>: Dong-Yeon Cho, Je-Gun Joung, Peter Ohm (collaborator, Heinz Mühlenbein’s group)</li>
 </ul>
 
-<h2 id="key-techniques">Key Techniques</h2>
+<h2 id="technical-approach">Technical Approach</h2>
 
 <ul>
   <li>
-<strong>Bayesian evolutionary learning</strong>: combining Bayesian model selection with evolutionary search</li>
+<strong>Evolving Neural Trees (ENTs)</strong>: neural networks encoded as tree structures amenable to genetic programming operators; each tree node represents a neuron or activation unit, and the tree branching encodes connectivity</li>
   <li>
-<strong>Evolving Neural Trees (ENTs)</strong>: tree-structured neural architectures evolved via genetic programming</li>
+<strong>Bayesian evolutionary learning</strong>: the evolutionary fitness function incorporates a Bayesian posterior — rewarding accuracy while penalizing model complexity via a prior over network size (MDL / Occam’s Razor criterion)</li>
   <li>
-<strong>Incremental data inheritance</strong>: transferring learned knowledge when the network structure changes</li>
+<strong>Incremental data inheritance</strong>: when a network’s topology changes during a genetic operation, previously learned weights are inherited and fine-tuned rather than discarded, accelerating convergence</li>
   <li>
-<strong>Committee-based ensembles</strong>: combining multiple evolved neural trees for better generalization</li>
+<strong>Committee machines of ENTs</strong>: maintaining a diverse population and combining predictions of multiple evolved trees via majority vote or weighted averaging, reducing prediction variance</li>
+  <li>
+<strong>Applications to time-series forecasting</strong>: ENT committee machines demonstrated strong performance on financial and chaotic time-series benchmarks, including high-frequency stock index data</li>
 </ul>
 
 <h2 id="publications">Publications</h2>
 
-<p>Results appeared at <strong>Evolutionary Computation</strong>, <strong>CEC</strong>, <strong>GECCO</strong>, and <strong>PPSN</strong> — the leading venues for evolutionary computation research.</p>
+<ul>
+  <li>Zhang, B.-T., Ohm, P., and Mühlenbein, H. (1997). “Evolutionary Induction of Sparse Neural Trees.” <em>Evolutionary Computation</em>, 5(2). — Foundational journal paper introducing the sparse ENT framework with Occam’s Razor regularization.</li>
+  <li>Zhang, B.-T. and Joung, J.-G. (1999). “Time Series Prediction Using Committee Machines of Evolutionary Neural Trees.” <em>Proceedings of the Congress on Evolutionary Computation (CEC 1999)</em>.</li>
+  <li>Chen, S.-H., Wang, H.-S., and Zhang, B.-T. (1999). “Forecasting High-Frequency Financial Time Series with Evolutionary Neural Trees: The Case of Heng-Sheng Stock Index.” <em>Proceedings of IC-AI 1999</em>.</li>
+  <li>Cho, D.-Y. and Zhang, B.-T. (2000). “Bayesian Evolutionary Algorithms for Evolving Neural Tree Models of Time Series Data.” <em>Proceedings of the Congress on Evolutionary Computation (CEC 2000)</em>.</li>
+  <li>Zhang, B.-T. (2002). “A Bayesian Evolutionary Approach to the Design and Learning of Heterogeneous Neural Trees.” <em>Integrated Computer-Aided Engineering</em>, 9(1).</li>
+</ul>
+
+<h2 id="legacy">Legacy</h2>
+
+<p>LEONN established foundational principles — co-evolution of structure and weights, Bayesian regularization, and ensemble combination — that prefigure modern <strong>neural architecture search (NAS)</strong> and <strong>AutoML</strong>. The Bayesian ENT framework directly influenced subsequent lab projects combining evolutionary algorithms with probabilistic inference, including the <strong>HyperSNP</strong> and <strong>BrainGene</strong> projects in bioinformatics.</p>
   </section>
 
   

@@ -432,16 +432,21 @@
 <h1 class="center">MMG</h1>
 
 
-<p class="center project-subtitle">Cognitive Learning and the Multimodal Memory Game</p>
+<p class="center project-subtitle">Cognitive Learning and the Multimodal Memory Game Platform</p>
 
 
 <div class="project-meta center">
   
   <span class="project-meta-chip">
     <i class="icon fa-solid fa-calendar"></i>
-    2007~2010
+    2007.11 ~ 2010
   </span>
   
+  
+  <span class="project-meta-chip">
+    <i class="icon fa-solid fa-building-columns"></i>
+    N/A (internal research)
+  </span>
   
 </div>
 
@@ -477,6 +482,10 @@
     
       <a href="?search=%22tag:%20computer-vision%22" class="tag" data-tooltip='Show items with the tag "computer-vision"'>
         computer-vision
+      </a>
+    
+      <a href="?search=%22tag:%20hypernetworks%22" class="tag" data-tooltip='Show items with the tag "hypernetworks"'>
+        hypernetworks
       </a>
     
   </div>
@@ -515,31 +524,95 @@
 -->
 
 
-<p>The MMG project developed a <strong>game-based research platform</strong> to study cognitive learning using multimodal data — text, speech, and images — drawn from TV drama episodes such as <em>Friends</em>.</p>
+<p>The MMG project built a <strong>game-based research platform</strong> to investigate cognitive learning through the integration of text, speech, and image data drawn from the TV drama <em>Friends</em>. The platform was designed to study how multimodal memory forms and improves over time — in both humans and machines — and to develop computational models capable of human-level learning from naturalistic, continuously arriving experience.</p>
 
-<h2 id="the-game">The Game</h2>
+<h2 id="overview">Overview</h2>
 
-<p>Human players and a machine learner engaged in <strong>question-and-answer sessions</strong> about scenes and dialogues after watching video clips. The game format:</p>
+<p>The Multimodal Memory Game (MMG) is centered on a simple but powerful idea: use a structured game interaction between human players and a machine learner to collect naturalistic data and measure learning progress. After watching video clips from <em>Friends</em>, players and the system engage in question-and-answer sessions about scenes, dialogue, and characters. The game makes data collection natural and scalable while providing ground truth for evaluating machine recall.</p>
+
+<p>The project explored three modalities independently and in combination:</p>
+
 <ul>
-  <li>Made data collection natural and scalable</li>
-  <li>Allowed measuring how memory recall improves over repeated game sessions</li>
-  <li>Enabled building predictive models of human memory</li>
+  <li>
+<strong>Text</strong>: Training on subtitle/script data from <em>Friends</em> episodes to handle next-sentence and scene-level reasoning</li>
+  <li>
+<strong>Speech</strong>: Learning from audio streams to handle spoken language understanding</li>
+  <li>
+<strong>Images</strong>: Learning from visual frames to handle scene-level image description</li>
 </ul>
 
-<h2 id="theoretical-contributions">Theoretical Contributions</h2>
+<p>The integration goal was to train a combined system using all three modalities simultaneously, building an associative neural network that reflects how human memory integrates sensory streams. The architecture is conceptually described as a network where text, speech, and image modules are connected into a globally coherent structure.</p>
 
-<p>Two core principles for <strong>human-level machine learning</strong>:</p>
+<p>Two core principles for <strong>human-level machine learning</strong> motivated the theoretical framework:</p>
 
 <ol>
   <li>
-<strong>Continuity</strong>: Forming lifelong memory incrementally, rather than learning from a static dataset</li>
+<strong>Continuity</strong>: Memory forms incrementally and lifelong, rather than from a fixed, static dataset loaded at training time</li>
   <li>
-<strong>Glocality</strong>: Organizing locally specialized micromodules in a globally connected network</li>
+<strong>Glocality</strong>: Locally specialized micromodules are organized within a globally connected network, mirroring the structure of biological memory systems</li>
 </ol>
 
-<h2 id="empirical-finding">Empirical Finding</h2>
+<p>An empirical finding confirmed that human recall accuracy <strong>improves steadily</strong> with the number of game sessions, validating the game format as a tool for studying and enhancing long-term memory in humans and as a benchmark for machine learners.</p>
 
-<p>Human recall <strong>improves steadily</strong> with the number of game sessions — validating the game as a tool for studying and improving long-term memory in both humans and machines.</p>
+<h2 id="key-figures">Key Figures</h2>
+
+<p>The legacy project page includes three illustrative figures:</p>
+
+<ul>
+  <li>
+<strong>Concept diagram</strong>: Shows text, speech, and image streams converging into an associative neural network forming the Multimodal Memory Game</li>
+  <li>
+<strong>ImageToText example</strong>: Demonstrates MMG generating text descriptions from image inputs</li>
+  <li>
+<strong>ExImageToText example</strong>: Shows further results of image-to-text generation in action</li>
+</ul>
+
+<h2 id="methodology">Methodology</h2>
+
+<p>The MMG platform combined ideas from cognitive science, natural language processing, computer vision, and machine learning:</p>
+
+<ul>
+  <li>
+<strong>Associative hypernetworks</strong> that self-assemble to represent cross-modal memories</li>
+  <li>
+<strong>Incremental / continual learning</strong> to avoid catastrophic forgetting over repeated game sessions</li>
+  <li>
+<strong>Question answering</strong> over video-derived multimodal content as the core evaluation task</li>
+  <li>Use of real-world TV drama data (<em>Friends</em>) to ensure naturalistic language, visual variety, and emotional range</li>
+</ul>
+
+<h2 id="research-team">Research Team</h2>
+
+<p><strong>Principal Investigator</strong>: Prof. Byoung-Tak Zhang (Seoul National University)</p>
+
+<p><strong>Researchers</strong>:</p>
+<ul>
+  <li>Ho-Sik Seok</li>
+  <li>Sun Kim</li>
+  <li>Chan-Hoon Park</li>
+  <li>Eun-Seok Lee</li>
+  <li>Won-Jin Shin</li>
+  <li>Young-Kil Ko</li>
+  <li>Ha-Young Jang</li>
+  <li>Kwon-ill Kim</li>
+  <li>Min-Oh Heo</li>
+  <li>Joo-Kyung Kim</li>
+  <li>Bon-Woong Ku</li>
+  <li>Sang-Yoon Yi</li>
+  <li>Young-Jin Park</li>
+  <li>Seong-Bae Lee</li>
+</ul>
+
+<p><strong>Contact</strong>: Min-Oh Heo — moheo (at) bi.snu.ac.kr</p>
+
+<h2 id="publications">Publications</h2>
+
+<ul>
+  <li>
+<strong>Self-assembling hypernetworks for cognitive learning of linguistic memory</strong>, B.-T. Zhang and C.-H. Park, <em>Proceedings of World Academy of Science, Engineering and Technology (WASET)</em>, p. 134, 2008.</li>
+  <li>
+<strong>Multimodal Memory Game</strong> (conference paper), B.-T. Zhang et al., <em>Proceedings of the IEEE World Congress on Computational Intelligence (WCCI)</em>, 2008.</li>
+</ul>
   </section>
 
   

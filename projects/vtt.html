@@ -421,9 +421,9 @@
   
   
 
-  <section class="background" data-size="1" style="--image: url('/images/photo.jpg')">
+  <section class="background" data-size="1" style="--image: url('/images/dramaqa.png')">
     <!--
-  <background>images/photo.jpg</background>
+  <background>images/dramaqa.png</background>
   <dark></dark>
   <size>1</size>
 -->
@@ -445,7 +445,7 @@
   
   <span class="project-meta-chip">
     <i class="icon fa-solid fa-building-columns"></i>
-    IITP, grant No. 2017-0-01772, funded by Korea MSIT
+    IITP, grant No. 2017-0-01772-VTT, funded by Korea MSIT
   </span>
   
 </div>
@@ -478,6 +478,14 @@
     
       <a href="?search=%22tag:%20ai-evaluation%22" class="tag" data-tooltip='Show items with the tag "ai-evaluation"'>
         ai-evaluation
+      </a>
+    
+      <a href="?search=%22tag:%20scene-graph%22" class="tag" data-tooltip='Show items with the tag "scene-graph"'>
+        scene-graph
+      </a>
+    
+      <a href="?search=%22tag:%20character-identification%22" class="tag" data-tooltip='Show items with the tag "character-identification"'>
+        character-identification
       </a>
     
   </div>
@@ -516,32 +524,128 @@
 -->
 
 
-<p>The Video Turing Test (VTT) project aimed to develop AI agents capable of <strong>human-level comprehension of video narratives</strong> and open-ended dialogue about video content, using TV drama and movie data as a testbed for measuring machine intelligence.</p>
+<p>The Video Turing Test (VTT) project pursued a grand challenge: building AI systems capable of <strong>human-level comprehension of video narratives</strong>. Inspired by the Turing Test concept applied to video story understanding, the project proposed a blind evaluation framework in which an AI agent’s video comprehension ability is assessed by its indistinguishability from that of a human viewer. TV drama and movie content served as the primary testbed, demanding that machines extract events, analyse causal relationships, resolve characters across scenes, and engage in open-ended dialogue about video content.</p>
 
-<h2 id="key-contributions">Key Contributions</h2>
+<h2 id="overview">Overview</h2>
+
+<p>Story comprehension is widely regarded as a robust proxy for measuring intelligence. Understanding a video story requires integrating visual perception, natural language processing, and multimodal reasoning over long temporal spans — tasks that remain far beyond the reach of standard video recognition systems.</p>
+
+<p>The VTT project addressed this challenge by developing:</p>
 
 <ul>
-  <li>
-<strong>VTT Framework</strong>: A blind evaluation methodology to assess AI human-likeness in video understanding</li>
-  <li>
-<strong>DramaQA</strong>: A large-scale character-centered video QA benchmark based on hierarchical story structures</li>
-  <li>Multimodal (vision, language, audio) representation learning</li>
-  <li>Hierarchical question answering and character grounding/re-identification</li>
-  <li>Scene graph-based causal reasoning over long-form video</li>
+  <li>A <strong>blind evaluation methodology</strong> (the Video Turing Test framework) to measure AI human-likeness in video comprehension</li>
+  <li>Large-scale <strong>multimodal benchmarks</strong> combining video clips, subtitles, scene descriptions, and rich character annotations</li>
+  <li>Deep learning architectures for <strong>hierarchical story understanding</strong>, including character re-identification, causal reasoning, and open-ended question answering</li>
+  <li>Scene graph-based and hypergraph-based methods for <strong>structured multimodal representation</strong>
+</li>
 </ul>
 
-<h2 id="benchmark-dramaqa">Benchmark: DramaQA</h2>
+<p>The flagship benchmark produced by the project is <strong>DramaQA</strong>, a character-centered video question-answering dataset built from the Korean TV drama <em>Another Miss Oh</em>. DramaQA provides 17,983 QA pairs across 23,928 video clips at four hierarchical difficulty levels aligned to human cognitive developmental stages, together with 217,308 annotated images containing character bounding boxes, behaviors, emotions, and coreference-resolved scripts.</p>
 
-<p>DramaQA is built from Korean TV drama episodes and provides:</p>
+<p>A culminating system called <strong>VINCENT</strong> (Video INtelligence CENter Toolkit) was proposed to operationalise the VTT evaluation, demonstrating end-to-end multimodal video comprehension and dialogue.</p>
+
+<h2 id="research-team">Research Team</h2>
+
+<p><strong>Principal Investigator</strong></p>
 <ul>
-  <li>Multi-level difficulty QA (4 levels based on memory and reasoning complexity)</li>
-  <li>Character-centered annotation with visual grounding</li>
-  <li>Rich multimodal context (video clips, subtitles, scene descriptions)</li>
+  <li>Byoung-Tak Zhang (Seoul National University, SNU Biointelligence Lab)</li>
 </ul>
+
+<p><strong>Researchers</strong></p>
+<ul>
+  <li>Seongho Choi</li>
+  <li>Kyoung-Woon On</li>
+  <li>Yu-Jung Heo</li>
+  <li>Ahjeong Seo</li>
+  <li>Youwon Jang</li>
+  <li>Minsu Lee</li>
+  <li>Wooseok Choi</li>
+  <li>Woo Suk Choi</li>
+  <li>Minjung Shin</li>
+  <li>Minjoon Jung</li>
+  <li>Donggeon Lee</li>
+  <li>Eun-Sol Kim</li>
+  <li>Björn Bebensee</li>
+</ul>
+
+<p><strong>Affiliation:</strong> Video Intelligence Center @ Seoul National University (SNU AIIS)</p>
+
+<h2 id="technical-approach">Technical Approach</h2>
+
+<p>The VTT project tackled video story understanding across several complementary research thrusts:</p>
+
+<p><strong>Benchmark Construction and Evaluation</strong></p>
+<ul>
+  <li>Hierarchical QA difficulty levels (L1–L4) grounded in cognitive development theory</li>
+  <li>Character-centered annotation: bounding boxes, behavior labels, emotion tags, coreference-resolved dialogue</li>
+  <li>The VTT blind test protocol for comparing AI and human video comprehension</li>
+</ul>
+
+<p><strong>Multimodal Representation Learning</strong></p>
+<ul>
+  <li>Hypergraph Attention Networks (HAN) for joint modeling of visual, audio, and textual modalities</li>
+  <li>Cut-based graph learning networks to discover compositional structure in sequential video</li>
+  <li>Co-attentional Transformers for cross-modal story-level reasoning</li>
+</ul>
+
+<p><strong>Character Understanding and Re-identification</strong></p>
+<ul>
+  <li>Character grounding across video clips using visual and linguistic cues</li>
+  <li>Scene-level and narrative-level character state tracking</li>
+</ul>
+
+<p><strong>Scene Graph and Structured Reasoning</strong></p>
+<ul>
+  <li>Scene graph parsing methods (SGRAM, AMR-based) for extracting structured event representations</li>
+  <li>Hypergraph Transformer for weakly-supervised multi-hop reasoning in knowledge-based VQA</li>
+  <li>Causal and temporal inference over long-form narrative content</li>
+</ul>
+
+<p><strong>Open-ended Video Question Answering</strong></p>
+<ul>
+  <li>Multi-level Context Matching model for hierarchical answer selection</li>
+  <li>Motion-appearance synergistic networks for video QA (MASN)</li>
+  <li>Transformer-based video metadata integration for open-ended QA</li>
+</ul>
+
+<h2 id="workshop-and-community-building">Workshop and Community Building</h2>
+
+<p>The project organised the <strong>VTT Workshop at ICCV 2019</strong> (November 2, 2019, Seoul), a half-day workshop that brought together leading researchers in video understanding from institutions including UC Berkeley, University of British Columbia, and University of Amsterdam. Nine papers were presented, spanning video stabilisation, character identification in dramatic content, and novel video understanding benchmarks.</p>
+
+<p>The DramaQA challenge was also hosted at <strong>ECCV 2020</strong>, further establishing the benchmark as a standard for the community.</p>
 
 <h2 id="publications">Publications</h2>
 
-<p>Key results were published at venues including AAAI, ACL, and ECCV. See the <a href="/research/?search=VTT">Research page</a> for the full list of related papers.</p>
+<ul>
+  <li>Minsu Lee, Yu-Jung Heo, Seongho Choi, Wooseok Choi, Byoung-Tak Zhang. <strong>“Video Turing Test: A First Step Towards Human-Level AI.”</strong> <em>AI Magazine</em> 44(4), 2023. <a href="https://doi.org/10.1002/aaai.12128">https://doi.org/10.1002/aaai.12128</a>
+</li>
+  <li>Seongho Choi, Kyoung-Woon On, Yu-Jung Heo, Ahjeong Seo, Youwon Jang, Minsu Lee, Byoung-Tak Zhang. <strong>“DramaQA: Character-Centered Video Story Understanding with Hierarchical QA.”</strong> <em>AAAI 2021</em>. <a href="https://arxiv.org/abs/2005.03356">https://arxiv.org/abs/2005.03356</a>
+</li>
+  <li>Yu-Jung Heo, Minsu Lee, Seongho Choi, Woo Suk Choi, Minjung Shin, Minjoon Jung, Jeh-Kwang Ryu, Byoung-Tak Zhang. <strong>“Toward a Human-Level Video Understanding Intelligence.”</strong> <em>AAAI FSS 2021</em>. <a href="https://arxiv.org/abs/2110.04203">https://arxiv.org/abs/2110.04203</a>
+</li>
+  <li>Ahjeong Seo, Gi-Cheon Kang, Joonhan Park, Byoung-Tak Zhang. <strong>“Attend What You Need: Motion-Appearance Synergistic Networks for Video Question Answering.”</strong> <em>ACL 2021</em>. <a href="https://aclanthology.org/2021.acl-long.481/">https://aclanthology.org/2021.acl-long.481/</a>
+</li>
+  <li>Björn Bebensee, Byoung-Tak Zhang. <strong>“Co-Attentional Transformers for Story-Based Video Understanding.”</strong> <em>ICASSP 2021</em>. <a href="https://arxiv.org/abs/2010.14104">https://arxiv.org/abs/2010.14104</a>
+</li>
+  <li>Donggeon Lee, Seongho Choi, Youwon Jang, Byoung-Tak Zhang. <strong>“Mounting Video Metadata on Transformer-based Language Model for Open-ended Video Question Answering.”</strong> <em>Preprint</em>, 2021. <a href="https://arxiv.org/abs/2108.05158">https://arxiv.org/abs/2108.05158</a>
+</li>
+  <li>Yu-Jung Heo, Eunsol Kim, Wooseok Choi, Byoung-Tak Zhang. <strong>“Hypergraph Transformer: Weakly-Supervised Multi-hop Reasoning for Knowledge-Based Visual Question Answering.”</strong> <em>ACL 2022</em>. <a href="https://aclanthology.org/2022.acl-long.29/">https://aclanthology.org/2022.acl-long.29/</a>
+</li>
+  <li>Wooseok Choi, Yu-Jung Heo, Dharani Perumal, Byoung-Tak Zhang. <strong>“Scene Graph Parsing via Abstract Meaning Representation in Pre-trained Language Models.”</strong> <em>NAACL 2022 DLG4NLP Workshop</em>. <a href="https://arxiv.org/abs/2208.04832">https://arxiv.org/abs/2208.04832</a>
+</li>
+  <li>Woo Suk Choi, Yu-Jung Heo, Byoung-Tak Zhang. <strong>“SGRAM: Improving Scene Graph Parsing via Abstract Meaning Representation.”</strong> <em>Preprint</em>, 2022. <a href="https://arxiv.org/abs/2210.08675">https://arxiv.org/abs/2210.08675</a>
+</li>
+  <li>Kyoung-Woon On, Eun-Sol Kim, Yu-Jung Heo, Byoung-Tak Zhang. <strong>“Cut-Based Graph Learning Networks to Discover Compositional Structure of Sequential Video Data.”</strong> <em>AAAI 2020</em>. <a href="https://doi.org/10.1609/aaai.v34i04.5978">https://doi.org/10.1609/aaai.v34i04.5978</a>
+</li>
+  <li>Eun-Sol Kim, Woo-Young Kang, Kyoung-Woon On, Yu-Jung Heo, Byoung-Tak Zhang. <strong>“Hypergraph Attention Networks for Multimodal Learning.”</strong> <em>CVPR 2020</em>. <a href="https://openaccess.thecvf.com/content_CVPR_2020/html/Kim_Hypergraph_Attention_Networks_for_Multimodal_Learning_CVPR_2020_paper.html">https://openaccess.thecvf.com/content_CVPR_2020/html/Kim_Hypergraph_Attention_Networks_for_Multimodal_Learning_CVPR_2020_paper.html</a>
+</li>
+  <li>Minjung Shin, Seongho Choi, Yu-Jung Heo, Minsu Lee, Byoung-Tak Zhang, Jeh-Kwang Ryu. <strong>“CogME: A Cognition-Inspired Multi-Dimensional Evaluation Metric for Story Understanding.”</strong> <em>CogSci 2024</em>. <a href="https://escholarship.org/uc/item/8p3137gd">https://escholarship.org/uc/item/8p3137gd</a>
+</li>
+</ul>
+
+<h2 id="funding">Funding</h2>
+
+<p>This project was funded by the <strong>Institute for Information &amp; Communications Technology Promotion (IITP)</strong>, grant No. <strong>2017-0-01772-VTT</strong>, under the Korean Ministry of Science and ICT (MSIT). Additional related support was provided under IITP grants 2015-0-00310 (SW StarLab), 2018-0-00622 (RMI), and 2019-0-01367 (BabyMind).</p>
   </section>
 
   

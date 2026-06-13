@@ -439,9 +439,14 @@
   
   <span class="project-meta-chip">
     <i class="icon fa-solid fa-calendar"></i>
-    2023
+    2021~2023
   </span>
   
+  
+  <span class="project-meta-chip">
+    <i class="icon fa-solid fa-building-columns"></i>
+    IITP (Institute of Information &amp; Communications Technology Planning &amp; Evaluation), Ministry of Science and ICT, Korea
+  </span>
   
 </div>
 
@@ -475,28 +480,19 @@
         natural-language-processing
       </a>
     
+      <a href="?search=%22tag:%20robot-manipulation%22" class="tag" data-tooltip='Show items with the tag "robot-manipulation"'>
+        robot-manipulation
+      </a>
+    
+      <a href="?search=%22tag:%20mobile-robots%22" class="tag" data-tooltip='Show items with the tag "mobile-robots"'>
+        mobile-robots
+      </a>
+    
+      <a href="?search=%22tag:%20lifelong-learning%22" class="tag" data-tooltip='Show items with the tag "lifelong-learning"'>
+        lifelong-learning
+      </a>
+    
   </div>
-
-
-
-
-
-<div class="center" style="margin: 1.5rem 0;">
-  
-
-
-
-  <div class="button-wrapper">
-    <a class="button" href="https://bi.snu.ac.kr/" data-style="" aria-label="fa-solid fa-arrow-up-right-from-square">
-      <i class="icon fa-solid fa-arrow-up-right-from-square"></i>
-      
-        <span>Project Website</span>
-      
-    </a>
-  </div>
-
-
-</div>
   </section>
 
   
@@ -511,37 +507,121 @@
 -->
 
 
-<p>The Embodied Intelligence project investigated AI systems with <strong>physical embodiment</strong> capable of perceiving and acting in the real world, spanning mobile robot perception to robotic arm manipulation.</p>
+<p>The Embodied Intelligence (EI) project developed <strong>AI systems with physical embodiment</strong> capable of perceiving, reasoning, and acting in the real world. The project spanned the full perception-to-action pipeline: from visual grounding and multi-agent map fusion for mobile robots to language-conditioned lifelong learning and safe manipulation for robotic arms. A key objective was building agents that can continually adapt — not only learning to see and understand their environment, but doing so sustainably across changing tasks and conditions.</p>
 
-<h2 id="research-areas">Research Areas</h2>
+<h2 id="overview">Overview</h2>
+
+<p>Physical embodiment changes the nature of intelligence. Unlike disembodied AI that operates on static datasets, embodied agents must handle sensor noise, dynamic environments, partial observability, and the physical consequences of their actions. The EI project addressed this challenge across two complementary platforms:</p>
+
+<ol>
+  <li>
+    <p><strong>Mobile robot navigation and multi-agent coordination</strong> — developing robust visual perception and cooperative map-building strategies that allow multiple agents to rendezvous and share spatial understanding of their environment.</p>
+  </li>
+  <li>
+    <p><strong>Robotic arm manipulation</strong> — combining natural language understanding with continual learning so that a robot arm can follow human instructions across a stream of novel objects and manipulation tasks, without catastrophically forgetting prior capabilities.</p>
+  </li>
+</ol>
+
+<p>Both tracks required tight integration of computer vision, natural language processing, and reinforcement learning, reflecting the lab’s broader commitment to multimodal AI.</p>
+
+<h2 id="research-team">Research Team</h2>
+
+<p><strong>Principal Investigator</strong></p>
+<ul>
+  <li>Prof. Byoung-Tak Zhang (Seoul National University)</li>
+</ul>
+
+<p><strong>Researchers (Mobile Perception)</strong></p>
+<ul>
+  <li>Jaein Kim</li>
+  <li>Dong-Sig Han</li>
+</ul>
+
+<p><strong>Researchers (Language-Conditioned Manipulation)</strong></p>
+<ul>
+  <li>Junghyun Kim</li>
+  <li>Gi-Cheon Kang</li>
+  <li>Suyeon Shin</li>
+</ul>
+
+<p><strong>Researchers (Safe Manipulation &amp; Tracking)</strong></p>
+<ul>
+  <li>Hyunseo Kim</li>
+  <li>Hye-Jung Yoon</li>
+  <li>Minji Kim</li>
+</ul>
+
+<p><strong>Researchers (Inverse Reinforcement Learning)</strong></p>
+<ul>
+  <li>Hyundo Lee</li>
+  <li>Je-Hwan Ryu</li>
+</ul>
+
+<h2 id="technical-approach">Technical Approach</h2>
 
 <h3 id="multimodal-perception-for-mobile-robots">Multimodal Perception for Mobile Robots</h3>
-<ul>
-  <li>Object detection and visual grounding</li>
-  <li>Multi-agent 2D map merging for cooperative navigation</li>
-  <li>Robust Map Fusion with visual attention (ICRA 2023)</li>
-</ul>
-
-<h3 id="language-conditioned-robot-manipulation">Language-Conditioned Robot Manipulation</h3>
-<ul>
-  <li>ROS-based real-world robot control system</li>
-  <li>Natural language-conditioned lifelong learning for robotic arm manipulation</li>
-  <li>Exit-aware object tracking for safe manipulation</li>
-</ul>
-
-<h2 id="key-papers-2023">Key Papers (2023)</h2>
 
 <ul>
   <li>
-<strong>GVCCI</strong>: Lifelong Visual Grounding via Continual Contrastive Learning for Individual Instance — <em>IROS 2023</em>
-</li>
+<strong>Visual attention-based map fusion</strong>: a multi-agent rendezvous framework that enables robots to merge independently built occupancy maps using visual attention, enabling cooperative localization even when agents have explored disjoint areas.</li>
   <li>
-<strong>EXOT</strong>: Exit-Aware Object Tracker for Safe Robotic Manipulation — <em>ICRA 2023</em>
-</li>
-  <li>
-<strong>Robust Map Fusion</strong>: Visual Attention-based Map Fusion for Multi-Agent Rendezvous — <em>ICRA 2023</em>
-</li>
+<strong>Object detection and visual grounding</strong> for task-relevant perception in cluttered real-world scenes.</li>
 </ul>
+
+<h3 id="language-conditioned-lifelong-manipulation">Language-Conditioned Lifelong Manipulation</h3>
+
+<ul>
+  <li>
+<strong>GVCCI</strong> (Grounded Visual Concept Continual Instance learning): a continual contrastive learning framework that allows a robotic arm to learn visual groundings of language-referred object instances over an open-ended stream of tasks, without forgetting previously acquired concepts.</li>
+  <li>
+<strong>ROS-based real-world control pipeline</strong>: end-to-end system connecting natural language commands to robot arm joint control via a ROS middleware stack.</li>
+</ul>
+
+<h3 id="safe-and-adaptive-object-tracking">Safe and Adaptive Object Tracking</h3>
+
+<ul>
+  <li>
+<strong>EXOT</strong> (Exit-Aware Object Tracker): a real-time tracker that detects when a target object is about to exit the robot’s reachable workspace or camera field-of-view, enabling the robot to abort or adapt its grasp strategy before a collision or failure occurs.</li>
+</ul>
+
+<h3 id="imitation-and-inverse-reinforcement-learning">Imitation and Inverse Reinforcement Learning</h3>
+
+<ul>
+  <li>Mirror-descent inverse reinforcement learning (<strong>Mirror-Descent IRL</strong>) for robust imitation from suboptimal or noisy human demonstrations — supporting safe transfer of human-demonstrated manipulation skills to robotic systems.</li>
+</ul>
+
+<h2 id="publications">Publications</h2>
+
+<ul>
+  <li>
+    <p><strong>Junghyun Kim</strong>, Gi-Cheon Kang, Jaein Kim, Suyeon Shin, Byoung-Tak Zhang. “GVCCI: Lifelong Learning of Visual Grounding for Language-Guided Robotic Manipulation.” <em>IROS 2023.</em> <a href="https://arxiv.org/abs/2307.05963">arXiv:2307.05963</a></p>
+  </li>
+  <li>
+    <p><strong>Hyunseo Kim</strong>, Hye-Jung Yoon, Minji Kim, Dong-Sig Han, Byoung-Tak Zhang. “EXOT: Exit-Aware Object Tracker for Safe Robotic Manipulation of Moving Object.” <em>ICRA 2023.</em> <a href="https://arxiv.org/abs/2306.05262">arXiv:2306.05262</a></p>
+  </li>
+  <li>
+    <p><strong>Jaein Kim</strong>, Dong-Sig Han, Byoung-Tak Zhang. “Robust Map Fusion with Visual Attention Utilizing Multi-Agent Rendezvous.” <em>ICRA 2023.</em> <a href="https://doi.org/10.1109/ICRA48891.2023.10161072">DOI:10.1109/ICRA48891.2023.10161072</a></p>
+  </li>
+  <li>
+    <p><strong>Dong-Sig Han</strong>, Hyunseo Kim, Hyundo Lee, Je-Hwan Ryu, Byoung-Tak Zhang. “Robust Imitation via Mirror-Descent Inverse Reinforcement Learning.” <em>NeurIPS 2022.</em> <a href="https://arxiv.org/abs/2210.11201">arXiv:2210.11201</a></p>
+  </li>
+  <li>
+    <p><strong>Junghyun Kim</strong>, Gi-Cheon Kang, Jaein Kim, Seoyun Yang, Minjoon Jung, Byoung-Tak Zhang. “PGA: Personalizing Grasping Agents with Single Human-Robot Interaction.” <em>IROS 2024.</em> <a href="https://arxiv.org/abs/2310.12547">arXiv:2310.12547</a></p>
+  </li>
+  <li>
+    <p><strong>Gi-Cheon Kang</strong>, Junghyun Kim, Jaein Kim, Byoung-Tak Zhang. “PROGrasp: Pragmatic Human-Robot Communication for Object Grasping.” <em>ICRA 2024.</em> <a href="https://arxiv.org/abs/2309.07759">arXiv:2309.07759</a></p>
+  </li>
+  <li>
+    <p><strong>Hye-Jung Yoon</strong>, Juno Kim, Yesol Park, Byoung-Tak Zhang. “Visual Perception-Based Assistive Mobile Robot System for Manipulation Tasks.” <em>ICRA 2023 Workshop on Assistive Manipulation.</em></p>
+  </li>
+  <li>
+    <p>Dongwoon Song, Taewoong Kang, et al., Byoung-Tak Zhang, Jae-Bok Song, Seung-Joon Yi. “RoboCup@Home 2021 Domestic Standard Platform League Winner.” <em>RoboCup 2021.</em> <a href="https://doi.org/10.1007/978-3-030-98682-7_24">DOI:10.1007/978-3-030-98682-7_24</a></p>
+  </li>
+</ul>
+
+<h2 id="collaboration">Collaboration</h2>
+
+<p>The robotic manipulation work was developed in close collaboration with the <strong>Intelligent Robotic Systems Lab</strong> at Seoul National University (Prof. Jae-Bok Song, PI: Seung-Joon Yi), co-fielding a joint team for the <strong>RoboCup@Home Domestic Standard Platform League</strong> (2021 winners). The home-service robotics platform (Team Tidyboy) served as a real-world testbed for integrated perception, navigation, and manipulation capabilities developed across both labs.</p>
   </section>
 
   

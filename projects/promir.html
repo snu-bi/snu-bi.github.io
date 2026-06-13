@@ -439,13 +439,13 @@
   
   <span class="project-meta-chip">
     <i class="icon fa-solid fa-calendar"></i>
-    2004~2007
+    2004 - 2007
   </span>
   
   
   <span class="project-meta-chip">
     <i class="icon fa-solid fa-building-columns"></i>
-    Korean Ministry of Science and Technology (National Research Laboratory program, Systems Biology project)
+    The Ministry of Science and Technology of Korea (NRL)
   </span>
   
 </div>
@@ -492,7 +492,7 @@
 
 
   <div class="button-wrapper">
-    <a class="button" href="/%7B%7B%20'/legacy/raw/bi.snu.ac.kr/Research/ProMiR/ProMiR.html'%20%7C%20relative_url%20%7D%7D" data-style="" aria-label="fa-solid fa-arrow-up-right-from-square">
+    <a class="button" href="https://academic.oup.com/nar/article/34/suppl_2/W455/2505724" data-style="" aria-label="fa-solid fa-arrow-up-right-from-square">
       <i class="icon fa-solid fa-arrow-up-right-from-square"></i>
       
         <span>Project Website</span>
@@ -516,36 +516,116 @@
 -->
 
 
-<p>ProMiR is a computational framework for <strong>identifying microRNA genes</strong> using a probabilistic co-learning model that jointly analyzes sequence and secondary structure features of pre-miRNA candidates.</p>
+<h2 id="overview">Overview</h2>
 
-<h2 id="background">Background</h2>
+<p>ProMiR is a computational framework for <strong>multi-species microRNA and target gene prediction</strong> using machine learning algorithms. The central goal of the project was to develop an efficient prediction algorithm and an integrated web-based system, and to lay the foundation for functional studies and the artificial design of RNA interference systems.</p>
 
-<p>MicroRNAs (miRNAs) are small non-coding RNA molecules that regulate gene expression by binding to messenger RNAs. Identifying miRNA genes in the genome is computationally challenging because they’re short, numerous, and structurally diverse.</p>
+<p>MicroRNAs (miRNAs) are small non-coding RNA molecules that regulate gene expression by binding to messenger RNAs. Identifying miRNA genes in the genome is computationally challenging because they are short, numerous, and structurally diverse. Prior approaches that detected only close homologs risked missing novel miRNA genes that lack detectable homology. ProMiR addresses this by implementing a probabilistic co-learning model that combines both sequential and structural characteristics, enabling the detection of both closely and distantly homologous miRNA precursors.</p>
 
-<h2 id="promir-approach">ProMiR Approach</h2>
+<p>The project produced two major systems — <strong>ProMiR I</strong> and <strong>ProMiR II</strong> — as well as related tools for microRNA target prediction.</p>
+
+<h2 id="research-team">Research Team</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Role</th>
+      <th>Name</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Principal Investigator</td>
+      <td>Prof. Byoung-Tak Zhang</td>
+    </tr>
+    <tr>
+      <td>Researcher</td>
+      <td>Jin-Wu Nam</td>
+    </tr>
+    <tr>
+      <td>Researcher</td>
+      <td>Je-Keun Rhee</td>
+    </tr>
+    <tr>
+      <td>Researcher</td>
+      <td>Soo-Jin Kim</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Contact:</strong> Jin-Wu Nam (jwnam@bi.snu.ac.kr)</p>
+
+<h2 id="methodology">Methodology</h2>
+
+<h3 id="promir-i--probabilistic-co-learning-model">ProMiR I — Probabilistic Co-learning Model</h3>
+
+<p>ProMiR I implements a probabilistic co-learning model that jointly models sequential and structural characteristics of miRNA genes in a unified probabilistic framework. The model simultaneously determines (1) whether a genomic region contains a miRNA gene, and (2) where the mature miRNA cleavage site by Drosha is located on the precursor.</p>
+
+<p>Key capabilities and results:</p>
+
+<ul>
+  <li>Development of the <strong>probabilistic co-learning model</strong> of sequence and RNA secondary structure</li>
+  <li>Human pre-miRNA and mature miRNA prediction</li>
+  <li>Experimental validation via <strong>real-time quantitative PCR</strong> and <strong>Drosha knockdown</strong> assays in HeLa cells</li>
+  <li>
+<strong>9 new miRNA genes identified</strong> and confirmed experimentally</li>
+</ul>
+
+<h3 id="promir-ii--extended-multi-species-prediction-server">ProMiR II — Extended Multi-species Prediction Server</h3>
+
+<p>ProMiR II is an improved, more general version of ProMiR composed of three sub-programs:</p>
 
 <ul>
   <li>
-<strong>Probabilistic co-learning</strong>: jointly models sequence features and RNA secondary structure folding</li>
-  <li>Achieves <strong>73% sensitivity</strong> and <strong>96% specificity</strong> on known human miRNA datasets</li>
-  <li>Identified <strong>23 novel miRNA candidates</strong> on human chromosomes 16–19</li>
+<strong>ProMiR-v</strong>: searches for both conserved and non-conserved miRNAs in the vicinity of a known miRNA</li>
+  <li>
+<strong>ProMiR-c</strong>: predicts both conserved and non-conserved miRNAs near a candidate sequence (70–150 nt)</li>
+  <li>
+<strong>ProMiR-g</strong>: provides genome-scale miRNA gene prediction in long sequences (70 nt – 10 kb) across various species</li>
 </ul>
 
-<h2 id="experimental-validation">Experimental Validation</h2>
+<p>Additional features in ProMiR II:</p>
 
 <ul>
-  <li>9 novel candidates experimentally confirmed via <strong>quantitative PCR</strong> and <strong>Drosha knockdown</strong> in HeLa cells</li>
-</ul>
-
-<h2 id="promir-ii">ProMiR II</h2>
-
-<p>The extended ProMiR II web server further integrated:</p>
-<ul>
-  <li>Thermodynamic stability scores</li>
-  <li>GC ratio and conservation scores</li>
-  <li>Sequence entropy measures</li>
-  <li>Prediction across <strong>human, mouse, and viral genomes</strong>
+  <li>Conserved, non-conserved, clustered, and non-clustered miRNA prediction</li>
+  <li>Stem-loop filter and conservation score filter integration</li>
+  <li>Prediction output visualized on a Genome Browser annotated with known genes and conservation scores</li>
+  <li>Support for unrelated species including <strong>virus miRNA prediction</strong>
 </li>
+</ul>
+
+<h2 id="collaboration">Collaboration</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Field</th>
+      <th>Detail</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Cooperative Research Institute</td>
+      <td>School of Biological Sciences, Seoul National University</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="publications">Publications</h2>
+
+<ul>
+  <li>B.-T. Zhang and J.-W. Nam. “Supervised learning methods for microRNA studies.” <em>Machine Learning for Bioinformatics</em>, chapter 9, John Wiley &amp; Sons, 2007.</li>
+  <li>J.-G. Joung, K.-B. Hwang, J.-W. Nam, S.-J. Kim, and B.-T. Zhang. “Discovery of microRNA-mRNA modules via population-based probabilistic learning.” <em>Bioinformatics</em>, 2007.</li>
+  <li>J.-W. Nam, I.-H. Lee, K.-B. Hwang, S.-B. Park, and B.-T. Zhang. “Dinucleotide step parameterization of pre-miRNAs using multi-objective evolutionary algorithms.” <em>Lecture Notes in Computer Science</em>, EvoBio 2007.</li>
+  <li>S.-K. Kim*, J.-W. Nam*, J.-K. Rhee, W.-J. Lee, and B.-T. Zhang. “miTarget: microRNA target-gene prediction using a Support Vector Machine.” <em>BMC Bioinformatics</em>, 7(1):411, 2006. (<strong>Highlight paper</strong>)</li>
+  <li>J.-W. Nam*, J. H. Kim*, S. K. Kim, and B.-T. Zhang. “ProMiR II: a web server for clustered, nonclustered, conserved, nonconserved microRNA prediction.” <em>Nucleic Acids Research</em>, 34:W455–W458, 2006.</li>
+  <li>J. Han, Y. T. Kim, K.-H. Yeom, J.-W. Nam, I. H. Hur, J.-K. Rhee, B.-T. Zhang, and V. N. Kim. “Molecular basis for the recognition and processing of primary microRNA by Drosha.” <em>Cell</em>, 2006.</li>
+  <li>V. N. Kim and J.-W. Nam. “Genomics of microRNA.” <em>Trends in Genetics</em>, 22(3):165–173, 2006. (<strong>Most downloaded paper</strong>)</li>
+  <li>J.-W. Nam, K. R. Shin, J. Han, Y. Lee, V. N. Kim, and B.-T. Zhang. “Human microRNA prediction through a probabilistic co-learning model of sequence and structure.” <em>Nucleic Acids Research</em>, 33(11):3570–3581, 2005. (<strong>Hottest Paper</strong>)</li>
+  <li>S. K. Kim, J.-W. Nam, W. J. Lee, and B. T. Zhang. “A Kernel Method for MicroRNA Target Prediction Using Sensible Data and Position-Based Features.” <em>IEEE Symposium on Computational Intelligence in Bioinformatics and Computational Biology (CIBCB 2005)</em>, pp. 46–52, 2005.</li>
+  <li>W.-J. Lee, J.-W. Nam, S.-K. Kim, and B.-T. Zhang. “Identification of C. elegans MicroRNA Targets Using a Kernel Method.” <em>Genomics and Informatics</em>, 3(1):15–23, 2005.</li>
+  <li>J.-W. Nam, W. J. Lee, and B. T. Zhang. “Computational Methods for Identification of Human microRNA Precursors.” <em>Lecture Notes in Artificial Intelligence</em>, vol. 3157, pp. 732–741, 2004.</li>
+  <li>J.-W. Nam, J.-G. Joung, Y. S. Ahn, and B.-T. Zhang. “Two-Step Genetic Programming for Optimization of RNA Common-Structure.” <em>Lecture Notes in Computer Science</em>, vol. 3005, pp. 73–83, 2004.</li>
 </ul>
   </section>
 

@@ -440,7 +440,7 @@
   
   <span class="project-meta-chip">
     <i class="icon fa-solid fa-building-columns"></i>
-    IITP
+    IITP (Institute of Information &amp; Communications Technology Planning &amp; Evaluation), Ministry of Science and ICT, Korea
   </span>
   
 </div>
@@ -494,29 +494,106 @@
 -->
 
 
-<p>DeepClone aimed to create <strong>deep-learning-based digital clones of humans</strong> by capturing behavioral patterns through wearable sensors and long-term lifelogging, enabling a personal service robot to anticipate and schedule tasks on the user’s behalf.</p>
+<h2 id="overview">Overview</h2>
 
-<h2 id="vision">Vision</h2>
+<p>DeepClone aimed to create <strong>deep-learning-based digital clones of humans</strong> by capturing behavioral patterns through long-term lifelogging with wearable sensors, enabling a personal service robot to anticipate and autonomously schedule tasks on the user’s behalf.</p>
 
-<p>What if your robot knew your schedule better than you do? DeepClone sought to build a digital twin of the user’s daily behavioral patterns — their routines, preferences, and habits — so a service robot could autonomously plan and execute tasks without being told.</p>
+<p>The central idea was that a robot does not need to be told what to do if it has already learned — from continuous, real-world observation — the user’s routines, preferences, and habits in sufficient detail. By constructing a computational clone of the user’s behavioral self, the robot can proactively plan, prioritize, and execute domestic service tasks without explicit instruction.</p>
+
+<p>This approach extended the lab’s prior work on mobile lifelogging (mLife) and cognitive video learning (Videome) into the personal robotics domain, combining long-term data collection from heterogeneous wearable devices with deep learning models capable of predicting future user behavior.</p>
+
+<h2 id="research-team">Research Team</h2>
+
+<p><strong>Principal Investigator</strong></p>
+<ul>
+  <li>Prof. Byoung-Tak Zhang (Seoul National University, Biointelligence Lab)</li>
+</ul>
 
 <h2 id="sensing-modalities">Sensing Modalities</h2>
 
-<ul>
-  <li>Smart glasses (first-person visual context)</li>
-  <li>Smartwatches (motion, biometrics)</li>
-  <li>Brain scanners (cognitive state)</li>
-  <li>Body sensors (physiological signals)</li>
-</ul>
+<p>DeepClone relied on a multimodal wearable sensing suite to build rich, continuous behavioral records:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Sensor</th>
+      <th>Signal Type</th>
+      <th>Purpose</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Smart glasses</td>
+      <td>First-person RGB video</td>
+      <td>Visual context of daily activities</td>
+    </tr>
+    <tr>
+      <td>Smartwatch</td>
+      <td>Motion (IMU), biometrics</td>
+      <td>Activity and physiological state</td>
+    </tr>
+    <tr>
+      <td>Brain scanner (EEG)</td>
+      <td>Neural signals</td>
+      <td>Cognitive and attentional state</td>
+    </tr>
+    <tr>
+      <td>Body sensors</td>
+      <td>Physiological signals</td>
+      <td>Health and arousal context</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>This multimodal combination allowed the system to capture not just what the user was doing, but the cognitive and physical context surrounding each activity — forming the basis for a behavioral model that was both rich and personalized.</p>
 
 <h2 id="technical-approach">Technical Approach</h2>
 
+<h3 id="lifelogging-as-training-data">Lifelogging as Training Data</h3>
+
+<p>Unlike most machine learning pipelines that rely on curated, annotated datasets, DeepClone used <strong>long-term real-world lifelogging</strong> as its primary data source. Continuous sensor streams were collected from participants over extended periods — capturing the natural rhythms and variability of everyday life rather than staged scenarios.</p>
+
+<h3 id="behavioral-pattern-learning">Behavioral Pattern Learning</h3>
+
+<p>Deep learning models were applied to reverse-engineer individual-level behavioral patterns from the raw multimodal sensor streams. The system learned:</p>
+
 <ul>
-  <li>Long-term real-world lifelogging as training data</li>
-  <li>Reverse-engineering individual routines and preferences from multimodal sensor streams</li>
-  <li>Deep learning models for behavioral pattern learning and future task prediction</li>
-  <li>Closely related to the IITP-funded <strong>StarLab</strong> project on Cognitive Agents</li>
+  <li>
+<strong>Temporal structure</strong> of daily routines (when activities occur, how long they last, how they sequence)</li>
+  <li>
+<strong>Activity preferences</strong> (what the user tends to do in specific contexts or times of day)</li>
+  <li>
+<strong>Context dependencies</strong> (how environmental factors, physiological state, or social context influence behavior)</li>
 </ul>
+
+<h3 id="future-task-scheduling">Future Task Scheduling</h3>
+
+<p>The behavioral clone served as a predictive model: given the current context (time, location, recent activity, physiological state), it forecast the user’s upcoming needs and generated a ranked schedule of service robot tasks — from fetching items to environmental adjustments — before the user made any explicit request.</p>
+
+<h3 id="relationship-to-starlab">Relationship to StarLab</h3>
+
+<p>DeepClone was closely related to the IITP-funded <strong>StarLab</strong> project (Cognitive Agents That Learn Everyday Life), which developed parallel infrastructure for lifelong learning from wearable sensor data. StarLab’s core systems — including <strong>LifeMap</strong> (behavioral visualization), <strong>CogMap</strong> (episodic memory), and <strong>ActMap</strong> (activity prediction) — provided complementary foundations that informed DeepClone’s architecture.</p>
+
+<h2 id="context-within-the-labs-research-program">Context Within the Lab’s Research Program</h2>
+
+<p>DeepClone represented one of several “former flagship projects” in the lab’s research on agents that learn from human life experience:</p>
+
+<ul>
+  <li>
+<strong>mLife</strong> (2010–2015): mobile behavior identification from smartphone sensors</li>
+  <li>
+<strong>Videome</strong> (2011–2015): cognitive learning from digital video streams</li>
+  <li>
+<strong>StarLab</strong> (2015~): cognitive agents learning everyday life via wearable sensors</li>
+  <li>
+<strong>DeepAction</strong>: deep learning of TV viewer activities</li>
+  <li>
+<strong>DeepClone</strong>: cloning human behavior for personal robot scheduling</li>
+  <li>
+<strong>BabyMind</strong> (2020~): infant-mimic neurocognitive AI from real-world interaction</li>
+</ul>
+
+<p>These projects collectively built toward the vision of AI agents that learn continuously from the texture of real human life, rather than from bounded, curated datasets.</p>
   </section>
 
   

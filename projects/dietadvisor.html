@@ -432,7 +432,7 @@
 <h1 class="center">DietAdvisor</h1>
 
 
-<p class="center project-subtitle">A Smart Phone Agent That Recommends Meals and Exercises</p>
+<p class="center project-subtitle">A Personalized eHealth Agent in a Mobile Computing Environment</p>
 
 
 <div class="project-meta center">
@@ -442,6 +442,11 @@
     2011~2012
   </span>
   
+  
+  <span class="project-meta-chip">
+    <i class="icon fa-solid fa-building-columns"></i>
+    NRF
+  </span>
   
 </div>
 
@@ -471,6 +476,14 @@
         ubiquitous-computing
       </a>
     
+      <a href="?search=%22tag:%20ehealth%22" class="tag" data-tooltip='Show items with the tag "ehealth"'>
+        ehealth
+      </a>
+    
+      <a href="?search=%22tag:%20context-awareness%22" class="tag" data-tooltip='Show items with the tag "context-awareness"'>
+        context-awareness
+      </a>
+    
   </div>
   </section>
 
@@ -486,21 +499,64 @@
 -->
 
 
-<p>DietAdvisor was a <strong>smartphone-based intelligent agent</strong> providing personalized meal and exercise recommendations, combining mobile sensing with intelligent reasoning to support health and wellness goals.</p>
+<p>DietAdvisor was a <strong>smartphone-based personalized eHealth agent</strong> that recommended meals and exercises to individual users by combining intelligent agent reasoning with mobile context sensing. The project explored how agent-based architectures running on mobile devices could deliver timely, contextually appropriate dietary and fitness guidance — an early foray into what is now the mainstream domain of AI-powered health and wellness applications.</p>
 
-<h2 id="features">Features</h2>
+<p>The project was presented by Prof. Byoung-Tak Zhang at Microsoft Research Asia (MSRA) in Beijing in April 2012, reflecting the lab’s international engagement with mobile intelligence research at the time.</p>
+
+<h2 id="overview">Overview</h2>
+
+<p>As smartphones proliferated in the early 2010s, they created a new opportunity for delivering intelligent, always-available health guidance. DietAdvisor addressed a core challenge in personal health management: how to provide recommendations that are both nutritionally sound and adapted to the user’s immediate context — location, time of day, activity level, and personal preference.</p>
+
+<p>The system operated as an <strong>intelligent agent</strong> on the smartphone, continuously monitoring contextual signals from the device’s sensors and applying personalized reasoning to suggest suitable meals and exercise routines. Unlike static diet planners or lookup tables, DietAdvisor’s agent-based design allowed it to reason goal-directedly: tracking user health objectives, adapting to changing situations, and refining recommendations over time.</p>
+
+<p>Key characteristics of the system included:</p>
 
 <ul>
-  <li>Personalized <strong>meal recommendations</strong> tailored to nutritional needs and user preferences</li>
   <li>
-<strong>Exercise suggestions</strong> adapted to user activity level and daily context</li>
-  <li>Context-aware reasoning using mobile sensor data (location, time, activity)</li>
-  <li>Agent-based architecture enabling adaptive, goal-directed advice</li>
+<strong>Personalization</strong>: recommendations tailored to each user’s nutritional profile, dietary history, and health goals</li>
+  <li>
+<strong>Context-awareness</strong>: integrating location (e.g., nearby restaurants vs. home), time, and activity data from smartphone sensors</li>
+  <li>
+<strong>Agent-based reasoning</strong>: applying structured, goal-directed inference rather than simple lookup or rule filtering</li>
+  <li>
+<strong>Mobile deployment</strong>: designed to run efficiently within the resource constraints of contemporary Android or iOS devices</li>
 </ul>
+
+<h2 id="research-team">Research Team</h2>
+
+<p><strong>Principal Investigator</strong></p>
+<ul>
+  <li>Prof. Byoung-Tak Zhang, Biointelligence Lab, Seoul National University</li>
+</ul>
+
+<p><strong>Researchers</strong></p>
+<ul>
+  <li>Ji-Seob Kim (jkim@bi.snu.ac.kr), Biointelligence Lab, SNU</li>
+  <li>Jun Hee Yoo (jhyoo@bi.snu.ac.kr), Biointelligence Lab, SNU</li>
+</ul>
+
+<h2 id="technical-approach">Technical Approach</h2>
+
+<p>DietAdvisor combined several technical threads active in the lab during this period:</p>
+
+<ul>
+  <li>
+<strong>Intelligent agent architecture</strong>: the system embodied a deliberative agent model with goal management, belief updating, and action selection modules running on-device</li>
+  <li>
+<strong>Mobile sensing integration</strong>: sensor data (GPS, accelerometer, clock) provided the situational context that shaped which recommendations were offered at each moment</li>
+  <li>
+<strong>Probabilistic user modeling</strong>: the agent maintained a probabilistic model of the user’s preferences, nutritional state, and activity patterns, updated incrementally as new data arrived</li>
+  <li>
+<strong>Evolutionary optimization</strong>: optimization techniques (reflected in the CEC 2012 contribution by Yoo et al.) were applied to tune recommendation parameters and balance competing health objectives</li>
+</ul>
+
+<p>The project contributed to the lab’s broader interest in <strong>ubiquitous computing and cognitive analytics</strong> — applying machine intelligence to continuous streams of real-world data gathered from everyday devices.</p>
 
 <h2 id="significance">Significance</h2>
 
-<p>DietAdvisor represents an early effort in the lab to apply intelligent agent technology to personal health on mobile platforms — a domain that has since grown enormously with health apps, wearables, and AI nutrition coaching.</p>
+<p>DietAdvisor was an early demonstration that agent-based AI could be embedded meaningfully in the mobile health domain, well before the current proliferation of health apps and AI nutrition coaches. The project illustrated how combining symbolic agent reasoning with data-driven mobile sensing could yield personalized guidance beyond what rule-based systems could achieve.</p>
+
+<p>The MSRA presentation in April 2012 reflects the visibility of this work in the international research community at the time. The methodology developed here informed subsequent lab research on mobile behavior modeling (mLife) and personalized recommendation systems.</p>
   </section>
 
   

@@ -439,7 +439,7 @@
   
   <span class="project-meta-chip">
     <i class="icon fa-solid fa-calendar"></i>
-    2008~2010
+    2008~2012
   </span>
   
   
@@ -516,26 +516,75 @@
 -->
 
 
-<p>Xtran investigated <strong>bidirectional translation between language and visual modalities</strong> using hypernetwork-based machine learning — an early precursor to today’s vision-language models.</p>
+<p>Xtran investigated <strong>bidirectional translation between language and visual modalities</strong> using hypernetwork-based machine learning — an early precursor to today’s vision-language models. Just as machine translation converts sentences between human languages, Xtran aimed to convert representations between sensory modalities: generating relevant keywords from images and retrieving matching images from text descriptions.</p>
 
-<h2 id="core-idea">Core Idea</h2>
+<h2 id="overview">Overview</h2>
 
-<p>Just as translation converts a sentence from one language to another, Xtran converts representations between modalities: given a text description, retrieve the matching image; given an image, generate relevant keywords.</p>
+<p>The central premise of Xtran is that language and vision are two different encodings of a shared semantic reality. A magazine article about a mountain landscape, for example, contains both images and text that mutually describe and reinforce each other. Xtran exploited this co-occurrence structure in multimodal magazine corpora to learn bidirectional associations between visual features and textual keywords.</p>
 
-<h2 id="technical-contributions">Technical Contributions</h2>
+<p>The project employed <strong>layered hypernetwork architectures</strong> — probabilistic graphical models capable of encoding higher-order associations among multiple variables — to capture complex cross-modal correspondences that flat pairwise models would miss. By recalling higher-order patterns involving both image regions and text tokens simultaneously, the system was able to substantially outperform single-modality keyword generation baselines.</p>
+
+<p>Key tasks addressed by Xtran include:</p>
 
 <ul>
   <li>
-<strong>Layered hypernetwork architectures</strong> for cross-modal associative inference</li>
+<strong>Text-to-image retrieval</strong>: given a keyword query or phrase, retrieve the most semantically relevant images from a large archive</li>
   <li>
-<strong>Text-to-image</strong> and <strong>image-to-text</strong> keyword generation from multimodal magazine corpora</li>
-  <li>Higher-order pattern recall with hypernetworks enabling more accurate cross-modal retrieval</li>
-  <li>Substantially improved keyword generation accuracy over single-modality approaches</li>
+<strong>Image-to-text keyword generation</strong>: given an image, automatically generate descriptive textual keywords</li>
+  <li>
+<strong>Visual query expansion</strong>: incrementally expanding a user’s image query using associated textual context learned by the hypernetwork</li>
+</ul>
+
+<h2 id="research-team">Research Team</h2>
+
+<p><strong>Principal Investigator</strong></p>
+<ul>
+  <li>Byoung-Tak Zhang (Seoul National University)</li>
+</ul>
+
+<p><strong>Researchers</strong></p>
+<ul>
+  <li>Jong-Wook Ha (PhD student, primary researcher)</li>
+  <li>Byoung-Hak Kim</li>
+  <li>Hyo-Woo Kim</li>
+  <li>Moon-Ok Heo</li>
+  <li>Byeong-Jae Lee</li>
+  <li>M. Kang</li>
+  <li>W. Yoon</li>
+  <li>J. H. Eom</li>
+</ul>
+
+<h2 id="technical-approach">Technical Approach</h2>
+
+<p>The core technical innovation of Xtran is the use of <strong>hypernetworks</strong> — a generalization of neural networks and Bayesian networks that can represent higher-order dependencies among many variables at once. Rather than modeling only pairwise co-occurrences between image patches and words, hypernetwork units encode associations among entire groups of visual and linguistic features.</p>
+
+<p>The system architecture evolved across the project period:</p>
+
+<ul>
+  <li>
+<strong>Early phase (2008–2009)</strong>: Higher-order pattern recall by hypernetworks for cross-modal retrieval from magazine article corpora; evaluation on text-to-image matching tasks</li>
+  <li>
+<strong>Mid phase (2010)</strong>: Layered hypernetwork models for cross-modal associative keyword generation; incremental visual query expansion using multimodal hypernetworks</li>
+  <li>
+<strong>Late phase (2011–2012)</strong>: Hierarchical hypergraph representations for text-to-image generation; incremental association mechanisms enabling more flexible retrieval</li>
+</ul>
+
+<p>Training data consisted of paired text-image content from Korean magazine articles, where natural co-occurrence between editorial images and accompanying text provided implicit supervision for learning cross-modal mappings.</p>
+
+<h2 id="publications">Publications</h2>
+
+<ul>
+  <li>Jong-Wook Ha, Byoung-Hak Kim, Hyo-Woo Kim, W. Yoon, J. H. Eom, Byoung-Tak Zhang. “Text-to-image cross-modal retrieval of magazine articles based on higher-order pattern recall by hypernetworks.” <em>Brain</em>, 2009.</li>
+  <li>Moon-Ok Heo, Jong-Wook Ha, Byoung-Tak Zhang. “Extraction Analysis for Crossmodal Association Information using Hypernetwork Models.” <em>Korean HCI Society Academic Conference</em>, 2009.</li>
+  <li>Jong-Wook Ha, Byoung-Hak Kim, B. Lee, Byoung-Tak Zhang. “Layered hypernetwork models for cross-modal associative text and image keyword generation in multimodal information retrieval.” <em>Pacific Rim International Conference on Artificial Intelligence (PRICAI)</em>, 2010.</li>
+  <li>Moon-Ok Heo, M. Kang, Byoung-Tak Zhang. “Visual query expansion via incremental hypernetwork models of image and text.” <em>Pacific Rim International Conference on Artificial Intelligence (PRICAI)</em>, 2010.</li>
+  <li>Jong-Wook Ha, Byoung-Tak Zhang. “Text-to-image generation based on crossmodal association with hierarchical hypergraphs.” <em>NIPS 2011 Workshop on Integrating Vision and Language</em>, 2011.</li>
+  <li>Jong-Wook Ha, Byeong-Jae Lee, Byoung-Tak Zhang. “Text-to-image retrieval based on incremental association via multimodal hypernetworks.” <em>IEEE International Conference</em>, 2012.</li>
 </ul>
 
 <h2 id="historical-context">Historical Context</h2>
 
-<p>Xtran was a pioneering effort in cross-modal learning at a time when such problems were considered extremely difficult. Its hypernetwork-based approach anticipated the importance of cross-modal alignment that later became central to models like CLIP and DALL-E.</p>
+<p>Xtran was a pioneering effort in cross-modal learning at a time when such problems were considered extremely difficult, with most retrieval systems operating within a single modality. Its hypernetwork-based approach to cross-modal alignment anticipated ideas that later became central to landmark models such as CLIP, DALL-E, and modern vision-language transformers. The project demonstrated that higher-order co-occurrence patterns — captured by hypernetworks rather than simple pairwise co-occurrence statistics — are key to faithful cross-modal translation.</p>
   </section>
 
   

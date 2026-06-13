@@ -445,7 +445,7 @@
   
   <span class="project-meta-chip">
     <i class="icon fa-solid fa-building-columns"></i>
-    NRF
+    National Research Foundation of Korea (NRF)
   </span>
   
 </div>
@@ -480,6 +480,10 @@
         imitation-learning
       </a>
     
+      <a href="?search=%22tag:%20activity-recognition%22" class="tag" data-tooltip='Show items with the tag "activity-recognition"'>
+        activity-recognition
+      </a>
+    
   </div>
   </section>
 
@@ -495,27 +499,91 @@
 -->
 
 
-<p>RoboMotion investigated <strong>machine learning approaches for generating flexible robot arm motions</strong> by learning from observed human activity sequences — enabling robots to watch and imitate humans.</p>
+<p>RoboMotion investigated <strong>machine learning approaches for enabling robots to watch, understand, and imitate human manipulation activities</strong> — learning to generate flexible robot arm motions directly from observed human activity sequences.</p>
 
-<h2 id="collaboration">Collaboration</h2>
+<h2 id="overview">Overview</h2>
 
-<p>Conducted in collaboration with the <strong>IAS Group at Technische Universität München (TUM)</strong>, Germany, combining the SNU lab’s machine learning expertise with TUM’s robotics engineering capabilities.</p>
+<p>A central challenge in robotics is endowing robots with the ability to acquire new manipulation skills without explicit programming. RoboMotion addressed this by developing a two-stage learning framework: first extracting rich spatio-temporal features from video observations of human activities, then automatically generating high-level semantic rules that capture the structure of those activities and can be transferred to a robotic system.</p>
+
+<p>The core technical innovation was the application of <strong>Independent Subspace Analysis (ISA)</strong> — an unsupervised deep learning method — to learn invariant spatio-temporal feature representations directly from unlabeled video data. These learned features are robust to dynamic backgrounds, camera jitter, illumination changes, and scale variations. In the second stage, the system automatically infers symbolic semantic rules from the learned features, enabling high-level reasoning about what the human is doing and how those actions should be reproduced by a robot arm.</p>
+
+<p>The framework was evaluated on complex real-world cooking scenarios (pancake making and sandwich making), where a humanoid robot must recognize and replicate the sequential manipulation steps performed by a human demonstrator. Results demonstrated action recognition accuracy above 87%, significantly outperforming single-stage baselines, and showed successful skill transfer to the humanoid platform.</p>
+
+<h2 id="research-team">Research Team</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Role</th>
+      <th>Name</th>
+      <th>Affiliation</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Principal Investigator</td>
+      <td>Prof. Byoung-Tak Zhang</td>
+      <td>SNU Biointelligence Lab</td>
+    </tr>
+    <tr>
+      <td>Researcher</td>
+      <td>Eun-Sol Kim</td>
+      <td>SNU Biointelligence Lab</td>
+    </tr>
+    <tr>
+      <td>Researcher</td>
+      <td>Jiseob Kim</td>
+      <td>SNU Biointelligence Lab</td>
+    </tr>
+    <tr>
+      <td>Collaborator</td>
+      <td>Karinne Ramirez-Amaro</td>
+      <td>TUM, Chair of Cognitive Systems</td>
+    </tr>
+    <tr>
+      <td>Collaborator</td>
+      <td>Prof. Michael Beetz</td>
+      <td>TUM / Uni Bremen, IAS Group</td>
+    </tr>
+    <tr>
+      <td>Collaborator</td>
+      <td>Prof. Gordon Cheng</td>
+      <td>TUM, Chair of Cognitive Systems</td>
+    </tr>
+  </tbody>
+</table>
 
 <h2 id="technical-approach">Technical Approach</h2>
 
 <ul>
   <li>
-<strong>Spatio-temporal feature learning</strong> from human activity video</li>
+<strong>Independent Subspace Analysis (ISA)</strong>: unsupervised learning of invariant spatio-temporal features from raw video without manual labels</li>
   <li>
-<strong>Semantic rule extraction</strong>: translating observed activities into transferable symbolic rules</li>
-  <li>Transfer of human motion patterns to robotic systems via learned policies</li>
+<strong>Two-stage pipeline</strong>: (1) low-level feature learning from video streams; (2) automatic semantic rule extraction for high-level activity understanding</li>
+  <li>
+<strong>Robustness</strong>: feature representations immune to dynamic backgrounds, noise, camera jitter, illumination, and size variation</li>
+  <li>
+<strong>Skill transfer</strong>: mapping recognized semantic activity structure onto robot joint trajectories for humanoid arm motion generation</li>
+  <li>
+<strong>Evaluation scenarios</strong>: pancake making and sandwich making, requiring recognition of sequential fine-grained manipulation steps</li>
 </ul>
 
-<h2 id="key-publication">Key Publication</h2>
+<h2 id="collaboration">Collaboration</h2>
+
+<p>The project was conducted in collaboration with the <strong>Chair of Cognitive Systems and the Intelligent Autonomous Systems (IAS) Group at Technische Universität München (TUM)</strong>, Germany. The collaboration combined SNU’s expertise in machine learning and deep feature representations with TUM’s robotics engineering and semantic reasoning capabilities for humanoid platforms.</p>
+
+<h2 id="publications">Publications</h2>
 
 <ul>
-  <li>Ramirez-Amaro, Kim, Zhang, Beetz, Cheng (2013). “Enhancing Human Action Recognition Through Spatio-Temporal Features and Semantic Rules.” <em>IEEE-RAS International Conference on Humanoid Robots.</em>
-</li>
+  <li>
+    <p>K. Ramirez-Amaro, E.-S. Kim, J. Kim, B.-T. Zhang, M. Beetz, and G. Cheng, “Enhancing Human Action Recognition through Spatio-temporal Feature Learning and Semantic Rules,” <em>13th IEEE-RAS International Conference on Humanoid Robots (Humanoids 2013)</em>, 2013.</p>
+  </li>
+  <li>
+    <p>K. Ramirez-Amaro, E.-S. Kim, J. Kim, B.-T. Zhang, M. Beetz, and G. Cheng, “Human Cooking Action Recognition via Spatio-temporal Feature Learning based on ISA,” 2012.</p>
+  </li>
+  <li>
+    <p>K. Ramirez-Amaro, M. Beetz, and G. Cheng, “Transferring skills to humanoid robots by extracting semantic representations from observations of human activities,” <em>Artificial Intelligence</em>, 2015. DOI: 10.1016/j.artint.2015.08.009</p>
+  </li>
 </ul>
   </section>
 

@@ -475,6 +475,14 @@
         document-clustering
       </a>
     
+      <a href="?search=%22tag:%20topic-modeling%22" class="tag" data-tooltip='Show items with the tag "topic-modeling"'>
+        topic-modeling
+      </a>
+    
+      <a href="?search=%22tag:%20bayesian-inference%22" class="tag" data-tooltip='Show items with the tag "bayesian-inference"'>
+        bayesian-inference
+      </a>
+    
   </div>
   </section>
 
@@ -490,30 +498,64 @@
 -->
 
 
-<p>The LaText project investigated the application of <strong>latent variable models to text mining</strong>, aiming to discover hidden semantic structure in large document collections through probabilistic frameworks.</p>
+<p>The LaText project investigated the application of <strong>latent variable models to text mining</strong>, developing probabilistic frameworks that could automatically uncover hidden semantic structure in large document collections — work conducted at a pivotal moment when the web was generating document corpora at unprecedented scale.</p>
 
-<h2 id="methods">Methods</h2>
+<h2 id="overview">Overview</h2>
+
+<p>The central problem LaText addressed was how to make sense of massive, unlabeled text corpora. Traditional keyword-based approaches could retrieve documents but failed to capture the underlying <em>semantics</em>: the same concept can appear under many different surface forms, and the same word can mean different things in different contexts. Latent variable models offered a principled probabilistic solution by positing that each document is generated from a mixture of hidden topics, and that inferring those topics reveals the true semantic structure of the corpus.</p>
+
+<p>LaText built on the then-emerging Probabilistic Latent Semantic Analysis (PLSA) framework introduced by Hofmann (1999), extending it in a Bayesian direction and applying it to practical text mining tasks including document clustering, topic discovery, and dimensionality reduction for large Korean and English document collections.</p>
+
+<h2 id="technical-approach">Technical Approach</h2>
 
 <ul>
   <li>
-<strong>Probabilistic Latent Semantic Analysis (PLSA)</strong>: discovering latent topics from term co-occurrence patterns</li>
+<strong>Probabilistic Latent Semantic Analysis (PLSA)</strong>: modeling the joint distribution of documents and terms via a mixture of latent topic factors, estimated through Expectation-Maximization (EM)</li>
   <li>
-<strong>Bayesian mixture models</strong>: probabilistic document clustering with principled uncertainty</li>
+<strong>Bayesian mixture models</strong>: placing Dirichlet priors over topic mixing proportions to prevent overfitting and enable principled model selection; an early precursor to the LDA framework (Blei et al., 2003)</li>
   <li>
-<strong>EM-based and Bayesian inference</strong>: for parameter estimation in latent variable models</li>
+<strong>EM-based and variational Bayesian inference</strong>: scalable parameter estimation for models with tens of thousands of vocabulary terms and large document sets</li>
+  <li>
+<strong>Dimensionality reduction</strong>: mapping high-dimensional term-frequency vectors to compact latent topic representations for downstream retrieval and classification tasks</li>
 </ul>
 
-<h2 id="tasks">Tasks</h2>
+<h2 id="research-tasks">Research Tasks</h2>
 
 <ul>
-  <li>Document clustering and topic discovery</li>
-  <li>Dimensionality reduction for text representation</li>
-  <li>Semantic similarity computation across documents</li>
+  <li>
+<strong>Document clustering</strong>: grouping documents by latent topic membership rather than surface-form keyword overlap</li>
+  <li>
+<strong>Topic discovery</strong>: automatically inducing interpretable themes from unlabeled corpora without human-defined category systems</li>
+  <li>
+<strong>Semantic similarity</strong>: computing document similarity in the reduced latent space for improved information retrieval</li>
+  <li>
+<strong>Cross-lingual analysis</strong>: exploring whether shared latent structure could bridge Korean and English document collections</li>
+</ul>
+
+<h2 id="research-team">Research Team</h2>
+
+<ul>
+  <li>
+<strong>Principal Investigator</strong>: Prof. Byoung-Tak Zhang (Seoul National University, Biointelligence Lab)</li>
+  <li>Graduate researchers in the Natural Language Processing and Machine Learning group at the SNU Biointelligence Lab</li>
 </ul>
 
 <h2 id="historical-context">Historical Context</h2>
 
-<p>LaText predates the modern LDA (Latent Dirichlet Allocation) era and represents foundational work in unsupervised text understanding. Related output includes work on probabilistic clustering models and machine learning-based biomedical text mining (PubMiner, 2004).</p>
+<p>LaText was conducted at a time when probabilistic topic models were an active research frontier. It predates the publication of Latent Dirichlet Allocation (Blei, Ng, and Jordan, 2003) and represents the lab’s early engagement with fully generative Bayesian models for text. The project ran concurrently with the lab’s bioinformatics work (BrainGene, DNAChipBench) and drew on the same Bayesian probabilistic inference infrastructure developed for those projects.</p>
+
+<p>The text-mining methods developed in LaText contributed to later biomedical NLP work, including the PubMiner system (2004) for machine learning-based mining of biomedical literature. The lab’s interest in discovering latent structure in high-dimensional data traces a continuous thread from LaText through hypernetwork models and into the modern multimodal learning era.</p>
+
+<h2 id="connection-to-related-projects">Connection to Related Projects</h2>
+
+<ul>
+  <li>
+<strong>FACT (1998–2001)</strong>: the preceding lab project on text filtering and classification, which established the NLP foundation LaText built upon</li>
+  <li>
+<strong>BrainGene (2001–2003)</strong>: concurrent bioinformatics project applying similar unsupervised clustering methods to gene expression data</li>
+  <li>
+<strong>SKT Hypernetwork (later)</strong>: the lab’s subsequent development of hypernetwork architectures, which generalized the idea of learning distributed representations over structured collections</li>
+</ul>
   </section>
 
   

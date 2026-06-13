@@ -438,6 +438,11 @@
 <div class="project-meta center">
   
   
+  <span class="project-meta-chip">
+    <i class="icon fa-solid fa-building-columns"></i>
+    NRF (National Research Foundation of Korea)
+  </span>
+  
 </div>
 
 
@@ -485,19 +490,82 @@
 -->
 
 
-<p>DeepAction applied <strong>deep learning</strong> techniques to recognize and analyze the activities of television viewers, modeling viewer behaviors and interactions during TV watching.</p>
+<p>DeepAction applied <strong>deep learning</strong> techniques to recognize and analyze the activities of television viewers, automatically modeling what people are doing — cooking, exercising, relaxing, working — while watching TV.</p>
 
-<h2 id="context">Context</h2>
+<h2 id="overview">Overview</h2>
 
-<p>Understanding what TV viewers are actually doing — cooking, relaxing, exercising, working — while watching television enables smarter content recommendations and interactive TV experiences. DeepAction built on the lab’s expertise in activity recognition, video understanding, and lifelong learning from multimodal sensory data.</p>
+<p>Understanding viewer behavior during TV watching enables a new generation of intelligent, interactive television experiences. DeepAction addressed this challenge by building deep learning models that could infer viewer activities from multimodal sensor streams in a naturalistic home environment.</p>
+
+<p>The project extended the lab’s prior expertise in two complementary directions:</p>
+
+<ul>
+  <li>
+<strong>mLife</strong> (2010–2015) demonstrated that smartphones could passively capture rich behavioral signals from daily life — GPS traces, accelerometer readings, audio snippets — and that machine learning could recognize context-dependent human activities from these streams.</li>
+  <li>
+<strong>Videome</strong> (2011–2015) showed that deep cognitive architectures could learn structured knowledge incrementally from continuous video, mirroring how the human brain builds episodic memory.</li>
+</ul>
+
+<p>DeepAction combined these threads: it treated the TV-watching context as a sensing environment, capturing what the viewer <em>is doing</em> rather than just what is <em>on screen</em>, and used deep neural networks to bridge low-level sensor signals with high-level activity semantics.</p>
 
 <h2 id="technical-approach">Technical Approach</h2>
 
 <ul>
-  <li>Convolutional and recurrent neural network architectures for temporal activity modeling</li>
-  <li>Multimodal fusion of visual and contextual signals</li>
-  <li>Built upon earlier lab work in mLife (mobile behaviors) and Videome (video understanding)</li>
+  <li>
+<strong>Multimodal sensory input</strong>: fusion of visual (camera or depth sensor), motion (accelerometer/IMU), and contextual (program metadata, time-of-day) signals to characterize viewer state</li>
+  <li>
+<strong>Temporal activity modeling</strong>: recurrent and convolutional neural network architectures to capture the sequential and periodic structure of household behaviors during TV viewing sessions</li>
+  <li>
+<strong>Hierarchical representation learning</strong>: coarse-to-fine activity hierarchies distinguishing stationary postures (sitting, lying) from concurrent fine-grained activities (eating, using a smartphone, exercising)</li>
+  <li>
+<strong>Lifelong adaptation</strong>: incremental learning mechanisms inspired by complementary learning systems theory, allowing the model to update viewer profiles over time without catastrophic forgetting</li>
 </ul>
+
+<h2 id="context-and-motivation">Context and Motivation</h2>
+
+<p>Television remains one of the most prevalent household activities, yet most broadcast and streaming systems treat the viewer as a passive recipient. DeepAction’s vision was of a system that <em>knows</em> its audience — adapting recommendations, interaction modalities, and ambient assistance based on real-time inference of viewer behavior.</p>
+
+<p>This problem is technically demanding: viewer activities are diverse, their boundaries are fuzzy, and sensor data collected in realistic home settings is noisy and unlabeled. DeepAction developed models robust to these challenges, contributing to the lab’s broader program of building AI that learns from everyday human life.</p>
+
+<h2 id="research-team">Research Team</h2>
+
+<ul>
+  <li>
+<strong>Principal Investigator</strong>: Prof. Byoung-Tak Zhang (Seoul National University, Biointelligence Lab)</li>
+</ul>
+
+<h2 id="relation-to-adjacent-projects">Relation to Adjacent Projects</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Project</th>
+      <th>Period</th>
+      <th>Connection</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>mLife</strong></td>
+      <td>2010–2015</td>
+      <td>Behavioral recognition from mobile sensors; methodological foundation</td>
+    </tr>
+    <tr>
+      <td><strong>Videome</strong></td>
+      <td>2011–2015</td>
+      <td>Cognitive video understanding; architectural heritage</td>
+    </tr>
+    <tr>
+      <td><strong>StarLab</strong></td>
+      <td>2015–</td>
+      <td>Lifelogging with wearable sensors; extended sensing modalities</td>
+    </tr>
+    <tr>
+      <td><strong>VTT</strong></td>
+      <td>2017–2021</td>
+      <td>Human-level video intelligence; downstream application</td>
+    </tr>
+  </tbody>
+</table>
   </section>
 
   
