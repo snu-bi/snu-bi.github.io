@@ -7,13 +7,17 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-graduation-cap" %}Course
 
-## {% include icon.html icon="fa-solid fa-brain" %}Current Courses (2025–2)
+## {% include icon.html icon="fa-solid fa-brain" %}Current Courses (2026–1)
 
-- **4190.676** [인공신경망 (Artificial Neural Networks)](/courses/2025-2/artificial-neural-networks/)
+- **4190.408** [인공지능 (Artificial Intelligence)](/courses/2026-1/artificial-intelligence/)
+- **M1522.005500** [인공지능연구: 휴머노이드 AI (Artificial Intelligence Research: Humanoid AI)](/courses/2026-1/artificial-intelligence-research/)
 
 {% include section.html %}
 
 ## {% include icon.html icon="fa-solid fa-clock-rotate-left" %}Course History
+
+### Fall 2025
+- **4190.676 / M3309.002300** [인공신경망 (Artificial Neural Networks)](/courses/2025-2/artificial-neural-networks/)
 
 ### Spring 2023
 - **4190.408** [Artificial Intelligence](/courses/2023-1/artificial-intelligence/)

@@ -33,6 +33,7 @@ We pursue projects that integrate perception, cognition, and action to enable in
 ## Completed Projects
 
 #### 2020s
+
 | Project | Period | Description |
 |---------|--------|-------------|
 | [Embodied Intelligence](https://snu-bi.github.io/projects/embodied-intelligence/) | 2023 | Embodied AI for real-world perception and robot manipulation |
@@ -40,6 +41,7 @@ We pursue projects that integrate perception, cognition, and action to enable in
 | [Video Turing Test (VTT)](/projects/vtt/) | 2017–2021 | Human-level AI comprehension of video narratives; DramaQA benchmark |
 
 #### 2010s
+
 | Project | Period | Description |
 |---------|--------|-------------|
 | [StarLab](/projects/starlab/) | 2015– | Cognitive agents learning everyday life from wearable sensors |
@@ -55,6 +57,7 @@ We pursue projects that integrate perception, cognition, and action to enable in
 | [DeepClone](/projects/deepclone/) | 2013–2016 | Behavioral cloning for personal service robot scheduling |
 
 #### 2000s
+
 | Project | Period | Description |
 |---------|--------|-------------|
 | [MARS](/projects/mars/) | 2009–2010 | Multimodal associative recommendation system |
@@ -71,6 +74,7 @@ We pursue projects that integrate perception, cognition, and action to enable in
 | [BrainGene](/projects/braingene/) | 2001–2003 | Gene expression analysis for vertebrate brain development |
 
 #### 1990s
+
 | Project | Period | Description |
 |---------|--------|-------------|
 | [LEONN](/projects/leonn/) | 1998–2001 | Learning and evolution of neural network architectures |
