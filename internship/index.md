@@ -9,10 +9,13 @@ nav:
 
 ## 🤖 Join Our Research Team!
 
-We are recruiting highly motivated **undergraduate** interns who are passionate about **Physical AI** and **robotics**!    
+We are recruiting highly motivated **undergraduate** interns interested in:
 
+- **Physical AI** / **Robotics**
+- **Vision-Language** / **Video Understanding**
 
-※ We do not accept internship applications for the purpose of admission.
+※ **신입생 모집이 종료되었습니다. 입학은 불가합니다.**  
+※ 인턴십은 입학 목적의 지원을 받지 않습니다. (Internship applications for the purpose of admission are not accepted.)
 
 
 ## 📧 How to Apply
