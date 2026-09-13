@@ -4,7 +4,7 @@
 
   # snu-bi's Website
 
-  Visit **[bi.snu.ac.kr](http://bi.snu.ac.kr)** 🚀
+  Visit **[snu-bi.github.io](https://snu-bi.github.io)** 🚀
 
   ## Local Development
 
