@@ -1,1 +1,1 @@
-Sitemap: https://snu-bi.github.io/sitemap.xml
+Sitemap: http://bi.snu.ac.kr/sitemap.xml
