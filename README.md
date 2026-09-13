@@ -4,7 +4,7 @@
 
   # snu-bi's Website
 
-  Visit **[bi.snu.ac.kr](http://bi.snu.ac.kr)** 🚀
+  Visit **[snu-bi.github.io](https://snu-bi.github.io)** 🚀
 
   ## Local Development
 
@@ -19,4 +19,3 @@
   ```
 
   The site will be available at `http://localhost:4001` with live reload enabled.
-
