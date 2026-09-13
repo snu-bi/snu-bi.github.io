@@ -3,7 +3,7 @@ aliases:
 - 이현도
 - Hyundo Lee
 - hdlee
-description: ''
+description: 'PhD | Research Scientist Intern @ KRAFTON AI → Ludo Robotics → Stealth Startup'
 image: images/photo.jpg
 links:
   email: hdlee@bi.snu.ac.kr
@@ -12,6 +12,7 @@ links:
   openreview: https://openreview.net/profile?id=~Hyundo_Lee1
 
 name: Hyundo Lee
-role: phd-candidate
-status: 재학
+role: phd
+status: 졸업
+graduation_year: 2026
 ---

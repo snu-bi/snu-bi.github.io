@@ -5,7 +5,7 @@ aliases:
 - wschoi
 - Woo Suk Choi
 - Woosuk Choi
-description: 'PhD in Interdisciplinary Program in Neuroscience | Postdoc @ SNU Biointelligence Lab'
+description: 'PhD in Interdisciplinary Program in Neuroscience | Manager @ Hyundai Motors Group'
 image: images/woosuk-choi.jpeg
 links:
   email: wschoi@bi.snu.ac.kr

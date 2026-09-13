@@ -3,7 +3,7 @@ aliases:
 - 김정현
 - Junghyun Kim
 - junghyunkim
-description: 'PhD Candidate'
+description: 'PhD | Postdoc @ SNU AIIS'
 image: images/junghyun-kim.jpg
 links:
   email: junghyunkim@bi.snu.ac.kr
@@ -11,6 +11,7 @@ links:
   linkedin: junghyunkim-ai
   openreview: https://openreview.net/profile?id=~Junghyun_Kim1
 name: Junghyun Kim
-role: phd-candidate
-status: 재학
+role: phd
+status: 졸업
+graduation_year: 2026
 ---

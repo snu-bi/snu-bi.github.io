@@ -10,6 +10,6 @@ links:
   linkedin: jaejoon-kim-00137636a
   github: J-joon
 name: Jaejoon Kim
-role: intern
+role: master-student
 status: 재학
 ---

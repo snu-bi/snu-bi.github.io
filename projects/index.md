@@ -36,7 +36,7 @@ We pursue projects that integrate perception, cognition, and action to enable in
 
 | Project | Period | Description |
 |---------|--------|-------------|
-| [Embodied Intelligence](https://snu-bi.github.io/projects/embodied-intelligence/) | 2023 | Embodied AI for real-world perception and robot manipulation |
+| [Embodied Intelligence](/projects/embodied-intelligence/) | 2023 | Embodied AI for real-world perception and robot manipulation |
 | [BabyMind](/projects/babymind/) | 2020 | Infant-mimic neurocognitive developmental machine learning |
 | [Video Turing Test (VTT)](/projects/vtt/) | 2017–2021 | Human-level AI comprehension of video narratives; DramaQA benchmark |
 

@@ -55,6 +55,7 @@ collections:
   # generate page for each project
   projects:
     output: true
+    permalink: /projects/:name/
 
 # jekyll plugins
 plugins:

@@ -3,11 +3,12 @@ aliases:
 - 유희빈
 - HEE BIN YOO
 - hbyoo
-description: ''
+description: 'PhD | Assistant Professor @ Soongsil University'
 image: images/photo.jpg
 links:
   email: hbyoo@bi.snu.ac.kr
 name: Heebin Yoo
-role: phd-student
-status: 재학
+role: phd
+status: 졸업
+graduation_year: 2026
 ---

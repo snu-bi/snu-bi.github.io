@@ -3,7 +3,7 @@ aliases:
 - 곽동현
 - Donghyun Kwak
 - donghyun.kwak
-description: PhD Candidate in Neuroscience | Lead of HyperCLOVA X Alignment Learning @ NAVER → Lead of Physical AI @ KRAFTON Inc.
+description: PhD Candidate in Neuroscience | Lead of HyperCLOVA X Alignment Learning @ NAVER → Lead of Physical AI @ KRAFTON Inc. → Stealth Startup
 image: images/photo.jpg
 links:
   email: imcomking@gmail.com
