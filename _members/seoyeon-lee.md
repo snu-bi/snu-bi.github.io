@@ -2,7 +2,7 @@
 aliases:
 - 이서연
 - Seoyeon Lee
-description: BS @ KMU AI, BigData & Managment
+description: ''
 image: images/seoyeon-lee.jpeg
 links:
   home-page: https://github.com/SeoYeonnLee

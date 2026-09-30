@@ -2,7 +2,7 @@
 aliases:
 - 김재준
 - Jaejoon Kim
-description: BS @ SNU CSE
+description: ''
 image: images/jaejoon-kim.jpg
 links:
   email: jjkim030309@gmail.com
