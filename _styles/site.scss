@@ -2148,3 +2148,8 @@ input[type="text"] {
     display: none;
   }
 }
+
+// team 페이지 멤버 카드의 역할 아이콘 배지 제거(hover 시 이미지 뒤로 가려지고 불필요). 데스크탑·모바일 공통.
+.page-team main .portrait > .icon {
+  display: none;
+}
