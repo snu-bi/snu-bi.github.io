@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" data-dark="false">
   {% include head.html %}
-  <body>
+  <body class="page-{{ page.title | default: 'home' | slugify }}">
     {% include header.html %}
     <main>
       {% include content.html content=content %}

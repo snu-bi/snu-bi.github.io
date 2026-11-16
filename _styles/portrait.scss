@@ -245,3 +245,43 @@
     margin-top: 0.1rem;
   }
 }
+
+// ── 모바일: team 페이지의 현직 멤버를 alumni처럼 '사진 없이 텍스트 목록'으로 ──
+//    (desktop 은 기존 사진 카드 그대로. .page-team 스코프로 다른 .portrait 영향 없음)
+@media (max-width: 600px) {
+  .page-team main .portrait {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: flex-start;
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    padding: 0.15rem 0;
+    gap: 0.4rem;
+    text-align: left;
+  }
+
+  // 사진·역할 아이콘 배지 숨김
+  .page-team main .portrait-image,
+  .page-team main .portrait > .icon {
+    display: none;
+  }
+
+  .page-team main .portrait-name {
+    font-weight: var(--semi-bold);
+    font-size: 0.95rem;
+    flex-shrink: 0;
+  }
+
+  .page-team main .portrait-description {
+    color: var(--text-light);
+    font-style: italic;
+    font-size: 0.85rem;
+    margin: 0;
+  }
+
+  .page-team main .portrait-affiliation {
+    display: none;
+  }
+}

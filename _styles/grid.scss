@@ -25,37 +25,12 @@ $one: 500px;
 @media (max-width: $two) {
   .grid {
     --repeat: 2;
-    gap: 24px;
   }
 }
 
-// 폰에서는 작은 아바타 3열로 조밀하게 — 한 화면에 더 많은 인원이 보이고 스크롤이 줄도록.
-// 역할 설명 텍스트는 숨기고(역할 아이콘 배지로 힌트) 이름만 노출한다.
 @media (max-width: $one) {
   .grid {
-    --repeat: 3;
-    gap: 12px;
-    margin: 20px 0;
-  }
-
-  .grid .portrait {
-    width: 100%;
-    max-width: 100%;
-    margin: 0;
-  }
-
-  .grid .portrait-image {
-    margin-bottom: 6px;
-  }
-
-  .grid .portrait-name {
-    font-size: 0.78rem;
-    line-height: 1.2;
-  }
-
-  .grid .portrait-description,
-  .grid .portrait-affiliation {
-    display: none;
+    --repeat: 1;
   }
 }
 

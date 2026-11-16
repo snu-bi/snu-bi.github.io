@@ -960,37 +960,12 @@ $one: 500px;
 @media (max-width: $two) {
   .grid {
     --repeat: 2;
-    gap: 24px;
   }
 }
 
-// 폰에서는 작은 아바타 3열로 조밀하게 — 한 화면에 더 많은 인원이 보이고 스크롤이 줄도록.
-// 역할 설명 텍스트는 숨기고(역할 아이콘 배지로 힌트) 이름만 노출한다.
 @media (max-width: $one) {
   .grid {
-    --repeat: 3;
-    gap: 12px;
-    margin: 20px 0;
-  }
-
-  .grid .portrait {
-    width: 100%;
-    max-width: 100%;
-    margin: 0;
-  }
-
-  .grid .portrait-image {
-    margin-bottom: 6px;
-  }
-
-  .grid .portrait-name {
-    font-size: 0.78rem;
-    line-height: 1.2;
-  }
-
-  .grid .portrait-description,
-  .grid .portrait-affiliation {
-    display: none;
+    --repeat: 1;
   }
 }
 
@@ -2133,4 +2108,43 @@ input[type="text"] {
 
 .right {
   text-align: right;
+}
+
+// ── 모바일: team 페이지의 현직 멤버를 alumni처럼 '사진 없이 텍스트 목록'으로 ──
+//    (desktop 은 기존 사진 카드 그대로. .page-team 스코프로 다른 .portrait 영향 없음)
+@media (max-width: 600px) {
+  .page-team main .portrait {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: flex-start;
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    padding: 0.15rem 0;
+    gap: 0.4rem;
+    text-align: left;
+  }
+
+  .page-team main .portrait-image,
+  .page-team main .portrait > .icon {
+    display: none;
+  }
+
+  .page-team main .portrait-name {
+    font-weight: var(--semi-bold);
+    font-size: 0.95rem;
+    flex-shrink: 0;
+  }
+
+  .page-team main .portrait-description {
+    color: var(--text-light);
+    font-style: italic;
+    font-size: 0.85rem;
+    margin: 0;
+  }
+
+  .page-team main .portrait-affiliation {
+    display: none;
+  }
 }
