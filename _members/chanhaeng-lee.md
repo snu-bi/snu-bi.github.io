@@ -8,5 +8,6 @@ links:
 
 name: Chanhaeng Lee
 role: intern
-status: 재학
+status: 졸업
+graduation_year: 2026
 ---

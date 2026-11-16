@@ -9,5 +9,6 @@ links:
   linkedin: kiyoung-kwon-2885b2298
 name: Kiyoung Kwon
 role: intern
-status: 재학
+status: 졸업
+graduation_year: 2026
 ---
