@@ -11,6 +11,10 @@ on:
 # variables
 env:
   PREVIEWS_FOLDER: preview
+  # GCC 14+ turns -Wincompatible-pointer-types into an error, which breaks the
+  # native build of the old posix-spawn gem (pulled in by jekyll-spaceship).
+  # Downgrade it back to a warning so bundle install succeeds.
+  CFLAGS: "-Wno-incompatible-pointer-types -Wno-implicit-function-declaration"
 
 permissions:
   contents: write
